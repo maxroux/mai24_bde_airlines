@@ -3,7 +3,7 @@
 # Cursus concerné : Data Engineer
 
 ## Difficulté : 8.5/10
-=======
+
 ![image](https://github.com/maxroux/mai24_bde_airlines/assets/118417/494f2570-e3ee-41d7-96ad-5d33d8e0186f)
 
 
