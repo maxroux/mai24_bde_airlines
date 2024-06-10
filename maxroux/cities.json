@@ -1,0 +1,1248 @@
+{
+    "CityResource": {
+        "Cities": {
+            "City": [
+                {
+                    "CityCode": "AAA",
+                    "CountryCode": "PF",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03bd\u03b1\u03ac"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Anaa"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Anaa"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "-10:00",
+                    "TimeZoneId": "Pacific/Tahiti",
+                    "Airports": {
+                        "AirportCode": "AAA"
+                    }
+                },
+                {
+                    "CityCode": "AAB",
+                    "CountryCode": "AU",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03c1\u03b1\u03bc\u03c0\u03ad\u03c1\u03b9"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Arrabury"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Arrabury"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+10:00",
+                    "TimeZoneId": "Australia/Brisbane",
+                    "Airports": {
+                        "AirportCode": "AAB"
+                    }
+                },
+                {
+                    "CityCode": "AAC",
+                    "CountryCode": "EG",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Al Arish"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03bb \u0391\u03c1\u03af\u03c2"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "El Arish"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Al Arish"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Al Arish"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Al Arish"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+02:00",
+                    "TimeZoneId": "Africa/Cairo",
+                    "Airports": {
+                        "AirportCode": "AAC"
+                    }
+                },
+                {
+                    "CityCode": "AAD",
+                    "CountryCode": "SO",
+                    "Names": {
+                        "Name": {
+                            "@LanguageCode": "EN",
+                            "$": "Adado"
+                        }
+                    },
+                    "UtcOffset": "+03:00",
+                    "TimeZoneId": "Africa/Mogadishu",
+                    "Airports": {
+                        "AirportCode": "AAD"
+                    }
+                },
+                {
+                    "CityCode": "AAE",
+                    "CountryCode": "DZ",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03bd\u03ac\u03bc\u03c0\u03b1"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Annaba"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Annaba"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+01:00",
+                    "TimeZoneId": "Africa/Algiers",
+                    "Airports": {
+                        "AirportCode": "AAE"
+                    }
+                },
+                {
+                    "CityCode": "AAF",
+                    "CountryCode": "US",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03c0\u03b1\u03bb\u03b1\u03c4\u03c3\u03b9\u03ba\u03cc\u03bb\u03b1"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Apalachicola"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Apalachicola"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "-05:00",
+                    "TimeZoneId": "America/New_York",
+                    "Airports": {
+                        "AirportCode": "AAF"
+                    }
+                },
+                {
+                    "CityCode": "AAG",
+                    "CountryCode": "BR",
+                    "Names": {
+                        "Name": {
+                            "@LanguageCode": "EN",
+                            "$": "Arapoti"
+                        }
+                    },
+                    "UtcOffset": "-03:00",
+                    "TimeZoneId": "America/Sao_Paulo",
+                    "Airports": {
+                        "AirportCode": "AAG"
+                    }
+                },
+                {
+                    "CityCode": "AAH",
+                    "CountryCode": "DE",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Aachen/Maastricht"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0386\u03b1\u03c7\u03b5\u03bd/\u039c\u03ac\u03b1\u03c3\u03c4\u03c1\u03b9\u03c7\u03c4"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Aachen"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Aquisgran/Maastricht"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Aachen/Maastricht"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Aachen/Maastricht"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+01:00",
+                    "TimeZoneId": "Europe/Berlin",
+                    "Airports": {
+                        "AirportCode": [
+                            "AAH",
+                            "AAW",
+                            "XHJ"
+                        ]
+                    }
+                },
+                {
+                    "CityCode": "AAI",
+                    "CountryCode": "BR",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03c1\u03ac\u03ca\u03b1\u03c2"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Arraias"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Arraias"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "-03:00",
+                    "TimeZoneId": "America/Sao_Paulo",
+                    "Airports": {
+                        "AirportCode": "AAI"
+                    }
+                },
+                {
+                    "CityCode": "AAJ",
+                    "CountryCode": "SR",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03b3\u03bf\u03c5\u03b1\u03c1\u03b1\u03bd\u03c4\u03ac\u03bc"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Awaradam"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Awaradam"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "-03:00",
+                    "TimeZoneId": "America/Paramaribo",
+                    "Airports": {
+                        "AirportCode": "AAJ"
+                    }
+                },
+                {
+                    "CityCode": "AAK",
+                    "CountryCode": "KI",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03c1\u03b1\u03bd\u03bf\u03cd\u03ba\u03b1"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Aranuka"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Aranuka"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+12:00",
+                    "TimeZoneId": "Pacific/Tarawa",
+                    "Airports": {
+                        "AirportCode": "AAK"
+                    }
+                },
+                {
+                    "CityCode": "AAL",
+                    "CountryCode": "DK",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0386\u03b1\u03bb\u03bc\u03c0\u03bf\u03c1\u03b3\u03ba"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "JA",
+                                "$": "\u30aa\u30fc\u30eb\u30dc\u30fc"
+                            },
+                            {
+                                "@LanguageCode": "KA",
+                                "$": "\u5967\u723e\u5821"
+                            },
+                            {
+                                "@LanguageCode": "KO",
+                                "$": "\uc62c\ubcf4\ub974\uadf8"
+                            },
+                            {
+                                "@LanguageCode": "PL",
+                                "$": "Aalbork"
+                            },
+                            {
+                                "@LanguageCode": "PT",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "RU",
+                                "$": "\u041e\u043b\u044c\u0431\u043e\u0440\u0433"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Aalborg"
+                            },
+                            {
+                                "@LanguageCode": "ZH",
+                                "$": "\u5965\u5c14\u5821"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+01:00",
+                    "TimeZoneId": "Europe/Copenhagen",
+                    "Airports": {
+                        "AirportCode": [
+                            "AAL",
+                            "ZTG"
+                        ]
+                    }
+                },
+                {
+                    "CityCode": "AAM",
+                    "CountryCode": "ZA",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u039c\u03ac\u03bb\u03b1 \u039c\u03ac\u03bb\u03b1"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Mala Mala"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Mala Mala"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+02:00",
+                    "TimeZoneId": "Africa/Johannesburg",
+                    "Airports": {
+                        "AirportCode": "AAM"
+                    }
+                },
+                {
+                    "CityCode": "AAN",
+                    "CountryCode": "AE",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03bb \u0386\u03b9\u03bd"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Al Ain"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Al Ain"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+04:00",
+                    "TimeZoneId": "Asia/Dubai",
+                    "Airports": {
+                        "AirportCode": [
+                            "AAN",
+                            "ZVH"
+                        ]
+                    }
+                },
+                {
+                    "CityCode": "AAO",
+                    "CountryCode": "VE",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03bd\u03ac\u03ba\u03bf"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Anaco"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Anaco"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "-04:00",
+                    "TimeZoneId": "America/Caracas",
+                    "Airports": {
+                        "AirportCode": "AAO"
+                    }
+                },
+                {
+                    "CityCode": "AAQ",
+                    "CountryCode": "RU",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03bd\u03ac\u03c0\u03b1"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Anapa"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Anapa"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+03:00",
+                    "TimeZoneId": "Europe/Moscow",
+                    "Airports": {
+                        "AirportCode": "AAQ"
+                    }
+                },
+                {
+                    "CityCode": "AAR",
+                    "CountryCode": "DK",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0386\u03b1\u03c1\u03c7\u03bf\u03c5\u03c2"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "JA",
+                                "$": "\u30aa\u30fc\u30d5\u30b9"
+                            },
+                            {
+                                "@LanguageCode": "KA",
+                                "$": "\u5967\u80e1\u65af"
+                            },
+                            {
+                                "@LanguageCode": "KO",
+                                "$": "\uc624\ub974\ud6c4\uc2a4"
+                            },
+                            {
+                                "@LanguageCode": "PL",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "PT",
+                                "$": "Arhus"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "RU",
+                                "$": "\u041e\u0440\u0445\u0443\u0441"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Aarhus"
+                            },
+                            {
+                                "@LanguageCode": "ZH",
+                                "$": "\u5965\u80e1\u65af"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+01:00",
+                    "TimeZoneId": "Europe/Copenhagen",
+                    "Airports": {
+                        "AirportCode": [
+                            "AAR",
+                            "ZBU",
+                            "ZID",
+                            "ZJH"
+                        ]
+                    }
+                },
+                {
+                    "CityCode": "AAS",
+                    "CountryCode": "ID",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03c0\u03b1\u03bb\u03b1\u03c8\u03af\u03bb\u03b9"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Apalapsili"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Apalapsili"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+09:00",
+                    "TimeZoneId": "Asia/Jayapura",
+                    "Airports": {
+                        "AirportCode": "AAS"
+                    }
+                },
+                {
+                    "CityCode": "AAT",
+                    "CountryCode": "CN",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03bb\u03c4\u03ac\u03b9"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Altay"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Altay"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+08:00",
+                    "Airports": {
+                        "AirportCode": "AAT"
+                    }
+                },
+                {
+                    "CityCode": "AAU",
+                    "CountryCode": "WS",
+                    "Names": {
+                        "Name": [
+                            {
+                                "@LanguageCode": "BG",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "CS",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "DE",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "EL",
+                                "$": "\u0391\u03c3\u03ac\u03bf\u03c5"
+                            },
+                            {
+                                "@LanguageCode": "EN",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "ES",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "FR",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "HU",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "IT",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "RO",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "SV",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "TR",
+                                "$": "Asau"
+                            },
+                            {
+                                "@LanguageCode": "UK",
+                                "$": "Asau"
+                            }
+                        ]
+                    },
+                    "UtcOffset": "+13:00",
+                    "TimeZoneId": "Pacific/Apia",
+                    "Airports": {
+                        "AirportCode": "AAU"
+                    }
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/cities",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/cities?offset=20&limit=20",
+                    "@Rel": "next"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/cities?offset=10680&limit=20",
+                    "@Rel": "last"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/countries/{countryCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 10688
+        }
+    }
+}
