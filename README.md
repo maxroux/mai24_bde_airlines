@@ -1,11 +1,11 @@
 # mai24_bde_airlines
-<<<<<<< HEAD
+
 # Cursus concerné : Data Engineer
 
 ## Difficulté : 8.5/10
 =======
 ![image](https://github.com/maxroux/mai24_bde_airlines/assets/118417/494f2570-e3ee-41d7-96ad-5d33d8e0186f)
->>>>>>> cf24a07b522e38d6344be67b6756c1a10222df73
+
 
 ### Description détaillée :
 De nos jours, il est possible d’avoir des informations sur les vols dans le monde entier et de traquer en temps réel un avion. Nous pouvons observer ce site en guise d’exemple. Le but ici est de s’y approcher le plus possible en passant par des API de différentes compagnies aériennes.
