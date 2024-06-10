@@ -1,3 +1,23 @@
-.vscode
-.DS_Store
+
 ai24_bde_airlines.wiki
+# Fichiers et répertoires générés automatiquement
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Environnements virtuels
+venv/
+env/
+.env/
+
+# Configuration de l'IDE
+.vscode/
+.idea/
+
+# Fichiers de cache
+.DS_Store
+Thumbs.db
