@@ -1,0 +1,6022 @@
+[
+    {
+        "AircraftCode": "100",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker 100 F100"
+            }
+        },
+        "AirlineEquipCode": "F100"
+    },
+    {
+        "AircraftCode": "141",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems 146-100 Passenger B461"
+            }
+        },
+        "AirlineEquipCode": "B461"
+    },
+    {
+        "AircraftCode": "142",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems 146-200 Passenger B462"
+            }
+        },
+        "AirlineEquipCode": "B462"
+    },
+    {
+        "AircraftCode": "143",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems 146-300 Passenger B463"
+            }
+        },
+        "AirlineEquipCode": "B463"
+    },
+    {
+        "AircraftCode": "146",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "British Aerospace 146 146"
+            }
+        },
+        "AirlineEquipCode": "146"
+    },
+    {
+        "AircraftCode": "14F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAe 146 Freighter (-100/200/300QT & QC)"
+            }
+        },
+        "AirlineEquipCode": "146 Freighter (-100/200/300QT & QC)"
+    },
+    {
+        "AircraftCode": "14X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems 146-100 Freighter B461"
+            }
+        },
+        "AirlineEquipCode": "B461"
+    },
+    {
+        "AircraftCode": "14Y",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems 146-200 Freighter B462"
+            }
+        },
+        "AirlineEquipCode": "B462"
+    },
+    {
+        "AircraftCode": "14Z",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems 146-300 Freighter B463"
+            }
+        },
+        "AirlineEquipCode": "B463"
+    },
+    {
+        "AircraftCode": "310",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A310 A310"
+            }
+        },
+        "AirlineEquipCode": "A310"
+    },
+    {
+        "AircraftCode": "312",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A310-200 Passenger A310"
+            }
+        },
+        "AirlineEquipCode": "A310"
+    },
+    {
+        "AircraftCode": "313",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A310-300 Passenger A310"
+            }
+        },
+        "AirlineEquipCode": "A310"
+    },
+    {
+        "AircraftCode": "318",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A318 A318"
+            }
+        },
+        "AirlineEquipCode": "A318"
+    },
+    {
+        "AircraftCode": "319",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A319 A319"
+            }
+        },
+        "AirlineEquipCode": "A319",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "437889347",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "31A",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A318 (sharklets) A318"
+            }
+        },
+        "AirlineEquipCode": "A318"
+    },
+    {
+        "AircraftCode": "31B",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A319 (sharklets) A319"
+            }
+        },
+        "AirlineEquipCode": "A319"
+    },
+    {
+        "AircraftCode": "31C",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": " "
+            }
+        }
+    },
+    {
+        "AircraftCode": "31F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A310 Freighter"
+            }
+        },
+        "AirlineEquipCode": "A310 Freighter"
+    },
+    {
+        "AircraftCode": "31H",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A319-100"
+            }
+        },
+        "AirlineEquipCode": "A319-100",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "437889347",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "31W",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A319-100"
+            }
+        },
+        "AirlineEquipCode": "A319-100",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "437889347",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "31X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A310-200 Freighter A310"
+            }
+        },
+        "AirlineEquipCode": "A310"
+    },
+    {
+        "AircraftCode": "31Y",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A310-300 Freighter A310"
+            }
+        },
+        "AirlineEquipCode": "A310"
+    },
+    {
+        "AircraftCode": "320",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A320 A320"
+            }
+        },
+        "AirlineEquipCode": "A320",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "2096392374",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "321",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A321 A321"
+            }
+        },
+        "AirlineEquipCode": "A321",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "914195254",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "322",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A320 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "32A",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A320 (sharklets) A320"
+            }
+        },
+        "AirlineEquipCode": "A320",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "2096392374",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "32B",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A321 (sharklets) A321"
+            }
+        },
+        "AirlineEquipCode": "A321"
+    },
+    {
+        "AircraftCode": "32F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A320 Freighter A320"
+            }
+        },
+        "AirlineEquipCode": "A320"
+    },
+    {
+        "AircraftCode": "32H",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A320-200"
+            }
+        },
+        "AirlineEquipCode": "A320-200",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "2096392374",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "32J",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus Ind. 319/320/321 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "32L",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A321-100/200"
+            }
+        },
+        "AirlineEquipCode": "A321-100/200",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "914195254",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "32M",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A321-231 A320-200"
+            }
+        },
+        "AirlineEquipCode": "A320-200",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "2096392374",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "32S",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A318 / 319 / 320 / 321"
+            }
+        },
+        "AirlineEquipCode": "A318 / 319 / 320 / 321"
+    },
+    {
+        "AircraftCode": "32V",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A320-214(WL) -271N -251N "
+            }
+        }
+    },
+    {
+        "AircraftCode": "32X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A321 Freighter A321"
+            }
+        },
+        "AirlineEquipCode": "A321"
+    },
+    {
+        "AircraftCode": "330",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus Industrie A330 A330"
+            }
+        },
+        "AirlineEquipCode": "A330",
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "332",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A330-200 A332"
+            }
+        },
+        "AirlineEquipCode": "A332"
+    },
+    {
+        "AircraftCode": "333",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A330-300 A333"
+            }
+        },
+        "AirlineEquipCode": "A333",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "602587735",
+                "@LanguageCode": "EN"
+            }
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "33P",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus Industrie A330 A330-300"
+            }
+        },
+        "AirlineEquipCode": "A330-300",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "7671963",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "33Q",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus Industrie A330 A330-300"
+            }
+        },
+        "AirlineEquipCode": "A330-300",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1295933057",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First & Business Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First & Business Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "33X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A330-200 Freighter A332"
+            }
+        },
+        "AirlineEquipCode": "A332"
+    },
+    {
+        "AircraftCode": "340",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A340"
+            }
+        },
+        "AirlineEquipCode": "A340",
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "342",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A340-200 A342"
+            }
+        },
+        "AirlineEquipCode": "A342"
+    },
+    {
+        "AircraftCode": "343",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A340-300 A343"
+            }
+        },
+        "AirlineEquipCode": "A343",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1435468554",
+                "@LanguageCode": "EN"
+            }
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "345",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A340-500 A345"
+            }
+        },
+        "AirlineEquipCode": "A345"
+    },
+    {
+        "AircraftCode": "346",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A340-600 A346"
+            }
+        },
+        "AirlineEquipCode": "A346",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1756863013",
+                "@LanguageCode": "EN"
+            }
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "34D",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A340-642 A340-600"
+            }
+        },
+        "AirlineEquipCode": "A340-600",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1691959047",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "34E",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A340-642 A340-600"
+            }
+        },
+        "AirlineEquipCode": "A340-600",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1756863013",
+                "@LanguageCode": "EN"
+            }
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "34L",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A340-600"
+            }
+        },
+        "AirlineEquipCode": "A340-600",
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First & Business Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First & Business Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "34P",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A340-300"
+            }
+        },
+        "AirlineEquipCode": "A340-300",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "74678716",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "34Q",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A343 A343"
+            }
+        },
+        "AirlineEquipCode": "A343"
+    },
+    {
+        "AircraftCode": "34R",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A340-642 A340-600"
+            }
+        },
+        "AirlineEquipCode": "A340-600",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1512693708",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First & Business Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First & Business Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "34V",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A340-311 A340-300"
+            }
+        },
+        "AirlineEquipCode": "A340-300",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1435468554",
+                "@LanguageCode": "EN"
+            }
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "34Y",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A340-313X A340-300"
+            }
+        },
+        "AirlineEquipCode": "A340-300",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "169439543",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New Business Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue Business Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "34Z",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A340-313x A340-300"
+            }
+        },
+        "AirlineEquipCode": "A340-300",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1435468554",
+                "@LanguageCode": "EN"
+            }
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "351",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A350-1000 ZZZZ"
+            }
+        },
+        "AirlineEquipCode": "ZZZZ"
+    },
+    {
+        "AircraftCode": "358",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A350-800 ZZZZ"
+            }
+        },
+        "AirlineEquipCode": "ZZZZ"
+    },
+    {
+        "AircraftCode": "359",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A350-900 A359"
+            }
+        },
+        "AirlineEquipCode": "A359",
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "380",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus Industrie A380-800 A380"
+            }
+        },
+        "AirlineEquipCode": "A380",
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "388",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A380-800 Passenger A388"
+            }
+        },
+        "AirlineEquipCode": "A388",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1156169238",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true,
+                    "Usb": true,
+                    "LiveTv": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "38F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A380-800F Freighter A388"
+            }
+        },
+        "AirlineEquipCode": "A388"
+    },
+    {
+        "AircraftCode": "38Q",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A380-841 A380-800"
+            }
+        },
+        "AirlineEquipCode": "A380-800",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1406860093",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First & Business Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First & Business Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "38Z",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A380-841 A380-800"
+            }
+        },
+        "AirlineEquipCode": "A380-800",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1156169238",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "703",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 707-320B / 320C Passenger B703"
+            }
+        },
+        "AirlineEquipCode": "B703"
+    },
+    {
+        "AircraftCode": "707",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 707 / 720"
+            }
+        },
+        "AirlineEquipCode": "707 / 720"
+    },
+    {
+        "AircraftCode": "70F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 707-320B / 320C Freighter B703"
+            }
+        },
+        "AirlineEquipCode": "B703"
+    },
+    {
+        "AircraftCode": "70M",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 707-320B / 320C Mixed Configuration B703"
+            }
+        },
+        "AirlineEquipCode": "B703"
+    },
+    {
+        "AircraftCode": "717",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 717-200 B712"
+            }
+        },
+        "AirlineEquipCode": "B712"
+    },
+    {
+        "AircraftCode": "721",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727-100 Passenger B721"
+            }
+        },
+        "AirlineEquipCode": "B721"
+    },
+    {
+        "AircraftCode": "722",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727-200 Passenger B722"
+            }
+        },
+        "AirlineEquipCode": "B722"
+    },
+    {
+        "AircraftCode": "727",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727 all series"
+            }
+        },
+        "AirlineEquipCode": "727 all series"
+    },
+    {
+        "AircraftCode": "72A",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "B727-200 ADV "
+            }
+        }
+    },
+    {
+        "AircraftCode": "72B",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727-100 Mixed Configuration B721"
+            }
+        },
+        "AirlineEquipCode": "B721"
+    },
+    {
+        "AircraftCode": "72C",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727-200 Mixed Configuration B722"
+            }
+        },
+        "AirlineEquipCode": "B722"
+    },
+    {
+        "AircraftCode": "72F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727 Freighter 727 Freighter (-100 / 200)"
+            }
+        },
+        "AirlineEquipCode": "727 Freighter (-100 / 200)"
+    },
+    {
+        "AircraftCode": "72M",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727 Combi"
+            }
+        },
+        "AirlineEquipCode": "727 Combi"
+    },
+    {
+        "AircraftCode": "72S",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727-200 727-200 Advanced"
+            }
+        },
+        "AirlineEquipCode": "727-200 Advanced"
+    },
+    {
+        "AircraftCode": "72W",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727-200 (winglets) Passenger B722"
+            }
+        },
+        "AirlineEquipCode": "B722"
+    },
+    {
+        "AircraftCode": "72X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727-100 Freighter B721"
+            }
+        },
+        "AirlineEquipCode": "B721"
+    },
+    {
+        "AircraftCode": "72Y",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 727-200 Freighter B722"
+            }
+        },
+        "AirlineEquipCode": "B722"
+    },
+    {
+        "AircraftCode": "731",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-100 Passenger B731"
+            }
+        },
+        "AirlineEquipCode": "B731"
+    },
+    {
+        "AircraftCode": "732",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-200 Passenger B732"
+            }
+        },
+        "AirlineEquipCode": "B732"
+    },
+    {
+        "AircraftCode": "733",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-300 Passenger B733"
+            }
+        },
+        "AirlineEquipCode": "B733",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1067074421",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "734",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-400 Passenger B734"
+            }
+        },
+        "AirlineEquipCode": "B734"
+    },
+    {
+        "AircraftCode": "735",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-500 Passenger B735"
+            }
+        },
+        "AirlineEquipCode": "B735",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "811046343",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "736",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-600 Passenger B736"
+            }
+        },
+        "AirlineEquipCode": "B736"
+    },
+    {
+        "AircraftCode": "737",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737 all series"
+            }
+        },
+        "AirlineEquipCode": "737 all series"
+    },
+    {
+        "AircraftCode": "738",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-800 Passenger B738"
+            }
+        },
+        "AirlineEquipCode": "B738"
+    },
+    {
+        "AircraftCode": "739",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-900 Passenger B739"
+            }
+        },
+        "AirlineEquipCode": "B739"
+    },
+    {
+        "AircraftCode": "73A",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-200 Advanced Passenger "
+            }
+        }
+    },
+    {
+        "AircraftCode": "73C",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-300 (winglets) Passenger B733"
+            }
+        },
+        "AirlineEquipCode": "B733"
+    },
+    {
+        "AircraftCode": "73E",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-500 (winglets) Passenger B735"
+            }
+        },
+        "AirlineEquipCode": "B735"
+    },
+    {
+        "AircraftCode": "73F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737 Freighter"
+            }
+        },
+        "AirlineEquipCode": "737 Freighter"
+    },
+    {
+        "AircraftCode": "73G",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-700 Passenger B737"
+            }
+        },
+        "AirlineEquipCode": "B737"
+    },
+    {
+        "AircraftCode": "73H",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-800 (winglets) Passenger/BBJ2 B738"
+            }
+        },
+        "AirlineEquipCode": "B738",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1497708779",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "73J",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-900 (winglets) Passenger/BBJ3 B739"
+            }
+        },
+        "AirlineEquipCode": "B739"
+    },
+    {
+        "AircraftCode": "73L",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-200 Mixed Configuration B732"
+            }
+        },
+        "AirlineEquipCode": "B732"
+    },
+    {
+        "AircraftCode": "73M",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-200 Combi"
+            }
+        },
+        "AirlineEquipCode": "737-200 Combi"
+    },
+    {
+        "AircraftCode": "73N",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-300 Mixed Configuration B733"
+            }
+        },
+        "AirlineEquipCode": "B733"
+    },
+    {
+        "AircraftCode": "73P",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-400 Freighter B734"
+            }
+        },
+        "AirlineEquipCode": "B734"
+    },
+    {
+        "AircraftCode": "73Q",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-400 Mixed Configuration B734"
+            }
+        },
+        "AirlineEquipCode": "B734"
+    },
+    {
+        "AircraftCode": "73R",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-700 Mixed Configuration/BBJC B737"
+            }
+        },
+        "AirlineEquipCode": "B737"
+    },
+    {
+        "AircraftCode": "73S",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-700 Freighter B737"
+            }
+        },
+        "AirlineEquipCode": "B737"
+    },
+    {
+        "AircraftCode": "73V",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "73W",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-700 (winglets) Passenger/BBJ1 B737"
+            }
+        },
+        "AirlineEquipCode": "B737"
+    },
+    {
+        "AircraftCode": "73X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-200 Freighter B732"
+            }
+        },
+        "AirlineEquipCode": "B732"
+    },
+    {
+        "AircraftCode": "73Y",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 737-300 Freighter B733"
+            }
+        },
+        "AirlineEquipCode": "B733"
+    },
+    {
+        "AircraftCode": "741",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-100 Passenger B741"
+            }
+        },
+        "AirlineEquipCode": "B741"
+    },
+    {
+        "AircraftCode": "742",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-200 Passenger B742"
+            }
+        },
+        "AirlineEquipCode": "B742"
+    },
+    {
+        "AircraftCode": "743",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-300 / 747-100/200 SUD Passenger B743"
+            }
+        },
+        "AirlineEquipCode": "B743"
+    },
+    {
+        "AircraftCode": "744",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-400 Passenger B744"
+            }
+        },
+        "AirlineEquipCode": "B744",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1818948863",
+                "@LanguageCode": "EN"
+            }
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "747",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747 747 all series"
+            }
+        },
+        "AirlineEquipCode": "747 all series",
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "74B",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-400 Swingtail Freighter B744"
+            }
+        },
+        "AirlineEquipCode": "B744"
+    },
+    {
+        "AircraftCode": "74C",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-200 Mixed Configuration B742"
+            }
+        },
+        "AirlineEquipCode": "B742"
+    },
+    {
+        "AircraftCode": "74D",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-300 / 747-200 SUD Mixed Configuration B743"
+            }
+        },
+        "AirlineEquipCode": "B743"
+    },
+    {
+        "AircraftCode": "74E",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-400 Mixed Configuration B744"
+            }
+        },
+        "AirlineEquipCode": "B744",
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "74F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-200 Freighter 747 Freighter"
+            }
+        },
+        "AirlineEquipCode": "747 Freighter"
+    },
+    {
+        "AircraftCode": "74H",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-8 Passenger B748"
+            }
+        },
+        "AirlineEquipCode": "B748",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "291853146",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First & Business Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First & Business Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true,
+                    "SeatPower": true,
+                    "Usb": true,
+                    "LiveTv": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "74J",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-400 (Domestic) Passenger B74D"
+            }
+        },
+        "AirlineEquipCode": "B74D"
+    },
+    {
+        "AircraftCode": "74L",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747SP Passenger B74S"
+            }
+        },
+        "AirlineEquipCode": "B74S"
+    },
+    {
+        "AircraftCode": "74M",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747 Combi (-200 / 300 / 400)"
+            }
+        },
+        "AirlineEquipCode": "747 Combi (-200 / 300 / 400)"
+    },
+    {
+        "AircraftCode": "74N",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-8F Freighter B748"
+            }
+        },
+        "AirlineEquipCode": "B748",
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "74P",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "B747-430 747-400"
+            }
+        },
+        "AirlineEquipCode": "747-400",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1818948863",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "74Q",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "LH747-8 747-8i"
+            }
+        },
+        "AirlineEquipCode": "747-8i",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "291853146",
+                "@LanguageCode": "EN"
+            }
+        },
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "New First & Business Class",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Neue First & Business Class",
+                    "LanguageCode": "DE"
+                }
+            ]
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "74R",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747SR Passenger B74R"
+            }
+        },
+        "AirlineEquipCode": "B74R"
+    },
+    {
+        "AircraftCode": "74S",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-200  Freighter "
+            }
+        }
+    },
+    {
+        "AircraftCode": "74T",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-100 Freighter B741"
+            }
+        },
+        "AirlineEquipCode": "B741"
+    },
+    {
+        "AircraftCode": "74U",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-300 / 747-200 SUD Freighter B743"
+            }
+        },
+        "AirlineEquipCode": "B743"
+    },
+    {
+        "AircraftCode": "74V",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747SR Freighter B74R"
+            }
+        },
+        "AirlineEquipCode": "B74R"
+    },
+    {
+        "AircraftCode": "74X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-200 Freighter B742"
+            }
+        },
+        "AirlineEquipCode": "B742"
+    },
+    {
+        "AircraftCode": "74Y",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 747-400 Freighter B744"
+            }
+        },
+        "AirlineEquipCode": "B744"
+    },
+    {
+        "AircraftCode": "74Z",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "B747-430 747-400"
+            }
+        },
+        "AirlineEquipCode": "747-400",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1818948863",
+                "@LanguageCode": "EN"
+            }
+        },
+        "OnBoardEquipment": {
+            "InflightEntertainment": true,
+            "Compartment": [
+                {
+                    "ClassCode": "F",
+                    "ClassDesc": "FirstClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "C",
+                    "ClassDesc": "BusinessClass",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "E",
+                    "ClassDesc": "PremiumEconomy",
+                    "FlyNet": true
+                },
+                {
+                    "ClassCode": "Y",
+                    "ClassDesc": "Economy",
+                    "FlyNet": true
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "752",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 757-200 Passenger B752"
+            }
+        },
+        "AirlineEquipCode": "B752"
+    },
+    {
+        "AircraftCode": "753",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 757-300 Passenger B753"
+            }
+        },
+        "AirlineEquipCode": "B753"
+    },
+    {
+        "AircraftCode": "757",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 757 757 all series"
+            }
+        },
+        "AirlineEquipCode": "757 all series"
+    },
+    {
+        "AircraftCode": "75F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 757-200 Freighter B752"
+            }
+        },
+        "AirlineEquipCode": "B752"
+    },
+    {
+        "AircraftCode": "75M",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 757-200 Mixed Configuration B752"
+            }
+        },
+        "AirlineEquipCode": "B752"
+    },
+    {
+        "AircraftCode": "75T",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 757-300 (winglets) Passenger B753"
+            }
+        },
+        "AirlineEquipCode": "B753"
+    },
+    {
+        "AircraftCode": "75W",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 757-200 (winglets) Passenger B752"
+            }
+        },
+        "AirlineEquipCode": "B752"
+    },
+    {
+        "AircraftCode": "762",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 767-200 Passenger B762"
+            }
+        },
+        "AirlineEquipCode": "B762"
+    },
+    {
+        "AircraftCode": "763",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 767-300 Passenger B763"
+            }
+        },
+        "AirlineEquipCode": "B763"
+    },
+    {
+        "AircraftCode": "764",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 767-400 Passenger B764"
+            }
+        },
+        "AirlineEquipCode": "B764"
+    },
+    {
+        "AircraftCode": "767",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 767 767 all series"
+            }
+        },
+        "AirlineEquipCode": "767 all series"
+    },
+    {
+        "AircraftCode": "76F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 767 Freighter"
+            }
+        },
+        "AirlineEquipCode": "767 Freighter"
+    },
+    {
+        "AircraftCode": "76V",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 767-300 (winglets) Freighter B763"
+            }
+        },
+        "AirlineEquipCode": "B763"
+    },
+    {
+        "AircraftCode": "76W",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 767-300 (winglets) Passenger B763"
+            }
+        },
+        "AirlineEquipCode": "B763"
+    },
+    {
+        "AircraftCode": "76X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 767-200 Freighter B762"
+            }
+        },
+        "AirlineEquipCode": "B762"
+    },
+    {
+        "AircraftCode": "76Y",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 767-300 Freighter B763"
+            }
+        },
+        "AirlineEquipCode": "B763"
+    },
+    {
+        "AircraftCode": "772",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 777-200/ 200ER B77L"
+            }
+        },
+        "AirlineEquipCode": "B77L"
+    },
+    {
+        "AircraftCode": "773",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 777-300 B773"
+            }
+        },
+        "AirlineEquipCode": "B773"
+    },
+    {
+        "AircraftCode": "777",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 777 777 all series"
+            }
+        },
+        "AirlineEquipCode": "777 all series"
+    },
+    {
+        "AircraftCode": "779",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 777-900 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "77F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 777 Freighter "
+            }
+        }
+    },
+    {
+        "AircraftCode": "77L",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 777-200LR B772"
+            }
+        },
+        "AirlineEquipCode": "B772"
+    },
+    {
+        "AircraftCode": "77W",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 777-300ER B77W"
+            }
+        },
+        "AirlineEquipCode": "B77W"
+    },
+    {
+        "AircraftCode": "77X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 777-200F Freighter B772"
+            }
+        },
+        "AirlineEquipCode": "B772"
+    },
+    {
+        "AircraftCode": "783",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 787-3 B783"
+            }
+        },
+        "AirlineEquipCode": "B783"
+    },
+    {
+        "AircraftCode": "787",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 787 all series"
+            }
+        },
+        "AirlineEquipCode": "787 all series"
+    },
+    {
+        "AircraftCode": "788",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 787-8 B788"
+            }
+        },
+        "AirlineEquipCode": "B788"
+    },
+    {
+        "AircraftCode": "789",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 787-9 B789"
+            }
+        },
+        "AirlineEquipCode": "B789"
+    },
+    {
+        "AircraftCode": "963",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": " "
+            }
+        }
+    },
+    {
+        "AircraftCode": "A22",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-22 AN22"
+            }
+        },
+        "AirlineEquipCode": "AN22"
+    },
+    {
+        "AircraftCode": "A26",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-26 AN26"
+            }
+        },
+        "AirlineEquipCode": "AN26"
+    },
+    {
+        "AircraftCode": "A28",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-28 / PZL Mielec M-28 Skytruck AN28"
+            }
+        },
+        "AirlineEquipCode": "AN28"
+    },
+    {
+        "AircraftCode": "A30",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-30 AN30"
+            }
+        },
+        "AirlineEquipCode": "AN30"
+    },
+    {
+        "AircraftCode": "A32",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-32 AN32"
+            }
+        },
+        "AirlineEquipCode": "AN32"
+    },
+    {
+        "AircraftCode": "A38",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-38 AN38"
+            }
+        },
+        "AirlineEquipCode": "AN38"
+    },
+    {
+        "AircraftCode": "A40",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-140 A140"
+            }
+        },
+        "AirlineEquipCode": "A140"
+    },
+    {
+        "AircraftCode": "A4F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-124 Ruslan A124"
+            }
+        },
+        "AirlineEquipCode": "A124"
+    },
+    {
+        "AircraftCode": "A58",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-158 ZZZZ"
+            }
+        },
+        "AirlineEquipCode": "ZZZZ"
+    },
+    {
+        "AircraftCode": "A5F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-225 A225"
+            }
+        },
+        "AirlineEquipCode": "A225"
+    },
+    {
+        "AircraftCode": "A81",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov AN148-100 A148"
+            }
+        },
+        "AirlineEquipCode": "A148"
+    },
+    {
+        "AircraftCode": "AB3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus Industrie A300 A300"
+            }
+        },
+        "AirlineEquipCode": "A300"
+    },
+    {
+        "AircraftCode": "AB4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A300B2 / A300B4 Passenger A30B"
+            }
+        },
+        "AirlineEquipCode": "A30B"
+    },
+    {
+        "AircraftCode": "AB6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A300-600 Passenger A306"
+            }
+        },
+        "AirlineEquipCode": "A306"
+    },
+    {
+        "AircraftCode": "ABB",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A300-600ST Beluga Freighter A3ST"
+            }
+        },
+        "AirlineEquipCode": "A3ST"
+    },
+    {
+        "AircraftCode": "ABF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "A300B4-Freighter A300F"
+            }
+        },
+        "AirlineEquipCode": "A300F"
+    },
+    {
+        "AircraftCode": "ABX",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A300B4 / A300C4 / A300F4 Freighter A30B"
+            }
+        },
+        "AirlineEquipCode": "A30B"
+    },
+    {
+        "AircraftCode": "ABY",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Airbus A300-600 Freighter A306"
+            }
+        },
+        "AirlineEquipCode": "A306"
+    },
+    {
+        "AircraftCode": "ACD",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Rockwell Commander/Turbo Commander"
+            }
+        },
+        "AirlineEquipCode": "Commander/Turbo Commander"
+    },
+    {
+        "AircraftCode": "ACP",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Twin Commander Aircraft Commander"
+            }
+        },
+        "AirlineEquipCode": "Commander"
+    },
+    {
+        "AircraftCode": "ACT",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Twin (Aero) Turbo Commander / Jetprop Commander Turbo Commander"
+            }
+        },
+        "AirlineEquipCode": "Turbo Commander"
+    },
+    {
+        "AircraftCode": "AGH",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "AgustaWestland A109 A109"
+            }
+        },
+        "AirlineEquipCode": "A109"
+    },
+    {
+        "AircraftCode": "ALM",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ayres LM-200 Loadmaster"
+            }
+        },
+        "AirlineEquipCode": "LM-200 Loadmaster"
+    },
+    {
+        "AircraftCode": "AN4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-24 AN24"
+            }
+        },
+        "AirlineEquipCode": "AN24"
+    },
+    {
+        "AircraftCode": "AN6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonow / Antonov An-26 / An-30 / An-32"
+            }
+        },
+        "AirlineEquipCode": "An-26 / An-30 / An-32"
+    },
+    {
+        "AircraftCode": "AN7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-72 / An-74 AN72"
+            }
+        },
+        "AirlineEquipCode": "AN72"
+    },
+    {
+        "AircraftCode": "ANF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Antonov An-12 AN12"
+            }
+        },
+        "AirlineEquipCode": "AN12"
+    },
+    {
+        "AircraftCode": "APF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems  ATP Freighter ZZZZ"
+            }
+        },
+        "AirlineEquipCode": "ZZZZ"
+    },
+    {
+        "AircraftCode": "APH",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Eurocopter (Aerospatiale) SA330 Puma / AS332 Super Puma SA330 Puma / AS332 Super Puma"
+            }
+        },
+        "AirlineEquipCode": "SA330 Puma / AS332 Super Puma"
+    },
+    {
+        "AircraftCode": "AR1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Avro RJ100 RJ1H"
+            }
+        },
+        "AirlineEquipCode": "RJ1H"
+    },
+    {
+        "AircraftCode": "AR7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Avro RJ70 RJ70"
+            }
+        },
+        "AirlineEquipCode": "RJ70"
+    },
+    {
+        "AircraftCode": "AR8",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Avro RJ85 RJ85"
+            }
+        },
+        "AirlineEquipCode": "RJ85"
+    },
+    {
+        "AircraftCode": "ARJ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "AVROLINER RJ70/85/100"
+            }
+        },
+        "AirlineEquipCode": "RJ70/85/100"
+    },
+    {
+        "AircraftCode": "AT4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "ATR 42-300 / 320 AT43"
+            }
+        },
+        "AirlineEquipCode": "AT43"
+    },
+    {
+        "AircraftCode": "AT5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Aerospatiale ATR42 ATR 42-500"
+            }
+        },
+        "AirlineEquipCode": "ATR 42-500"
+    },
+    {
+        "AircraftCode": "AT7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "ATR 72 AT72"
+            }
+        },
+        "AirlineEquipCode": "AT72",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "559607710",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "ATF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "ATR 72 Freighter AT72"
+            }
+        },
+        "AirlineEquipCode": "AT72"
+    },
+    {
+        "AircraftCode": "ATP",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems  ATP ATP"
+            }
+        },
+        "AirlineEquipCode": "ATP"
+    },
+    {
+        "AircraftCode": "ATR",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Aerospatiale ATR 42 / ATR 72"
+            }
+        },
+        "AirlineEquipCode": "ATR 42 / ATR 72"
+    },
+    {
+        "AircraftCode": "ATZ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "ATR 42 Freighter "
+            }
+        }
+    },
+    {
+        "AircraftCode": "AWH",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "AgustaWestland AW139 A139"
+            }
+        },
+        "AirlineEquipCode": "A139"
+    },
+    {
+        "AircraftCode": "AWZ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Augusta Westland 200 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "B11",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "British Aerospace One-Eleven BA11"
+            }
+        },
+        "AirlineEquipCode": "BA11"
+    },
+    {
+        "AircraftCode": "B12",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems (BAC) One-Eleven 200 BA11"
+            }
+        },
+        "AirlineEquipCode": "BA11"
+    },
+    {
+        "AircraftCode": "B13",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems (BAC) One-Eleven 300 BA11"
+            }
+        },
+        "AirlineEquipCode": "BA11"
+    },
+    {
+        "AircraftCode": "B14",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems (BAC) One-Eleven 400 / 475 BA11"
+            }
+        },
+        "AirlineEquipCode": "BA11"
+    },
+    {
+        "AircraftCode": "B15",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems (BAC) One-Eleven 500 / RomBac One-Eleven 560 BA11"
+            }
+        },
+        "AirlineEquipCode": "BA11"
+    },
+    {
+        "AircraftCode": "B72",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 720-020B B720"
+            }
+        },
+        "AirlineEquipCode": "B720"
+    },
+    {
+        "AircraftCode": "BE1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Beech 1900/1900C/1900D"
+            }
+        },
+        "AirlineEquipCode": "1900/1900C/1900D"
+    },
+    {
+        "AircraftCode": "BE2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker Beechcraft (Light aircraft-twin piston engines) Beech twin piston"
+            }
+        },
+        "AirlineEquipCode": "Beech twin piston"
+    },
+    {
+        "AircraftCode": "BE4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker 400 Beechjet/400A/400XP/400T BE40"
+            }
+        },
+        "AirlineEquipCode": "BE40"
+    },
+    {
+        "AircraftCode": "BE9",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker Beechcraft C99 Airliner BE99"
+            }
+        },
+        "AirlineEquipCode": "BE99"
+    },
+    {
+        "AircraftCode": "BEC",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Beech Beech light aircraft"
+            }
+        },
+        "AirlineEquipCode": "Beech light aircraft"
+    },
+    {
+        "AircraftCode": "BEF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker Beechcraft 1900 Freighter B190"
+            }
+        },
+        "AirlineEquipCode": "B190"
+    },
+    {
+        "AircraftCode": "BEH",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker Beechcraft 1900D Airliner B190"
+            }
+        },
+        "AirlineEquipCode": "B190"
+    },
+    {
+        "AircraftCode": "BEP",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker Beechcraft (Light aircraft-single piston engine) Beech singe piston"
+            }
+        },
+        "AirlineEquipCode": "Beech singe piston"
+    },
+    {
+        "AircraftCode": "BES",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker Beechcraft 1900C Airliner B190"
+            }
+        },
+        "AirlineEquipCode": "B190"
+    },
+    {
+        "AircraftCode": "BET",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker Beechcraft (Light aircraft-twin turboprop engines) Beech twin turboprop"
+            }
+        },
+        "AirlineEquipCode": "Beech twin turboprop"
+    },
+    {
+        "AircraftCode": "BH2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Bell (Helicopters) Bell Helicopters"
+            }
+        },
+        "AirlineEquipCode": "Bell Helicopters"
+    },
+    {
+        "AircraftCode": "BNI",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Britten-Norman BN-2A / BN-2B Islander BN2P"
+            }
+        },
+        "AirlineEquipCode": "BN2P"
+    },
+    {
+        "AircraftCode": "BNT",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Britten-Norman BN-2A Mk.III Trislander TRIS"
+            }
+        },
+        "AirlineEquipCode": "TRIS"
+    },
+    {
+        "AircraftCode": "BTA",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Business Turbo-Prop Aircraft ZZZZ"
+            }
+        },
+        "AirlineEquipCode": "ZZZZ"
+    },
+    {
+        "AircraftCode": "BUS",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Surface Equipment-Bus "
+            }
+        }
+    },
+    {
+        "AircraftCode": "C27",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Comac ARJ21-700 AJ27"
+            }
+        },
+        "AirlineEquipCode": "AJ27"
+    },
+    {
+        "AircraftCode": "CCJ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Canadair (Bombardier) CL-600 / 601 / 604 / 605 Challenger CL60"
+            }
+        },
+        "AirlineEquipCode": "CL60"
+    },
+    {
+        "AircraftCode": "CCX",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Bombardier BD-700 Global Express/Global 500 GLEX"
+            }
+        },
+        "AirlineEquipCode": "GLEX"
+    },
+    {
+        "AircraftCode": "CD2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gippsland Aeronautics N22B / N24A Nomad NOMA"
+            }
+        },
+        "AirlineEquipCode": "NOMA"
+    },
+    {
+        "AircraftCode": "CJ1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna 500/ 501/ 525 Citation "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CJ2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna 550/ 551/ 552 Citation "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CJ5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna 560 Citation "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CJ6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna 650 Citation "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CJ8",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna 680 Citation "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CJL",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna 560 XL/XLS Citation "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CJM",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna 510 Mustang Citation C510"
+            }
+        },
+        "AirlineEquipCode": "C510"
+    },
+    {
+        "AircraftCode": "CJX",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna 750 Citation X C750"
+            }
+        },
+        "AirlineEquipCode": "C750"
+    },
+    {
+        "AircraftCode": "CL3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Bombardier Challenger 300 CL30"
+            }
+        },
+        "AirlineEquipCode": "CL30"
+    },
+    {
+        "AircraftCode": "CL4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Canadair CL-44"
+            }
+        },
+        "AirlineEquipCode": "CL-44"
+    },
+    {
+        "AircraftCode": "CN1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna (Light aircraft-single piston engine) Cessna single piston engine"
+            }
+        },
+        "AirlineEquipCode": "Cessna single piston engine"
+    },
+    {
+        "AircraftCode": "CN2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna (Light aircraft-twin piston engines) Cessna twin piston engines"
+            }
+        },
+        "AirlineEquipCode": "Cessna twin piston engines"
+    },
+    {
+        "AircraftCode": "CN3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna Citation CJ-3 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CN5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna Citation CJ-* "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CN6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Citation Sovereign "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CN7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna Citation X "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CNA",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna Cessna light aircraft"
+            }
+        },
+        "AirlineEquipCode": "Cessna light aircraft"
+    },
+    {
+        "AircraftCode": "CNC",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna (Light aircraft-single turboprop engine) Cessna single turboprop engine"
+            }
+        },
+        "AirlineEquipCode": "Cessna single turboprop engine"
+    },
+    {
+        "AircraftCode": "CNF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna 208B Freighter "
+            }
+        }
+    },
+    {
+        "AircraftCode": "CNJ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna Citation Citation"
+            }
+        },
+        "AirlineEquipCode": "Citation"
+    },
+    {
+        "AircraftCode": "CNT",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Cessna (Light aircraft-twin turboprop engines) Cessna twin turboprop engines"
+            }
+        },
+        "AirlineEquipCode": "Cessna twin turboprop engines"
+    },
+    {
+        "AircraftCode": "CR1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Canadair (Bombardier) Regional Jet 100 CRJ1"
+            }
+        },
+        "AirlineEquipCode": "CRJ1"
+    },
+    {
+        "AircraftCode": "CR2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Canadair (Bombardier) Regional Jet 200 CRJ2"
+            }
+        },
+        "AirlineEquipCode": "CRJ2"
+    },
+    {
+        "AircraftCode": "CR7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Canadair (Bombardier) Regional Jet 700 and Challenger 870 CRJ7"
+            }
+        },
+        "AirlineEquipCode": "CRJ7",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1667836146",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "CR9",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Canadair (Bombardier) Regional Jet 900 and Challenger 890 CRJ9"
+            }
+        },
+        "AirlineEquipCode": "CRJ9",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "938187408",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "CRA",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Canadair (Bombardier) Regional Jet 705 CRJ9"
+            }
+        },
+        "AirlineEquipCode": "CRJ9"
+    },
+    {
+        "AircraftCode": "CRF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Canadair (Bombardier) Regional Jet Freighter ZZZZ"
+            }
+        },
+        "AirlineEquipCode": "ZZZZ"
+    },
+    {
+        "AircraftCode": "CRJ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Bombardier CRJ all series"
+            }
+        },
+        "AirlineEquipCode": "CRJ all series"
+    },
+    {
+        "AircraftCode": "CRK",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Canadair (Bombardier) Regional Jet 1000 CRJX"
+            }
+        },
+        "AirlineEquipCode": "CRJX"
+    },
+    {
+        "AircraftCode": "CRN",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Bombardier CRJ900"
+            }
+        },
+        "AirlineEquipCode": "CRJ900"
+    },
+    {
+        "AircraftCode": "CRV",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Sud-Est SE.210 Caravelle"
+            }
+        },
+        "AirlineEquipCode": "SE.210 Caravelle"
+    },
+    {
+        "AircraftCode": "CS1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Bombardier CS100 ZZZZ"
+            }
+        },
+        "AirlineEquipCode": "ZZZZ"
+    },
+    {
+        "AircraftCode": "CS2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "CASA / lAe 212 Aviocar C212"
+            }
+        },
+        "AirlineEquipCode": "C212"
+    },
+    {
+        "AircraftCode": "CS3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Bombardier CS300 ZZZZ"
+            }
+        },
+        "AirlineEquipCode": "ZZZZ"
+    },
+    {
+        "AircraftCode": "CS5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "CASA / lAe CN-235 CN35"
+            }
+        },
+        "AirlineEquipCode": "CN35"
+    },
+    {
+        "AircraftCode": "CS9",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "CASA / lAe C-295 C295"
+            }
+        },
+        "AirlineEquipCode": "C295"
+    },
+    {
+        "AircraftCode": "CV2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Convair 240 Passenger CVLP"
+            }
+        },
+        "AirlineEquipCode": "CVLP"
+    },
+    {
+        "AircraftCode": "CV4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Convair 440 Metropolitan Passenger CVLP"
+            }
+        },
+        "AirlineEquipCode": "CVLP"
+    },
+    {
+        "AircraftCode": "CV5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Convair 580 Passenger CVLT"
+            }
+        },
+        "AirlineEquipCode": "CVLT"
+    },
+    {
+        "AircraftCode": "CVF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Convair CV-240 / 440 / 580 / 600 / 640 Freighter"
+            }
+        },
+        "AirlineEquipCode": "CV-240 / 440 / 580 / 600 / 640 Freighter"
+    },
+    {
+        "AircraftCode": "CVR",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Convair CV-240 / 440 / 580 / 600 / 640"
+            }
+        },
+        "AirlineEquipCode": "CV-240 / 440 / 580 / 600 / 640"
+    },
+    {
+        "AircraftCode": "CVV",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Convair 240 Freighter CVLP"
+            }
+        },
+        "AirlineEquipCode": "CVLP"
+    },
+    {
+        "AircraftCode": "CVX",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Convair 340 / 440 Freighter CVLP"
+            }
+        },
+        "AirlineEquipCode": "CVLP"
+    },
+    {
+        "AircraftCode": "CVY",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Convair 580 / 5800 / 600 / 640 Freighter CVLT"
+            }
+        },
+        "AirlineEquipCode": "CVLT"
+    },
+    {
+        "AircraftCode": "CWC",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Curtiss C-46 Commando C46"
+            }
+        },
+        "AirlineEquipCode": "C46"
+    },
+    {
+        "AircraftCode": "D10",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Douglas DC-10"
+            }
+        },
+        "AirlineEquipCode": "DC-10"
+    },
+    {
+        "AircraftCode": "D11",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-10-10 / 15 Passenger DC10"
+            }
+        },
+        "AirlineEquipCode": "DC10"
+    },
+    {
+        "AircraftCode": "D1C",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-10-30 / 40 Passenger DC10"
+            }
+        },
+        "AirlineEquipCode": "DC10"
+    },
+    {
+        "AircraftCode": "D1F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "DC10-Freighter  Cargo Lion DC-10 Freighter"
+            }
+        },
+        "AirlineEquipCode": "DC-10 Freighter"
+    },
+    {
+        "AircraftCode": "D1M",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-10-30 Mixed Configuration DC10"
+            }
+        },
+        "AirlineEquipCode": "DC10"
+    },
+    {
+        "AircraftCode": "D1X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-10-10 Freighter DC10"
+            }
+        },
+        "AirlineEquipCode": "DC10"
+    },
+    {
+        "AircraftCode": "D1Y",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-10-30 / 40 Freighter DC10"
+            }
+        },
+        "AirlineEquipCode": "DC10"
+    },
+    {
+        "AircraftCode": "D20",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Dassault Falcon 2000/2000DX F2TH"
+            }
+        },
+        "AirlineEquipCode": "F2TH"
+    },
+    {
+        "AircraftCode": "D28",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fairchild Dornier 228 D228"
+            }
+        },
+        "AirlineEquipCode": "D228"
+    },
+    {
+        "AircraftCode": "D2L",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Dassault Falcon 2000EX/EASY/LX F2TH"
+            }
+        },
+        "AirlineEquipCode": "F2TH"
+    },
+    {
+        "AircraftCode": "D38",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fairchild Dornier 328-100 D328"
+            }
+        },
+        "AirlineEquipCode": "D328"
+    },
+    {
+        "AircraftCode": "D3F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-3 Freighter DC3"
+            }
+        },
+        "AirlineEquipCode": "DC3"
+    },
+    {
+        "AircraftCode": "D42",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Diamond Aircraft DA42 Twin Star DA42"
+            }
+        },
+        "AirlineEquipCode": "DA42"
+    },
+    {
+        "AircraftCode": "D4X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-8-400 Dash 8Q Freighter DH8D"
+            }
+        },
+        "AirlineEquipCode": "DH8D"
+    },
+    {
+        "AircraftCode": "D6F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-6A / DC-6B / DC-6C Freighter DC6"
+            }
+        },
+        "AirlineEquipCode": "DC6"
+    },
+    {
+        "AircraftCode": "D8F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Douglas DC-8 Freighter"
+            }
+        },
+        "AirlineEquipCode": "DC-8 Freighter"
+    },
+    {
+        "AircraftCode": "D8L",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-8-62 Passenger DC86"
+            }
+        },
+        "AirlineEquipCode": "DC86"
+    },
+    {
+        "AircraftCode": "D8M",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-8-62 Mixed Configuration DC86"
+            }
+        },
+        "AirlineEquipCode": "DC86"
+    },
+    {
+        "AircraftCode": "D8Q",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-8-72 Passenger DC87"
+            }
+        },
+        "AirlineEquipCode": "DC87"
+    },
+    {
+        "AircraftCode": "D8S",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "DC-8 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "D8T",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-8-50 Freighter DC85"
+            }
+        },
+        "AirlineEquipCode": "DC85"
+    },
+    {
+        "AircraftCode": "D8X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-8-61 / 62 / 63 Freighter DC86"
+            }
+        },
+        "AirlineEquipCode": "DC86"
+    },
+    {
+        "AircraftCode": "D8Y",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-8-71 / 72 / 73 Freighter DC87"
+            }
+        },
+        "AirlineEquipCode": "DC87"
+    },
+    {
+        "AircraftCode": "D91",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-9-10 Passenger DC91"
+            }
+        },
+        "AirlineEquipCode": "DC91"
+    },
+    {
+        "AircraftCode": "D92",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-9-20 Passenger DC92"
+            }
+        },
+        "AirlineEquipCode": "DC92"
+    },
+    {
+        "AircraftCode": "D93",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-9-30 Passenger DC93"
+            }
+        },
+        "AirlineEquipCode": "DC93"
+    },
+    {
+        "AircraftCode": "D94",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-9-40 Passenger DC94"
+            }
+        },
+        "AirlineEquipCode": "DC94"
+    },
+    {
+        "AircraftCode": "D95",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-9-50 Passenger DC95"
+            }
+        },
+        "AirlineEquipCode": "DC95"
+    },
+    {
+        "AircraftCode": "D98",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "DC-9-80 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "D9C",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-9-30 Freighter DC93"
+            }
+        },
+        "AirlineEquipCode": "DC93"
+    },
+    {
+        "AircraftCode": "D9D",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-9-40 Freighter DC94"
+            }
+        },
+        "AirlineEquipCode": "DC94"
+    },
+    {
+        "AircraftCode": "D9F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Douglas DC-9-40 Freighter"
+            }
+        },
+        "AirlineEquipCode": "DC-9-40 Freighter"
+    },
+    {
+        "AircraftCode": "D9L",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Dassault Falcon 900LX F900"
+            }
+        },
+        "AirlineEquipCode": "F900"
+    },
+    {
+        "AircraftCode": "D9X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-9-10 Freighter DC91"
+            }
+        },
+        "AirlineEquipCode": "DC91"
+    },
+    {
+        "AircraftCode": "DC3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-3 Passenger DC3"
+            }
+        },
+        "AirlineEquipCode": "DC3"
+    },
+    {
+        "AircraftCode": "DC4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-4 DC4"
+            }
+        },
+        "AirlineEquipCode": "DC4"
+    },
+    {
+        "AircraftCode": "DC6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) DC-6B Passenger DC6"
+            }
+        },
+        "AirlineEquipCode": "DC6"
+    },
+    {
+        "AircraftCode": "DC8",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Douglas DC-8"
+            }
+        },
+        "AirlineEquipCode": "DC-8"
+    },
+    {
+        "AircraftCode": "DC9",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Douglas DC-9"
+            }
+        },
+        "AirlineEquipCode": "DC-9"
+    },
+    {
+        "AircraftCode": "DF1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Dassault Falcon 10 / 100 FA10"
+            }
+        },
+        "AirlineEquipCode": "FA10"
+    },
+    {
+        "AircraftCode": "DF2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Dassault Falcon 20 / 200 FA20"
+            }
+        },
+        "AirlineEquipCode": "FA20"
+    },
+    {
+        "AircraftCode": "DF3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Dassault Falcon 50 / 900"
+            }
+        },
+        "AirlineEquipCode": "Falcon 50 / 900"
+    },
+    {
+        "AircraftCode": "DF5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Dassault Falcon 50 / 50EX FA50"
+            }
+        },
+        "AirlineEquipCode": "FA50"
+    },
+    {
+        "AircraftCode": "DF7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Dassault Falcon 7X FA7X"
+            }
+        },
+        "AirlineEquipCode": "FA7X"
+    },
+    {
+        "AircraftCode": "DF9",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Dassault Falcon 900/900B/900C/900DX/900EX/EASY F900"
+            }
+        },
+        "AirlineEquipCode": "F900"
+    },
+    {
+        "AircraftCode": "DFL",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Dassault Falcon"
+            }
+        },
+        "AirlineEquipCode": "Falcon"
+    },
+    {
+        "AircraftCode": "DH1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-8-100 Dash 8 / 8Q DH8A"
+            }
+        },
+        "AirlineEquipCode": "DH8A"
+    },
+    {
+        "AircraftCode": "DH2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-8-200 Dash 8 / 8Q DH8B"
+            }
+        },
+        "AirlineEquipCode": "DH8B"
+    },
+    {
+        "AircraftCode": "DH3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-8-300 Dash 8 / 8Q DH8C"
+            }
+        },
+        "AirlineEquipCode": "DH8C"
+    },
+    {
+        "AircraftCode": "DH4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-8-400 Dash 8Q DH8D"
+            }
+        },
+        "AirlineEquipCode": "DH8D",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1259329355",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "DH7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-7 Dash 7 DHC7"
+            }
+        },
+        "AirlineEquipCode": "DHC7"
+    },
+    {
+        "AircraftCode": "DH8",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "DHC-8 Dash 8 DHC-8 Dash 8 all series"
+            }
+        },
+        "AirlineEquipCode": "DHC-8 Dash 8 all series"
+    },
+    {
+        "AircraftCode": "DHB",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland Canada DHC-2 Beaver / Turbo Beaver"
+            }
+        },
+        "AirlineEquipCode": "DHC-2 Beaver / Turbo Beaver"
+    },
+    {
+        "AircraftCode": "DHC",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-4 Caribou DHC4"
+            }
+        },
+        "AirlineEquipCode": "DHC4"
+    },
+    {
+        "AircraftCode": "DHD",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems (De Havilland) 104 Dove DOVE"
+            }
+        },
+        "AirlineEquipCode": "DOVE"
+    },
+    {
+        "AircraftCode": "DHF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-8 Freighter "
+            }
+        }
+    },
+    {
+        "AircraftCode": "DHH",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems (De Havilland) 114 Heron HERN"
+            }
+        },
+        "AirlineEquipCode": "HERN"
+    },
+    {
+        "AircraftCode": "DHL",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-3 Turbo Otter DH3T"
+            }
+        },
+        "AirlineEquipCode": "DH3T"
+    },
+    {
+        "AircraftCode": "DHN",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland DHC-8 Dash 8-400 Q400"
+            }
+        },
+        "AirlineEquipCode": "Q400"
+    },
+    {
+        "AircraftCode": "DHO",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland Canada DHC-3 Otter / Turbo Otter"
+            }
+        },
+        "AirlineEquipCode": "DHC-3 Otter / Turbo Otter"
+    },
+    {
+        "AircraftCode": "DHP",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-2 Beaver DHC2"
+            }
+        },
+        "AirlineEquipCode": "DHC2"
+    },
+    {
+        "AircraftCode": "DHR",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-2 Turbo Beaver DH2T"
+            }
+        },
+        "AirlineEquipCode": "DH2T"
+    },
+    {
+        "AircraftCode": "DHS",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-3 Otter DHC3"
+            }
+        },
+        "AirlineEquipCode": "DHC3"
+    },
+    {
+        "AircraftCode": "DHT",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "De Havilland (Bombardier) DHC-6 Twin Otter DHC6"
+            }
+        },
+        "AirlineEquipCode": "DHC6"
+    },
+    {
+        "AircraftCode": "E70",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer 170 E170"
+            }
+        },
+        "AirlineEquipCode": "E170"
+    },
+    {
+        "AircraftCode": "E71",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer 170 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "E75",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer 175 E170"
+            }
+        },
+        "AirlineEquipCode": "E170"
+    },
+    {
+        "AircraftCode": "E90",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer 190 E190"
+            }
+        },
+        "AirlineEquipCode": "E190",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1060834083",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "E95",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer 195 and Legacy 1000 E190"
+            }
+        },
+        "AirlineEquipCode": "E190",
+        "MediaLinks": {
+            "MediaLink": {
+                "$": "1410747106",
+                "@LanguageCode": "EN"
+            }
+        }
+    },
+    {
+        "AircraftCode": "E9F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer E-195"
+            }
+        },
+        "AirlineEquipCode": "E-195"
+    },
+    {
+        "AircraftCode": "E9N",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer E-190"
+            }
+        },
+        "AirlineEquipCode": "E-190"
+    },
+    {
+        "AircraftCode": "EA5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Eclipse 500 EA50"
+            }
+        },
+        "AirlineEquipCode": "EA50"
+    },
+    {
+        "AircraftCode": "EC3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Eurocopter EC130 EC30"
+            }
+        },
+        "AirlineEquipCode": "EC30"
+    },
+    {
+        "AircraftCode": "EC5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Eurocopter EC155 EC55"
+            }
+        },
+        "AirlineEquipCode": "EC55"
+    },
+    {
+        "AircraftCode": "EM2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer 120 Brasilia E120"
+            }
+        },
+        "AirlineEquipCode": "E120"
+    },
+    {
+        "AircraftCode": "EM3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer Legacy 600 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "EM4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer RJ145 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "EMB",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer 110 Bandeirante E110"
+            }
+        },
+        "AirlineEquipCode": "E110"
+    },
+    {
+        "AircraftCode": "EMJ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer E-170 / 175 / 190 / 195"
+            }
+        },
+        "AirlineEquipCode": "E-170 / 175 / 190 / 195"
+    },
+    {
+        "AircraftCode": "EP1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer EMB-500 Phenom 100 E50P"
+            }
+        },
+        "AirlineEquipCode": "E50P"
+    },
+    {
+        "AircraftCode": "EP3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer EMB-505 Phenom 300 E55P"
+            }
+        },
+        "AirlineEquipCode": "E55P"
+    },
+    {
+        "AircraftCode": "ER3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer RJ135 and Legacy 600/650 E135"
+            }
+        },
+        "AirlineEquipCode": "E135"
+    },
+    {
+        "AircraftCode": "ER4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer RJ145 E145"
+            }
+        },
+        "AirlineEquipCode": "E145"
+    },
+    {
+        "AircraftCode": "ERD",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer RJ140 E135"
+            }
+        },
+        "AirlineEquipCode": "E135"
+    },
+    {
+        "AircraftCode": "ERJ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Embraer RJ145 ERJ135 / 140 / 145"
+            }
+        },
+        "AirlineEquipCode": "ERJ135 / 140 / 145"
+    },
+    {
+        "AircraftCode": "F21",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker F28 Fellowship 1000 F28"
+            }
+        },
+        "AirlineEquipCode": "F28"
+    },
+    {
+        "AircraftCode": "F22",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker F28 Fellowship 2000 F28"
+            }
+        },
+        "AirlineEquipCode": "F28"
+    },
+    {
+        "AircraftCode": "F23",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker F28 Fellowship 3000 F28"
+            }
+        },
+        "AirlineEquipCode": "F28"
+    },
+    {
+        "AircraftCode": "F24",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker F28 Fellowship 4000 F28"
+            }
+        },
+        "AirlineEquipCode": "F28"
+    },
+    {
+        "AircraftCode": "F27",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker F27 Friendship / Fairchild Industries F-27 F27"
+            }
+        },
+        "AirlineEquipCode": "F27"
+    },
+    {
+        "AircraftCode": "F28",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker F28 F28 Fellowship"
+            }
+        },
+        "AirlineEquipCode": "F28 Fellowship"
+    },
+    {
+        "AircraftCode": "F2A",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker F27 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "F50",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker 50 F50"
+            }
+        },
+        "AirlineEquipCode": "F50"
+    },
+    {
+        "AircraftCode": "F5F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker 50 Freighter F50"
+            }
+        },
+        "AirlineEquipCode": "F50"
+    },
+    {
+        "AircraftCode": "F70",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fokker 70 F70"
+            }
+        },
+        "AirlineEquipCode": "F70"
+    },
+    {
+        "AircraftCode": "FK7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fairchild Industries FH-227 F27"
+            }
+        },
+        "AirlineEquipCode": "F27"
+    },
+    {
+        "AircraftCode": "FRJ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fairchild Dornier 328JET J328"
+            }
+        },
+        "AirlineEquipCode": "J328"
+    },
+    {
+        "AircraftCode": "G2B",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream Aerospace G-1159 Gulfstream IIB GLF2"
+            }
+        },
+        "AirlineEquipCode": "GLF2"
+    },
+    {
+        "AircraftCode": "G2S",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream Aerospace G-1159 Gulfstream IISP GLF2"
+            }
+        },
+        "AirlineEquipCode": "GLF2"
+    },
+    {
+        "AircraftCode": "GA8",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gippsland Aeronautics GA8 Airvan GA8"
+            }
+        },
+        "AirlineEquipCode": "GA8"
+    },
+    {
+        "AircraftCode": "GJ2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream Aerospace G-1159 Gulfstream II GLF2"
+            }
+        },
+        "AirlineEquipCode": "GLF2"
+    },
+    {
+        "AircraftCode": "GJ3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream Aerospace G-1159A Gulfstream III GLF3"
+            }
+        },
+        "AirlineEquipCode": "GLF3"
+    },
+    {
+        "AircraftCode": "GJ4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream Aerospace IV (G300/G350/G400/G450/IVSP) GLF4"
+            }
+        },
+        "AirlineEquipCode": "GLF4"
+    },
+    {
+        "AircraftCode": "GJ5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream Aerospace V (G500/G550) GLF5"
+            }
+        },
+        "AirlineEquipCode": "GLF5"
+    },
+    {
+        "AircraftCode": "GJ6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream Aerospace G650 GLF6"
+            }
+        },
+        "AirlineEquipCode": "GLF6"
+    },
+    {
+        "AircraftCode": "GR1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream Aerospace G-100/G-150 (Astra SPX) G150"
+            }
+        },
+        "AirlineEquipCode": "G150"
+    },
+    {
+        "AircraftCode": "GR2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream Aerospace G-200 (Galaxy) GALX"
+            }
+        },
+        "AirlineEquipCode": "GALX"
+    },
+    {
+        "AircraftCode": "GR3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream Aerospace G-280 G280"
+            }
+        },
+        "AirlineEquipCode": "G280"
+    },
+    {
+        "AircraftCode": "GRG",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Grumman G-21 Goose (Amphibian) G21"
+            }
+        },
+        "AirlineEquipCode": "G21"
+    },
+    {
+        "AircraftCode": "GRJ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream 550 G-1159 Gulfstream II / III / IV / V"
+            }
+        },
+        "AirlineEquipCode": "G-1159 Gulfstream II / III / IV / V"
+    },
+    {
+        "AircraftCode": "GRM",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Grumman G-73 Turbo Mallard (Amphibian) G73T"
+            }
+        },
+        "AirlineEquipCode": "G73T"
+    },
+    {
+        "AircraftCode": "GRS",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Gulfstream G-159 Gulfstream I"
+            }
+        },
+        "AirlineEquipCode": "G-159 Gulfstream I"
+    },
+    {
+        "AircraftCode": "H20",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker 200 PRM1"
+            }
+        },
+        "AirlineEquipCode": "PRM1"
+    },
+    {
+        "AircraftCode": "H21",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker 1000 H25C"
+            }
+        },
+        "AirlineEquipCode": "H25C"
+    },
+    {
+        "AircraftCode": "H24",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker 4000 HA4T"
+            }
+        },
+        "AirlineEquipCode": "HA4T"
+    },
+    {
+        "AircraftCode": "H25",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker 750/800/800XP/800SP H25B"
+            }
+        },
+        "AirlineEquipCode": "H25B"
+    },
+    {
+        "AircraftCode": "H28",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker 850XP/900 H25B"
+            }
+        },
+        "AirlineEquipCode": "H25B"
+    },
+    {
+        "AircraftCode": "H29",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker 900XP H25B"
+            }
+        },
+        "AirlineEquipCode": "H25B"
+    },
+    {
+        "AircraftCode": "HEC",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Helio H-250 Courier / H-295 / 395 Super Courier COUR"
+            }
+        },
+        "AirlineEquipCode": "COUR"
+    },
+    {
+        "AircraftCode": "HOV",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Surface Equipment-Hovercraft "
+            }
+        }
+    },
+    {
+        "AircraftCode": "HS7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems (Hawker Siddeley) 748 / Andover A748"
+            }
+        },
+        "AirlineEquipCode": "A748"
+    },
+    {
+        "AircraftCode": "I14",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin Il-114 I114"
+            }
+        },
+        "AirlineEquipCode": "I114"
+    },
+    {
+        "AircraftCode": "I93",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin IL-96-300"
+            }
+        },
+        "AirlineEquipCode": "IL-96-300"
+    },
+    {
+        "AircraftCode": "I9F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin Il-96 Freighter IL96"
+            }
+        },
+        "AirlineEquipCode": "IL96"
+    },
+    {
+        "AircraftCode": "I9M",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin IL-96M"
+            }
+        },
+        "AirlineEquipCode": "IL-96M"
+    },
+    {
+        "AircraftCode": "I9X",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin IL-96-300 Freighter"
+            }
+        },
+        "AirlineEquipCode": "IL-96-300 Freighter"
+    },
+    {
+        "AircraftCode": "I9Y",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin IL-96T Freighter"
+            }
+        },
+        "AirlineEquipCode": "IL-96T Freighter"
+    },
+    {
+        "AircraftCode": "IL6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin Il-62 IL62"
+            }
+        },
+        "AirlineEquipCode": "IL62"
+    },
+    {
+        "AircraftCode": "IL7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin Il-76 IL76"
+            }
+        },
+        "AirlineEquipCode": "IL76"
+    },
+    {
+        "AircraftCode": "IL8",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin Il-18 IL18"
+            }
+        },
+        "AirlineEquipCode": "IL18"
+    },
+    {
+        "AircraftCode": "IL9",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin Il-96 Passenger IL96"
+            }
+        },
+        "AirlineEquipCode": "IL96"
+    },
+    {
+        "AircraftCode": "ILW",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Ilyushin Il-86 IL86"
+            }
+        },
+        "AirlineEquipCode": "IL86"
+    },
+    {
+        "AircraftCode": "J31",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems Jetstream 31 JS31"
+            }
+        },
+        "AirlineEquipCode": "JS31"
+    },
+    {
+        "AircraftCode": "J32",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems Jetstream 32 JS32"
+            }
+        },
+        "AirlineEquipCode": "JS32"
+    },
+    {
+        "AircraftCode": "J41",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAE Systems Jetstream 41 JS41"
+            }
+        },
+        "AirlineEquipCode": "JS41"
+    },
+    {
+        "AircraftCode": "JST",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "BAe Jetstream 31 / 32 / 41"
+            }
+        },
+        "AirlineEquipCode": "Jetstream 31 / 32 / 41"
+    },
+    {
+        "AircraftCode": "JU5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Junkers Ju 52/3m JU52"
+            }
+        },
+        "AirlineEquipCode": "JU52",
+        "Comments": {
+            "Comment": [
+                {
+                    "value": "Sightseeing flight",
+                    "LanguageCode": "EN"
+                },
+                {
+                    "value": "Rundflug",
+                    "LanguageCode": "DE"
+                }
+            ]
+        }
+    },
+    {
+        "AircraftCode": "L10",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Lockheed L-1011 Tristar"
+            }
+        },
+        "AirlineEquipCode": "L-1011 Tristar"
+    },
+    {
+        "AircraftCode": "L11",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Lockheed Martin L-1011 TriStar 1 / 50 / 100 / 150 / 200 / 250 Passenger L101"
+            }
+        },
+        "AirlineEquipCode": "L101"
+    },
+    {
+        "AircraftCode": "L15",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Lockheed Martin L-1011 TriStar 500 Passenger L101"
+            }
+        },
+        "AirlineEquipCode": "L101"
+    },
+    {
+        "AircraftCode": "L1F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Lockheed Martin L-1011 TriStar Freighter L101"
+            }
+        },
+        "AirlineEquipCode": "L101"
+    },
+    {
+        "AircraftCode": "L49",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Lockheed L-1049 Super Constellation"
+            }
+        },
+        "AirlineEquipCode": "L-1049 Super Constellation"
+    },
+    {
+        "AircraftCode": "L4F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Aircraft Industries (LET) 410 Freighter L410"
+            }
+        },
+        "AirlineEquipCode": "L410"
+    },
+    {
+        "AircraftCode": "L4T",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Aircraft Industries (LET) 410 L410"
+            }
+        },
+        "AirlineEquipCode": "L410"
+    },
+    {
+        "AircraftCode": "LCH",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Surface Equipment-Launch / Boat "
+            }
+        }
+    },
+    {
+        "AircraftCode": "LJA",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Light Jet Aircraft ZZZZ"
+            }
+        },
+        "AirlineEquipCode": "ZZZZ"
+    },
+    {
+        "AircraftCode": "LMO",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Surface Equipment-Limousine "
+            }
+        }
+    },
+    {
+        "AircraftCode": "LOE",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Lockheed Martin L-188 Electra L188"
+            }
+        },
+        "AirlineEquipCode": "L188"
+    },
+    {
+        "AircraftCode": "LOF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Lockheed Martin L-188 Electra Freighter L188"
+            }
+        },
+        "AirlineEquipCode": "L188"
+    },
+    {
+        "AircraftCode": "LOH",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Lockheed Martin L-182 / L-282 / L-382 (L-100) Hercules C130"
+            }
+        },
+        "AirlineEquipCode": "C130"
+    },
+    {
+        "AircraftCode": "LOM",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Lockheed L-188 Electra Mixed"
+            }
+        },
+        "AirlineEquipCode": "L-188 Electra Mixed"
+    },
+    {
+        "AircraftCode": "LRJ",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Learjet Gates Learjet"
+            }
+        },
+        "AirlineEquipCode": "Gates Learjet"
+    },
+    {
+        "AircraftCode": "M11",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD-11 Passenger MD11"
+            }
+        },
+        "AirlineEquipCode": "MD11"
+    },
+    {
+        "AircraftCode": "M1F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD-11 Freighter MD11"
+            }
+        },
+        "AirlineEquipCode": "MD11"
+    },
+    {
+        "AircraftCode": "M1M",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD-11 Mixed Configuration MD11"
+            }
+        },
+        "AirlineEquipCode": "MD11"
+    },
+    {
+        "AircraftCode": "M2F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD82 Freighter MD82"
+            }
+        },
+        "AirlineEquipCode": "MD82"
+    },
+    {
+        "AircraftCode": "M3F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD83 Freighter MD83"
+            }
+        },
+        "AirlineEquipCode": "MD83"
+    },
+    {
+        "AircraftCode": "M80",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "MD80 MD-80 all series"
+            }
+        },
+        "AirlineEquipCode": "MD-80 all series"
+    },
+    {
+        "AircraftCode": "M81",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD-81 MD81"
+            }
+        },
+        "AirlineEquipCode": "MD81"
+    },
+    {
+        "AircraftCode": "M82",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD-82 MD82"
+            }
+        },
+        "AirlineEquipCode": "MD82"
+    },
+    {
+        "AircraftCode": "M83",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD-83 MD83"
+            }
+        },
+        "AirlineEquipCode": "MD83"
+    },
+    {
+        "AircraftCode": "M87",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD-87 MD87"
+            }
+        },
+        "AirlineEquipCode": "MD87"
+    },
+    {
+        "AircraftCode": "M88",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD-88 MD88"
+            }
+        },
+        "AirlineEquipCode": "MD88"
+    },
+    {
+        "AircraftCode": "M8F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD88 Freighter MD88"
+            }
+        },
+        "AirlineEquipCode": "MD88"
+    },
+    {
+        "AircraftCode": "M90",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing (Douglas) MD-90 MD90"
+            }
+        },
+        "AirlineEquipCode": "MD90"
+    },
+    {
+        "AircraftCode": "M93",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "MacDonnnell Douglas MD-93 "
+            }
+        }
+    },
+    {
+        "AircraftCode": "MA6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Xian Yunshuji MA-60/MA600 AN24"
+            }
+        },
+        "AirlineEquipCode": "AN24"
+    },
+    {
+        "AircraftCode": "MBH",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Eurocopter (MBB) BO105 B105"
+            }
+        },
+        "AirlineEquipCode": "B105"
+    },
+    {
+        "AircraftCode": "MD9",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "MD Helicopters Inc MD 900 Explorer EXPL"
+            }
+        },
+        "AirlineEquipCode": "EXPL"
+    },
+    {
+        "AircraftCode": "MIH",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Mil Mi-8 / Mi-17 / Mi-171 / Mi-172 MI8"
+            }
+        },
+        "AirlineEquipCode": "MI8"
+    },
+    {
+        "AircraftCode": "MU2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Mitsubishi Aircraft Corporation MU-2 MU2"
+            }
+        },
+        "AirlineEquipCode": "MU2"
+    },
+    {
+        "AircraftCode": "ND2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Nord / SNCAN N.262"
+            }
+        },
+        "AirlineEquipCode": "N.262"
+    },
+    {
+        "AircraftCode": "NDC",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Aerospatiale SN601 Corvette S601"
+            }
+        },
+        "AirlineEquipCode": "S601"
+    },
+    {
+        "AircraftCode": "NDE",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Eurocopter (Aerospatiale) AS350 Ecureuil / AS355 Ecureuil 2 AS350 Ecureuil / AS355 Ecureuil 2"
+            }
+        },
+        "AirlineEquipCode": "AS350 Ecureuil / AS355 Ecureuil 2"
+    },
+    {
+        "AircraftCode": "NDH",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Eurocopter (Aerospatiale) SA365C / SA365N  Dauphin 2 SA365C / SA365N Dauphin 2"
+            }
+        },
+        "AirlineEquipCode": "SA365C / SA365N Dauphin 2"
+    },
+    {
+        "AircraftCode": "P18",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Piaggio Aero P180 Avanti II P180"
+            }
+        },
+        "AirlineEquipCode": "P180"
+    },
+    {
+        "AircraftCode": "PA1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Piper (Light aircraft-single piston engine) Piper single piston engine"
+            }
+        },
+        "AirlineEquipCode": "Piper single piston engine"
+    },
+    {
+        "AircraftCode": "PA2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Piper (Light aircraft-twin piston engines) Piper twin piston engines"
+            }
+        },
+        "AirlineEquipCode": "Piper twin piston engines"
+    },
+    {
+        "AircraftCode": "PAG",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Piper Piper light aircraft"
+            }
+        },
+        "AirlineEquipCode": "Piper light aircraft"
+    },
+    {
+        "AircraftCode": "PAT",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Piper (Light aircraft-twin turboprop engines) Piper twin turboprop engines"
+            }
+        },
+        "AirlineEquipCode": "Piper twin turboprop engines"
+    },
+    {
+        "AircraftCode": "PL2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Pilatus PC-12 PC12"
+            }
+        },
+        "AirlineEquipCode": "PC12"
+    },
+    {
+        "AircraftCode": "PL6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Pilatus PC-6 Turbo Porter PC6T"
+            }
+        },
+        "AirlineEquipCode": "PC6T"
+    },
+    {
+        "AircraftCode": "PN6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Vulcanair (Partenavia) P.68 P68"
+            }
+        },
+        "AirlineEquipCode": "P68"
+    },
+    {
+        "AircraftCode": "PR1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Hawker 390 Premier 1/1A PRM1"
+            }
+        },
+        "AirlineEquipCode": "PRM1"
+    },
+    {
+        "AircraftCode": "RFS",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Surface Equipment-Road Feeder Service (Truck) "
+            }
+        }
+    },
+    {
+        "AircraftCode": "S20",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Saab 2000 SB20"
+            }
+        },
+        "AirlineEquipCode": "SB20"
+    },
+    {
+        "AircraftCode": "S58",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Sikorsky S-58T S58T"
+            }
+        },
+        "AirlineEquipCode": "S58T"
+    },
+    {
+        "AircraftCode": "S61",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Sikorsky S-61 S61"
+            }
+        },
+        "AirlineEquipCode": "S61"
+    },
+    {
+        "AircraftCode": "S76",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Sikorsky S-76 S76"
+            }
+        },
+        "AirlineEquipCode": "S76"
+    },
+    {
+        "AircraftCode": "SF3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Saab 340 SF34"
+            }
+        },
+        "AirlineEquipCode": "SF34"
+    },
+    {
+        "AircraftCode": "SFB",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Saab 340B SF34"
+            }
+        },
+        "AirlineEquipCode": "SF34"
+    },
+    {
+        "AircraftCode": "SFF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Saab 340 Freighter SF34"
+            }
+        },
+        "AirlineEquipCode": "SF34"
+    },
+    {
+        "AircraftCode": "SH3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Shorts 330 (SD3-30) SH33"
+            }
+        },
+        "AirlineEquipCode": "SH33"
+    },
+    {
+        "AircraftCode": "SH6",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Shorts 360 (SD3-60) SH36"
+            }
+        },
+        "AirlineEquipCode": "SH36"
+    },
+    {
+        "AircraftCode": "SHB",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Shorts SC-5 Belfast"
+            }
+        },
+        "AirlineEquipCode": "SC-5 Belfast"
+    },
+    {
+        "AircraftCode": "SHS",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Shorts Skyvan (SC-7) SC7"
+            }
+        },
+        "AirlineEquipCode": "SC7"
+    },
+    {
+        "AircraftCode": "SSC",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Aerospatiale / SNIAS Concorde"
+            }
+        },
+        "AirlineEquipCode": "Concorde"
+    },
+    {
+        "AircraftCode": "SU7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Sukhoi Superjet 100-75 ZZZZ"
+            }
+        },
+        "AirlineEquipCode": "ZZZZ"
+    },
+    {
+        "AircraftCode": "SU9",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Sukhoi Superjet 100-95 SU95"
+            }
+        },
+        "AirlineEquipCode": "SU95"
+    },
+    {
+        "AircraftCode": "SWF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fairchild (Swearingen) SA226 Freighter "
+            }
+        }
+    },
+    {
+        "AircraftCode": "SWM",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Fairchild (Swearingen) SA26 / SA226 / SA227 Merlin / Metro / Expediter SA26 / SA226 / SA227 Metro / Merlin"
+            }
+        },
+        "AirlineEquipCode": "SA26 / SA226 / SA227 Metro / Merlin"
+    },
+    {
+        "AircraftCode": "SY8",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Shaanxi Y-8 AN12"
+            }
+        },
+        "AirlineEquipCode": "AN12"
+    },
+    {
+        "AircraftCode": "T20",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Tupolev Tu-204 / Tu-214 T204"
+            }
+        },
+        "AirlineEquipCode": "T204"
+    },
+    {
+        "AircraftCode": "T2F",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Tupolev Tu-204 Freighter T204"
+            }
+        },
+        "AirlineEquipCode": "T204"
+    },
+    {
+        "AircraftCode": "T34",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Tupolev Tu-334 T334"
+            }
+        },
+        "AirlineEquipCode": "T334"
+    },
+    {
+        "AircraftCode": "TBM",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "SOCATA TBM-700 TBM7"
+            }
+        },
+        "AirlineEquipCode": "TBM7"
+    },
+    {
+        "AircraftCode": "TRN",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Surface Equipment-Train Standard Service "
+            }
+        }
+    },
+    {
+        "AircraftCode": "TRS",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Surface Equipment-Train High Speed Train "
+            }
+        }
+    },
+    {
+        "AircraftCode": "TU3",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Tupolev Tu-134 T134"
+            }
+        },
+        "AirlineEquipCode": "T134"
+    },
+    {
+        "AircraftCode": "TU5",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Tupolev Tu-154 T154"
+            }
+        },
+        "AirlineEquipCode": "T154"
+    },
+    {
+        "AircraftCode": "VCV",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Vickers Viscount"
+            }
+        },
+        "AirlineEquipCode": "Viscount"
+    },
+    {
+        "AircraftCode": "VGF",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "British Aerospace Merchantman "
+            }
+        }
+    },
+    {
+        "AircraftCode": "WWP",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Israel Aerospace Industries 1124 Westwind WW24"
+            }
+        },
+        "AirlineEquipCode": "WW24"
+    },
+    {
+        "AircraftCode": "YK2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Yakovlev Yak-42 / Yak-142 YK42"
+            }
+        },
+        "AirlineEquipCode": "YK42"
+    },
+    {
+        "AircraftCode": "YK4",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Yakovlev Yak-40 YK40"
+            }
+        },
+        "AirlineEquipCode": "YK40"
+    },
+    {
+        "AircraftCode": "YN2",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Harbin Yunshuji Y12 Y12"
+            }
+        },
+        "AirlineEquipCode": "Y12"
+    },
+    {
+        "AircraftCode": "YN7",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Xian Yunshuji Y7 AN24"
+            }
+        },
+        "AirlineEquipCode": "AN24"
+    },
+    {
+        "AircraftCode": "YS1",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "NAMC YS-11 YS11"
+            }
+        },
+        "AirlineEquipCode": "YS11"
+    }
+]
