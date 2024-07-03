@@ -213,6 +213,7 @@ def update_real_flights_map(selected_status):
         showlegend=False
     )
     return fig
+
 @app.callback(
     [Output('flight-status-pie-chart', 'figure'),
      Output('top-flights-on-time', 'figure'),
@@ -231,7 +232,7 @@ def update_statistics_visualizations(tab):
         )
 
         # Top des vols à l'heure par pair ville de départ et ville d'arrivée
-        on_time_flights = real_flights_data[real_flights_data['DepartureTimeStatus'] == 'On Time']
+        on_time_flights = real_flights_data[real_flights_data['DepartureTimeStatus'] == 'Flight On Time']
         top_on_time_routes = on_time_flights.groupby(['DepartureAirportCode', 'ArrivalAirportCode']).size().reset_index(name='count').sort_values(by='count', ascending=False).head(10)
         top_on_time_routes['route'] = top_on_time_routes.apply(lambda row: f"{row['DepartureAirportCode']} -> {row['ArrivalAirportCode']}", axis=1)
         top_on_time_chart = px.bar(
@@ -243,7 +244,7 @@ def update_statistics_visualizations(tab):
         )
 
         # Top des vols en retard par pair ville de départ et ville d'arrivée
-        delayed_flights = real_flights_data[real_flights_data['DepartureTimeStatus'] == 'Delayed']
+        delayed_flights = real_flights_data[real_flights_data['DepartureTimeStatus'] == 'Flight Delayed']
         top_delayed_routes = delayed_flights.groupby(['DepartureAirportCode', 'ArrivalAirportCode']).size().reset_index(name='count').sort_values(by='count', ascending=False).head(10)
         top_delayed_routes['route'] = top_delayed_routes.apply(lambda row: f"{row['DepartureAirportCode']} -> {row['ArrivalAirportCode']}", axis=1)
         top_delayed_chart = px.bar(
@@ -268,6 +269,8 @@ def update_statistics_visualizations(tab):
 
         return pie_chart, top_on_time_chart, top_delayed_chart, top_airports_chart
     return {}, {}, {}, {}
+
+
 
 
 # Lancer l'application
