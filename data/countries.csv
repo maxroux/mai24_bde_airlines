@@ -1,0 +1,242 @@
+CountryCode,ZoneCode,CountryName
+AD,EUR,Andorra
+AE,MEA,United Arab Emirates
+AF,ASI,Afghanistan
+AG,NAM,Antigua & Barbuda
+AI,NAM,Anguilla
+AL,EUR,Albania
+AM,ASI,Armenia
+AN,NAM,Netherlands Antilles
+AO,AFR,Angola
+AQ,ANT,Antarctica
+AR,SAM,Argentina
+AS,OCE,American Samoa
+AT,EUR,Austria
+AU,AUS,Australia
+AW,NAM,Aruba
+AZ,ASI,Azerbaijan
+BA,EUR,Bosnia/Hercegovina
+BB,NAM,Barbados
+BD,ASI,Bangladesh
+BE,EUR,Belgium
+BF,AFR,Burkina Faso
+BG,EUR,Bulgaria
+BH,MEA,Bahrain
+BI,AFR,Burundi
+BJ,AFR,Benin
+BM,NAM,Bermuda
+BN,ASI,Brunei Darussalam
+BO,EUR,Bolivia
+BQ,NAM,"Bonaire, Saint Eustatius and Saba"
+BR,ASI,Brazil
+BS,NAM,Bahamas
+BT,ASI,Bhutan
+BW,AFR,Botswana
+BY,EUR,Belarus
+BZ,SAM,Belize
+CA,NAM,Canada
+CC,OCE,Cocos Islands
+CD,AFR,Democratic Republic of Congo
+CF,AFR,Central African Republic
+CG,AFR,Congo
+CH,EUR,Switzerland
+CI,AFR,Cote d'Ivoire
+CK,OCE,Cook Islands
+CL,SAM,Chile
+CM,AFR,Cameroon
+CN,ASI,China
+CO,ASI,Colombia
+CR,NAM,Costa Rica
+CS,EUR,Serbia & Montenegro
+CU,NAM,Cuba
+CV,AFR,Cape Verde
+CW,NAM,CuraÃ§ao
+CX,ASI,Christmas Island
+CY,EUR,Cyprus
+CZ,EUR,Czech Republic
+DE,EUR,Germany
+DJ,AFR,Djibouti
+DK,EUR,Denmark
+DM,NAM,Dominica
+DO,NAM,Dominican Republic
+DZ,OCE,Algeria
+EC,ASI,Ecuador
+EE,EUR,Estonia
+EG,AFR,Egypt
+ER,AFR,Eritrea
+ES,EUR,Spain
+ET,AFR,Ethiopia
+FI,EUR,Finland
+FJ,OCE,Fiji
+FK,ASI,Falkland Islands
+FM,OCE,Micronesia
+FO,EUR,Faroe Islands
+FR,EUR,France
+GA,AFR,Gabon
+GB,EUR,United Kingdom
+GD,NAM,Grenada
+GE,EUR,Georgia
+GF,SAM,French Guiana
+GH,AFR,Ghana
+GI,EUR,Gibraltar
+GL,NAM,Greenland
+GM,AFR,Gambia
+GN,AFR,Guinea
+GP,SAM,Guadeloupe
+GQ,AFR,Equatorial Guinea
+GR,EUR,Greece
+GT,NAM,Guatemala
+GU,OCE,Guam
+GW,AFR,Guinea-Bissau
+GY,SAM,Guyana
+HK,ASI,Hong Kong
+HN,NAM,Honduras
+HR,EUR,Croatia
+HT,NAM,Haiti
+HU,EUR,Hungary
+ID,ASI,Indonesia
+IE,EUR,Ireland
+IL,MEA,Israel
+IN,ASI,India
+IQ,ASI,Iraq
+IR,ASI,Iran
+IS,EUR,Iceland
+IT,EUR,Italy
+JM,NAM,Jamaica
+JO,MEA,Jordan
+JP,ASI,Japan
+JT,???,Johnston Is
+KE,AFR,Kenya
+KG,ASI,Kyrgyzstan
+KH,ASI,Cambodia
+KI,ASI,Kiribati
+KM,AFR,Comoros
+KN,NAM,St Kitts & Nevis
+KP,ASI,"Korea, Democratic Peoples Republic"
+KR,ASI,"Korea, Republic of"
+KW,MEA,Kuwait
+KY,NAM,Cayman Is
+KZ,ASI,Kazakhstan
+LA,ASI,Lao People's Democratic Republic
+LB,MEA,Lebanon
+LC,NAM,St Lucia
+LI,EUR,Liechtenstein
+LK,EUR,Sri Lanka
+LR,AFR,Liberia
+LS,AFR,Lesotho
+LT,EUR,Lithuania
+LU,EUR,Luxembourg
+LV,EUR,Latvia
+LY,AFR,Libya
+MA,AFR,Morocco
+MC,EUR,Monaco
+MD,EUR,Moldova
+ME,EUR,Montenegro
+MG,ASI,Madagascar
+MH,OCE,Marshall Islands
+MK,EUR,Macedonia (F.Y.R.O.M.)
+ML,AFR,Mali
+MM,ASI,Myanmar
+MN,???,Mongolia
+MO,ASI,Macau
+MP,OCE,"Mariana Islands, Northern"
+MQ,SAM,Martinique
+MR,AFR,Mauritania
+MS,NAM,Montserrat
+MT,EUR,Malta
+MU,AFR,Mauritius
+MV,ASI,Maldives
+MW,AFR,Malawi
+MX,NAM,Mexico
+MY,ASI,Malaysia
+MZ,AFR,Mozambique
+NA,AFR,Namibia
+NC,OCE,New Caledonia
+NE,AFR,Niger
+NF,OCE,Norfolk Island
+NG,AFR,Nigeria
+NI,NAM,Nicaragua
+NL,EUR,Netherlands
+NO,EUR,Norway
+NP,ASI,Nepal
+NR,OCE,Nauru Island
+NU,OCE,Niue
+NZ,OCE,New Zealand
+OM,MEA,Oman
+PA,NAM,Panama
+PE,SAM,Peru
+PF,OCE,French Polynesia
+PG,OCE,Papua New Guinea
+PH,ASI,Philippines
+PK,ASI,Pakistan
+PL,EUR,Poland
+PM,NAM,St Pierre & Miquelon
+PR,NAM,Puerto Rico
+PS,ASI,Palestine
+PT,EUR,Portugal
+PW,OCE,Palau Islands
+PY,SAM,Paraguay
+QA,MEA,Qatar
+RE,AFR,Reunion Island
+RK,RKS,Kosovo
+RO,EUR,Romania
+RS,EUR,Serbia
+RU,EUR,Russian Federation
+RW,AFR,Rwanda
+SA,MEA,Saudi Arabia
+SB,OCE,Solomon Islands
+SC,AFR,Seychelles
+SD,AFR,Sudan
+SE,EUR,Sweden
+SG,ASI,Singapore
+SH,AFR,St Helena
+SI,EUR,Slovenia
+SK,EUR,Slovakia
+SL,AFR,Sierra Leone
+SM,EUR,San Marino
+SN,AFR,Senegal
+SO,AFR,Somalia
+SR,SAM,Suriname
+SS,AFR,South Sudan
+ST,AFR,Sao Tome & Principe
+SV,NAM,El Salvador
+SX,NAM,Saint Maarten
+SY,MEA,Syrian Arab Republic
+SZ,AFR,Swaziland
+TC,NAM,Turks And Caicos Islands
+TD,AFR,Chad
+TF,,French Southern and Antarctic Lands
+TG,AFR,Togo
+TH,ASI,Thailand
+TJ,ASI,Tajikistan
+TM,ASI,Turkmenistan
+TN,AFR,Tunisia
+TO,OCE,Tonga
+TP,ASI,East Timor
+TR,EUR,Turkey
+TT,NAM,Trinidad & Tobago
+TV,OCE,Tuvalu
+TW,ASI,"Taiwan, Republic of China"
+TZ,AFR,Tanzania
+UA,EUR,Ukraine
+UG,AFR,Uganda
+UM,OCE,US Minor Outlying Islands
+US,NAM,USA
+UY,SAM,Uruguay
+UZ,ASI,Uzbekistan
+VA,EUR,Vatican City State
+VC,NAM,St Vincent
+VE,SAM,Venezuela
+VG,NAM,Virgin Islands (GB)
+VI,NAM,Virgin Islands (US)
+VN,ASI,Vietnam
+VU,OCE,Vanuatu
+WF,OCE,Wallis And Futuna Islands
+WS,OCE,Samoa
+XX,,Other countries
+YE,MEA,Yemen
+YT,AFR,Mayotte
+ZA,AFR,South Africa
+ZM,AFR,Zambia
+ZR,AFR,Zaire
+ZW,AFR,Zimbabwe
