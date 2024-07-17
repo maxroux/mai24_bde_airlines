@@ -4,6 +4,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 import plotly.graph_objs as go
 import pandas as pd
+import random
 
 # On charge les données des aéroports
 file_path = '../data/airports.csv'
@@ -32,17 +33,20 @@ country_options = [{'label': country, 'value': country} for country in sorted(ai
 # On obtient des options de statut de vol pour le dropdown
 flight_status_options = [{'label': status, 'value': status} for status in real_flights_data['DepartureTimeStatus'].unique()]
 
+# Get unique city options for dropdown
+departure_city_options = [{'label': city, 'value': city} for city in sorted(real_flights_data['DepartureAirportCode'].unique())]
+
 # On définit le layout de l'application dash
 app.layout = html.Div([
-    html.H1("visualisation des données d'aéroports et de villes"),
+    html.H1("Visualisation des données d'aéroports et de villes"),
     
     # On définit les onglets pour différentes visualisations
     dcc.Tabs(id='tabs', value='tab-1', children=[
-        dcc.Tab(label='aperçu des aéroports', value='tab-1'),
-        dcc.Tab(label='visualisation sur la carte', value='tab-2'),
-        dcc.Tab(label='vols', value='tab-3'),# Nouvel onglet pour les vols
-        dcc.Tab(label='statistiques', value='tab-4')  # Nouvel onglet pour les statistiques
-
+        dcc.Tab(label='Aperçu des aéroports', value='tab-1'),
+        dcc.Tab(label='Visualisation sur la carte', value='tab-2'),
+        dcc.Tab(label='Vols', value='tab-3'),
+        dcc.Tab(label='Statistiques', value='tab-4'),
+        dcc.Tab(label='Estimateur de retard', value='tab-5')  # Nouvel onglet pour le Flight Delay Estimator
     ]),
     
     html.Div(id='tabs-content')
@@ -100,8 +104,22 @@ def render_content(tab):
             dcc.Graph(id='top-flights-on-time'),
             dcc.Graph(id='top-flights-delayed'),
             dcc.Graph(id='top-airports')
-    ])
-
+        ])
+    elif tab == 'tab-5':
+        return html.Div([
+            dcc.Dropdown(
+                id='departure-city-dropdown',
+                options=departure_city_options,
+                placeholder="Ville de départ",
+                clearable=False
+            ),
+            dcc.Dropdown(
+                id='arrival-city-dropdown',
+                placeholder="Ville d'arrivée",
+                clearable=False
+            ),
+            html.Div(id='delay-output', style={'marginTop': '20px'})
+        ])
 
 # On définit le callback pour mettre à jour les graphes dans l'onglet aperçu des aéroports
 @app.callback(
@@ -270,8 +288,34 @@ def update_statistics_visualizations(tab):
         return pie_chart, top_on_time_chart, top_delayed_chart, top_airports_chart
     return {}, {}, {}, {}
 
+# Update arrival city options based on departure city selection
+@app.callback(
+    [Output('arrival-city-dropdown', 'options'),
+     Output('arrival-city-dropdown', 'value')],
+    [Input('departure-city-dropdown', 'value')]
+)
+def update_arrival_city_options(selected_departure):
+    filtered_data = real_flights_data[real_flights_data['DepartureAirportCode'] == selected_departure]
+    arrival_city_options = [{'label': city, 'value': city} for city in sorted(filtered_data['ArrivalAirportCode'].unique())]
+    return arrival_city_options, arrival_city_options[0]['value'] if arrival_city_options else None
 
-
+# Estimate flight delay based on selected departure and arrival cities
+@app.callback(
+    [Output('delay-output', 'children'),
+     Output('delay-output', 'style')],
+    [Input('departure-city-dropdown', 'value'),
+     Input('arrival-city-dropdown', 'value')]
+)
+def estimate_flight_delay(departure_city, arrival_city):
+    if not departure_city or not arrival_city:
+        return "Selectionnez ville de départ et d'arrivée", {'color': 'black'}
+    
+    # Generate random delay information for demonstration
+    delay = random.choice([0, random.randint(1, 120)])  # 0 means no delay, otherwise random delay in minutes
+    if delay == 0:
+        return ["Pas de retard", html.I(className="fas fa-check-circle")], {'color': 'green'}
+    else:
+        return f"Délai estimé: {delay} minutes", {'color': 'red'}
 
 # Lancer l'application
 if __name__ == '__main__':

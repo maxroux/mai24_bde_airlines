@@ -1,0 +1,28 @@
+Colonnes des données des vols: Index(['AirportCode', 'DepartureAirportCode', 'ScheduledDepartureLocal',
+       'ScheduledDepartureUTC', 'ActualDepartureLocal', 'ActualDepartureUTC',
+       'DepartureTimeStatus', 'ArrivalAirportCode', 'ScheduledArrivalLocal',
+       'ScheduledArrivalUTC', 'ActualArrivalLocal', 'ActualArrivalUTC',
+       'ArrivalTimeStatus', 'MarketingAirlineID', 'MarketingFlightNumber',
+       'OperatingAirlineID', 'OperatingFlightNumber', 'AircraftCode',
+       'AircraftRegistration', 'FlightStatus', 'ServiceType',
+       'DepartureLatitude', 'DepartureLongitude', 'ArrivalLatitude',
+       'ArrivalLongitude'],
+      dtype='object')
+Dash is running on http://127.0.0.1:8050/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Colonnes des données des vols: Index(['AirportCode', 'DepartureAirportCode', 'ScheduledDepartureLocal',
+       'ScheduledDepartureUTC', 'ActualDepartureLocal', 'ActualDepartureUTC',
+       'DepartureTimeStatus', 'ArrivalAirportCode', 'ScheduledArrivalLocal',
+       'ScheduledArrivalUTC', 'ActualArrivalLocal', 'ActualArrivalUTC',
+       'ArrivalTimeStatus', 'MarketingAirlineID', 'MarketingFlightNumber',
+       'OperatingAirlineID', 'OperatingFlightNumber', 'AircraftCode',
+       'AircraftRegistration', 'FlightStatus', 'ServiceType',
+       'DepartureLatitude', 'DepartureLongitude', 'ArrivalLatitude',
+       'ArrivalLongitude'],
+      dtype='object')
+  File "/home/medo/1datascientest/mai24_bde_airlines/dashboard/app.py", line 15
+    dcc.Tab(label='Flight Delay Estimator', value='tab-5')])
+                                                          ^
+SyntaxError: unmatched ']'
