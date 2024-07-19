@@ -5,6 +5,9 @@ import random
 from data_loader import load_airports_data, load_flight_data, load_country_options, load_flight_status_options, load_departure_city_options
 from dash import html, dcc
 import pandas as pd
+import plotly.figure_factory as ff
+from sklearn.metrics import confusion_matrix
+import numpy as np
 
 airports_data = load_airports_data()
 real_flights_data = load_flight_data()
@@ -30,10 +33,10 @@ def register_callbacks(app):
             return html.Div([
                 dcc.Slider(
                     id='num-airports-slider',
-                    min=10,
+                    min=100,
                     max=5000,
-                    step=10,
-                    value=100,
+                    step=100,
+                    value=1000,
                     marks={i: str(i) for i in range(0, 5001, 500)}
                 ),
                 dcc.Graph(id='full-map-graph', style={'height': '100vh'})
@@ -43,7 +46,7 @@ def register_callbacks(app):
                 dcc.Dropdown(
                     id='flight-status-dropdown',
                     options=flight_status_options,
-                    value='On Time',
+                    value='Flight Delayed',
                     clearable=False
                 ),
                 dcc.Loading(
@@ -65,14 +68,19 @@ def register_callbacks(app):
                     id='departure-city-dropdown',
                     options=departure_city_options,
                     placeholder="Ville de départ",
-                    clearable=False
+                    clearable=False,
+                    value="ADA",
+                    style={'marginBottom': '20px'}
                 ),
                 dcc.Dropdown(
                     id='arrival-city-dropdown',
                     placeholder="Ville d'arrivée",
-                    clearable=False
+                    clearable=False,
+                    style={'marginBottom': '20px'}
                 ),
-                html.Div(id='delay-output', style={'marginTop': '20px'})
+                html.Div(id='delay-output', style={'marginTop': '20px', 'fontSize': '20px', 'fontWeight': 'bold'}),
+                dcc.Graph(id='confusion-matrix', style={'marginTop': '20px'}),
+                dcc.Graph(id='delay-comparison', style={'marginTop': '20px'})
             ])
 
     @app.callback(
@@ -85,7 +93,6 @@ def register_callbacks(app):
                                  lon='Longitude',
                                  lat='Latitude',
                                  hover_name='Name',
-                                 title=f'aéroports en {selected_country}',
                                  projection="natural earth")
         map_fig.update_geos(fitbounds="locations")
         return map_fig
@@ -100,7 +107,6 @@ def register_callbacks(app):
                                       lon='Longitude',
                                       lat='Latitude',
                                       hover_name='Name',
-                                      title=f'top {num_airports} aéroports',
                                       projection="natural earth")
         return full_map_fig
 
@@ -186,7 +192,7 @@ def register_callbacks(app):
                 title='Part des vols en retard, annulé, à l\'heure'
             )
 
-            on_time_flights = real_flights_data[real_flights_data['DepartureTimeStatus'] == 'On Time']
+            on_time_flights = real_flights_data[real_flights_data['DepartureTimeStatus'] == 'Flight On Time']
             top_on_time_routes = on_time_flights.groupby(['DepartureAirportCode', 'ArrivalAirportCode']).size().reset_index(name='count').sort_values(by='count', ascending=False).head(10)
             top_on_time_routes['route'] = top_on_time_routes.apply(lambda row: f"{row['DepartureAirportCode']} -> {row['ArrivalAirportCode']}", axis=1)
             top_on_time_chart = px.bar(
@@ -197,7 +203,7 @@ def register_callbacks(app):
                 title='Top 10 vols à l\'heure (par pair ville de départ, ville d\'arrivée)'
             )
 
-            delayed_flights = real_flights_data[real_flights_data['DepartureTimeStatus'] == 'Delayed']
+            delayed_flights = real_flights_data[real_flights_data['DepartureTimeStatus'] == 'Flight Delayed']
             top_delayed_routes = delayed_flights.groupby(['DepartureAirportCode', 'ArrivalAirportCode']).size().reset_index(name='count').sort_values(by='count', ascending=False).head(10)
             top_delayed_routes['route'] = top_delayed_routes.apply(lambda row: f"{row['DepartureAirportCode']} -> {row['ArrivalAirportCode']}", axis=1)
             top_delayed_chart = px.bar(
@@ -234,15 +240,36 @@ def register_callbacks(app):
 
     @app.callback(
         [Output('delay-output', 'children'),
-         Output('delay-output', 'style')],
+        Output('delay-output', 'style'),
+        Output('confusion-matrix', 'figure'),
+        Output('delay-comparison', 'figure')],
         [Input('departure-city-dropdown', 'value'),
-         Input('arrival-city-dropdown', 'value')]
+        Input('arrival-city-dropdown', 'value')]
     )
     def estimate_flight_delay(departure_city, arrival_city):
         if not departure_city or not arrival_city:
-            return "Selectionnez ville de départ et d'arrivée", {'color': 'black'}
-        delay = random.choice([0, random.randint(1, 120)])  # 0 means no delay, otherwise random delay in minutes
+            return "Sélectionnez une ville de départ et d'arrivée", {'color': 'black'}, {}, {}
+
+        delay = random.choice([0, random.randint(1, 120)])  # Random delay for demonstration
+
+        # Generate random data for confusion matrix and comparison chart
+        y_true = np.random.choice([0, 1], size=100)  # Actual delays: 0 (no delay), 1 (delay)
+        y_pred = np.random.choice([0, 1], size=100)  # Predicted delays
+        cm = confusion_matrix(y_true, y_pred)
+
+        z = cm[::-1]  # flip matrix for visualization
+        x = ['No Delay', 'Delay']
+        y = ['Delay', 'No Delay']
+
+        fig_cm = ff.create_annotated_heatmap(z, x=x, y=y, colorscale='Viridis')
+        fig_cm.update_layout(title='Matrice de confusion', margin=dict(t=50, l=50))
+
+        fig_delay_comparison = go.Figure()
+        fig_delay_comparison.add_trace(go.Bar(x=['Retard prédit', 'Retard réel'], y=[np.mean(y_pred), np.mean(y_true)]))
+        fig_delay_comparison.update_layout(title='Retard prédit vs Retard réel', margin=dict(t=50, l=50))
+
         if delay == 0:
-            return ["Pas de retard", html.I(className="fas fa-check-circle")], {'color': 'green'}
+            return "Pas de retard", {'color': 'green'}, fig_cm, fig_delay_comparison
         else:
-            return f"Délai estimé: {delay} minutes", {'color': 'red'}
+            return f"Délai estimé: {delay} minutes", {'color': 'red'}, fig_cm, fig_delay_comparison
+

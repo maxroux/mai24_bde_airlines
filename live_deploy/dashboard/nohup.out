@@ -26,3 +26,13 @@ Colonnes des données des vols: Index(['AirportCode', 'DepartureAirportCode', 'S
     dcc.Tab(label='Flight Delay Estimator', value='tab-5')])
                                                           ^
 SyntaxError: unmatched ']'
+Dash is running on http://127.0.0.1:8050/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/home/medo/1datascientest/mai24_bde_airlines/live_deploy/dashboard/app.py", line 4, in <module>
+    from callbacks import register_callbacks
+  File "/home/medo/1datascientest/mai24_bde_airlines/live_deploy/dashboard/callbacks.py", line 9, in <module>
+    from sklearn.metrics import confusion_matrix
+ModuleNotFoundError: No module named 'sklearn'

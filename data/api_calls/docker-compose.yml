@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  mongo-express:
+    image: mongo-express:latest
+    container_name: mongo-express
+    depends_on:
+      - mongodb
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+      - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
+      - ME_CONFIG_BASICAUTH_USERNAME=user
+      - ME_CONFIG_BASICAUTH_PASSWORD=pass
+    ports:
+      - "8084:8081"
+    restart: always
+
+  # api:
+  #   build: .
+  #   container_name: api
+  #   depends_on:
+  #     - mongodb
+  #   volumes:
+  #     - .:/app
+  #   command: python api_payload.py
+
+  # departures:
+  #   build: .
+  #   container_name: departures
+  #   depends_on:
+  #     - mongodb
+  #     - api
+  #   volumes:
+  #     - .:/app
+  #   command: python departures.py
+
+volumes:
+  mongo-data:
