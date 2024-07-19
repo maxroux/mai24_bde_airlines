@@ -1,1469 +1,1469 @@
-,CityCode,Name,CountryCode,AirportCode,LocationType,Longitude,Latitude
-0,AAL,Aalborg,DK,AAL,Airport,9.8492,57.0928
-1,AAR,Aarhus,DK,AAR,Airport,10.6194,56.3039
-2,ABE,Allentown/Bethl,US,ABE,Airport,-75.4408,40.6522
-3,ABJ,Abidjan,CI,ABJ,Airport,-3.9264,5.2614
-4,ABK,Kabri Dehar,ET,ABK,Airport,44.2553,6.7339
-5,ABQ,"Albuquerque International, NM",US,ABQ,Airport,-106.6094,35.0406
-6,ABV,Abuja International,NG,ABV,Airport,7.2631,9.0067
-7,ABZ,Aberdeen,GB,ABZ,Airport,-2.2003,57.2042
-8,ACA,Acapulco - Alvarez International,MX,ACA,Airport,-99.7539,16.7569
-9,ACC,Accra - Kotoka International,GH,ACC,Airport,-0.166666667,5.605277778
-10,ACE,Lanzarote,ES,ACE,Airport,-13.6053,28.9456
-11,ACK,Nantucket,US,ACK,Airport,-70.0603,41.2531
-12,ACT,Waco Municipal,US,ACT,Airport,-97.2306,31.6114
-13,ACV,Arcata/Eureka,US,ACV,Airport,-124.1086,40.9781
-14,AIY,Atlantic City - International,US,ACY,Airport,-74.5772,39.4575
-15,ADA,Adana,TR,ADA,Airport,35.2803,36.9822
-16,IZM,Izmir - Adnan Menderes,TR,ADB,Airport,27.1569,38.2925
-17,ADD,Addis Ababa,ET,ADD,Airport,38.7994,8.9778
-18,ADK,Adak Island,US,ADK,Airport,-176.6483,51.8811
-19,ADL,Adelaide,AU,ADL,Airport,138.5306,-34.945
-20,ADQ,Kodiak - Kodiak Airport,US,ADQ,Airport,-152.4939,57.75
-21,ADZ,San Andres Island,CO,ADZ,Airport,-81.7111,12.5836
-22,BUE,Buenos Aires - Jorge Newbery,AR,AEP,Airport,-58.4164,-34.5589
-23,AER,Sochi,RU,AER,Airport,39.9567,43.45
-24,AES,Alesund,NO,AES,Airport,6.1103,62.5603
-25,AEX,Alexandria Louisiana,US,AEX,Airport,-92.5497,31.3275
-26,AGA,Agadir,MA,AGA,Airport,-9.4131,30.325
-27,AGH,Helsingborg - Angelholm,SE,AGH,Airport,12.8472,56.2961
-28,AGP,Malaga,ES,AGP,Airport,-4.4992,36.675
-29,AUG,"Augusta, Georgia",US,AGS,Airport,-81.9644,33.37
-30,AGT,Ciudad del Este - Alejo Garcia,PY,AGT,Airport,-54.8436,-25.4556
-31,AGU,Aguascalientes,MX,AGU,Airport,-102.3178,21.7056
-32,AHB,Abha,SA,AHB,Airport,42.6567,18.2403
-33,AHO,Alghero,IT,AHO,Airport,8.2897,40.6303
-34,AIA,Alliance,US,AIA,Airport,-102.8078,42.0519
-35,AJA,Ajaccio,FR,AJA,Airport,8.8025,41.9239
-36,AJI,AGRI,TR,AJI,Airport,43.0264,39.6539
-37,AJL,Aizawl,IN,AJL,Airport,92.6203,23.8389
-38,AJR,ARVIDSJAUR,SE,AJR,Airport,19.2819,65.5903
-39,AJU,Aracaju,BR,AJU,Airport,-37.0703,-10.9839
-40,AKJ,Asahikawa,JP,AKJ,Airport,142.4475,43.6708
-41,AKL,Auckland - International,NZ,AKL,Airport,174.7917,-37.0097
-42,ALA,Almaty,KZ,ALA,Airport,77.0422,43.3533
-43,ALB,"Albany, NY",US,ALB,Airport,-73.8017,42.7483
-44,ALC,Alicante,ES,ALC,Airport,-0.5581,38.2822
-45,ALF,Alta,NO,ALF,Airport,23.3717,69.9761
-46,ALG,Algiers,DZ,ALG,Airport,3.2147,36.6942
-47,ALS,Alamosa,US,ALS,Airport,-105.8664,37.4375
-48,ALW,Walla Walla,US,ALW,Airport,-118.2878,46.095
-49,AMA,Amarillo - International,US,AMA,Airport,-101.7058,35.2194
-50,AMD,Ahmedabad,IN,AMD,Airport,72.6347,23.0772
-51,AMH,Arba Minch,ET,AMH,Airport,37.5906,6.0394
-52,AMI,Mataram,ID,AMI,Airport,116.0947,-8.5608
-53,AMM,Amman - Queen Alia International,JO,AMM,Airport,35.9933,31.7225
-54,AMS,Amsterdam - Schiphol,NL,AMS,Airport,4.7642,52.3081
-55,ANC,Anchorage - International,US,ANC,Airport,-149.9964,61.1744
-56,ANF,Antofagasta,CL,ANF,Airport,-70.445,-23.4444
-57,ANU,Antigua - V.C. Bird International,AG,ANU,Airport,-61.7928,17.1367
-58,AOI,Ancona,IT,AOI,Airport,13.3603,43.6167
-59,AOJ,AOMORICA,JP,AOJ,Airport,140.6908,40.7347
-60,AOK,Karpathos,GR,AOK,Airport,27.1461,35.4214
-61,AOR,Alor Setar,MY,AOR,Airport,100.4008,6.1944
-62,APL,Nampula,MZ,APL,Airport,39.2817,-15.1056
-63,APW,APIA FALEOLO APT,WS,APW,Airport,-171.9972,-13.8297
-64,AQJ,AQABA KING HUSSEIN INTERNATIONAL,JO,AQJ,Airport,35.0181,29.6117
-65,AQP,AREQUIPA RODRIGUEZ BALLON INTL,PE,AQP,Airport,-71.5725,-16.3408
-66,ARH,Arkhangelsk,RU,ARH,Airport,40.7167,64.6003
-67,ARI,Arica,CL,ARI,Airport,-70.3386,-18.3486
-68,STO,Stockholm,SE,ARN,Airport,17.9186,59.6519
-69,ASB,Ashgabad - S. Turkmenbashy Int'l,TM,ASB,Airport,58.3608,37.9869
-70,ASE,"Aspen, CO",US,ASE,Airport,-106.8672,39.2192
-71,ASF,Astrakhan,RU,ASF,Airport,48.0064,46.2833
-72,ASM,Asmara,ER,ASM,Airport,38.9106,15.2919
-73,ASO,Asosa,ET,ASO,Airport,34.5864,10.0186
-74,ASR,Kayseri,TR,ASR,Airport,35.4956,38.7703
-75,ASU,Asuncion,PY,ASU,Airport,-57.5192,-25.2397
-76,ASW,Aswan,EG,ASW,Airport,32.82,23.9644
-77,ATH,Athens Eleftherios Venizelos,GR,ATH,Airport,23.9444,37.9364
-78,ATL,Hartsfield-Jackson Atlanta International Airport GA,US,ATL,Airport,-84.4281,33.6367
-79,ATQ,Amritsar,IN,ATQ,Airport,74.7972,31.7097
-80,ATW,Appleton,US,ATW,Airport,-88.5167,44.2667
-81,ATZ,ASYUT,EG,ATZ,Airport,31.0119,27.0464
-82,AUA,Aruba,AW,AUA,Airport,-70.0153,12.5014
-83,AUH,Abu Dhabi - NADIA International,AE,AUH,Airport,54.64888889,24.43305556
-84,AUS,"Austin-Bergstrom International Airport, TX",US,AUS,Airport,-97.67,30.1944
-85,AUW,Wausau,US,AUW,Airport,-89.6267,44.9283
-86,AVL,Asheville,US,AVL,Airport,-82.5419,35.4361
-87,AVP,Scranton - Pennsylvania,US,AVP,Airport,-75.7233,41.3386
-88,AWA,AWASA,ET,AWA,Airport,38.4906,7.0675
-89,AWZ,AHWAZ,IR,AWZ,Airport,48.7603,31.3375
-90,AXD,Alexandroupolis,GR,AXD,Airport,25.9564,40.8558
-91,AXM,Armenia,CO,AXM,Airport,-75.7664,4.4528
-92,AXT,Akita,JP,AXT,Airport,140.2186,39.6156
-93,AXU,Axum,ET,AXU,Airport,38.7728,14.1467
-94,AYT,Antalya,TR,AYT,Airport,30.8006,36.8986
-95,AZO,Kalamazoo/Battle Creek,US,AZO,Airport,-85.5519,42.235
-96,AZS,SAMANA EL CATEY INTL,DO,AZS,Airport,-69.7422,19.2672
-97,BAH,Bahrain International,BH,BAH,Airport,50.6336,26.2708
-98,BAL,Batman,TR,BAL,Airport,41.1167,37.9289
-99,BAQ,Barranquilla,CO,BAQ,Airport,-74.7808,10.8897
-100,BAV,Baotou,CN,BAV,Airport,109.9964,40.5606
-101,BBA,Balmaceda,CL,BBA,Airport,-71.6894,-45.9161
-102,BBI,Bhubaneshwar,IN,BBI,Airport,85.8178,20.2444
-103,BBK,Kasane,BW,BBK,Airport,25.1625,-17.8328
-104,BBO,Berbera,SO,BBO,Airport,44.9411,10.3892
-105,BCN,Barcelona,ES,BCN,Airport,2.0783,41.2969
-106,BCO,JINKA BAKO,ET,BCO,Airport,36.5625,5.7839
-107,BDA,Bermuda - Kindley Field,BM,BDA,Airport,-64.6786,32.3642
-108,HFD,"Hartford - Bradley International, CT",US,BDL,Airport,-72.6833,41.9389
-109,BDO,Bandung,ID,BDO,Airport,107.5764,-6.9006
-110,BDQ,Vadodara,IN,BDQ,Airport,73.2264,22.3361
-111,BDS,Brindisi,IT,BDS,Airport,17.9481,40.6606
-112,BEG,Belgrade,RS,BEG,Airport,20.3092,44.8183
-113,BEL,Belem,BR,BEL,Airport,-48.4764,-1.3792
-114,BER,Berlin/Brandenburg,DE,BER,Airport,13.5033,52.3667
-115,BET,Bethel Municipal,US,BET,Airport,-161.8381,60.7797
-116,BEW,Beira,MZ,BEW,Airport,34.9075,-19.7964
-117,BEY,Beirut Rafik Hariri International,LB,BEY,Airport,35.4883,33.8208
-118,BFF,Scottsbluff,US,BFF,Airport,-103.5956,41.8742
-119,BFL,Bakersfield,US,BFL,Airport,-119.0567,35.4336
-120,MOB,Mobile - Aerospace,US,BFM,Airport,-88.0667,30.6333
-121,BFN,Bloemfontein,ZA,BFN,Airport,26.3025,-29.0928
-122,BGA,Bucaramanga,CO,BGA,Airport,-73.1847,7.1264
-123,BGF,Bangui,CF,BGF,Airport,18.52,4.3978
-124,BGG,BINGOL,TR,BGG,Airport,40.5925,38.8614
-125,BGI,Barbados (Bridgetown) - Adams International,BB,BGI,Airport,-59.4925,13.0747
-126,BGO,Bergen,NO,BGO,Airport,5.2181,60.2933
-127,BGR,Bangor International,US,BGR,Airport,-68.8281,44.8075
-128,BGW,Baghdad International,IQ,BGW,Airport,44.2344,33.2625
-129,MIL,Milano Orio - Bergamo,IT,BGY,Airport,9.7003,45.6689
-130,BFS,Belfast City,GB,BHD,Airport,-5.8725,54.6181
-131,BHE,BLENHEIM,NZ,BHE,Airport,173.8692,-41.5178
-132,BHI,Bahia Blanca,AR,BHI,Airport,-62.1533,-38.7272
-133,BHM,"Birmingham, AL",US,BHM,Airport,-86.7536,33.5631
-134,BHO,Bhopal,IN,BHO,Airport,77.3375,23.2875
-135,BHX,Birmingham International,GB,BHX,Airport,-1.7478,52.4536
-136,BHY,Beihai,CN,BHY,Airport,109.2939,21.5394
-137,BIA,Bastia,FR,BIA,Airport,9.4847,42.55
-138,BIL,"Billings, MT",US,BIL,Airport,-108.5428,45.8078
-139,BIO,Bilbao,ES,BIO,Airport,-2.9106,43.3011
-140,BIQ,Biarritz,FR,BIQ,Airport,-1.5311,43.4683
-141,BIS,Bismarck,US,BIS,Airport,-100.7458,46.7722
-142,BJL,Banjul - Yundum International,GM,BJL,Airport,-16.6522,13.3381
-143,BJM,Bujumbura International,BI,BJM,Airport,29.3186,-3.3239
-144,BJR,Bahar Dar,ET,BJR,Airport,37.3217,11.6081
-145,BXN,Bodrum - Milas Airport,TR,BJV,Airport,27.6644,37.2506
-146,BJX,Leon-Guanajuato - Del Bajio,MX,BJX,Airport,-101.4808,20.9933
-147,BKI,Kota Kinabalu,MY,BKI,Airport,116.0531,5.9372
-148,BKK,Bangkok - Suvarnabhumi Int'l,TH,BKK,Airport,100.7489,13.6858
-149,BKO,Bamako,ML,BKO,Airport,-7.95,12.5336
-150,BLA,Barcelona,VE,BLA,Airport,-64.6892,10.1072
-151,BLL,Billund,DK,BLL,Airport,9.1517,55.7403
-152,BLQ,Bologna,IT,BLQ,Airport,11.2969,44.5308
-153,BLR,Bengaluru/Bangalore International,IN,BLR,Airport,77.7056,13.1989
-154,BLZ,Blantyre,MW,BLZ,Airport,34.9739,-15.6792
-155,STO,STOCKHOLM BROMMA APT,SE,BMA,Airport,17.9417,59.3544
-156,BNA,"Nashville, TN",US,BNA,Airport,-86.6783,36.1244
-157,BNE,Brisbane International,AU,BNE,Airport,153.1175,-27.3842
-158,BOD,Bordeaux,FR,BOD,Airport,-0.7153,44.8286
-159,BOG,Bogotá,CO,BOG,Airport,-74.1469,4.7017
-160,BOI,"Boise, ID",US,BOI,Airport,-116.2228,43.5644
-161,BOJ,Burgas,BG,BOJ,Airport,27.5153,42.5697
-162,BOM,Mumbai - Chhatrapati Shivaji Intl. Airport,IN,BOM,Airport,72.8681,19.0886
-163,BOO,Bodo,NO,BOO,Airport,14.3653,67.2692
-164,BOS,"Boston - Logan International, MA",US,BOS,Airport,-71.0053,42.3644
-165,BPN,Balikpapan,ID,BPN,Airport,116.8944,-1.2683
-166,BPS,Porto Seguro,BR,BPS,Airport,-39.0808,-16.4386
-167,BPT,Beaumont - Jefferson County,US,BPT,Airport,-94.0208,29.9508
-168,BQH,London Biggin Hill Apt,GB,BQH,Airport,0.0322,51.3308
-169,BQN,AGUADILLA RAFAEL HERNANDEZ,PR,BQN,Airport,-67.1294,18.495
-170,BRC,San Carlos De Bariloche International,AR,BRC,Airport,-71.1578,-41.1511
-171,BRE,Bremen,DE,BRE,Airport,8.7867,53.0475
-172,BRI,Bari,IT,BRI,Airport,16.765,41.1381
-173,BRM,Barquisimeto,VE,BRM,Airport,-69.3586,10.0428
-174,BRN,Berne - Belp,CH,BRN,Airport,7.4972,46.9142
-175,BRO,Brownsville - S. Padre Island International,US,BRO,Airport,-97.4258,25.9069
-176,BRQ,Brno,CZ,BRQ,Airport,16.6944,49.1514
-177,BRS,Bristol,GB,BRS,Airport,-2.7189,51.3825
-178,BRU,Brussels - Airport,BE,BRU,Airport,4.4844,50.9014
-179,BRW,Barrow Wbas,US,BRW,Airport,-156.7661,71.2856
-180,BSB,Brasilia International,BR,BSB,Airport,-47.91527778,-15.86055556
-181,BSL,Basel Euroairport,CH,BSL,Airport,7.5217,47.6011
-182,BTR,Baton Rouge - Ryan,US,BTR,Airport,-91.1497,30.5331
-183,BTU,Bintulu,MY,BTU,Airport,113.0197,3.1242
-184,BTV,"Burlington, International, VT",US,BTV,Airport,-73.1533,44.4719
-185,BUD,"Budapest, Liszt Ferenc",HU,BUD,Airport,19.2556,47.4369
-186,BUF,"Buffalo,  Greater Buffalo International, NY",US,BUF,Airport,-78.7322,42.9406
-187,BUQ,Bulawayo,ZW,BUQ,Airport,28.6178,-20.0175
-188,BUR,Burbank,US,BUR,Airport,-118.3586,34.2006
-189,BUS,BATUMI,GE,BUS,Airport,41.5997,41.6103
-190,BVC,BOA VISTA ISLAND RABIL,CV,BVC,Airport,-22.8889,16.1367
-191,BWI,"Baltimore - Washington International, DC",US,BWI,Airport,-76.6683,39.1753
-192,BWK,BRAC,HR,BWK,Airport,16.6797,43.2858
-193,BWN,Bandar Seri Begawan - Brunei International,BN,BWN,Airport,114.9283,4.9442
-194,BZE,Belize City - Goldson International,BZ,BZE,Airport,-88.3083,17.5392
-195,BZG,Bydgoszcz,PL,BZG,Airport,17.9778,53.0967
-196,BZN,Bozeman,US,BZN,Airport,-111.1531,45.7775
-197,BZV,Brazzaville,CG,BZV,Airport,15.2531,-4.2517
-198,CAE,"Columbia, SC",US,CAE,Airport,-81.1194,33.9389
-199,CAG,Cagliari,IT,CAG,Airport,9.0578,39.2514
-200,CAI,Cairo International,EG,CAI,Airport,31.4056,30.1219
-201,CAK,Akron/Canton,US,CAK,Airport,-81.4422,40.9161
-202,CAN,Guangzhou Baiyun International,CN,CAN,Airport,113.2989,23.3925
-203,CBR,Canberra,AU,CBR,Airport,149.195,-35.3069
-204,CCJ,Kozhikode,IN,CCJ,Airport,75.9553,11.1369
-205,CCP,Concepcion,CL,CCP,Airport,-73.0631,-36.7728
-206,CCS,Caracas,VE,CCS,Airport,-66.9906,10.6031
-207,CCU,Kolkata,IN,CCU,Airport,88.4467,22.6547
-208,PAR,Paris - Charles De Gaulle,FR,CDG,Airport,2.5478,49.0097
-209,CDR,Chadron,US,CDR,Airport,-103.0986,42.835
-210,CDV,Cordova - Mile 13 Field,US,CDV,Airport,-145.4775,60.4917
-211,CEB,Cebu,PH,CEB,Airport,123.9794,10.3075
-212,CEC,Crescent City,US,CEC,Airport,-124.2367,41.7803
-213,CEI,Chiang Rai,TH,CEI,Airport,99.8831,19.9522
-214,CEZ,Cortez,US,CEZ,Airport,-108.6286,37.3031
-215,CFU,Kerkyra,GR,CFU,Airport,19.9117,39.6019
-216,CGB,Cuiaba,BR,CGB,Airport,-56.1167,-15.6531
-217,SAO,Sao Paulo - Congonhas,BR,CGH,Airport,-46.6581,-23.6267
-218,JKT,Jakarta - Soekarno-Hatta International,ID,CGK,Airport,106.6558,-6.1256
-219,CGN,Cologne - Cologne/Bonn Airport,DE,CGN,Airport,7.1428,50.8658
-220,CGO,Zhengzhou,CN,CGO,Airport,113.8411,34.5194
-221,CGQ,Changchun,CN,CGQ,Airport,125.6853,43.9961
-222,CGR,Campo Grande International,BR,CGR,Airport,-54.6725,-20.4686
-223,CHA,Chattanooga,US,CHA,Airport,-85.2039,35.0353
-224,CHC,Christchurch International,NZ,CHC,Airport,172.5322,-43.4894
-225,CHG,CHAOYANG,CN,CHG,Airport,120.4339,41.5414
-226,CHO,Charlottesville Albemarie,US,CHO,Airport,-78.4528,38.1386
-227,CHQ,Chania,GR,CHQ,Airport,24.1497,35.5317
-228,CHS,"Charleston, SC",US,CHS,Airport,-80.0406,32.8986
-229,CIC,Chico,US,CIC,Airport,-121.8583,39.7961
-230,CID,"Cedar Rapids, IA",US,CID,Airport,-91.7108,41.8847
-231,AKX,Shymkent,KZ,CIT,Airport,69.4789,42.3642
-232,CJB,Coimbatore,IN,CJB,Airport,77.0433,11.03
-233,CJC,Calama,CL,CJC,Airport,-68.9081,-22.4981
-234,CJU,Jeju,KR,CJU,Airport,126.4931,33.5114
-235,CKB,Clarksburg,US,CKB,Airport,-80.2281,39.2967
-236,CKG,Chongqing,CN,CKG,Airport,106.6419,29.7194
-237,CKY,Conakry,GN,CKY,Airport,-13.6119,9.5769
-238,CLD,"Carlsbad, CA",US,CLD,Airport,-117.28,33.1283
-239,CLE,"Cleveland - Hopkins International, OH",US,CLE,Airport,-81.8497,41.4117
-240,CLJ,Cluj,RO,CLJ,Airport,23.6861,46.7853
-241,CLL,College Station - Easterwood Field,US,CLL,Airport,-96.3639,30.5886
-242,CLO,Cali,CO,CLO,Airport,-76.3817,3.5433
-243,CLT,"Charlotte, NC",US,CLT,Airport,-80.9431,35.2139
-244,CLY,Calvi,FR,CLY,Airport,8.7931,42.5203
-245,CMB,Colombo - Katunayake,LK,CMB,Airport,79.8853,7.1803
-246,CME,Ciudad Del Carmen,MX,CME,Airport,-91.8011,18.6533
-247,CMH,"Columbus, OH",US,CMH,Airport,-82.8919,39.9981
-248,CMI,Champaign Urbana,US,CMI,Airport,-88.2781,40.0392
-249,CAS,Casablanca - Mohamed V,MA,CMN,Airport,-7.59,33.3675
-250,CMX,Hancock,US,CMX,Airport,-88.4892,47.1683
-251,CND,Constanta,RO,CND,Airport,28.4883,44.3622
-252,BHZ,Belo Horizonte - Tancredo Neves International,BR,CNF,Airport,-43.9689,-19.6339
-253,CNS,Cairns,AU,CNS,Airport,145.7489,-16.8781
-254,CNX,Chiang Mai,TH,CNX,Airport,98.9628,18.7714
-255,CNY,Moab,US,CNY,Airport,-109.7475,38.7608
-256,COD,Cody,US,COD,Airport,-109.0261,44.5178
-257,COK,Kochi,IN,COK,Airport,76.4019,10.1519
-258,COO,Cotonou,BJ,COO,Airport,2.3844,6.3572
-259,COR,Cordoba,AR,COR,Airport,-64.2083,-31.31
-260,COS,"Colorado Springs - Peterson Field, CO",US,COS,Airport,-104.7008,38.8058
-261,COU,COLUMBIA REGIONAL,US,COU,Airport,-92.2197,38.8181
-262,CPH,Copenhagen,DK,CPH,Airport,12.6503,55.6203
-263,CPO,Copiapo,CL,CPO,Airport,-70.7792,-27.2617
-264,CPR,Casper,US,CPR,Airport,-106.4644,42.9081
-265,CPT,Cape Town,ZA,CPT,Airport,18.6017,-33.9647
-266,CRD,Comodoro Rivadavia,AR,CRD,Airport,-67.4656,-45.7853
-267,CRK,ANGELES/MABALACAT CLARK INTERNATIONAL,PH,CRK,Airport,120.5603,15.1861
-268,CRP,Corpus Christi - International,US,CRP,Airport,-97.5011,27.7703
-269,CRW,"Charleston, West Virginia - Yeager",US,CRW,Airport,-81.5931,38.3731
-270,CSL,San Luis Obispo,US,CSL,Airport,-120.6333,35.2333
-271,CSX,Changsha,CN,CSX,Airport,113.2178,28.1936
-272,CTA,Catania,IT,CTA,Airport,15.0639,37.4667
-273,CTG,Cartagena,CO,CTG,Airport,-75.5131,10.4425
-274,SPK,Sapporo - Chitose,JP,CTS,Airport,141.6691667,42.79583333
-275,CTU,Chengdu,CN,CTU,Airport,103.9472222,30.57861111
-276,CUC,Cucuta,CO,CUC,Airport,-72.5117,7.9275
-277,CUL,Culiacan,MX,CUL,Airport,-107.4747,24.7644
-278,CUM,Cumana,VE,CUM,Airport,-64.1306,10.4503
-279,CUN,Cancun,MX,CUN,Airport,-86.8772,21.0367
-280,CUR,Curacao - Hato Airport,CW,CUR,Airport,-68.9597,12.1889
-281,CUU,Chihuahua,MX,CUU,Airport,-105.9644,28.7028
-282,CUZ,CUZCO A. VELASCO ASTETE INTL,PE,CUZ,Airport,-71.9389,-13.5358
-283,CVG,"Cincinnati - Northern Kentucky, OH",US,CVG,Airport,-84.6678,39.0489
-284,CWA,WAUSAU CENTRAL WISCONSIN APT,,CWA,Airport,-89.6667,44.7833
-285,CWB,Curitiba,BR,CWB,Airport,-49.1758,-25.5286
-286,CWL,Cardiff,GB,CWL,Airport,-3.3433,51.3967
-287,CYS,Cheyenne Municipal,US,CYS,Airport,-104.8119,41.1558
-288,CZM,Cozumel,MX,CZM,Airport,-86.9369,20.5217
-289,CZX,Changzhou,CN,CZX,Airport,119.7783,31.9194
-290,DAB,Daytona Beach,US,DAB,Airport,-81.0581,29.18
-291,DAC,Dhaka - Zia International,BD,DAC,Airport,90.3978,23.8433
-292,DAD,DA NANG,VN,DAD,Airport,108.1994,16.0439
-293,DAR,Dar es Salaam International,TZ,DAR,Airport,39.2025,-6.8781
-294,DAT,Datong,CN,DAT,Airport,113.1461,39.7189
-295,DAV,DAVID ENRIQUE MALEK INTERNATIONAL,,DAV,Airport,-82.435,8.3911
-296,DZU,Dazhou,CN,DAX,Airport,107.4306,31.1319
-297,DAY,"Dayton - James Cox International, OH",US,DAY,Airport,-84.2194,39.9025
-298,DBV,Dubrovnik,HR,DBV,Airport,18.2683,42.5614
-299,WAS,Washington National,US,DCA,Airport,-77.0378,38.8522
-300,DDC,Dodge City,US,DDC,Airport,-99.9642,37.7603
-301,DDG,Dandong,CN,DDG,Airport,124.2869,40.0256
-302,DEB,Debrecen,HU,DEB,Airport,21.6153,47.4889
-303,DEL,New Delhi - Indira Gandhi International,IN,DEL,Airport,77.1031,28.5664
-304,DEN,"Denver - International, CO",US,DEN,Airport,-104.6731,39.8617
-305,DFW,"Dallas/Fort Worth - International, TX",US,DFW,Airport,-97.0381,32.8969
-306,DGO,Durango,MX,DGO,Airport,-104.5281,24.1242
-307,DIB,Dibrugarh,IN,DIB,Airport,95.0167,27.4833
-308,DIK,Dickinson,US,DIK,Airport,-102.8,46.8
-309,DIR,Dire Dawa,ET,DIR,Airport,41.8542,9.6247
-310,DIY,DIYARBAKIR,TR,DIY,Airport,40.2011,37.8939
-311,DJE,Djerba,TN,DJE,Airport,10.7756,33.875
-312,DKR,Dakar,SN,DKR,Airport,-17.4933,14.7425
-313,DLA,Douala,CM,DLA,Airport,9.7194,4.0061
-314,DLC,Dalian,CN,DLC,Airport,121.5386,38.9656
-315,DLH,Duluth/Superior - Duluth International,US,DLH,Airport,-92.1936,46.8422
-316,DLM,Dalaman,TR,DLM,Airport,28.7925,36.7131
-317,MOW,Moscow - Domodedovo,RU,DME,Airport,37.9064,55.4089
-318,BKK,Bangkok - Don Muang,TH,DMK,Airport,100.6067,13.9125
-319,DMM,Dammam,SA,DMM,Airport,49.7978,26.4711
-320,DMU,Dimapur,IN,DMU,Airport,93.7744,25.8825
-321,DNH,DUNHUANG,CN,DNH,Airport,94.6817,40.0922
-322,DNK,Dnipropetrovsk-42,UA,DNK,Airport,35.1006,48.3572
-323,DNZ,Denizli,TR,DNZ,Airport,29.7014,37.7856
-324,DOH,Doha,QA,DOH,Airport,51.6083,25.2744
-325,DOK,Donetsk,UA,DOK,Airport,37.7397,48.0736
-326,DPS,Denpasar-Bali,ID,DPS,Airport,115.1672,-8.7481
-327,DQA,DAQING SARTU,CN,DQA,Airport,125.1392,46.75
-328,DRO,Durango La Plata,US,DRO,Airport,-107.7536,37.1522
-329,DRS,Dresden,DE,DRS,Airport,13.7681,51.1344
-330,DRT,Del Rio International,US,DRT,Airport,-100.9264,29.3733
-331,DRW,Darwin,AU,DRW,Airport,130.8767,-12.4147
-332,DSE,Dessie,ET,DSE,Airport,39.7167,11.0833
-333,DSM,"Des Moines, IA",US,DSM,Airport,-93.6578,41.5342
-334,DSN,Ordos,CN,DSN,Airport,109.8631,39.4922
-335,DKR,DAKAR BLAISE DIAGNE INTERNATIONAL,SN,DSS,Airport,-17.0714,14.6725
-336,DTM,Dortmund,DE,DTM,Airport,7.6122,51.5183
-337,SHV,Shreveport Downtown,US,DTN,Airport,0.0,0.0
-338,DTT,"Detroit - Wayne County, MI",US,DTW,Airport,-83.3533,42.2125
-339,DTM,DORTMUND HBF RAIL STATION,DE,DTZ,RailwayStation,7.4592,51.5178
-340,DUB,Dublin,IE,DUB,Airport,-6.27,53.4214
-341,DUD,DUNEDIN,NZ,DUD,Airport,170.1975,-45.9292
-342,DUR,Durban International Airport,ZA,DUR,Airport,31.1164,-29.6144
-343,DUS,Dusseldorf - Nordrhein-Westfalen,DE,DUS,Airport,6.7667,51.2894
-344,DVL,Devils Lake,US,DVL,Airport,-98.9081,48.1156
-345,DVO,Davao,PH,DVO,Airport,125.6456,7.1253
-346,DXB,Dubai,AE,DXB,Airport,55.3644,25.2528
-347,DYG,Dayong,CN,DYG,Airport,110.4431,29.1044
-348,DYU,DUSHANBE INTERNATIONAL,TJ,DYU,Airport,68.825,38.5433
-349,EAR,Kearney,US,EAR,Airport,-99.0092,40.7267
-350,EAT,Wenatchee,US,EAT,Airport,-120.2072,47.3989
-351,EAU,Eau Clair,US,EAU,Airport,-91.4842,44.8658
-352,EBB,Entebbe,UG,EBB,Airport,32.4436,0.0425
-353,EBJ,Esbjerg,DK,EBJ,Airport,8.5525,55.52638889
-354,EBL,Erbil,IQ,EBL,Airport,43.9631,36.2378
-355,ECN,ERCAN,,ECN,Airport,33.4883,35.1597
-356,ECP,PANAMA CITY NW FLORIDA BEACHES INTL,US,ECP,Airport,-85.7989,30.3578
-357,EDI,Edinburgh,GB,EDI,Airport,-3.3725,55.95
-358,EDO,EDREMIT KORFEZ,TR,EDO,Airport,27.0139,39.5547
-359,EFL,Kefallinia,GR,EFL,Airport,20.5006,38.12
-360,EGE,"Vail/Eagle County, CO",US,EGE,Airport,-106.9178,39.6425
-361,EGO,Belgorod,RU,EGO,Airport,36.59,50.6439
-362,EJA,BARRANCABERMEJA YARIGUIES,CO,EJA,Airport,-73.8067,7.0244
-363,ELM,Elmira/Corning,US,ELM,Airport,-76.8917,42.16
-364,ELP,"El Paso International, TX",US,ELP,Airport,-106.3983,31.8025
-365,ELS,East London,ZA,ELS,Airport,27.8258,-33.0356
-366,EMA,East Midlands,GB,EMA,Airport,-1.3281,52.8311
-367,ENU,ENUGU AKANU IBIAM INTL,NG,ENU,Airport,7.5619,6.4742
-368,ERC,Erzincan,TR,ERC,Airport,39.5269,39.7103
-369,ERI,Erie International,US,ERI,Airport,-80.1761,42.0819
-370,ERZ,Erzurum,TR,ERZ,Airport,41.1703,39.9564
-371,ANK,Ankara - Esenboga,TR,ESB,Airport,32.995,40.1281
-372,EUG,"Eugene, OR",US,EUG,Airport,-123.2119,44.1247
-373,EVE,"Harstad-Narvik, Evenes",NO,EVE,Airport,16.6781,68.4914
-374,EVN,Yerevan - Zvartnots Int´l,AM,EVN,Airport,44.3958,40.1472
-375,EVV,EVANSVILLE REGIONAL,US,EVV,Airport,-87.5325,38.0369
-376,EWN,New Bern,US,EWN,Airport,-77.0431,35.0731
-377,NYC,"New York - Newark International, NJ",US,EWR,Airport,-74.1686,40.6925
-378,EYW,Key West International,US,EYW,Airport,-81.7594,24.5561
-379,BUE,Buenos Aires - Ministro Pistarini,AR,EZE,Airport,-58.5358,-34.8222
-380,EZS,Elazig,TR,EZS,Airport,39.2914,38.6069
-381,FAE,Faroe Islands,FO,FAE,Airport,-7.2931,62.0664
-382,FAI,FAIRBANKS INTERNATIONAL APT,US,FAI,Airport,-147.8564,64.815
-383,FAO,Faro,PT,FAO,Airport,-7.9658,37.0144
-384,FAR,"Fargo, ND",US,FAR,Airport,-96.8158,46.9206
-385,FAT,"Fresno - Air Terminal, CA",US,FAT,Airport,-119.7181,36.7761
-386,FAY,"Fayetteville, North Carolina - Municipal",US,FAY,Airport,-78.8831,34.99
-387,FBM,Lubumbashi,CD,FBM,Airport,27.5308,-11.5914
-388,FCA,Kalispell,US,FCA,Airport,-114.2561,48.3106
-389,ROM,Rome - Leonardo Da Vinci,IT,FCO,Airport,12.2389,41.8003
-390,FDH,Friedrichshafen,DE,FDH,Airport,9.5114,47.6714
-391,FEZ,FES SAISS,MA,FEZ,Airport,-4.9781,33.9272
-392,FIH,Kinshasa N'Djili,CD,FIH,Airport,15.4444,-4.3858
-393,FKB,Karlsruhe,DE,FKB,Airport,8.0806,48.7794
-394,FKS,Fukushima,JP,FKS,Airport,140.4306,37.2275
-395,GCN,GRAND CANYON FLAGSTAFF PULLIAM,US,FLG,Airport,-111.6711,35.1383
-396,FLL,"Fort Lauderdale - International, FL",US,FLL,Airport,-80.1528,26.0725
-397,FLN,Florianopolis,BR,FLN,Airport,-48.5472,-27.6706
-398,FLO,Florence,US,FLO,Airport,-79.7247,34.1875
-399,FLR,Florence - Amerigo Vespucci,IT,FLR,Airport,11.2028,43.8086
-400,FMM,Memmingen,DE,FMM,Airport,10.2375,47.9881
-401,FMN,"Farmington, New Mexico - Municipal",US,FMN,Airport,-108.2311,36.7414
-402,FMO,Munster,DE,FMO,Airport,7.6847,52.1347
-403,FMY,Fort Myers - Page Field,US,FMY,Airport,-81.8667,26.5833
-404,FNA,Freetown - Lungi International,SL,FNA,Airport,-13.1956,8.6164
-405,FNC,Funchal,PT,FNC,Airport,-16.7781,32.6942
-406,FNJ,PYONGYANG SUNAN INTL,KP,FNJ,Airport,125.67,39.2236
-407,FNT,Flint,US,FNT,Airport,-83.7436,42.9656
-408,FOC,Fuzhou,CN,FOC,Airport,119.6633,25.935
-409,TOP,Topeka - Forbes AFB,US,FOE,Airport,-95.6636,38.9508
-410,FOR,Fortaleza,BR,FOR,Airport,-38.5325,-3.7764
-411,FRA,Frankfurt/Main International,DE,FRA,Airport,8.5706,50.0331
-412,FRS,Flores,GT,FRS,Airport,-89.8697,16.9156
-413,FRU,BISHKEK MANAS INTERNATIONAL,KG,FRU,Airport,74.4775,43.0614
-414,FRW,Francistown,BW,FRW,Airport,27.4744,-21.1597
-415,FSC,Figari,FR,FSC,Airport,9.0967,41.5022
-416,FSD,Sioux Falls,US,FSD,Airport,-96.7419,43.5819
-417,FSZ,Shizuoka,JP,FSZ,Airport,138.1808,34.7969
-418,FTE,El Calafate,AR,FTE,Airport,-72.0533,-50.28
-419,FUE,Fuerteventura,ES,FUE,Airport,-13.8639,28.4528
-420,FUJ,GOTO-FUKUE,JP,FUJ,Airport,128.8328,32.6664
-421,FUK,Fukuoka,JP,FUK,Airport,130.4506,33.5858
-422,FWA,"Fort Wayne Municipal - Baer Field, IN",US,FWA,Airport,-85.1897,40.9831
-423,FYV,"Fayetteville, Arkansas - Drake Field Municipal",US,FYV,Airport,-94.1667,36.0
-424,GAU,Guwahati,IN,GAU,Airport,91.5858,26.1061
-425,GAY,Gaya,IN,GAY,Airport,84.9511,24.7444
-426,GBE,Gaborone - Sir Seretse Khama International,BW,GBE,Airport,25.9183,-24.5553
-427,GCC,Gillette,US,GCC,Airport,-105.5417,44.3475
-428,GCI,Guernsey,GB,GCI,Airport,-2.6019,49.4347
-429,GCK,Garden City Municipal,US,GCK,Airport,-100.7244,37.9275
-430,GCM,GRAND CAYMAN OWEN ROBERTS INTL,KY,GCM,Airport,-81.3578,19.2928
-431,GDE,Gode,ET,GDE,Airport,43.5786,5.935
-432,GDL,Guadalajara,MX,GDL,Airport,-103.3111,20.5217
-433,GDN,Gdansk,PL,GDN,Airport,18.4661,54.3775
-434,GDQ,Gonder,ET,GDQ,Airport,37.4342,12.52
-435,GEG,"Spokane International, WA",US,GEG,Airport,-117.54,47.6172
-436,GEO,GEORGETOWN CHEDDI JAGAN INTERNATIONAL,GY,GEO,Airport,-58.2542,6.4986
-437,RIO,Rio de Janeiro - International,BR,GIG,Airport,-43.2483,-22.8125
-438,GIS,GISBORNE,NZ,GIS,Airport,177.9769,-38.6639
-439,GJT,"Grand Junction, CO",US,GJT,Airport,-108.5258,39.1233
-440,GLA,Glasgow,GB,GLA,Airport,-4.4333,55.8719
-441,GMB,Gambela,ET,GMB,Airport,34.5631,8.1289
-442,SEL,Seoul - Gimpo International,KR,GMP,Airport,126.7906,37.5583
-443,GND,GRENADA MAURICE BISHOP INTL,GD,GND,Airport,-61.7861,12.0042
-444,GNV,"Gainesville, Florida - Allison Municipal",US,GNV,Airport,-82.2717,29.69
-445,SFQ,Sanliurfa - Guney Anadolu,TR,GNY,Airport,38.8469,37.0944
-446,GOA,Genoa,IT,GOA,Airport,8.8375,44.4133
-447,GOB,Goba,ET,GOB,Airport,40.045,7.1189
-448,GOI,Goa,IN,GOI,Airport,73.8314,15.3808
-449,GOJ,Nizhny Novgorod,RU,GOJ,Airport,43.7842,56.23
-450,GOM,Goma International,CG,GOM,Airport,29.2383,-1.6708
-451,GOT,Gothenburg - Landvetter,SE,GOT,Airport,12.2797,57.6628
-452,GPA,Patrai,GR,GPA,Airport,21.4256,38.1511
-453,GPS,BALTRA ISLAND SEYMOUR,EC,GPS,Airport,-90.2658,-0.4539
-454,GPT,Gulfport,US,GPT,Airport,-89.07,30.4072
-455,GRB,Green Bay,US,GRB,Airport,-88.1339,44.4856
-456,GRI,Grand Island,US,GRI,Airport,-98.3097,40.9675
-457,GRJ,George,ZA,GRJ,Airport,22.3789,-34.0056
-458,GRO,GIRONA COSTA BRAVA APT,ES,GRO,Airport,2.7606,41.9008
-459,GRQ,GRONINGEN EELDE,NL,GRQ,Airport,6.5833,53.125
-460,GRR,"Grand Rapids, Kent County Intl, MI",US,GRR,Airport,-85.5228,42.8808
-461,SAO,Sao Paulo - Guarulhos International,BR,GRU,Airport,-46.4694,-23.4319
-462,GRZ,Graz - Thalerhof,AT,GRZ,Airport,15.44,46.9936
-463,GSO,"Greensboro - Piedmont Triad International, NC",US,GSO,Airport,-79.9372,36.0978
-464,GSP,"Greenville - Spartanbur, SC",US,GSP,Airport,-82.2189,34.8956
-465,GTF,Great Falls International,US,GTF,Airport,-111.3706,47.4819
-466,GUA,Guatemala City,GT,GUA,Airport,-90.5272,14.5844
-467,GUC,Gunnison,US,GUC,Airport,-106.9331,38.5356
-468,GUM,Guam - Agana Field,GU,GUM,Airport,144.7961,13.4833
-469,AKX,Atyrau,KZ,GUW,Airport,51.8214,47.1219
-470,GVA,Genève - Geneva-Cointrin Airport,CH,GVA,Airport,6.1089,46.2381
-471,GWL,Gwalior,IN,GWL,Airport,78.2278,26.2933
-472,GWT,Westerland/Sylt,DE,GWT,Airport,8.3406,54.9133
-473,BAK,Baku - Heydar Aliyev Int´l,AZ,GYD,Airport,50.0467,40.4675
-474,GYE,Guayaquil,EC,GYE,Airport,-79.8836,-2.1575
-475,GYN,Goiania,BR,GYN,Airport,-49.2206,-16.6319
-476,GZP,Gazipasa,TR,GZP,Airport,32.2903,36.2981
-477,GZT,Gaziantep,TR,GZT,Airport,37.4786,36.9472
-478,HAC,Hachijo Jima,JP,HAC,Airport,139.7858,33.115
-479,YVA,MORONI PRINCE SAID IBRAHIM,KM,HAH,Airport,43.2719,-11.5336
-480,HAJ,Hannover,DE,HAJ,Airport,9.6894,52.4606
-481,HAK,Haikou,CN,HAK,Airport,110.4589,19.9347
-482,HAM,Hamburg,DE,HAM,Airport,9.9883,53.6303
-483,HAN,Hanoi,VN,HAN,Airport,105.8072,21.2211
-484,HAR,"Harrisburg, Pennsylvania - Skyport",US,HAR,Airport,-76.8667,40.2667
-485,HAU,Haugesund,NO,HAU,Airport,5.2083,59.3453
-486,HAV,Havanna,CU,HAV,Airport,-82.4078,22.9903
-487,HBA,Hobart,AU,HBA,Airport,147.5103,-42.8361
-488,ALY,Alexandria - Borg El Arab,EG,HBE,Airport,29.6964,30.9178
-489,HDB,Heidelberg,DE,HDB,Airport,8.6519,49.3933
-490,HDF,Heringsdorf/Usedom,DE,HDF,Airport,14.1522,53.8786
-491,AXG,"Hayden - Yampa Valley, Colorado",US,HDN,Airport,-107.2236,40.4833
-492,HDS,Hoedspruit,ZA,HDS,Airport,30.9469,-24.3486
-493,HDY,Hat Yai,TH,HDY,Airport,100.395,6.9328
-494,HEL,Helsinki - Vantaa,FI,HEL,Airport,24.9633,60.3172
-495,HER,Heraklion,GR,HER,Airport,25.1803,35.3397
-496,HET,Hohhot,CN,HET,Airport,111.8242,40.8514
-497,HFE,Hefei,CN,HFE,Airport,116.9892,31.9911
-498,HGA,HARGEISA EGAL INTL,SO,HGA,Airport,44.0839,9.5139
-499,HGH,Hangzhou,CN,HGH,Airport,120.4344,30.2294
-500,HHH,Hilton Head,US,HHH,Airport,-80.6989,32.2222
-501,HIJ,Hiroshima International,JP,HIJ,Airport,132.9194,34.4361
-502,HIL,Shilabo,ET,HIL,Airport,44.8,6.0833
-503,HIN,Jinju,KR,HIN,Airport,128.0703,35.0886
-504,HKD,Hakodate,JP,HKD,Airport,140.8219,41.77
-505,HKG,Hong Kong International Airport,HK,HKG,Airport,113.9147,22.3089
-506,HKT,Phuket,TH,HKT,Airport,98.3053,8.1122
-507,HLD,Hailar,CN,HLD,Airport,119.8167,49.2086
-508,HLH,Ulanhot,CN,HLH,Airport,122.0083,46.1947
-509,HLN,"Helena, Montana",US,HLN,Airport,-111.9828,46.6069
-510,HMO,Hermosillo,MX,HMO,Airport,-111.0478,29.0958
-511,TYO,Tokyo - Haneda,JP,HND,Airport,139.7797,35.5522
-512,HNL,Honolulu International,US,HNL,Airport,-157.9222,21.3278
-513,HOG,Holguin,CU,HOG,Airport,-76.315,20.7856
-514,HOV,Orsta-Volda,NO,HOV,Airport,6.0711,62.1792
-515,HPN,Westchester County,US,HPN,Airport,-73.7075,41.0669
-516,HRB,Harbin,CN,HRB,Airport,126.2503,45.6233
-517,HRE,Harare,ZW,HRE,Airport,31.0928,-17.9319
-518,HRG,Hurghada,EG,HRG,Airport,33.8014,27.1786
-519,HRK,Kharkov,UA,HRK,Airport,36.2836,49.9261
-520,HFD,"Harlingen, Texas",US,HRL,Airport,-97.6544,26.2286
-521,HSG,Saga Airport,JP,HSG,Airport,130.3022,33.1497
-522,HSV,"Huntsville, Madison County, AL",US,HSV,Airport,-86.775,34.6372
-523,HTS,Huntington,US,HTS,Airport,-82.5592,38.3683
-524,HTY,Hatay,TR,HTY,Airport,36.2847,36.3597
-525,HUE,Humera,ET,HUE,Airport,36.8794,13.8333
-526,HUX,Huatulco,MX,HUX,Airport,-96.2625,15.7753
-527,HYD,Hyderabad,IN,HYD,Airport,78.4314,17.2311
-528,HYN,Taizhou,CN,HYN,Airport,121.4303,28.5653
-529,HYS,Hays,US,HYS,Airport,-99.2756,38.8503
-530,WAS,"Washington - Dulles International, DC",US,IAD,Airport,-77.4558,38.9444
-531,HOU,"Houston - Intercontinental, TX",US,IAH,Airport,-95.3414,29.9844
-532,IAS,Iasi,RO,IAS,Airport,27.6206,47.1786
-533,IBZ,Ibiza,ES,IBZ,Airport,1.3731,38.8728
-534,SEL,Seoul - Incheon International Airport,KR,ICN,Airport,126.4506,37.4692
-535,ICT,"Wichita - Mid-Continent, KS",US,ICT,Airport,-97.4331,37.6528
-536,IDA,IDAHO FALLS REGIONAL,US,IDA,Airport,-112.0708,43.5144
-537,IDR,Indore,IN,IDR,Airport,75.8011,22.7217
-538,IEG,ZIELONA GORA BABIMOST,PL,IEG,Airport,15.7986,52.1386
-539,IEV,KIEV ZHULIANY INTL APT,UA,IEV,Airport,30.4497,50.4017
-540,IFN,ESFAHAN SHAHID BEHESHTI INTL,IR,IFN,Airport,51.8697,32.7517
-541,IGD,Igdir,TR,IGD,Airport,43.8844,39.9728
-542,IGR,Iguazu,AR,IGR,Airport,-54.4733,-25.7372
-543,IGU,Foz do Iguaçu - Cataratas,BR,IGU,Airport,-54.4872,-25.5961
-544,THR,Tehran - Imam Khomeini Intl,IR,IKA,Airport,51.1522,35.4161
-545,ILE,Killeen Municipal,US,ILE,Airport,-97.6867,31.085
-546,ILM,Wilmington,US,ILM,Airport,-77.9025,34.2706
-547,IMF,Imphal,IN,IMF,Airport,93.8967,24.76
-548,INC,Yinchuan,CN,INC,Airport,106.0119,38.4933
-549,IND,"Indianapolis International, IN",US,IND,Airport,-86.2944,39.7172
-550,INI,Nis,RS,INI,Airport,21.8536,43.3372
-551,INN,Innsbruck - Kranebitten,AT,INN,Airport,11.3439,47.2603
-552,IOA,Ioannina,GR,IOA,Airport,20.8225,39.6964
-553,IOS,Ilheus,BR,IOS,Airport,-39.0333,-14.8158
-554,IPL,El Centro - Imperial County,US,IPL,Airport,-115.5747,32.835
-555,IQQ,Iquique,CL,IQQ,Airport,-70.1814,-20.5353
-556,ISB,Islamabad International,PK,ISB,Airport,73.0992,33.6167
-557,ISE,ISPARTA SULEYMAN DEMIREL,TR,ISE,Airport,30.3683,37.8556
-558,ISG,Ishigaki,JP,ISG,Airport,124.245,24.3964
-559,IST,Istanbul,TR,ISL,Airport,28.815,40.9769
-560,ISN,Williston - Sloulin Field International,US,ISN,Airport,-103.6433,48.1792
-561,IST,Istanbul,TR,IST,Airport,28.8147,40.9769
-562,ISU,Sulaymaniyah International,IQ,ISU,Airport,45.3158,35.5625
-563,ITH,Ithaca,US,ITH,Airport,-76.4608,42.4911
-564,OSA,Osaka - Itami,JP,ITM,Airport,135.4383,34.7856
-565,ITO,Hilo International,US,ITO,Airport,-155.0483,19.7214
-566,IVC,INVERCARGILL,NZ,IVC,Airport,168.3131,-46.4147
-567,IVL,Ivalo,FI,IVL,Airport,27.4053,68.6072
-568,IWJ,Iwami,JP,IWJ,Airport,131.7903,34.6764
-569,IWK,Iwakuni,JP,IWK,Airport,132.2356,34.1353
-570,IXA,Agartala,IN,IXA,Airport,91.2406,23.8869
-571,IXB,Bagdogra,IN,IXB,Airport,88.3286,26.6811
-572,IXC,Chandigarh,IN,IXC,Airport,76.7886,30.6733
-573,IXD,Allahabad,IN,IXD,Airport,81.7339,25.44
-574,IXE,Mangalore,IN,IXE,Airport,74.89,12.9614
-575,IXJ,Jammu,IN,IXJ,Airport,74.8375,32.6892
-576,IXL,Leh,IN,IXL,Airport,77.5464,34.1358
-577,IXM,Madurai,IN,IXM,Airport,78.0933,9.8344
-578,IXR,Ranchi,IN,IXR,Airport,85.3217,23.3142
-579,IXS,Silchar,IN,IXS,Airport,92.9786,24.9131
-580,IXU,Aurangabad,IN,IXU,Airport,75.3981,19.8628
-581,IXZ,Port Blair,IN,IXZ,Airport,92.7297,11.6411
-582,JAC,"Jackson, WY",US,JAC,Airport,-110.7378,43.6072
-583,JAI,Jaipur,IN,JAI,Airport,75.8122,26.8242
-584,JAN,"Jackson, Mississippi - International",US,JAN,Airport,-90.0758,32.3111
-585,JAX,"Jacksonville, International, FL",US,JAX,Airport,-81.6878,30.4942
-586,JDH,Jodhpur,IN,JDH,Airport,73.0489,26.2511
-587,JDZ,Jingdezhen,CN,JDZ,Airport,117.1764,29.3392
-588,JED,Jeddah - King Abdul Aziz International,SA,JED,Airport,39.1567,21.6794
-589,JER,Jersey,GB,JER,Airport,-2.1953,49.2078
-590,NYC,"New York - JFK International, NY",US,JFK,Airport,-73.7789,40.6397
-591,JGA,Jamnagar,IN,JGA,Airport,70.0125,22.4656
-592,JHB,Johor Bahru - Sultan Ismail International,MY,JHB,Airport,103.6703,1.6389
-593,JHM,Kapalua,US,JHM,Airport,-156.6731,20.9631
-594,JIB,Djibouti,DJ,JIB,Airport,43.1594,11.5472
-595,JIJ,Jijiga,ET,JIJ,Airport,42.7897,9.3633
-596,JIM,Jimma,ET,JIM,Airport,36.8181,7.6628
-597,JJN,Quanzhou,CN,JJN,Airport,118.5881,24.7956
-598,JKG,Jonkoping,SE,JKG,Airport,14.0686,57.7575
-599,JKH,Chios,GR,JKH,Airport,26.1406,38.3431
-600,JLR,Jabalpur,IN,JLR,Airport,80.0519,23.1778
-601,JMK,Mykonos,GR,JMK,Airport,25.3481,37.435
-602,JMS,"Jamestown, North Dakota",US,JMS,Airport,-98.6783,46.9297
-603,JMU,Jiamusi,CN,JMU,Airport,130.4653,46.8433
-604,JNB,Johannesburg- O.R. Tambo International Airport,ZA,JNB,Airport,28.2461,-26.1392
-605,JOI,Joinville,BR,JOI,Airport,-48.7975,-26.2244
-606,JOK,Yoshkar-Ola,RU,JOK,Airport,47.8964,56.7008
-607,JPA,JOAO PESSOA CASTRO PINTO INTL,BR,JPA,Airport,-34.9506,-7.1483
-608,JRH,Jorhat,IN,JRH,Airport,94.1756,26.7317
-609,JRO,Kilimanjaro,TZ,JRO,Airport,37.0744,-3.4294
-610,JSH,SITEIA,GR,JSH,Airport,26.1014,35.2161
-611,JSI,Skiathos,GR,JSI,Airport,23.5036,39.1772
-612,JTR,Thira,GR,JTR,Airport,25.4794,36.3992
-613,JUB,Juba,SS,JUB,Airport,31.6011,4.8719
-614,JUJ,Jujuy,AR,JUJ,Airport,-65.0978,-24.3928
-615,JUL,JULIACA INCO MANCO CAPAC INTL,PE,JUL,Airport,-70.1581,-15.4672
-616,JUZ,QUZHOU,CN,JUZ,Airport,118.9,28.9672
-617,KAN,MALLAM AMINU KANO INTL,NG,KAN,Airport,8.5247,12.0475
-618,KAO,Kuusamo,FI,KAO,Airport,29.2394,65.9875
-619,KBL,KABUL INTERNATIONAL,AF,KBL,Airport,69.2125,34.5658
-620,IEV,Kiev - Boryspil Int´l,UA,KBP,Airport,30.8947,50.345
-621,KBR,Kota Bharu,MY,KBR,Airport,102.2911,6.1675
-622,KBV,Krabi,TH,KBV,Airport,98.9889,8.0958
-623,KCH,Kuching,MY,KCH,Airport,110.3439,1.4842
-624,KCM,Kahramanmaras,TR,KCM,Airport,36.9533,37.5389
-625,KCZ,Kochi,JP,KCZ,Airport,133.6694,33.5461
-626,REK,Reykjavik - Keflavik International,IS,KEF,Airport,-22.6056,63.985
-627,KFS,Kastamonu,TR,KFS,Airport,33.7961,41.315
-628,KGD,Kaliningrad,RU,KGD,Airport,20.5925,54.89
-629,KGL,Kigali,RW,KGL,Airport,30.1394,-1.9686
-630,KGS,Kos,GR,KGS,Airport,27.0917,36.7933
-631,KHE,Kherson,UA,KHE,Airport,32.5072,46.6772
-632,KHG,Kashi,CN,KHG,Airport,76.02,39.5425
-633,KHH,Kaohsiung International,TW,KHH,Airport,120.35,22.5772
-634,KHI,Karachi,PK,KHI,Airport,67.1608,24.9067
-635,KHN,Nanchang,CN,KHN,Airport,115.9022,28.8639
-636,KHV,Khabarovsk,RU,KHV,Airport,135.1883,48.5281
-637,KIJ,Niigata,JP,KIJ,Airport,139.1208,37.9558
-638,KIM,Kimberley,ZA,KIM,Airport,24.7653,-28.8028
-639,KIN,Norman Manley Intl,JM,KIN,Airport,-76.7875,17.9356
-640,KIV,Chisinau,MD,KIV,Airport,28.9308,46.9278
-641,OSA,Osaka - Kansai International,JP,KIX,Airport,135.2442,34.4272
-642,KJA,Krasnoyarsk,RU,KJA,Airport,92.4933,56.1731
-643,FKB,Karlsruhe - Hbf Railway Station,DE,KJR,RailwayStation,0.0,0.0
-644,KKC,Khon Kaen,TH,KKC,Airport,102.7822,16.4644
-645,KKE,Kerikeri,NZ,KKE,Airport,173.9119,-35.2578
-646,KKJ,Kita Kyushu,JP,KKJ,Airport,131.0347,33.8458
-647,KKN,Kirkenes,NO,KKN,Airport,29.8914,69.7258
-648,KLO,Kalibo,PH,KLO,Airport,122.3811,11.6844
-649,KLR,Kalmar,SE,KLR,Airport,16.2875,56.6856
-650,KLT,Kaiserslautern,DE,KLT,RailwayStation,7.0,49.0
-651,KLU,Klagenfurt,AT,KLU,Airport,14.3378,46.6428
-652,KLX,Kalamata,GR,KLX,Airport,22.0256,37.0683
-653,KMG,Kunming,CN,KMG,Airport,102.935,25.1086
-654,KMI,Miyazaki,JP,KMI,Airport,131.4486,31.8772
-655,KMJ,Kumamoto,JP,KMJ,Airport,130.855,32.8372
-656,KMQ,Komatsu,JP,KMQ,Airport,136.4067,36.3947
-657,KNC,Ji'An,CN,KNC,Airport,0.0,0.0
-658,MES,Medan Kuala Namu,ID,KNO,Airport,98.8719,3.6378
-659,KNU,Kanpur,IN,KNU,Airport,80.3672,26.4406
-660,KOA,Kona,US,KOA,Airport,-156.0456,19.7389
-661,KOJ,Kagoshima,JP,KOJ,Airport,130.7194,31.8033
-662,KOW,Ganzhou Huangjin,CN,KOW,Airport,114.7753,25.8514
-663,KPO,P'Ohang,KR,KPO,Airport,129.4206,35.9878
-664,KRK,Krakow,PL,KRK,Airport,19.7847,50.0778
-665,KRL,Korla,CN,KRL,Airport,86.1303,41.6992
-666,KRN,Kiruna,SE,KRN,Airport,20.3367,67.8219
-667,KRR,Krasnodar,RU,KRR,Airport,39.1664,45.0325
-668,KRS,Kristiansand - Kjevik,NO,KRS,Airport,8.0853,58.2042
-669,KRT,Khartoum,SD,KRT,Airport,32.5531,15.5894
-670,KRY,Karamay,CN,KRY,Airport,84.9539,45.4661
-671,KSA,Kosrae International,FM,KSA,Airport,162.9583,5.3569
-672,KSC,Kosice,SK,KSC,Airport,21.2411,48.6631
-673,KSD,Karlstad,SE,KSD,Airport,13.3375,59.4447
-674,KSU,Kristiansund - Kvernberget,NO,KSU,Airport,7.8244,63.1117
-675,KSY,Kars,TR,KSY,Airport,43.115,40.5622
-676,KTM,Kathmandu - Tribhuvan,NP,KTM,Airport,85.3592,27.6967
-677,KTN,Ketchikan International,US,KTN,Airport,-131.7139,55.3556
-678,KTT,Kittila,FI,KTT,Airport,24.8469,67.7011
-679,KTW,Katowice,PL,KTW,Airport,19.08,50.4742
-680,KUA,Kuantan,MY,KUA,Airport,103.2094,3.7808
-681,KUF,Samara Int'l Apt. Kuromoch,RU,KUF,Airport,50.1517,53.5039
-682,KUH,Kushiro,JP,KUH,Airport,144.1931,43.0408
-683,KUL,Kuala Lumpur Int'l (Sepang),MY,KUL,Airport,101.5519444,3.129722222
-684,KUN,Kaunas,LT,KUN,Airport,24.0847,54.9639
-685,KUO,Kuopio,FI,KUO,Airport,27.7978,63.0072
-686,KVA,Kavala,GR,KVA,Airport,24.6192,40.9133
-687,KVX,Kirov,RU,KVX,Airport,49.3422,58.5008
-688,KWA,Kwajalein Island Bucholz Aaf,MH,KWA,Airport,167.7317,8.72
-689,KWE,Guiyang,CN,KWE,Airport,106.8008,26.5386
-690,KWI,Kuwait International,KW,KWI,Airport,47.9689,29.2267
-691,KWJ,Gwangju,KR,KWJ,Airport,126.8089,35.1264
-692,KWL,Guilin,CN,KWL,Airport,110.0392,25.2181
-693,KSF,Kassel - Railway Station Wilhelmshoehe,DE,KWQ,RailwayStation,0.0,0.0
-694,KYA,Konya,TR,KYA,Airport,32.5619,37.9789
-695,KZN,Kazan,RU,KZN,Airport,49.2786,55.6061
-696,LAD,Luanda,AO,LAD,Airport,13.2311,-8.8583
-697,LAN,Lansing,US,LAN,Airport,-84.5872,42.7786
-698,LAP,La Paz,MX,LAP,Airport,-110.3625,24.0728
-699,LAR,Laramie,US,LAR,Airport,-105.675,41.3119
-700,LAS,"Las Vegas - McCarran International, NV",US,LAS,Airport,-115.1522,36.08
-701,LAX,"Los Angeles International, CA",US,LAX,Airport,-118.4081,33.9425
-702,LBB,"Lubbock International, TX",US,LBB,Airport,-101.8228,33.6636
-703,LBF,North Platte,US,LBF,Airport,-100.6931,41.1311
-704,LBL,Liberal,US,LBL,Airport,-100.96,37.0442
-705,LBU,Labuan,MY,LBU,Airport,115.2525,5.2972
-706,LBV,Libreville,GA,LBV,Airport,9.4122,0.4586
-707,LCA,Larnaca,CY,LCA,Airport,33.6247,34.875
-708,LCH,Lake Charles,US,LCH,Airport,-93.2233,30.1261
-709,LCJ,Lodz Lublinek Airport,PL,LCJ,Airport,19.3981,51.7219
-710,LON,London City Airport,GB,LCY,Airport,0.0542,51.505
-711,LDB,Londrina,BR,LDB,Airport,-51.13,-23.3336
-712,LDE,Lourdes/Tarbes,FR,LDE,Airport,-0.0028,43.1856
-713,LED,St. Petersburg - Pulkovo International,RU,LED,Airport,30.2625,59.8003
-714,LEI,Almeria,ES,LEI,Airport,-2.37,36.8439
-715,LEJ,Leipzig/Halle,DE,LEJ,Airport,12.2417,51.4325
-716,LET,Leticia Alfredo V. Cobo International,CO,LET,Airport,-69.9431,-4.1936
-717,LEX,"Lexington, KY",US,LEX,Airport,-84.6058,38.0364
-718,LFQ,Linfen Qiaoli,CN,LFQ,Airport,111.4917,36.0397
-719,LFT,"Lafayette, Louisiana - Regional",US,LFT,Airport,-91.9875,30.2053
-720,LFW,Lome,TG,LFW,Airport,1.2544,6.1656
-721,NYC,New York - La Guardia,US,LGA,Airport,-73.8725,40.7772
-722,LGB,Long Beach,US,LGB,Airport,-118.1517,33.8178
-723,LGG,Liege - Bierset,BE,LGG,Airport,5.4433,50.6375
-724,LGK,Langkawi,MY,LGK,Airport,99.7322,6.3386
-725,LON,London,GB,LGW,Airport,-0.1903,51.1481
-726,LHE,Lahore,PK,LHE,Airport,74.4036,31.5217
-727,LON,London Heathrow,GB,LHR,Airport,-0.4614,51.4775
-728,LHW,Lanzhou - Lanzhou Airport,CN,LHW,Airport,103.6167,36.5167
-729,LIH,Kauai Island - Lihue,US,LIH,Airport,-159.3361,21.9764
-730,LIM,Lima,PE,LIM,Airport,-77.1144,-12.0219
-731,MIL,Milan Linate,IT,LIN,Airport,9.2783,45.4494
-732,LIR,Liberia,CR,LIR,Airport,-85.5444,10.5933
-733,LIS,Lisbon – Aeroporto de Lisboa,PT,LIS,Airport,-9.1342,38.7742
-734,LIT,Little Rock,US,LIT,Airport,-92.2244,34.7294
-735,LJG,Lijiang Sanyi,CN,LJG,Airport,100.2436,26.6742
-736,LJU,Ljubljana,SI,LJU,Airport,14.4575,46.22361111
-737,LKO,Lucknow,IN,LKO,Airport,80.8894,26.7606
-738,LLA,Lulea,SE,LLA,Airport,22.1219,65.5439
-739,LLI,Lalibela,ET,LLI,Airport,38.98,11.975
-740,LLW,Lilongwe - Kamuzu International,MW,LLW,Airport,33.7811,-13.7894
-741,LMP,Lampedusa,IT,LMP,Airport,12.6183,35.4981
-742,LNK,"Lincoln, NE",US,LNK,Airport,-96.7592,40.8511
-743,LNY,Lanai City,US,LNY,Airport,-156.9514,20.7856
-744,LNZ,Linz - Blue Danube,AT,LNZ,Airport,14.1875,48.2333
-745,LOS,Lagos,NG,LOS,Airport,3.3211,6.5775
-746,LPA,Las Palmas - Aeropuerto de Gran Canaria,ES,LPA,Airport,-15.3867,27.9319
-747,LPB,La Paz,BO,LPB,Airport,-68.1922,-16.5133
-748,LPI,Linkoping,SE,LPI,Airport,15.5256,58.4022
-749,LPQ,Luang Prabang,LA,LPQ,Airport,102.1608,19.8978
-750,LPT,Lampang,TH,LPT,Airport,99.5042,18.2722
-751,LRD,Laredo International,US,LRD,Airport,-99.4617,27.5439
-752,LRM,La Romana,DO,LRM,Airport,-68.9119,18.4508
-753,LSC,La Serena,CL,LSC,Airport,-71.1994,-29.9164
-754,LSP,Las Piedras,VE,LSP,Airport,-70.1514,11.7808
-755,LST,Launceston,AU,LST,Airport,147.2111,-41.5453
-756,LON,London Luton Apt,GB,LTN,Airport,-0.3683,51.8747
-757,LUG,Lugano,CH,LUG,Airport,8.9106,46.0042
-758,LUN,Lusaka,ZM,LUN,Airport,28.4525,-15.3308
-759,LUX,Luxemburg,LU,LUX,Airport,6.2044,49.6233
-760,LUZ,Lublin,PL,LUZ,Airport,22.6906,51.2314
-761,LVI,Livingstone,ZM,LVI,Airport,25.8228,-17.8217
-762,LWB,Lewisburg,US,LWB,Airport,-80.4019,37.8561
-763,LWO,Lviv,UA,LWO,Airport,23.9561,49.8125
-764,LWS,Lewiston,US,LWS,Airport,-117.0136,46.3756
-765,LXA,Lhasa/Lasa Gonggar,CN,LXA,Airport,90.9122,29.2981
-766,LXR,Luxor,EG,LXR,Airport,32.7067,25.6711
-767,LXS,Lemnos,GR,LXS,Airport,25.2364,39.9169
-768,LYH,Lynchburg,US,LYH,Airport,-79.2006,37.3267
-769,LYI,Linyi,CN,LYI,Airport,118.4119,35.0494
-770,LYR,Longyearbyen - Svalbard,NO,LYR,Airport,15.4656,78.2461
-771,LYS,Lyon Saint Exupéry,FR,LYS,Airport,5.0811,45.7256
-772,LZH,Liuzhou,CN,LZH,Airport,109.3914,24.2078
-773,LNZ,Linz Rail Station,AT,LZS,RailwayStation,14.2911,48.2906
-774,LZY,Nyingchi/Linzhi Mainling/Milin,CN,LZY,Airport,94.3386,29.3058
-775,MAA,Chennai/Madras,IN,MAA,Airport,80.1806,12.9944
-776,MAD,Madrid Barajas,ES,MAD,Airport,-3.5667,40.4936
-777,MAF,Midland Odessa,US,MAF,Airport,-102.2019,31.9425
-778,MAH,Menorca - Mahon,ES,MAH,Airport,4.2186,39.8625
-779,MAJ,Majuro Amata Kabua International,MH,MAJ,Airport,171.2719,7.0647
-780,MAN,Manchester,GB,MAN,Airport,-2.275,53.3536
-781,MAO,Manaus - Eduardo Gomez International,BR,MAO,Airport,-60.0497,-3.0386
-782,MAR,Maracaibo,VE,MAR,Airport,-71.7278,10.5583
-783,MBA,Mombasa - Moi International,KE,MBA,Airport,39.5997,-4.0281
-784,MBE,Monbetsu,JP,MBE,Airport,143.4042,44.3039
-785,MBJ,Montego Bay - Sangster International,JM,MBJ,Airport,-77.9133,18.5036
-786,MBS,Saginaw,US,MBS,Airport,-84.0825,43.5319
-787,MKC,"Kansas City, International, MO",US,MCI,Airport,-94.7139,39.2975
-788,MCK,Mccook,US,MCK,Airport,-100.5928,40.2078
-789,ORL,"Orlando International, FL",US,MCO,Airport,-81.3089,28.4294
-790,MCT,Muscat International,OM,MCT,Airport,58.2817,23.5928
-791,MCZ,Maceio,BR,MCZ,Airport,-35.7917,-9.5108
-792,MDC,Manado,ID,MDC,Airport,124.9264,1.5492
-793,MDE,Medellin - Jose Maria Cordova,CO,MDE,Airport,-75.4231,6.1644
-794,MDL,Mandalay,MM,MDL,Airport,95.9781,21.7022
-795,HAR,"Harrisburg, International, PA",US,MDT,Airport,-76.7633,40.1936
-796,MDZ,Mendoza,AR,MDZ,Airport,-68.7928,-32.8317
-797,MED,Madinah Prince Mohammad Bin Abdulaziz,SA,MED,Airport,39.705,24.5533
-798,MEL,Melbourne - Tullamarine International,AU,MEL,Airport,144.8433,-37.6733
-799,MEM,"Memphis International, TN",US,MEM,Airport,-89.9767,35.0425
-800,MES,Medan,ID,MES,Airport,98.6717,3.5581
-801,MEX,Mexico City - Aeropuerto Internacional,MX,MEX,Airport,-99.0722,19.4364
-802,MFE,McAllen - Miller International,US,MFE,Airport,-98.2386,26.1758
-803,MFM,Macau International,MO,MFM,Airport,113.5917,22.1494
-804,MFR,"Medford, OR",US,MFR,Airport,-122.8736,42.3742
-805,MGA,Managua,NI,MGA,Airport,-86.1681,12.1414
-806,MGF,Maringa,BR,MGF,Airport,-52.0158,-23.4761
-807,MGM,Montgomery - Dannelly Field,US,MGM,Airport,-86.3939,32.3006
-808,MGQ,Mogadishu Aden Adde Intl,SO,MGQ,Airport,45.305,2.0147
-809,MGW,Morgantown,US,MGW,Airport,-79.9175,39.6411
-810,MHD,Mashhad Shahid Hashemi Nejad,IR,MHD,Airport,59.645,36.2342
-811,MHG,Mannheim,DE,MHJ,RailwayStation,8.4692,49.4794
-812,MHT,"Manchester - Boston Regional, NH",US,MHT,Airport,-71.4356,42.9325
-813,MIA,"Miami International, FL",US,MIA,Airport,-80.2906,25.7933
-814,MID,Merida,MX,MID,Airport,-89.6578,20.9369
-815,MIG,Mianyang - Nanjiao,CN,MIG,Airport,104.7408,31.4289
-816,MIR,Monastir Habib Bourguiba International,TN,MIR,Airport,10.7547,35.7581
-817,MJM,Mbuji-Mayi,CG,MJM,Airport,23.5689,-6.1211
-818,MJT,Mytilene,GR,MJT,Airport,26.6022,39.0533
-819,MKC,"Kansas City, Missouri - Johnson Executive",US,MKC,Airport,-94.5933,39.1228
-820,MKE,"Milwaukee - General Mitchell, WI",US,MKE,Airport,-87.8967,42.9472
-821,MKG,Muskegon,US,MKG,Airport,-86.2383,43.1694
-822,MKK,Hoolehua,US,MKK,Airport,-157.0978,21.1517
-823,MLA,Malta,MT,MLA,Airport,14.4775,35.8575
-824,MLB,Melbourne,US,MLB,Airport,-80.6453,28.1028
-825,MLE,Male International,MV,MLE,Airport,73.51944444,5.25
-826,MLH,Mulhouse Euroairport,FR,MLH,Airport,7.5292,47.6008
-827,MLI,"Moline, IL",US,MLI,Airport,-90.5075,41.4486
-828,MLM,Morelia,MX,MLM,Airport,-101.0256,19.85
-829,MLU,Monroe,US,MLU,Airport,-92.0378,32.5108
-830,MLX,Malatya,TR,MLX,Airport,38.0911,38.4353
-831,MMB,Memanbetsu,JP,MMB,Airport,144.1642,43.8806
-832,MMH,Mammoth Lakes Mammoth Yosemite,US,MMH,Airport,-118.8406,37.6244
-833,MMK,Murmansk,RU,MMK,Airport,32.7508,68.7817
-834,MMA,Malmo - Sturup,SE,MMX,Airport,13.375,55.5425
-835,MMY,Miyako,JP,MMY,Airport,125.295,24.7828
-836,MNL,Manila - Ninoy Aquino International,PH,MNL,Airport,121.0194,14.5086
-837,MOB,Mobile Municipal,US,MOB,Airport,-88.2428,30.6911
-838,MOD,Modesto,US,MOD,Airport,-120.9544,37.6258
-839,MOL,Molde,NO,MOL,Airport,7.2625,62.7447
-840,MOT,Minot International Apt,US,MOT,Airport,-101.2803,48.2594
-841,MPL,Montpellier,FR,MPL,Airport,3.9614,43.5833
-842,MPM,Maputo International,MZ,MPM,Airport,32.5725,-25.9208
-843,MQM,Mardin,TR,MQM,Airport,40.6317,37.2233
-844,NLP,Nelspruit Kruger Mpumalanga Intl,ZA,MQP,Airport,31.1056,-25.3831
-845,MQX,Mekele,ET,MQX,Airport,39.5333,13.4675
-846,MRD,Merida,VE,MRD,Airport,-71.1611,8.5822
-847,MRS,Marseille-Provence,FR,MRS,Airport,5.215,43.4367
-848,MRU,Mauritius - Seewoosagur International,MU,MRU,Airport,57.67638889,-20.4275
-849,MRV,Mineralnye Vody,RU,MRV,Airport,43.0819,44.225
-850,MRY,"Monterey Peninsula, CA",US,MRY,Airport,-121.8431,36.5869
-851,MSN,"Madison, WI",US,MSN,Airport,-89.3375,43.1397
-852,MSO,"Missoula International, MT",US,MSO,Airport,-114.0906,46.9164
-853,MSP,"Minneapolis - St Paul International, MN",US,MSP,Airport,-93.2217,44.8819
-854,MSQ,Minsk,BY,MSQ,Airport,28.0308,53.8825
-855,MSU,Maseru - Moshoeshoe International,LS,MSU,Airport,27.5525,-29.4622
-856,MSY,"New Orleans International, LA",US,MSY,Airport,-90.2581,29.9933
-857,MTJ,Montrose County,US,MTJ,Airport,-107.8942,38.5053
-858,MTR,Monteria Los Garzones,CO,MTR,Airport,-75.8258,8.8236
-859,MTS,Manzini - Matsapha International,SZ,MTS,Airport,31.3075,-26.5289
-860,MTY,Monterrey - Gen. Mariano Escobedo,MX,MTY,Airport,-100.1069,25.7786
-861,MUB,Maun,BW,MUB,Airport,23.4311,-19.9725
-862,MUC,Munich,DE,MUC,Airport,11.7861,48.3539
-863,MUN,Maturin Quiriquire,VE,MUN,Airport,-63.1533,9.7492
-864,MVD,Montevideo,UY,MVD,Airport,-56.0308,-34.8383
-865,MWH,Moses Lake - Grant County,US,MWH,Airport,-119.3167,47.2047
-866,MWX,Muan,KR,MWX,Airport,126.0,34.0
-867,MIL,Milan Malpensa,IT,MXP,Airport,8.7231,45.63
-868,MYE,Miyake Jima,JP,MYE,Airport,139.5603,34.0736
-869,MYJ,Matsuyama,JP,MYJ,Airport,132.6997,33.8272
-870,MYR,Myrtle Beach - International,US,MYR,Airport,-78.9283,33.6797
-871,MYY,Miri,MY,MYY,Airport,113.9883,4.3253
-872,MZH,Amasya Merzifon,TR,MZH,Airport,35.5203,40.8286
-873,MZL,Manizales,CO,MZL,Airport,-75.4647,5.0297
-874,MZR,Mazar-E Sharif,AF,MZR,Airport,67.2094,36.7069
-875,MZT,Mazatlan,MX,MZT,Airport,-106.2661,23.1614
-876,NAG,Nagpur,IN,NAG,Airport,79.0472,21.0922
-877,NAN,Nadi International,FJ,NAN,Airport,177.4436,-17.755
-878,NAP,Naples - Capodichino,IT,NAP,Airport,14.2908,40.8844
-879,NAS,Nassau - International,BS,NAS,Airport,-77.4661,25.0389
-880,NAT,Natal,BR,NAT,Airport,-35.3761,-5.7681
-881,NAV,Nevsehir,TR,NAV,Airport,34.5344,38.7719
-882,NBC,Nishnekamsk,RU,NBC,Airport,52.1,55.5667
-883,NBE,Enfidha - Hammamet,TN,NBE,Airport,10.4383,36.0756
-884,NBO,Nairobi - Jomo Kenyatta International,KE,NBO,Airport,36.92777778,-1.319166667
-885,NCE,Nice,FR,NCE,Airport,7.215,43.6653
-886,NCL,Newcastle International,GB,NCL,Airport,-1.6917,55.0375
-887,NDG,Qiqihar,CN,NDG,Airport,123.9181,47.2397
-888,NDJ,Ndjamena,TD,NDJ,Airport,15.0339,12.1336
-889,NDR,Nador,MA,NDR,Airport,-3.0283,34.9889
-890,NGB,Ningbo,CN,NGB,Airport,121.4619,29.8267
-891,NGO,Nagoya,JP,NGO,Airport,136.9275,35.25166667
-892,NGS,Nagasaki,JP,NGS,Airport,129.9136,32.9169
-893,NIM,Niamey,NE,NIM,Airport,2.1767,13.4811
-894,NKC,Nouakchott,MR,NKC,Airport,-15.9481,18.0978
-895,NKG,Nanjing,CN,NKG,Airport,118.8619,31.7419
-896,NLA,Ndola,ZM,NLA,Airport,28.6661,-12.9978
-897,NLK,Norfolk Island,NF,NLK,Airport,167.9386,-29.0417
-898,NLP,Nelspruit,ZA,NLP,Airport,30.9167,-25.5
-899,NNG,Nanning,CN,NNG,Airport,108.1725,22.6083
-900,NNM,Naryan-Mar,RU,NNM,Airport,53.1225,67.6403
-901,NOC,Knock - Ireland West,IE,NOC,Airport,-8.8186,53.9103
-902,NOS,Nosy-Be Fascene,MG,NOS,Airport,48.3147,-13.3119
-903,NOU,Noumea - La Tontouta,NC,NOU,Airport,166.2131,-22.0144
-904,NPE,Napier/Hastings,NZ,NPE,Airport,176.8678,-39.4644
-905,NQN,Neuquen,AR,NQN,Airport,-68.1558,-38.9489
-906,NQY,Newquay,GB,NQY,Airport,-5.0017,50.4433
-907,NRK,Norrkoping,SE,NRK,Airport,16.2486,58.5861
-908,DUS,Duesseldorf Weeze Airport,DE,NRN,Airport,6.1422,51.6025
-909,TYO,Tokyo - Narita,JP,NRT,Airport,140.3864,35.7647
-910,YAO,Yaounde - Nsimalen Airport,CM,NSI,Airport,11.5533,3.7225
-911,NSN,Nelson,NZ,NSN,Airport,173.2242,-41.2967
-912,NST,Nakhon Si Thammarat,TH,NST,Airport,99.9447,8.5397
-913,NTE,Nantes,FR,NTE,Airport,-1.6078,47.1569
-914,NTG,Nantong,CN,NTG,Airport,120.9803,32.0722
-915,NTQ,Noto Airport,JP,NTQ,Airport,136.9589,37.2925
-916,NUE,Nuremberg,DE,NUE,Airport,11.0669,49.4986
-917,NVA,Neiva Benito Salas,CO,NVA,Airport,-75.2939,2.9503
-918,NVT,Navegantes,BR,NVT,Airport,-48.6514,-26.88
-919,OAJ,"Jacksonville, North Carolina",US,OAJ,Airport,-77.4397,34.7083
-920,OAK,"Oakland International, CA",US,OAK,Airport,-122.2208,37.7214
-921,OAX,Oaxaca,MX,OAX,Airport,-96.725,17.0028
-922,OBO,Obihiro,JP,OBO,Airport,143.2167,42.7333
-923,ODS,Odessa,UA,ODS,Airport,30.6764,46.4267
-924,OER,Ornskoldsvik,SE,OER,Airport,18.99,63.4083
-925,OGG,"Kahului, HI",US,OGG,Airport,-156.4306,20.8986
-926,OGU,Ordu Giresun,TR,OGU,Airport,38.0858,40.9669
-927,OGZ,Vladikavkaz,RU,OGZ,Airport,44.6067,43.205
-928,OIM,Oshima,JP,OIM,Airport,139.3603,34.7819
-929,OIT,Oita,JP,OIT,Airport,131.7372,33.4794
-930,OKA,Okinawa - Naha,JP,OKA,Airport,127.6458,26.1958
-931,OKC,"Oklahoma City - Will Rodgers World, OK",US,OKC,Airport,-97.6008,35.3931
-932,OKJ,Okayama,JP,OKJ,Airport,133.8553,34.7569
-933,OLB,Olbia,IT,OLB,Airport,9.5178,40.8986
-934,OMA,"Omaha - Eppley Airfield, NE",US,OMA,Airport,-95.8942,41.3031
-935,OME,Nome,US,OME,Airport,-165.4453,64.5122
-936,OMO,Mostar,BA,OMO,Airport,17.8458,43.2828
-937,ONJ,Odate Noshiro,JP,ONJ,Airport,140.3714,40.1919
-938,ONT,"Ontario International, CA",US,ONT,Airport,-117.6011,34.0561
-939,OOL,"Gold Coast, Queensland",AU,OOL,Airport,153.5047,-28.1644
-940,OPO,Porto,PT,OPO,Airport,-8.6781,41.2356
-941,ORB,Orebro,SE,ORB,Airport,15.0381,59.2236
-942,CHI,"Chicago - O'Hare International, IL",US,ORD,Airport,-87.9047,41.9786
-943,ORF,"Norfolk International, VA",US,ORF,Airport,-76.2011,36.8947
-944,ORK,Cork,IE,ORK,Airport,-8.4911,51.8414
-945,PAR,Paris,FR,ORY,Airport,2.3794,48.7233
-946,OSD,Ostersund,SE,OSD,Airport,14.5003,63.1944
-947,OSI,Osijek,HR,OSI,Airport,18.8103,45.4628
-948,OSL,Oslo,NO,OSL,Airport,11.1003,60.1939
-949,OTH,North Bend Southwest Oregon Rgnl,US,OTH,Airport,-124.2461,43.4172
-950,BUH,Bucharest – Henri Coanda,RO,OTP,Airport,26.1022,44.5722
-951,OTZ,Kotzebue,US,OTZ,Airport,-162.5942,66.8886
-952,OUA,Ouagadougou,BF,OUA,Airport,-1.5125,12.3533
-953,OUL,Oulu,FI,OUL,Airport,25.3544,64.93
-954,OXB,Bissau,GW,OXB,Airport,-15.6536,11.8947
-955,OXR,Oxnard/Ventura,US,OXR,Airport,-119.2,34.2
-956,OZH,Zaporizhia Mokraya Intl,UA,OZH,Airport,35.3156,47.8669
-957,PAD,Paderborn,DE,PAD,Airport,8.615277778,51.61166667
-958,PAH,Paducah,US,PAH,Airport,-88.7731,37.0603
-959,PAP,Port Au Prince Toussaint Louverture,HT,PAP,Airport,-72.2925,18.58
-960,PAS,Paros,GR,PAS,Airport,25.1286,37.0103
-961,PAT,Patna,IN,PAT,Airport,85.0881,25.5914
-962,PBC,Puebla,MX,PBC,Airport,-98.3714,19.1581
-963,PBG,Plattsburgh International,US,PBG,Airport,-73.4689,44.6525
-964,PBI,"West Palm Beach International, FL",US,PBI,Airport,-80.0956,26.6831
-965,PDL,Ponta Delgada Joao Paulo Ii,PT,PDL,Airport,-25.6978,37.7411
-966,PDP,Punta Del Este,UY,PDP,Airport,-55.1008,-34.8569
-967,PDX,"Portland International, OR",US,PDX,Airport,-122.5975,45.5886
-968,PEE,Perm,RU,PEE,Airport,56.0211,57.9144
-969,PEG,Perugia,IT,PEG,Airport,12.5103,43.0972
-970,PEI,Pereira,CO,PEI,Airport,-75.7394,4.8128
-971,BJS,Beijing (BJS) - Capital,CN,PEK,Airport,116.5844,40.08
-972,PEM,Puerto Maldonado Padre Aldamiz Intl,PE,PEM,Airport,-69.2292,-12.6164
-973,PEN,Penang - International,MY,PEN,Airport,100.2767,5.2972
-974,PER,Perth,AU,PER,Airport,115.9669,-31.9403
-975,PEW,Peshawar,PK,PEW,Airport,71.5144,33.9939
-976,PFN,Panama City - Bay County,US,PFN,Airport,-85.6828,30.2289
-977,PFO,Paphos,CY,PFO,Airport,32.4858,34.7181
-978,PGA,Page,US,PGA,Airport,-111.4478,36.9242
-979,PGV,"Greenville, North Carolina - Pitt/Greenville",US,PGV,Airport,-77.3842,35.6358
-980,PHC,Port Harcourt International,NG,PHC,Airport,6.9497,5.0156
-981,PHF,"Newport News - Hampton, Virginia",US,PHF,Airport,-76.4931,37.1319
-982,PHL,"Philadelphia International, PA",US,PHL,Airport,-75.2411,39.8719
-983,PHW,Phalaborwa,ZA,PHW,Airport,31.1561,-23.9369
-984,PHX,"Phoenix - Sky Harbor International, AZ",US,PHX,Airport,-112.0117,33.4342
-985,PIA,"Peoria, IL",US,PIA,Airport,-89.6933,40.6642
-986,PIR,Pierre,US,PIR,Airport,-100.2858,44.3828
-987,PIT,"Pittsburgh International, PA",US,PIT,Airport,-80.2328,40.4914
-988,PKB,Parkersburg/Marietta,US,PKB,Airport,-81.4392,39.345
-989,PKU,Pekanbaru,ID,PKU,Airport,101.4444,0.4608
-990,PLM,Palembang,ID,PLM,Airport,104.7,-2.8983
-991,PLQ,Klaipeda/Palanga Palanga International,LT,PLQ,Airport,21.0939,55.9733
-992,PLS,Providenciales International,TC,PLS,Airport,-72.2658,21.7736
-993,PLZ,Port Elizabeth,ZA,PLZ,Airport,25.6172,-33.985
-994,PMC,Puerto Montt,CL,PMC,Airport,-73.0939,-41.4389
-995,PMI,Palma de Mallorca,ES,PMI,Airport,2.7389,39.5517
-996,PMO,Palermo,IT,PMO,Airport,13.0994,38.1819
-997,PMR,Palmerston North,NZ,PMR,Airport,175.6136,-40.32
-998,PMV,Porlamar,VE,PMV,Airport,-63.9675,10.9131
-999,PNA,Pamplona,ES,PNA,Airport,-1.647222222,42.77055556
-1000,PNH,Phnom-Penh,KH,PNH,Airport,104.8442,11.5467
-1001,PNI,Pohnpei International,FM,PNI,Airport,158.2089,6.9853
-1002,PNL,Pantelleria,IT,PNL,Airport,11.9681,36.815
-1003,PNQ,Pune,IN,PNQ,Airport,73.9197,18.5822
-1004,PNR,Pointe Noire,CG,PNR,Airport,11.8867,-4.8161
-1005,PNS,Pensacola Municipal,US,PNS,Airport,-87.1867,30.4733
-1006,PNZ,Petrolina Senador Nilo Coelho,BR,PNZ,Airport,-40.5692,-9.3625
-1007,POA,Porto Alegre,BR,POA,Airport,-51.1714,-29.9944
-1008,POL,Pemba,MZ,POL,Airport,40.5225,-12.9867
-1009,POP,Puerto Plata,DO,POP,Airport,-70.57,19.7578
-1010,POS,Port Of Spain Piarco International,TT,POS,Airport,-61.3372,10.5953
-1011,POZ,Poznan,PL,POZ,Airport,16.8264,52.4211
-1012,PPT,Papeete,PF,PPT,Airport,-149.6072,-17.5539
-1013,PRC,Prescott Ernest A. Love Field,US,PRC,Airport,-112.4197,34.6544
-1014,PRG,"Prague, Václav Havel Airport",CZ,PRG,Airport,14.26,50.1008
-1015,PRN,"Pristina, Kosovo",RS,PRN,Airport,21.03638889,42.57527778
-1016,PSA,Pisa,IT,PSA,Airport,10.3956,43.6828
-1017,PSC,"Pasco, WA",US,PSC,Airport,-119.1167,46.2667
-1018,PSG,Petersburg,US,PSG,Airport,-132.9436,56.8022
-1019,PSO,Pasto Antonio Narino,CO,PSO,Airport,-77.2911,1.3961
-1020,PSP,"Palm Springs Municipal, CA",US,PSP,Airport,-116.5067,33.8297
-1021,PSS,Posadas,AR,PSS,Airport,-55.9706,-27.3858
-1022,UTT,Polokwane,ZA,PTG,Airport,29.4586,-23.8453
-1023,PTP,Pointe-A-Pitre,GP,PTP,Airport,-61.5319,16.2653
-1024,PTY,Panama City - Tocumen International,PA,PTY,Airport,-79.38361111,9.07
-1025,PUB,Pueblo,US,PUB,Airport,-104.4967,38.2892
-1026,PUJ,Punta Cana,DO,PUJ,Airport,-68.3633,18.5675
-1027,PUQ,Punta Arenas,CL,PUQ,Airport,-70.8547,-53.0028
-1028,PUS,Busan Gimhae Int' l Airport,KR,PUS,Airport,128.9425,35.1767
-1029,PUW,Pullman/Moscow,US,PUW,Airport,-117.1111,46.7436
-1030,PUY,Pula,HR,PUY,Airport,13.9222,44.8936
-1031,PVD,Providence,US,PVD,Airport,-71.4258,41.725
-1032,SHA,Shanghai - Pu Dong,CN,PVG,Airport,121.8053,31.1433
-1033,PVH,Porto Velho,BR,PVH,Airport,-63.9022,-8.7092
-1034,PVK,Preveza/Lefkada,GR,PVK,Airport,20.7653,38.9256
-1035,PVR,Puerto Vallarta,MX,PVR,Airport,-105.2542,20.68
-1036,PWM,"Portland Intl, ME",US,PWM,Airport,-70.3092,43.6461
-1037,PXO,Porto Santo,PT,PXO,Airport,-16.3497,33.0708
-1038,PZB,Pietermaritzburg,ZA,PZB,Airport,30.3986,-29.6489
-1039,PZO,Puerto Ordaz,VE,PZO,Airport,-62.7603,8.2886
-1040,DUS,Dusseldorf - Train Station,DE,QDU,Airport,6.7931,51.2203
-1041,CGN,Cologne - Railway Station,DE,QKL,RailwayStation,6.9583,50.9433
-1042,CGN,"Cologne, Messe Deutz Railway Station",DE,QKU,RailwayStation,6.9744,50.9406
-1043,QRO,Queretaro,MX,QRO,Airport,-100.1856,20.6172
-1044,QUL,Ulm Rail Station,DE,QUL,RailwayStation,9.9833,48.3997
-1045,QWU,Wuerzburg Rail Station,DE,QWU,RailwayStation,9.9364,49.7886
-1046,RAI,Praia,CV,RAI,Airport,-23.4847,14.9414
-1047,RAJ,Rajkot,IN,RAJ,Airport,70.7794,22.3092
-1048,RAK,Marrakech,MA,RAK,Airport,-8.0364,31.6069
-1049,RAO,Ribeirao Preto,BR,RAO,Airport,-47.7742,-21.1342
-1050,RAP,Rapid City Regional,US,RAP,Airport,-103.0569,44.0431
-1051,RAR,Rarotonga,CK,RAR,Airport,-159.7983,-21.2028
-1052,RCB,Richards Bay,ZA,RCB,Airport,32.0922,-28.7411
-1053,RCH,Riohacha Aimirante Padilla,CO,RCH,Airport,-72.9258,11.5261
-1054,RDD,Redding,US,RDD,Airport,-122.2933,40.5089
-1055,RDM,Redmond,US,RDM,Airport,-121.15,44.2542
-1056,RDU,"Raleigh/Durham, NC",US,RDU,Airport,-78.7875,35.8778
-1057,REC,Recife - Guararapes International,BR,REC,Airport,-34.92388889,-8.125833333
-1058,REG,Reggio Calabria - Tito Menniti,IT,REG,Airport,15.6536,38.0719
-1059,REL,Trelew,AR,REL,Airport,-65.2703,-43.2106
-1060,REP,Siem Reap,KH,REP,Airport,103.8128,13.4106
-1061,RES,Resistencia,AR,RES,Airport,-59.0561,-27.45
-1062,RGL,Rio Gallegos International,AR,RGL,Airport,-69.3128,-51.6089
-1063,RGN,Yangon,MM,RGN,Airport,96.1333,16.9072
-1064,RHO,Rhodes Diagoras Airport,GR,RHO,Airport,28.0861,36.4056
-1065,RIC,"Richmond - Byrd Field International, VA",US,RIC,Airport,-77.3197,37.5053
-1066,RIS,Rishiri,JP,RIS,Airport,141.1864,45.2419
-1067,RIW,Riverton,US,RIW,Airport,-108.46,43.0656
-1068,RIX,Riga,LV,RIX,Airport,23.9711,56.9236
-1069,RJK,Rijeka,HR,RJK,Airport,14.5703,45.2169
-1070,RKS,Rock Springs,US,RKS,Airport,-109.0656,41.5947
-1071,RLG,Rostock-Laage,DE,RLG,Airport,12.27833333,53.91805556
-1072,RMF,Marsa Alam,EG,RMF,Airport,34.5836,25.5572
-1073,RMI,Rimini,IT,RMI,Airport,12.6094,44.0194
-1074,RNB,Ronneby,SE,RNB,Airport,15.265,56.2667
-1075,RNO,"Reno - Cannon International, NV",US,RNO,Airport,-119.7681,39.4992
-1076,ROA,"Roanoke, VA",US,ROA,Airport,-79.9756,37.3256
-1077,MLW,Monrovia - Robertsville International,LR,ROB,Airport,-10.3622,6.2339
-1078,ROC,"Rochester, NY",US,ROC,Airport,-77.6725,43.1189
-1079,ROR,Koror Palau International,PW,ROR,Airport,134.5442,7.3672
-1080,ROS,Rosario,AR,ROS,Airport,-60.7844,-32.9036
-1081,ROT,Rotorua,NZ,ROT,Airport,176.3164,-38.1069
-1082,ROV,Rostov-on-Don,RU,ROV,Airport,39.8181,47.2583
-1083,RPR,Raipur,IN,RPR,Airport,81.7389,21.1803
-1084,RST,Rochester Municipal,US,RST,Airport,-92.4967,43.9103
-1085,RSU,Yeosu,KR,RSU,Airport,127.6169,34.8422
-1086,FMY,"Fort Myers - SW Florida Region, FL",US,RSW,Airport,-81.7553,26.5361
-1087,RTB,Roatan,HN,RTB,Airport,-86.5231,16.3169
-1088,RTM,Rotterdam,NL,RTM,Airport,4.4308,51.9531
-1089,RUH,Riyadh - King Khaled International,SA,RUH,Airport,46.6989,24.9578
-1090,RZE,Rzeszow,PL,RZE,Airport,22.0189,50.11
-1091,SAC,Sacramento Executive,US,SAC,Airport,-121.5,38.5167
-1092,SAF,Santa Fe Municipal,US,SAF,Airport,-106.0833,35.6167
-1093,SAH,Sana'a International,YE,SAH,Airport,44.2197,15.4764
-1094,SAL,San Salvador - El Salvador International,SV,SAL,Airport,-89.0558,13.4408
-1095,SAN,"San Diego Lindberg Field, CA",US,SAN,Airport,-117.1866667,32.73361111
-1096,SAP,San Pedro Sula,HN,SAP,Airport,-87.9236,15.4528
-1097,SAT,"San Antonio International, TX",US,SAT,Airport,-98.4697,29.5336
-1098,SAV,"Savannah International, GA",US,SAV,Airport,-81.2022,32.1275
-1099,IST,Istanbul Sabiha Gokcen Airport,TR,SAW,Airport,29.3092,40.8986
-1100,SBA,"Santa Barbara Municipal, CA",US,SBA,Airport,-119.8403,34.4261
-1101,SBN,South Bend,US,SBN,Airport,-86.3131,41.7047
-1102,CSL,"San Luis Obispo County, CA",US,SBP,Airport,-120.6419,35.2369
-1103,SBW,Sibu,MY,SBW,Airport,111.9825,2.2642
-1104,SBY,Salisbury,US,SBY,Airport,-75.5103,38.3406
-1105,SBZ,Sibiu International,RO,SBZ,Airport,24.0914,45.7856
-1106,SCC,Prudhoe Bay/Deadhorse,US,SCC,Airport,-148.4653,70.1947
-1107,SCE,State College,US,SCE,Airport,-77.8472,40.8506
-1108,SCL,Santiago - Arturo Merino Benitez,CL,SCL,Airport,-70.7858,-33.3931
-1109,SCN,Saarbruecken - Ensheim,DE,SCN,Airport,7.1106,49.2147
-1110,AKX,Aktau,KZ,SCO,Airport,51.0919,43.86
-1111,SCQ,Santiago de Compostela,ES,SCQ,Airport,-8.415,42.895
-1112,SCW,Syktyvkar,RU,SCW,Airport,50.845,61.6469
-1113,SCY,San Cristobal Island San Cristobal,EC,SCY,Airport,-89.6175,-0.9103
-1114,SCN,Saarbruecken - Dudweiler Bus Station,DE,SDA,BusStation,7.0272,49.2775
-1115,SDF,"Louisville International, KY",US,SDF,Airport,-85.7361,38.1744
-1116,SDJ,Sendai,JP,SDJ,Airport,140.9169,38.1397
-1117,SDK,Sandakan,MY,SDK,Airport,118.0611,5.9014
-1118,SDL,Sundsvall,SE,SDL,Airport,17.4439,62.5281
-1119,SDQ,Santo Domingo - Las Americas,DO,SDQ,Airport,-69.6689,18.4297
-1120,RIO,Rio de Janeiro - Santos Dumont,BR,SDU,Airport,-43.1631,-22.9106
-1121,SEA,"Seattle - Seattle/Tacoma International, WA",US,SEA,Airport,-122.3094,47.4489
-1122,LON,London Southend Apt,GB,SEN,Airport,0.6956,51.5714
-1123,SEZ,Mahe Island - Seychelles International,SC,SEZ,Airport,55.5219,-4.6744
-1124,SFN,Santa Fe,AR,SFN,Airport,-60.8114,-31.7108
-1125,SFO,"San Francisco International, CA",US,SFO,Airport,-122.3917,37.6189
-1126,SFT,Skelleftea,SE,SFT,Airport,21.0769,64.6247
-1127,SGF,Springfield Branson,US,SGF,Airport,-93.3886,37.2456
-1128,SGN,Ho Chi Minh City,VN,SGN,Airport,106.6519,10.8189
-1129,SGU,Saint George,US,SGU,Airport,-113.5931,37.0906
-1130,SHA,Shanghai Hongqiao International Apt,CN,SHA,Airport,121.3364,31.1978
-1131,SHB,Nakashibetsu,JP,SHB,Airport,144.96,43.5775
-1132,SHC,Inda Selassie,ET,SHC,Airport,38.2714,14.0794
-1133,SHE,Shenyang Taoxian International Airport,CN,SHE,Airport,123.4833,41.6397
-1134,SHJ,Sharjah,AE,SHJ,Airport,55.5172,25.3286
-1135,SHL,Shillong,IN,SHL,Airport,91.9775,25.7036
-1136,SHR,Sheridan,US,SHR,Airport,-106.9803,44.7692
-1137,SHV,Shreveport Regional,US,SHV,Airport,-93.8289,32.4472
-1138,SIA,Xi'An - Xiguan,CN,SIA,Airport,109.1239,34.3761
-1139,SID,Sal Island Amilcar Cabral International,CV,SID,Airport,-22.9494,16.7414
-1140,SIN,Singapore - Changi International,SG,SIN,Airport,103.9894,1.3592
-1141,SIR,Sion,CH,SIR,Airport,7.34,46.2225
-1142,SIS,Sishen,ZA,SIS,Airport,23.0,-27.65
-1143,SIT,Sitka,US,SIT,Airport,-135.3617,57.0472
-1144,SJC,"San Jose, California",US,SJC,Airport,-121.9289,37.3625
-1145,SJD,San Jose del Cabo - Los Cabos,MX,SJD,Airport,-109.7211,23.1519
-1146,SJJ,Sarajevo,BA,SJJ,Airport,18.3314,43.8247
-1147,SJO,San Jose - Juan Santamaria International,CR,SJO,Airport,-84.2089,9.9939
-1148,SJP,Sao Jose Do Rio Preto,BR,SJP,Airport,-49.4064,-20.8167
-1149,SJU,San Juan - Luis Munoz Marin International,PR,SJU,Airport,-66.0019,18.4394
-1150,SJW,Shijiazhuang Zhengding International,CN,SJW,Airport,114.6972,38.2806
-1151,SKB,St Kitts Robert L Bradshaw Intl,KN,SKB,Airport,-62.7186,17.3111
-1152,SKG,Thessaloniki,GR,SKG,Airport,22.97222222,40.52083333
-1153,SKP,Skopje,MK,SKP,Airport,21.6214,41.9617
-1154,SLA,Salta,AR,SLA,Airport,-65.4869,-24.8597
-1155,SLC,"Salt Lake City International, UT",US,SLC,Airport,-111.9778,40.7883
-1156,SLP,San Luis Potosi,MX,SLP,Airport,-100.9308,22.2542
-1157,SLW,Saltillo,MX,SLW,Airport,-100.9283,25.5439
-1158,SLZ,Sao Luiz,BR,SLZ,Airport,-44.2342,-2.5853
-1159,SAC,"Sacramento Metropolitan, CA",US,SMF,Airport,-121.5908,38.6956
-1160,SMI,Samos,GR,SMI,Airport,26.9117,37.69
-1161,SMR,Santa Marta,CO,SMR,Airport,-74.2306,11.1197
-1162,SMX,Santa Maria,US,SMX,Airport,-120.4575,34.8989
-1163,SNA,"Santa Ana (Orange County) - John Wayne
-International, CA",US,SNA,Airport,-117.8683,33.6756
-1164,SNN,Shannon,IE,SNN,Airport,-8.9247,52.7019
-1165,SNU,Santa Clara,CU,SNU,Airport,-79.9436,22.4922
-1166,SOC,Surakarta,ID,SOC,Airport,110.7569,-7.5161
-1167,SOF,Sofia,BG,SOF,Airport,23.4061,42.6953
-1168,SPC,Santa Cruz de la Palma - La Palma,ES,SPC,Airport,-17.7556,28.6264
-1169,SPI,"Springfield, Illinois",US,SPI,Airport,-89.6778,39.8442
-1170,SPN,Saipan International,,SPN,Airport,145.7294,15.1189
-1171,SPU,Split,HR,SPU,Airport,16.2981,43.5389
-1172,SRG,Semarang,ID,SRG,Airport,110.3742,-6.9714
-1173,SRQ,Sarasota/Bradenton,US,SRQ,Airport,-82.5544,27.3956
-1174,SSA,Salvador,BR,SSA,Airport,-38.3311,-12.9111
-1175,SSG,Malabo,GQ,SSG,Airport,8.7086,3.7553
-1176,SSH,Sharm El Sheikh,EG,SSH,Airport,34.395,27.9772
-1177,STI,Santiago Cibao Intl,DO,STI,Airport,-70.6047,19.4061
-1178,STL,"Saint Louis - Lambert-St Louis Intl, MO",US,STL,Airport,-90.37,38.7486
-1179,LON,London-Stansted,GB,STN,Airport,0.233888889,51.88277778
-1180,STR,Stuttgart - Echterdingen,DE,STR,Airport,9.2219,48.69
-1181,STS,Santa Rosa,US,STS,Airport,-122.8103,38.5106
-1182,SNP,Saint Thomas Island,US,STT,Airport,-64.9733,18.3372
-1183,STV,Surat,IN,STV,Airport,72.7417,21.1142
-1184,STW,Stavropol,RU,STW,Airport,42.1128,45.1092
-1185,SUB,Surabaya,ID,SUB,Airport,112.7869,-7.3797
-1186,SUF,Lamezia Terme,IT,SUF,Airport,16.2417,38.9083
-1187,SUN,Hailey,US,SUN,Airport,-114.2972,43.5056
-1188,SVG,Stavanger,NO,SVG,Airport,5.6378,58.8767
-1189,MOW,Moscow,RU,SVO,Airport,37.4147,55.9728
-1190,SVQ,Seville,ES,SVQ,Airport,-5.8931,37.4181
-1191,SVX,Ekaterinburg - Koltsovo Int'l,RU,SVX,Airport,60.8028,56.7431
-1192,SVZ,San Antonio,VE,SVZ,Airport,-72.4397,7.8408
-1193,SWA,Shantou,CN,SWA,Airport,116.7625,23.4275
-1194,SXB,Strasbourg,FR,SXB,Airport,7.6344,48.5419
-1195,BER,Berlin - Schoenefeld,DE,SXF,Airport,13.5206,52.3786
-1196,SXM,St Maarten Princess Juliana Internation,SX,SXM,Airport,-63.1089,18.0408
-1197,SXR,Srinagar,IN,SXR,Airport,74.7742,33.9872
-1198,SYD,Sydney - Kingsford Smith International,AU,SYD,Airport,151.1772,-33.9461
-1199,SYO,Shonai,JP,SYO,Airport,139.7872,38.8122
-1200,SYR,"Syracuse - Hancock International, NY",US,SYR,Airport,-76.1064,43.1111
-1201,SYX,Sanya,CN,SYX,Airport,109.4122,18.3028
-1202,SYZ,Shiraz,IR,SYZ,Airport,52.5886,29.5403
-1203,SZF,Samsun,TR,SZF,Airport,36.5672,41.2544
-1204,SZG,Salzburg - W.A. Mozart,AT,SZG,Airport,13.0044,47.7933
-1205,SZK,Skukuza,ZA,SZK,Airport,31.5906,-24.9644
-1206,SZX,Shenzhen,CN,SZX,Airport,113.8105556,22.63916667
-1207,SZZ,Szczecin,PL,SZZ,Airport,14.9022,53.5847
-1208,TAB,Tobago,TT,TAB,Airport,-60.8322,11.1497
-1209,TAE,Daegu,KR,TAE,Airport,128.6589,35.8942
-1210,TAK,Takamatsu,JP,TAK,Airport,134.0156,34.2142
-1211,TAM,Tampico,MX,TAM,Airport,-97.8658,22.2964
-1212,TAO,Qingdao,CN,TAO,Airport,120.3744,36.2661
-1213,TAS,Tashkent,UZ,TAS,Airport,69.2811,41.2578
-1214,TBS,Tbilisi,GE,TBS,Airport,44.9547,41.6692
-1215,TBU,Nuku'Alofa Fua'Amotu International,TO,TBU,Airport,-175.1436,-21.2444
-1216,TBZ,Tabriz,IR,TBZ,Airport,46.235,38.1339
-1217,TCZ,Tengchong Tuofeng,CN,TCZ,Airport,98.4856,24.9378
-1218,PHS,Trat,TH,TDX,Airport,102.3189,12.2744
-1219,TER,Terceira Lajes,PT,TER,Airport,-27.0908,38.7619
-1220,TET,Tete Matunda,MZ,TET,Airport,33.6403,-16.1047
-1221,TEZ,Tezpur,IN,TEZ,Airport,92.7783,26.7067
-1222,TCI,Tenerife Sur,ES,TFS,Airport,-16.5725,28.0444
-1223,TGD,Podgorica,ME,TGD,Airport,19.2519,42.3594
-1224,TGG,Kuala Terengganu - Sultan Mahmood,MY,TGG,Airport,103.1047,5.3814
-1225,TGO,Tongliao,CN,TGO,Airport,122.2,43.5575
-1226,TGU,Tegucigalpa,HN,TGU,Airport,-87.2172,14.0608
-1227,TGZ,Tuxtla Gutierrez - Llano San Juan,MX,TGZ,Airport,-93.0261,16.5619
-1228,THE,Teresina,BR,THE,Airport,-42.8236,-5.06
-1229,THS,Sukhothai,TH,THS,Airport,99.8183,17.2378
-1230,TIA,Tirana - Mother Teresa Apt. Rinas,AL,TIA,Airport,19.7208,41.415
-1231,TIJ,Tijuana,MX,TIJ,Airport,-116.9703,32.5411
-1232,TIR,Tirupati,IN,TIR,Airport,79.5433,13.6325
-1233,TIV,Tivat,ME,TIV,Airport,18.7233,42.4047
-1234,TKK,Chuuk International,FM,TKK,Airport,151.8431,7.4619
-1235,TKS,Tokushima,JP,TKS,Airport,134.6067,34.1328
-1236,TKU,Turku,FI,TKU,Airport,22.2628,60.5142
-1237,TLH,Tallahassee,US,TLH,Airport,-84.3497,30.3917
-1238,TLL,Tallinn,EE,TLL,Airport,24.8325,59.4133
-1239,TLN,Toulon/Hyeres Le Palyvestr,FR,TLN,Airport,6.1461,43.0972
-1240,TLS,Toulouse - Blagnac,FR,TLS,Airport,1.3678,43.635
-1241,TLV,Tel Aviv - Ben Gurion,IL,TLV,Airport,34.8806,32.0072
-1242,TMP,Tampere,FI,TMP,Airport,23.73888889,61.46388889
-1243,TMS,Sao Tome,ST,TMS,Airport,6.7122,0.3781
-1244,TNA,Jinan Yaoqiang Intl,CN,TNA,Airport,117.2161,36.8572
-1245,TNG,Tangier,MA,TNG,Airport,-5.9169,35.7269
-1246,TNH,Tonghua Sanyuanpu,CN,TNH,Airport,125.7044,42.2531
-1247,TNR,Antananarivo,MG,TNR,Airport,47.4789,-18.7969
-1248,TOF,Tomsk,RU,TOF,Airport,85.2133,56.3858
-1249,TOP,Topeka - Phillip,US,TOP,Airport,-95.6167,39.0667
-1250,TOS,Tromso,NO,TOS,Airport,18.92166667,69.68138889
-1251,TOY,Toyama,JP,TOY,Airport,137.1875,36.6483
-1252,TPA,"Tampa International, FL",US,TPA,Airport,-82.5333,27.9756
-1253,TPE,Taipei - Taoyuan Intl,TW,TPE,Airport,121.2328,25.0778
-1254,TRC,Torreon,MX,TRC,Airport,-103.4106,25.5683
-1255,TRD,Trondheim,NO,TRD,Airport,10.9242,63.4575
-1256,TRG,Tauranga,NZ,TRG,Airport,176.1986,-37.6733
-1257,TTO,Bristol,US,TRI,Airport,-82.4075,36.4753
-1258,TRN,Turin,IT,TRN,Airport,7.6494,45.2025
-1259,TRS,Triest,IT,TRS,Airport,13.4722,45.8275
-1260,TRU,Trujillo C. Martinez De Pinillos,PE,TRU,Airport,-79.1094,-8.0847
-1261,TRV,Thiruvananthapuram,IN,TRV,Airport,76.92,8.4822
-1262,TRZ,TIRUCHCHIRAPPALLI,IN,TRZ,Airport,78.7097,10.7653
-1263,TPE,Taipei Songshan,TW,TSA,Airport,121.5525,25.0697
-1264,TSE,Astana,KZ,TSE,Airport,71.4669,51.0231
-1265,TSJ,Tsushima,JP,TSJ,Airport,129.3306,34.285
-1266,TSN,Tianjin,CN,TSN,Airport,117.3461,39.1244
-1267,TSR,Timisoara – Traian Vuia International Airport,RO,TSR,Airport,21.3378,45.81
-1268,TTJ,Tottori,JP,TTJ,Airport,134.1667,35.53
-1269,TUC,Tucuman,AR,TUC,Airport,-65.1047,-26.8408
-1270,TUL,"Tulsa International, OK",US,TUL,Airport,-95.8881,36.1983
-1271,TUN,Tunis - Carthage International,TN,TUN,Airport,10.2272,36.8511
-1272,TUO,Taupo,NZ,TUO,Airport,176.085,-38.7408
-1273,TUS,"Tucson International, AZ",US,TUS,Airport,-110.9411,32.1161
-1274,TVC,Traverse City,US,TVC,Airport,-85.5822,44.7414
-1275,TWU,Tawau,MY,TWU,Airport,118.1219,4.3133
-1276,TXG,Taichung,TW,TXG,Airport,120.6461,24.15
-1277,BER,Berlin - Tegel,DE,TXL,Airport,13.29555556,52.56027778
-1278,TXN,Huangshan,CN,TXN,Airport,118.2572,29.7328
-1279,TYN,Taiyuan,CN,TYN,Airport,112.6283,37.7469
-1280,TYR,Tyler,US,TYR,Airport,-95.4025,32.3542
-1281,TYS,"Knoxville, TN",US,TYS,Airport,-83.9942,35.8111
-1282,TZX,Trabzon,TR,TZX,Airport,39.7897,40.995
-1283,UBJ,Ube,JP,UBJ,Airport,131.2786,33.93
-1284,UBP,Ubon Ratchathani - Muang Ubon,TH,UBP,Airport,104.8703,15.2514
-1285,UDI,Uberlandia,BR,UDI,Airport,-48.2256,-18.8828
-1286,UDR,Udaipur,IN,UDR,Airport,73.8961,24.6178
-1287,UFA,Ufa,RU,UFA,Airport,55.8839,54.5575
-1288,UIO,Quito Mariscal Sucre Airport,EC,UIO,Airport,-78.3561,-0.1239
-1289,OSA,Osaka - Kobe,JP,UKB,Airport,135.2239,34.6328
-1290,ULN,Ulaan Baatar,MN,ULN,Airport,106.7667,47.8431
-1291,ULY,Ulyanovsk,RU,ULY,Airport,48.8028,54.4011
-1292,UME,Umea,SE,UME,Airport,20.2828,63.7919
-1293,UPG,Ujung Pandang,ID,UPG,Airport,119.5542,-5.0617
-1294,URC,Urumqi,CN,URC,Airport,87.4742,43.9072
-1295,URT,Surat Thani,TH,URT,Airport,99.1392,9.1361
-1296,USH,Ushuaia,AR,USH,Airport,-68.2956,-54.8433
-1297,USK,Usinsk,RU,USK,Airport,57.3672,66.0044
-1298,USM,Ko Samui,TH,USM,Airport,100.0625,9.5503
-1299,USN,Ulsan,KR,USN,Airport,129.3517,35.5936
-1300,UTH,Udon Thani,TH,UTH,Airport,102.7883,17.3864
-1301,UTN,Upington,ZA,UTN,Airport,21.2603,-28.3992
-1302,UTT,Umtata,ZA,UTT,Airport,28.6742,-31.5478
-1303,UUS,Yuzhno Sakhalinsk,RU,UUS,Airport,142.7175,46.8886
-1304,SLU,Saint Lucia - Hewanorra,LC,UVF,Airport,-60.9525,13.7333
-1305,VAA,Vaasa,FI,VAA,Airport,21.7622,63.0506
-1306,VAN,Van,TR,VAN,Airport,43.3322,38.4683
-1307,VAR,Varna,BG,VAR,Airport,27.825,43.2319
-1308,VAS,Sivas,TR,VAS,Airport,36.9036,39.8139
-1309,VBY,Visby,SE,VBY,Airport,18.3461,57.6628
-1310,VCE,Venice - Marco Polo,IT,VCE,Airport,12.3519,45.5053
-1311,SAO,Sao Paulo,BR,VCP,Airport,-47.1347,-23.0081
-1312,VCT,Victoria,US,VCT,Airport,-96.9186,28.8525
-1313,VDA,Ovda,IL,VDA,Airport,34.9358,29.9403
-1314,VEL,Vernal,US,VEL,Airport,-109.5108,40.4433
-1315,VER,Vera Cruz,MX,VER,Airport,-96.1872,19.1458
-1316,VFA,Victoria Falls,ZW,VFA,Airport,25.8389,-18.0958
-1317,VGA,Vijayawada,IN,VGA,Airport,80.7969,16.5306
-1318,VGO,Vigo,ES,VGO,Airport,-8.6267,42.2317
-1319,VIE,Vienna International,AT,VIE,Airport,16.5781,48.1103
-1320,VIX,Vitoria,BR,VIX,Airport,-40.2864,-20.2581
-1321,MOW,Moscow - Vnukovo,RU,VKO,Airport,37.2614,55.5917
-1322,VLC,Valencia,ES,VLC,Airport,-0.4817,39.4894
-1323,VLN,Valencia,VE,VLN,Airport,-67.9283,10.1497
-1324,VNO,Vilnius,LT,VNO,Airport,25.2858,54.6342
-1325,VNS,Varanasi,IN,VNS,Airport,82.8594,25.4522
-1326,VNX,Vilankulos,MZ,VNX,Airport,35.3133,-22.0183
-1327,VOG,Volgograd,RU,VOG,Airport,44.3456,48.7825
-1328,VOL,Volos,GR,VOL,Airport,22.7944,39.2197
-1329,VOZ,Voronezh,RU,VOZ,Airport,39.2297,51.8142
-1330,VPS,Valparaiso - Fort Walton Beach,US,VPS,Airport,-86.52,30.4867
-1331,VRA,Varadero,CU,VRA,Airport,-81.4353,23.0344
-1332,VRN,Verona,IT,VRN,Airport,10.8881,45.3964
-1333,VSA,Villahermosa,MX,VSA,Airport,-92.8175,17.9969
-1334,VTE,Vientiane,LA,VTE,Airport,102.5633,17.9883
-1335,VTZ,Vishakhapatnam,IN,VTZ,Airport,83.2244,17.7211
-1336,SRZ,Santa Cruz - Viru Viru International,BO,VVI,Airport,-63.1353,-17.6447
-1337,VVO,Vladivostok,RU,VVO,Airport,132.1481,43.3989
-1338,VXE,Sao Vicente,CV,VXE,Airport,-25.0547,16.8336
-1339,WAG,Wanganui,NZ,WAG,Airport,175.0231,-39.9625
-1340,WAW,Warsaw,PL,WAW,Airport,20.9672,52.1658
-1341,WDH,Windhoek - International,NA,WDH,Airport,17.46666667,-22.48333333
-1342,EJQ,Shiyan Wudangshan,CN,WDS,Airport,110.9061,32.5933
-1343,WEH,Weihai,CN,WEH,Airport,122.2289,37.1872
-1344,WKJ,Wakkanai,JP,WKJ,Airport,141.8008,45.4042
-1345,WLG,Wellington International,NZ,WLG,Airport,174.8069,-41.3269
-1346,WNZ,Wenzhou,CN,WNZ,Airport,120.8522,27.9131
-1347,WRE,Whangarei,NZ,WRE,Airport,174.3639,-35.7689
-1348,WRG,Wrangell,US,WRG,Airport,-132.3697,56.4844
-1349,WRL,Worland,US,WRL,Airport,-107.9531,43.9644
-1350,WRO,Wroclaw,PL,WRO,Airport,16.8858,51.1028
-1351,WUH,Wuhan,CN,WUH,Airport,114.2081,30.7839
-1352,WUX,Wuxi,CN,WUX,Airport,120.4294,31.4947
-1353,WVB,Walvis Bay,NA,WVB,Airport,14.6453,-22.98
-1354,WXN,Wanzhou,CN,WXN,Airport,108.4272,30.8039
-1355,XAP,Chapeco Serafin Enoss Bertaso,BR,XAP,Airport,-52.6567,-27.1342
-1356,SXB,Strasbourg Bus Station,FR,XER,Airport,7.7356,48.5853
-1357,XFN,Xiangyang,CN,XFN,Airport,112.2908,32.1506
-1358,XIC,Xichang Qingshan,CN,XIC,Airport,102.1844,27.9892
-1359,XIL,Xilnhot,CN,XIL,Airport,115.9633,43.9156
-1360,SIA,Xi'An - Xianyang,CN,XIY,Airport,108.7539,34.4478
-1361,XMN,Xiamen,CN,XMN,Airport,118.1278,24.5442
-1362,FYV,"Fayetteville, AR",US,XNA,Airport,-94.17,36.0047
-1363,XNN,Xining,CN,XNN,Airport,102.0403,36.5286
-1364,XRY,Jerez De La Frontera - La Parra,ES,XRY,Airport,-6.06,36.7447
-1365,XUZ,Xuzhou,CN,XUZ,Airport,117.2458,34.2294
-1366,YAK,Yakutat,US,YAK,Airport,-139.66,59.5092
-1367,YAM,Sault Sainte Marie,CA,YAM,Airport,-84.5094,46.485
-1368,YAO,Yaounde Downtown,CM,YAO,Airport,11.5236,3.8336
-1369,YAP,Yap International,FM,YAP,Airport,138.0825,9.4989
-1370,YBC,Baie Comeau,CA,YBC,Airport,-68.2044,49.1325
-1371,YBG,Bagotville,CA,YBG,Airport,-70.9925,48.3322
-1372,YBL,Campbell River,CA,YBL,Airport,-125.2706,49.9508
-1373,YCD,Nanaimo - Cassidy,CA,YCD,Airport,-123.8703,49.0522
-1374,YCG,Castlegar,CA,YCG,Airport,-117.6325,49.2964
-1375,YCU,Yuncheng - Guangong,CN,YCU,Airport,111.0336,35.1164
-1376,YDF,Deer Lake,CA,YDF,Airport,-57.3914,49.2108
-1377,YEA,Edmonton - International,CA,YEG,Airport,-113.5916667,53.30416667
-1378,YFB,Iqaluit,CA,YFB,Airport,-68.5558,63.7564
-1379,YFC,Fredericton,CA,YFC,Airport,-66.53,45.8689
-1380,YGJ,Yonago,JP,YGJ,Airport,133.2364,35.4922
-1381,YGK,Kingston,CA,YGK,Airport,-76.5969,44.2253
-1382,YGP,Gaspe,CA,YGP,Airport,-64.4786,48.7753
-1383,YGR,Iles De La Madeleine,CA,YGR,Airport,-61.7803,47.4247
-1384,YTO,Toronto John C Munro Hamilton,CA,YHM,Airport,-79.9281,43.1619
-1385,YHZ,Halifax - International,CA,YHZ,Airport,-63.5128,44.8869
-1386,YIH,Yichang,CN,YIH,Airport,111.4797,30.5569
-1387,YIN,Yining,CN,YIN,Airport,81.3289,43.9553
-1388,YIW,Yiwu,CN,YIW,Airport,120.0325,29.345
-1389,YKA,Kamloops,CA,YKA,Airport,-120.4444,50.7022
-1390,YKM,Yakima Air Terminal,US,YKM,Airport,-120.5408,46.5681
-1391,YLW,Kelowna,CA,YLW,Airport,-119.3778,49.9561
-1392,YMM,Fort McMurray,CA,YMM,Airport,-111.2219,56.6533
-1393,YNB,Yanbu Al Bahr,SA,YNB,Airport,38.0633,24.1442
-1394,YNJ,Yanji,CN,YNJ,Airport,129.4514,42.8828
-1395,YNT,Yantai,CN,YNT,Airport,120.9872,37.6572
-1396,YNZ,Yancheng,CN,YNZ,Airport,120.2031,33.4261
-1397,YOW,Ottawa - International,CA,YOW,Airport,-75.6692,45.3225
-1398,YPR,Prince Rupert - Digby Island,CA,YPR,Airport,-130.4447,54.2861
-1399,YQB,Quebec,CA,YQB,Airport,-71.3933,46.7911
-1400,YQG,Windsor,CA,YQG,Airport,-82.9619,42.2706
-1401,YQL,Lethbridge,CA,YQL,Airport,-112.7903,49.6297
-1402,YQM,Moncton,CA,YQM,Airport,-64.6925,46.1069
-1403,YQQ,Comox,CA,YQQ,Airport,-124.8867,49.7108
-1404,YQR,Regina,CA,YQR,Airport,-104.6572,50.4294
-1405,YQT,Thunder Bay,CA,YQT,Airport,-89.3239,48.3719
-1406,YQU,Grande Prairie,CA,YQU,Airport,-118.885,55.1797
-1407,YQX,Gander,CA,YQX,Airport,-54.56,48.9478
-1408,YQY,Sydney,CA,YQY,Airport,-60.0478,46.1614
-1409,YQZ,Quesnel,CA,YQZ,Airport,-122.5103,53.0261
-1410,YSB,Sudbury,CA,YSB,Airport,-80.7989,46.625
-1411,YSJ,Saint John,CA,YSJ,Airport,-65.8822,45.3206
-1412,YTS,Timmins,CA,YTS,Airport,-81.3767,48.5697
-1413,YTY,Yangzhou Taizhoui,CN,YTY,Airport,119.7189,32.5631
-1414,YTO,Toronto Bishop Billy City A/P,CA,YTZ,Airport,-79.3961,43.6275
-1415,YMQ,Montreal - Pierre Elliott Trudeau,CA,YUL,Airport,-73.7408,45.4706
-1416,YUY,Rouyn,CA,YUY,Airport,-78.8356,48.2061
-1417,YVO,Val D'Or,CA,YVO,Airport,-77.7828,48.0533
-1418,YVR,Vancouver - International,CA,YVR,Airport,-123.1844,49.1939
-1419,YWG,Winnipeg,CA,YWG,Airport,-97.23333333,49.9
-1420,YWK,Wabush,CA,YWK,Airport,-66.8644,52.9219
-1421,YWL,Williams Lake,CA,YWL,Airport,-122.0542,52.1831
-1422,YXC,Cranbrook,CA,YXC,Airport,-115.7822,49.6108
-1423,YXE,Saskatoon,CA,YXE,Airport,-106.6997,52.1708
-1424,YXH,Medicine Hat,CA,YXH,Airport,-110.7231,50.0172
-1425,YXJ,Fort Saint John,CA,YXJ,Airport,-120.7403,56.2381
-1426,YXS,Prince George,CA,YXS,Airport,-122.6758,53.8819
-1427,YXT,Terrace,CA,YXT,Airport,-128.5761,54.4686
-1428,YXU,London (CA),CA,YXU,Airport,-81.1539,43.0356
-1429,YXX,Abbotsford,CA,YXX,Airport,-122.3606,49.0253
-1430,YXY,Whitehorse,CA,YXY,Airport,-135.0672,60.7094
-1431,YYB,North Bay,CA,YYB,Airport,-79.4228,46.3636
-1432,YYC,Calgary,CA,YYC,Airport,-114.0202778,51.11388889
-1433,YYD,Smithers,CA,YYD,Airport,-127.1828,54.8247
-1434,YYF,Penticton,CA,YYF,Airport,-119.6022,49.4631
-1435,YYG,Charlottetown,CA,YYG,Airport,-63.1256,46.2892
-1436,YYJ,Victoria - International,CA,YYJ,Airport,-123.4258,48.6469
-1437,YYR,Goose Bay,CA,YYR,Airport,-60.4106,53.3194
-1438,YYT,Saint John's,CA,YYT,Airport,-52.75194444,47.61861111
-1439,YYY,Mont Joli,CA,YYY,Airport,-68.2081,48.6086
-1440,YTO,Toronto - Pearson Int'l (Lester),CA,YYZ,Airport,-79.6306,43.6772
-1441,YZF,Yellowknife,CA,YZF,Airport,-114.4431,62.4686
-1442,YZP,Sandspit,CA,YZP,Airport,-131.8139,53.2544
-1443,YZR,Sarnia,CA,YZR,Airport,-82.3089,42.9994
-1444,YZV,Sept-Iles,CA,YZV,Airport,-66.2656,50.2233
-1445,ZAD,Zadar,HR,ZAD,Airport,15.3467,44.1083
-1446,ZAG,Zagreb,HR,ZAG,Airport,16.0689,45.7431
-1447,ZAL,Valdivia,CL,ZAL,Airport,-73.0864,-39.6494
-1448,NUE,Nuremberg Rail Station,DE,ZAQ,RailwayStation,11.0825,49.445
-1449,ZBF,Bathurst,CA,ZBF,Airport,-65.7389,47.6297
-1450,ZCL,Zacatecas,MX,ZCL,Airport,-102.6869,22.8972
-1451,ZCO,Temuco,CL,ZCO,Airport,-72.6469,-38.9269
-1452,ZDH,Basel SBB Railway Station,CH,ZDH,RailwayStation,7.5897,47.5478
-1453,PHL,Philadelphia 30th Street Rail Station,US,ZFV,RailwayStation,-75.1822,39.9558
-1454,ZHA,Zhanjiang,CN,ZHA,Airport,110.3583,21.2153
-1455,ZIH,Ixtapa/Zihuatanejo International,MX,ZIH,Airport,-101.4606,17.6017
-1456,ZLO,Manzanillo,MX,ZLO,Airport,-104.5586,19.1447
-1457,ZNZ,Zanzibar,TZ,ZNZ,Airport,39.225,-6.2219
-1458,ZOS,Osorno,CL,ZOS,Airport,-73.0606,-40.6114
-1459,ZQN,Queenstown,NZ,ZQN,Airport,168.7467,-45.0183
-1460,ZRH,Zurich,CH,ZRH,Airport,8.5492,47.4647
-1461,ZSB,Salzburg Hbf Rail Station,,ZSB,RailwayStation,13.0458,47.8131
-1462,ZTH,Zakynthos,GR,ZTH,Airport,20.8842,37.7508
-1463,ZUH,Zhuhai,CN,ZUH,Airport,113.3761,22.0067
-1464,STR,Stuttgart - Railway Station,DE,ZWS,RailwayStation,9.1814,48.7836
-1465,ZYI,Zunyi Xinzhou,CN,ZYI,Airport,107.2461,27.8111
-1466,AKX,Kyzylorda,KZ,kzo,Airport,0.0,0.0
+AirportCode,CityCode,CountryCode,LocationType,Latitude,Longitude,TimeZoneId,UtcOffset,Names
+AAL,AAL,DK,Airport,57.0928,9.8492,Europe/Copenhagen,2.0,Aalborg
+AAR,AAR,DK,Airport,56.3039,10.6194,Europe/Copenhagen,2.0,Aarhus
+ABE,ABE,US,Airport,40.6522,-75.4408,America/New_York,-4.0,Allentown/Bethl
+ABJ,ABJ,CI,Airport,5.2614,-3.9264,Africa/Abidjan,0.0,Abidjan
+ABK,ABK,ET,Airport,6.7339,44.2553,Africa/Addis_Ababa,3.0,Kabri Dehar
+ABQ,ABQ,US,Airport,35.0406,-106.6094,America/Denver,-6.0,"Albuquerque International, NM"
+ABV,ABV,NG,Airport,9.0067,7.2631,Africa/Lagos,1.0,Abuja International
+ABZ,ABZ,GB,Airport,57.2042,-2.2003,Europe/London,1.0,Aberdeen
+ACA,ACA,MX,Airport,16.7569,-99.7539,America/Mexico_City,-5.0,Acapulco - Alvarez International
+ACC,ACC,GH,Airport,5.605277778,-0.166666667,Africa/Accra,0.0,Accra - Kotoka International
+ACE,ACE,ES,Airport,28.9456,-13.6053,Atlantic/Canary,1.0,Lanzarote
+ACK,ACK,US,Airport,41.2531,-70.0603,America/New_York,-4.0,Nantucket
+ACT,ACT,US,Airport,31.6114,-97.2306,America/Chicago,-5.0,Waco Municipal
+ACV,ACV,US,Airport,40.9781,-124.1086,America/Los_Angeles,-7.0,Arcata/Eureka
+ACY,AIY,US,Airport,39.4575,-74.5772,America/New_York,-4.0,Atlantic City - International
+ADA,ADA,TR,Airport,36.9822,35.2803,Europe/Istanbul,3.0,Adana
+ADB,IZM,TR,Airport,38.2925,27.1569,Europe/Istanbul,3.0,Izmir - Adnan Menderes
+ADD,ADD,ET,Airport,8.9778,38.7994,Africa/Addis_Ababa,3.0,Addis Ababa
+ADK,ADK,US,Airport,51.8811,-176.6483,America/Adak,-9.0,Adak Island
+ADL,ADL,AU,Airport,-34.945,138.5306,Australia/Adelaide,9.5,Adelaide
+ADQ,ADQ,US,Airport,57.75,-152.4939,America/Anchorage,-8.0,Kodiak - Kodiak Airport
+ADZ,ADZ,CO,Airport,12.5836,-81.7111,America/Bogota,-5.0,San Andres Island
+AEP,BUE,AR,Airport,-34.5589,-58.4164,America/Argentina/Buenos_Aires,-3.0,Buenos Aires - Jorge Newbery
+AER,AER,RU,Airport,43.45,39.9567,Europe/Moscow,3.0,Sochi
+AES,AES,NO,Airport,62.5603,6.1103,Europe/Oslo,2.0,Alesund
+AEX,AEX,US,Airport,31.3275,-92.5497,America/Chicago,-5.0,Alexandria Louisiana
+AGA,AGA,MA,Airport,30.325,-9.4131,Africa/Casablanca,1.0,Agadir
+AGH,AGH,SE,Airport,56.2961,12.8472,Europe/Stockholm,2.0,Helsingborg - Angelholm
+AGP,AGP,ES,Airport,36.675,-4.4992,Europe/Madrid,2.0,Malaga
+AGS,AUG,US,Airport,33.37,-81.9644,America/New_York,-4.0,"Augusta, Georgia"
+AGT,AGT,PY,Airport,-25.4556,-54.8436,America/Asuncion,-4.0,Ciudad del Este - Alejo Garcia
+AGU,AGU,MX,Airport,21.7056,-102.3178,America/Mexico_City,-5.0,Aguascalientes
+AHB,AHB,SA,Airport,18.2403,42.6567,Asia/Riyadh,3.0,Abha
+AHO,AHO,IT,Airport,40.6303,8.2897,Europe/Rome,2.0,Alghero
+AIA,AIA,US,Airport,42.0519,-102.8078,America/Denver,-6.0,Alliance
+AJA,AJA,FR,Airport,41.9239,8.8025,Europe/Paris,2.0,Ajaccio
+AJI,AJI,TR,Airport,39.6539,43.0264,Europe/Istanbul,3.0,AGRI
+AJL,AJL,IN,Airport,23.8389,92.6203,Asia/Kolkata,5.5,Aizawl
+AJR,AJR,SE,Airport,65.5903,19.2819,Europe/Stockholm,2.0,ARVIDSJAUR
+AJU,AJU,BR,Airport,-10.9839,-37.0703,America/Belem,-3.0,Aracaju
+AKJ,AKJ,JP,Airport,43.6708,142.4475,Asia/Tokyo,9.0,Asahikawa
+AKL,AKL,NZ,Airport,-37.0097,174.7917,Pacific/Auckland,12.0,Auckland - International
+ALA,ALA,KZ,Airport,43.3533,77.0422,Asia/Qyzylorda,5.0,Almaty
+ALB,ALB,US,Airport,42.7483,-73.8017,America/New_York,-4.0,"Albany, NY"
+ALC,ALC,ES,Airport,38.2822,-0.5581,Europe/Madrid,2.0,Alicante
+ALF,ALF,NO,Airport,69.9761,23.3717,Europe/Oslo,2.0,Alta
+ALG,ALG,DZ,Airport,36.6942,3.2147,Africa/Algiers,1.0,Algiers
+ALS,ALS,US,Airport,37.4375,-105.8664,America/Denver,-6.0,Alamosa
+ALW,ALW,US,Airport,46.095,-118.2878,America/Los_Angeles,-7.0,Walla Walla
+AMA,AMA,US,Airport,35.2194,-101.7058,America/Chicago,-5.0,Amarillo - International
+AMD,AMD,IN,Airport,23.0772,72.6347,Asia/Kolkata,5.5,Ahmedabad
+AMH,AMH,ET,Airport,6.0394,37.5906,Africa/Addis_Ababa,3.0,Arba Minch
+AMI,AMI,ID,Airport,-8.5608,116.0947,Asia/Makassar,8.0,Mataram
+AMM,AMM,JO,Airport,31.7225,35.9933,Asia/Amman,3.0,Amman - Queen Alia International
+AMS,AMS,NL,Airport,52.3081,4.7642,Europe/Amsterdam,2.0,Amsterdam - Schiphol
+ANC,ANC,US,Airport,61.1744,-149.9964,America/Anchorage,-8.0,Anchorage - International
+ANF,ANF,CL,Airport,-23.4444,-70.445,America/Santiago,-4.0,Antofagasta
+ANU,ANU,AG,Airport,17.1367,-61.7928,America/Antigua,-4.0,Antigua - V.C. Bird International
+AOI,AOI,IT,Airport,43.6167,13.3603,Europe/Rome,2.0,Ancona
+AOJ,AOJ,JP,Airport,40.7347,140.6908,Asia/Tokyo,9.0,AOMORICA
+AOK,AOK,GR,Airport,35.4214,27.1461,Europe/Athens,3.0,Karpathos
+AOR,AOR,MY,Airport,6.1944,100.4008,Asia/Kuala_Lumpur,8.0,Alor Setar
+APL,APL,MZ,Airport,-15.1056,39.2817,Africa/Maputo,2.0,Nampula
+APW,APW,WS,Airport,-13.8297,-171.9972,Pacific/Apia,13.0,APIA FALEOLO APT
+AQJ,AQJ,JO,Airport,29.6117,35.0181,Asia/Amman,3.0,AQABA KING HUSSEIN INTERNATIONAL
+AQP,AQP,PE,Airport,-16.3408,-71.5725,America/Lima,-5.0,AREQUIPA RODRIGUEZ BALLON INTL
+ARH,ARH,RU,Airport,64.6003,40.7167,Europe/Moscow,3.0,Arkhangelsk
+ARI,ARI,CL,Airport,-18.3486,-70.3386,America/Santiago,-4.0,Arica
+ARN,STO,SE,Airport,59.6519,17.9186,Europe/Stockholm,2.0,Stockholm
+ASB,ASB,TM,Airport,37.9869,58.3608,Asia/Ashgabat,5.0,Ashgabad - S. Turkmenbashy Int'l
+ASE,ASE,US,Airport,39.2192,-106.8672,America/Denver,-6.0,"Aspen, CO"
+ASF,ASF,RU,Airport,46.2833,48.0064,Europe/Moscow,3.0,Astrakhan
+ASM,ASM,ER,Airport,15.2919,38.9106,Africa/Asmara,3.0,Asmara
+ASO,ASO,ET,Airport,10.0186,34.5864,Africa/Addis_Ababa,3.0,Asosa
+ASR,ASR,TR,Airport,38.7703,35.4956,Europe/Istanbul,3.0,Kayseri
+ASU,ASU,PY,Airport,-25.2397,-57.5192,America/Asuncion,-4.0,Asuncion
+ASW,ASW,EG,Airport,23.9644,32.82,Africa/Cairo,2.0,Aswan
+ATH,ATH,GR,Airport,37.9364,23.9444,Europe/Athens,3.0,Athens Eleftherios Venizelos
+ATL,ATL,US,Airport,33.6367,-84.4281,America/New_York,-4.0,Hartsfield-Jackson Atlanta International Airport GA
+ATQ,ATQ,IN,Airport,31.7097,74.7972,Asia/Kolkata,5.5,Amritsar
+ATW,ATW,US,Airport,44.2667,-88.5167,America/Chicago,-5.0,Appleton
+ATZ,ATZ,EG,Airport,27.0464,31.0119,Africa/Cairo,2.0,ASYUT
+AUA,AUA,AW,Airport,12.5014,-70.0153,America/Aruba,-4.0,Aruba
+AUH,AUH,AE,Airport,24.43305556,54.64888889,Asia/Dubai,4.0,Abu Dhabi - NADIA International
+AUS,AUS,US,Airport,30.1944,-97.67,America/Chicago,-5.0,"Austin-Bergstrom International Airport, TX"
+AUW,AUW,US,Airport,44.9283,-89.6267,America/Chicago,-5.0,Wausau
+AVL,AVL,US,Airport,35.4361,-82.5419,America/New_York,-4.0,Asheville
+AVP,AVP,US,Airport,41.3386,-75.7233,America/New_York,-4.0,Scranton - Pennsylvania
+AWA,AWA,ET,Airport,7.0675,38.4906,Africa/Addis_Ababa,3.0,AWASA
+AWZ,AWZ,IR,Airport,31.3375,48.7603,Asia/Tehran,4.5,AHWAZ
+AXD,AXD,GR,Airport,40.8558,25.9564,Europe/Athens,3.0,Alexandroupolis
+AXM,AXM,CO,Airport,4.4528,-75.7664,America/Bogota,-5.0,Armenia
+AXT,AXT,JP,Airport,39.6156,140.2186,Asia/Tokyo,9.0,Akita
+AXU,AXU,ET,Airport,14.1467,38.7728,Africa/Addis_Ababa,3.0,Axum
+AYT,AYT,TR,Airport,36.8986,30.8006,Europe/Istanbul,3.0,Antalya
+AZO,AZO,US,Airport,42.235,-85.5519,America/New_York,-4.0,Kalamazoo/Battle Creek
+AZS,AZS,DO,Airport,19.2672,-69.7422,America/Santo_Domingo,-4.0,SAMANA EL CATEY INTL
+BAH,BAH,BH,Airport,26.2708,50.6336,Asia/Bahrain,3.0,Bahrain International
+BAL,BAL,TR,Airport,37.9289,41.1167,Europe/Istanbul,3.0,Batman
+BAQ,BAQ,CO,Airport,10.8897,-74.7808,America/Bogota,-5.0,Barranquilla
+BAV,BAV,CN,Airport,40.5606,109.9964,Asia/Shanghai,8.0,Baotou
+BBA,BBA,CL,Airport,-45.9161,-71.6894,America/Santiago,-4.0,Balmaceda
+BBI,BBI,IN,Airport,20.2444,85.8178,Asia/Kolkata,5.5,Bhubaneshwar
+BBK,BBK,BW,Airport,-17.8328,25.1625,Africa/Gaborone,2.0,Kasane
+BBO,BBO,SO,Airport,10.3892,44.9411,Africa/Mogadishu,3.0,Berbera
+BCN,BCN,ES,Airport,41.2969,2.0783,Europe/Madrid,2.0,Barcelona
+BCO,BCO,ET,Airport,5.7839,36.5625,Africa/Addis_Ababa,3.0,JINKA BAKO
+BDA,BDA,BM,Airport,32.3642,-64.6786,Atlantic/Bermuda,-3.0,Bermuda - Kindley Field
+BDL,HFD,US,Airport,41.9389,-72.6833,America/New_York,-4.0,"Hartford - Bradley International, CT"
+BDO,BDO,ID,Airport,-6.9006,107.5764,Asia/Jakarta,7.0,Bandung
+BDQ,BDQ,IN,Airport,22.3361,73.2264,Asia/Kolkata,5.5,Vadodara
+BDS,BDS,IT,Airport,40.6606,17.9481,Europe/Rome,2.0,Brindisi
+BEG,BEG,RS,Airport,44.8183,20.3092,Europe/Belgrade,2.0,Belgrade
+BEL,BEL,BR,Airport,-1.3792,-48.4764,America/Belem,-3.0,Belem
+BER,BER,DE,Airport,52.3667,13.5033,Europe/Berlin,2.0,Berlin/Brandenburg
+BET,BET,US,Airport,60.7797,-161.8381,America/Anchorage,-8.0,Bethel Municipal
+BEW,BEW,MZ,Airport,-19.7964,34.9075,Africa/Maputo,2.0,Beira
+BEY,BEY,LB,Airport,33.8208,35.4883,Asia/Beirut,3.0,Beirut Rafik Hariri International
+BFF,BFF,US,Airport,41.8742,-103.5956,America/Denver,-6.0,Scottsbluff
+BFL,BFL,US,Airport,35.4336,-119.0567,America/Los_Angeles,-7.0,Bakersfield
+BFM,MOB,US,Airport,30.6333,-88.0667,America/Chicago,-5.0,Mobile - Aerospace
+BFN,BFN,ZA,Airport,-29.0928,26.3025,Africa/Johannesburg,2.0,Bloemfontein
+BGA,BGA,CO,Airport,7.1264,-73.1847,America/Bogota,-5.0,Bucaramanga
+BGF,BGF,CF,Airport,4.3978,18.52,Africa/Bangui,1.0,Bangui
+BGG,BGG,TR,Airport,38.8614,40.5925,Europe/Istanbul,3.0,BINGOL
+BGI,BGI,BB,Airport,13.0747,-59.4925,America/Barbados,-4.0,Barbados (Bridgetown) - Adams International
+BGO,BGO,NO,Airport,60.2933,5.2181,Europe/Oslo,2.0,Bergen
+BGR,BGR,US,Airport,44.8075,-68.8281,America/New_York,-4.0,Bangor International
+BGW,BGW,IQ,Airport,33.2625,44.2344,Asia/Baghdad,3.0,Baghdad International
+BGY,MIL,IT,Airport,45.6689,9.7003,Europe/Rome,2.0,Milano Orio - Bergamo
+BHD,BFS,GB,Airport,54.6181,-5.8725,Europe/London,1.0,Belfast City
+BHE,BHE,NZ,Airport,-41.5178,173.8692,Pacific/Auckland,12.0,BLENHEIM
+BHI,BHI,AR,Airport,-38.7272,-62.1533,America/Argentina/Buenos_Aires,-3.0,Bahia Blanca
+BHM,BHM,US,Airport,33.5631,-86.7536,America/Chicago,-5.0,"Birmingham, AL"
+BHO,BHO,IN,Airport,23.2875,77.3375,Asia/Kolkata,5.5,Bhopal
+BHX,BHX,GB,Airport,52.4536,-1.7478,Europe/London,1.0,Birmingham International
+BHY,BHY,CN,Airport,21.5394,109.2939,Asia/Shanghai,8.0,Beihai
+BIA,BIA,FR,Airport,42.55,9.4847,Europe/Paris,2.0,Bastia
+BIL,BIL,US,Airport,45.8078,-108.5428,America/Denver,-6.0,"Billings, MT"
+BIO,BIO,ES,Airport,43.3011,-2.9106,Europe/Madrid,2.0,Bilbao
+BIQ,BIQ,FR,Airport,43.4683,-1.5311,Europe/Paris,2.0,Biarritz
+BIS,BIS,US,Airport,46.7722,-100.7458,America/Chicago,-5.0,Bismarck
+BJL,BJL,GM,Airport,13.3381,-16.6522,Africa/Banjul,0.0,Banjul - Yundum International
+BJM,BJM,BI,Airport,-3.3239,29.3186,Africa/Bujumbura,2.0,Bujumbura International
+BJR,BJR,ET,Airport,11.6081,37.3217,Africa/Addis_Ababa,3.0,Bahar Dar
+BJV,BXN,TR,Airport,37.2506,27.6644,Europe/Istanbul,3.0,Bodrum - Milas Airport
+BJX,BJX,MX,Airport,20.9933,-101.4808,America/Mexico_City,-5.0,Leon-Guanajuato - Del Bajio
+BKI,BKI,MY,Airport,5.9372,116.0531,Asia/Kuala_Lumpur,8.0,Kota Kinabalu
+BKK,BKK,TH,Airport,13.6858,100.7489,Asia/Bangkok,7.0,Bangkok - Suvarnabhumi Int'l
+BKO,BKO,ML,Airport,12.5336,-7.95,Africa/Bamako,0.0,Bamako
+BLA,BLA,VE,Airport,10.1072,-64.6892,America/Caracas,-4.0,Barcelona
+BLL,BLL,DK,Airport,55.7403,9.1517,Europe/Copenhagen,2.0,Billund
+BLQ,BLQ,IT,Airport,44.5308,11.2969,Europe/Rome,2.0,Bologna
+BLR,BLR,IN,Airport,13.1989,77.7056,Asia/Kolkata,5.5,Bengaluru/Bangalore International
+BLZ,BLZ,MW,Airport,-15.6792,34.9739,Africa/Blantyre,2.0,Blantyre
+BMA,STO,SE,Airport,59.3544,17.9417,Europe/Stockholm,2.0,STOCKHOLM BROMMA APT
+BNA,BNA,US,Airport,36.1244,-86.6783,America/Chicago,-5.0,"Nashville, TN"
+BNE,BNE,AU,Airport,-27.3842,153.1175,Australia/Brisbane,10.0,Brisbane International
+BOD,BOD,FR,Airport,44.8286,-0.7153,Europe/Paris,2.0,Bordeaux
+BOG,BOG,CO,Airport,4.7017,-74.1469,America/Bogota,-5.0,Bogotá
+BOI,BOI,US,Airport,43.5644,-116.2228,America/Denver,-6.0,"Boise, ID"
+BOJ,BOJ,BG,Airport,42.5697,27.5153,Europe/Sofia,3.0,Burgas
+BOM,BOM,IN,Airport,19.0886,72.8681,Asia/Kolkata,5.5,Mumbai - Chhatrapati Shivaji Intl. Airport
+BOO,BOO,NO,Airport,67.2692,14.3653,Europe/Oslo,2.0,Bodo
+BOS,BOS,US,Airport,42.3644,-71.0053,America/New_York,-4.0,"Boston - Logan International, MA"
+BPN,BPN,ID,Airport,-1.2683,116.8944,Asia/Makassar,8.0,Balikpapan
+BPS,BPS,BR,Airport,-16.4386,-39.0808,America/Belem,-3.0,Porto Seguro
+BPT,BPT,US,Airport,29.9508,-94.0208,America/Chicago,-5.0,Beaumont - Jefferson County
+BQH,BQH,GB,Airport,51.3308,0.0322,Europe/London,1.0,London Biggin Hill Apt
+BQN,BQN,PR,Airport,18.495,-67.1294,America/Puerto_Rico,-4.0,AGUADILLA RAFAEL HERNANDEZ
+BRC,BRC,AR,Airport,-41.1511,-71.1578,America/Argentina/Buenos_Aires,-3.0,San Carlos De Bariloche International
+BRE,BRE,DE,Airport,53.0475,8.7867,Europe/Berlin,2.0,Bremen
+BRI,BRI,IT,Airport,41.1381,16.765,Europe/Rome,2.0,Bari
+BRM,BRM,VE,Airport,10.0428,-69.3586,America/Caracas,-4.0,Barquisimeto
+BRN,BRN,CH,Airport,46.9142,7.4972,Europe/Zurich,2.0,Berne - Belp
+BRO,BRO,US,Airport,25.9069,-97.4258,America/Chicago,-5.0,Brownsville - S. Padre Island International
+BRQ,BRQ,CZ,Airport,49.1514,16.6944,Europe/Prague,2.0,Brno
+BRS,BRS,GB,Airport,51.3825,-2.7189,Europe/London,1.0,Bristol
+BRU,BRU,BE,Airport,50.9014,4.4844,Europe/Brussels,2.0,Brussels - Airport
+BRW,BRW,US,Airport,71.2856,-156.7661,America/Anchorage,-8.0,Barrow Wbas
+BSB,BSB,BR,Airport,-15.86055556,-47.91527778,America/Sao_Paulo,-3.0,Brasilia International
+BSL,BSL,CH,Airport,47.6011,7.5217,Europe/Paris,2.0,Basel Euroairport
+BTR,BTR,US,Airport,30.5331,-91.1497,America/Chicago,-5.0,Baton Rouge - Ryan
+BTU,BTU,MY,Airport,3.1242,113.0197,Asia/Kuala_Lumpur,8.0,Bintulu
+BTV,BTV,US,Airport,44.4719,-73.1533,America/New_York,-4.0,"Burlington, International, VT"
+BUD,BUD,HU,Airport,47.4369,19.2556,Europe/Budapest,2.0,"Budapest, Liszt Ferenc"
+BUF,BUF,US,Airport,42.9406,-78.7322,America/New_York,-4.0,"Buffalo,  Greater Buffalo International, NY"
+BUQ,BUQ,ZW,Airport,-20.0175,28.6178,Africa/Harare,2.0,Bulawayo
+BUR,BUR,US,Airport,34.2006,-118.3586,America/Los_Angeles,-7.0,Burbank
+BUS,BUS,GE,Airport,41.6103,41.5997,Asia/Tbilisi,4.0,BATUMI
+BVC,BVC,CV,Airport,16.1367,-22.8889,Atlantic/Cape_Verde,-1.0,BOA VISTA ISLAND RABIL
+BWI,BWI,US,Airport,39.1753,-76.6683,America/New_York,-4.0,"Baltimore - Washington International, DC"
+BWK,BWK,HR,Airport,43.2858,16.6797,Europe/Zagreb,2.0,BRAC
+BWN,BWN,BN,Airport,4.9442,114.9283,Asia/Brunei,8.0,Bandar Seri Begawan - Brunei International
+BZE,BZE,BZ,Airport,17.5392,-88.3083,America/Belize,-6.0,Belize City - Goldson International
+BZG,BZG,PL,Airport,53.0967,17.9778,Europe/Warsaw,2.0,Bydgoszcz
+BZN,BZN,US,Airport,45.7775,-111.1531,America/Denver,-6.0,Bozeman
+BZV,BZV,CG,Airport,-4.2517,15.2531,Africa/Brazzaville,1.0,Brazzaville
+CAE,CAE,US,Airport,33.9389,-81.1194,America/New_York,-4.0,"Columbia, SC"
+CAG,CAG,IT,Airport,39.2514,9.0578,Europe/Rome,2.0,Cagliari
+CAI,CAI,EG,Airport,30.1219,31.4056,Africa/Cairo,2.0,Cairo International
+CAK,CAK,US,Airport,40.9161,-81.4422,America/New_York,-4.0,Akron/Canton
+CAN,CAN,CN,Airport,23.3925,113.2989,Asia/Shanghai,8.0,Guangzhou Baiyun International
+CBR,CBR,AU,Airport,-35.3069,149.195,Australia/Sydney,10.0,Canberra
+CCJ,CCJ,IN,Airport,11.1369,75.9553,Asia/Kolkata,5.5,Kozhikode
+CCP,CCP,CL,Airport,-36.7728,-73.0631,America/Santiago,-4.0,Concepcion
+CCS,CCS,VE,Airport,10.6031,-66.9906,America/Caracas,-4.0,Caracas
+CCU,CCU,IN,Airport,22.6547,88.4467,Asia/Kolkata,5.5,Kolkata
+CDG,PAR,FR,Airport,49.0097,2.5478,Europe/Paris,2.0,Paris - Charles De Gaulle
+CDR,CDR,US,Airport,42.835,-103.0986,America/Denver,-6.0,Chadron
+CDV,CDV,US,Airport,60.4917,-145.4775,America/Anchorage,-8.0,Cordova - Mile 13 Field
+CEB,CEB,PH,Airport,10.3075,123.9794,Asia/Manila,8.0,Cebu
+CEC,CEC,US,Airport,41.7803,-124.2367,America/Los_Angeles,-7.0,Crescent City
+CEI,CEI,TH,Airport,19.9522,99.8831,Asia/Bangkok,7.0,Chiang Rai
+CEZ,CEZ,US,Airport,37.3031,-108.6286,America/Denver,-6.0,Cortez
+CFU,CFU,GR,Airport,39.6019,19.9117,Europe/Athens,3.0,Kerkyra
+CGB,CGB,BR,Airport,-15.6531,-56.1167,America/Campo_Grande,-4.0,Cuiaba
+CGH,SAO,BR,Airport,-23.6267,-46.6581,America/Sao_Paulo,-3.0,Sao Paulo - Congonhas
+CGK,JKT,ID,Airport,-6.1256,106.6558,Asia/Jakarta,7.0,Jakarta - Soekarno-Hatta International
+CGN,CGN,DE,Airport,50.8658,7.1428,Europe/Berlin,2.0,Cologne - Cologne/Bonn Airport
+CGO,CGO,CN,Airport,34.5194,113.8411,Asia/Shanghai,8.0,Zhengzhou
+CGQ,CGQ,CN,Airport,43.9961,125.6853,Asia/Shanghai,8.0,Changchun
+CGR,CGR,BR,Airport,-20.4686,-54.6725,America/Campo_Grande,-4.0,Campo Grande International
+CHA,CHA,US,Airport,35.0353,-85.2039,America/New_York,-4.0,Chattanooga
+CHC,CHC,NZ,Airport,-43.4894,172.5322,Pacific/Auckland,12.0,Christchurch International
+CHG,CHG,CN,Airport,41.5414,120.4339,Asia/Urumqi,6.0,CHAOYANG
+CHO,CHO,US,Airport,38.1386,-78.4528,America/New_York,-4.0,Charlottesville Albemarie
+CHQ,CHQ,GR,Airport,35.5317,24.1497,Europe/Athens,3.0,Chania
+CHS,CHS,US,Airport,32.8986,-80.0406,America/New_York,-4.0,"Charleston, SC"
+CIC,CIC,US,Airport,39.7961,-121.8583,America/Los_Angeles,-7.0,Chico
+CID,CID,US,Airport,41.8847,-91.7108,America/Chicago,-5.0,"Cedar Rapids, IA"
+CIT,AKX,KZ,Airport,42.3642,69.4789,Asia/Qyzylorda,5.0,Shymkent
+CJB,CJB,IN,Airport,11.03,77.0433,Asia/Kolkata,5.5,Coimbatore
+CJC,CJC,CL,Airport,-22.4981,-68.9081,America/Santiago,-4.0,Calama
+CJU,CJU,KR,Airport,33.5114,126.4931,Asia/Seoul,9.0,Jeju
+CKB,CKB,US,Airport,39.2967,-80.2281,America/New_York,-4.0,Clarksburg
+CKG,CKG,CN,Airport,29.7194,106.6419,Asia/Shanghai,8.0,Chongqing
+CKY,CKY,GN,Airport,9.5769,-13.6119,Africa/Conakry,0.0,Conakry
+CLD,CLD,US,Airport,33.1283,-117.28,America/Los_Angeles,-7.0,"Carlsbad, CA"
+CLE,CLE,US,Airport,41.4117,-81.8497,America/New_York,-4.0,"Cleveland - Hopkins International, OH"
+CLJ,CLJ,RO,Airport,46.7853,23.6861,Europe/Bucharest,3.0,Cluj
+CLL,CLL,US,Airport,30.5886,-96.3639,America/Chicago,-5.0,College Station - Easterwood Field
+CLO,CLO,CO,Airport,3.5433,-76.3817,America/Bogota,-5.0,Cali
+CLT,CLT,US,Airport,35.2139,-80.9431,America/New_York,-4.0,"Charlotte, NC"
+CLY,CLY,FR,Airport,42.5203,8.7931,Europe/Paris,2.0,Calvi
+CMB,CMB,LK,Airport,7.1803,79.8853,Asia/Colombo,5.5,Colombo - Katunayake
+CME,CME,MX,Airport,18.6533,-91.8011,America/Mexico_City,-5.0,Ciudad Del Carmen
+CMH,CMH,US,Airport,39.9981,-82.8919,America/New_York,-4.0,"Columbus, OH"
+CMI,CMI,US,Airport,40.0392,-88.2781,America/Chicago,-5.0,Champaign Urbana
+CMN,CAS,MA,Airport,33.3675,-7.59,Africa/Casablanca,1.0,Casablanca - Mohamed V
+CMX,CMX,US,Airport,47.1683,-88.4892,America/New_York,-4.0,Hancock
+CND,CND,RO,Airport,44.3622,28.4883,Europe/Bucharest,3.0,Constanta
+CNF,BHZ,BR,Airport,-19.6339,-43.9689,America/Sao_Paulo,-3.0,Belo Horizonte - Tancredo Neves International
+CNS,CNS,AU,Airport,-16.8781,145.7489,Australia/Brisbane,10.0,Cairns
+CNX,CNX,TH,Airport,18.7714,98.9628,Asia/Bangkok,7.0,Chiang Mai
+CNY,CNY,US,Airport,38.7608,-109.7475,America/Denver,-6.0,Moab
+COD,COD,US,Airport,44.5178,-109.0261,America/Denver,-6.0,Cody
+COK,COK,IN,Airport,10.1519,76.4019,Asia/Kolkata,5.5,Kochi
+COO,COO,BJ,Airport,6.3572,2.3844,Africa/Porto-Novo,1.0,Cotonou
+COR,COR,AR,Airport,-31.31,-64.2083,America/Argentina/Buenos_Aires,-3.0,Cordoba
+COS,COS,US,Airport,38.8058,-104.7008,America/Denver,-6.0,"Colorado Springs - Peterson Field, CO"
+COU,COU,US,Airport,38.8181,-92.2197,America/Chicago,-5.0,COLUMBIA REGIONAL
+CPH,CPH,DK,Airport,55.6203,12.6503,Europe/Copenhagen,2.0,Copenhagen
+CPO,CPO,CL,Airport,-27.2617,-70.7792,America/Santiago,-4.0,Copiapo
+CPR,CPR,US,Airport,42.9081,-106.4644,America/Denver,-6.0,Casper
+CPT,CPT,ZA,Airport,-33.9647,18.6017,Africa/Johannesburg,2.0,Cape Town
+CRD,CRD,AR,Airport,-45.7853,-67.4656,America/Argentina/Buenos_Aires,-3.0,Comodoro Rivadavia
+CRK,CRK,PH,Airport,15.1861,120.5603,Asia/Manila,8.0,ANGELES/MABALACAT CLARK INTERNATIONAL
+CRP,CRP,US,Airport,27.7703,-97.5011,America/Chicago,-5.0,Corpus Christi - International
+CRW,CRW,US,Airport,38.3731,-81.5931,America/New_York,-4.0,"Charleston, West Virginia - Yeager"
+CSL,CSL,US,Airport,35.2333,-120.6333,America/Los_Angeles,-7.0,San Luis Obispo
+CSX,CSX,CN,Airport,28.1936,113.2178,Asia/Shanghai,8.0,Changsha
+CTA,CTA,IT,Airport,37.4667,15.0639,Europe/Rome,2.0,Catania
+CTG,CTG,CO,Airport,10.4425,-75.5131,America/Bogota,-5.0,Cartagena
+CTS,SPK,JP,Airport,42.79583333,141.6691667,Asia/Tokyo,9.0,Sapporo - Chitose
+CTU,CTU,CN,Airport,30.57861111,103.9472222,Asia/Shanghai,8.0,Chengdu
+CUC,CUC,CO,Airport,7.9275,-72.5117,America/Bogota,-5.0,Cucuta
+CUL,CUL,MX,Airport,24.7644,-107.4747,America/Mazatlan,-6.0,Culiacan
+CUM,CUM,VE,Airport,10.4503,-64.1306,America/Caracas,-4.0,Cumana
+CUN,CUN,MX,Airport,21.0367,-86.8772,America/Cancun,-5.0,Cancun
+CUR,CUR,CW,Airport,12.1889,-68.9597,America/Curacao,-4.0,Curacao - Hato Airport
+CUU,CUU,MX,Airport,28.7028,-105.9644,America/Mazatlan,-6.0,Chihuahua
+CUZ,CUZ,PE,Airport,-13.5358,-71.9389,America/Lima,-5.0,CUZCO A. VELASCO ASTETE INTL
+CVG,CVG,US,Airport,39.0489,-84.6678,America/New_York,-4.0,"Cincinnati - Northern Kentucky, OH"
+CWA,CWA,,Airport,44.7833,-89.6667,America/Chicago,-5.0,WAUSAU CENTRAL WISCONSIN APT
+CWB,CWB,BR,Airport,-25.5286,-49.1758,America/Sao_Paulo,-3.0,Curitiba
+CWL,CWL,GB,Airport,51.3967,-3.3433,Europe/London,1.0,Cardiff
+CYS,CYS,US,Airport,41.1558,-104.8119,America/Denver,-6.0,Cheyenne Municipal
+CZM,CZM,MX,Airport,20.5217,-86.9369,America/Cancun,-5.0,Cozumel
+CZX,CZX,CN,Airport,31.9194,119.7783,Asia/Shanghai,8.0,Changzhou
+DAB,DAB,US,Airport,29.18,-81.0581,America/New_York,-4.0,Daytona Beach
+DAC,DAC,BD,Airport,23.8433,90.3978,Asia/Dhaka,6.0,Dhaka - Zia International
+DAD,DAD,VN,Airport,16.0439,108.1994,Asia/Ho_Chi_Minh,7.0,DA NANG
+DAR,DAR,TZ,Airport,-6.8781,39.2025,Africa/Dar_es_Salaam,3.0,Dar es Salaam International
+DAT,DAT,CN,Airport,39.7189,113.1461,Asia/Shanghai,8.0,Datong
+DAV,DAV,,Airport,8.3911,-82.435,America/Panama,-5.0,DAVID ENRIQUE MALEK INTERNATIONAL
+DAX,DZU,CN,Airport,31.1319,107.4306,Asia/Shanghai,8.0,Dazhou
+DAY,DAY,US,Airport,39.9025,-84.2194,America/New_York,-4.0,"Dayton - James Cox International, OH"
+DBV,DBV,HR,Airport,42.5614,18.2683,Europe/Zagreb,2.0,Dubrovnik
+DCA,WAS,US,Airport,38.8522,-77.0378,America/New_York,-4.0,Washington National
+DDC,DDC,US,Airport,37.7603,-99.9642,America/Chicago,-5.0,Dodge City
+DDG,DDG,CN,Airport,40.0256,124.2869,Asia/Shanghai,8.0,Dandong
+DEB,DEB,HU,Airport,47.4889,21.6153,Europe/Budapest,2.0,Debrecen
+DEL,DEL,IN,Airport,28.5664,77.1031,Asia/Kolkata,5.5,New Delhi - Indira Gandhi International
+DEN,DEN,US,Airport,39.8617,-104.6731,America/Denver,-6.0,"Denver - International, CO"
+DFW,DFW,US,Airport,32.8969,-97.0381,America/Chicago,-5.0,"Dallas/Fort Worth - International, TX"
+DGO,DGO,MX,Airport,24.1242,-104.5281,America/Mexico_City,-5.0,Durango
+DIB,DIB,IN,Airport,27.4833,95.0167,Asia/Kolkata,5.5,Dibrugarh
+DIK,DIK,US,Airport,46.8,-102.8,America/Denver,-6.0,Dickinson
+DIR,DIR,ET,Airport,9.6247,41.8542,Africa/Addis_Ababa,3.0,Dire Dawa
+DIY,DIY,TR,Airport,37.8939,40.2011,Europe/Istanbul,3.0,DIYARBAKIR
+DJE,DJE,TN,Airport,33.875,10.7756,Africa/Tunis,1.0,Djerba
+DKR,DKR,SN,Airport,14.7425,-17.4933,Africa/Dakar,0.0,Dakar
+DLA,DLA,CM,Airport,4.0061,9.7194,Africa/Douala,1.0,Douala
+DLC,DLC,CN,Airport,38.9656,121.5386,Asia/Shanghai,8.0,Dalian
+DLH,DLH,US,Airport,46.8422,-92.1936,America/Chicago,-5.0,Duluth/Superior - Duluth International
+DLM,DLM,TR,Airport,36.7131,28.7925,Europe/Istanbul,3.0,Dalaman
+DME,MOW,RU,Airport,55.4089,37.9064,Europe/Moscow,3.0,Moscow - Domodedovo
+DMK,BKK,TH,Airport,13.9125,100.6067,Asia/Bangkok,7.0,Bangkok - Don Muang
+DMM,DMM,SA,Airport,26.4711,49.7978,Asia/Riyadh,3.0,Dammam
+DMU,DMU,IN,Airport,25.8825,93.7744,Asia/Kolkata,5.5,Dimapur
+DNH,DNH,CN,Airport,40.0922,94.6817,Asia/Urumqi,6.0,DUNHUANG
+DNK,DNK,UA,Airport,48.3572,35.1006,Europe/Kiev,3.0,Dnipropetrovsk-42
+DNZ,DNZ,TR,Airport,37.7856,29.7014,Europe/Istanbul,3.0,Denizli
+DOH,DOH,QA,Airport,25.2744,51.6083,Asia/Qatar,3.0,Doha
+DOK,DOK,UA,Airport,48.0736,37.7397,Europe/Kiev,3.0,Donetsk
+DPS,DPS,ID,Airport,-8.7481,115.1672,Asia/Makassar,8.0,Denpasar-Bali
+DQA,DQA,CN,Airport,46.75,125.1392,Asia/Urumqi,6.0,DAQING SARTU
+DRO,DRO,US,Airport,37.1522,-107.7536,America/Denver,-6.0,Durango La Plata
+DRS,DRS,DE,Airport,51.1344,13.7681,Europe/Berlin,2.0,Dresden
+DRT,DRT,US,Airport,29.3733,-100.9264,America/Chicago,-5.0,Del Rio International
+DRW,DRW,AU,Airport,-12.4147,130.8767,Australia/Darwin,9.5,Darwin
+DSE,DSE,ET,Airport,11.0833,39.7167,Africa/Addis_Ababa,3.0,Dessie
+DSM,DSM,US,Airport,41.5342,-93.6578,America/Chicago,-5.0,"Des Moines, IA"
+DSN,DSN,CN,Airport,39.4922,109.8631,Asia/Shanghai,8.0,Ordos
+DSS,DKR,SN,Airport,14.6725,-17.0714,Africa/Dakar,0.0,DAKAR BLAISE DIAGNE INTERNATIONAL
+DTM,DTM,DE,Airport,51.5183,7.6122,Europe/Berlin,2.0,Dortmund
+DTN,SHV,US,Airport,0.0,0.0,America/Chicago,-5.0,Shreveport Downtown
+DTW,DTT,US,Airport,42.2125,-83.3533,America/New_York,-4.0,"Detroit - Wayne County, MI"
+DTZ,DTM,DE,RailwayStation,51.5178,7.4592,Europe/Berlin,2.0,DORTMUND HBF RAIL STATION
+DUB,DUB,IE,Airport,53.4214,-6.27,Europe/Dublin,1.0,Dublin
+DUD,DUD,NZ,Airport,-45.9292,170.1975,Pacific/Auckland,12.0,DUNEDIN
+DUR,DUR,ZA,Airport,-29.6144,31.1164,Africa/Johannesburg,2.0,Durban International Airport
+DUS,DUS,DE,Airport,51.2894,6.7667,Europe/Berlin,2.0,Dusseldorf - Nordrhein-Westfalen
+DVL,DVL,US,Airport,48.1156,-98.9081,America/Chicago,-5.0,Devils Lake
+DVO,DVO,PH,Airport,7.1253,125.6456,Asia/Manila,8.0,Davao
+DXB,DXB,AE,Airport,25.2528,55.3644,Asia/Dubai,4.0,Dubai
+DYG,DYG,CN,Airport,29.1044,110.4431,Asia/Shanghai,8.0,Dayong
+DYU,DYU,TJ,Airport,38.5433,68.825,Asia/Dushanbe,5.0,DUSHANBE INTERNATIONAL
+EAR,EAR,US,Airport,40.7267,-99.0092,America/Chicago,-5.0,Kearney
+EAT,EAT,US,Airport,47.3989,-120.2072,America/Los_Angeles,-7.0,Wenatchee
+EAU,EAU,US,Airport,44.8658,-91.4842,America/Chicago,-5.0,Eau Clair
+EBB,EBB,UG,Airport,0.0425,32.4436,Africa/Kampala,3.0,Entebbe
+EBJ,EBJ,DK,Airport,55.52638889,8.5525,Europe/Copenhagen,2.0,Esbjerg
+EBL,EBL,IQ,Airport,36.2378,43.9631,Asia/Baghdad,3.0,Erbil
+ECN,ECN,,Airport,35.1597,33.4883,Asia/Nicosia,3.0,ERCAN
+ECP,ECP,US,Airport,30.3578,-85.7989,America/Chicago,-5.0,PANAMA CITY NW FLORIDA BEACHES INTL
+EDI,EDI,GB,Airport,55.95,-3.3725,Europe/London,1.0,Edinburgh
+EDO,EDO,TR,Airport,39.5547,27.0139,Europe/Istanbul,3.0,EDREMIT KORFEZ
+EFL,EFL,GR,Airport,38.12,20.5006,Europe/Athens,3.0,Kefallinia
+EGE,EGE,US,Airport,39.6425,-106.9178,America/Denver,-6.0,"Vail/Eagle County, CO"
+EGO,EGO,RU,Airport,50.6439,36.59,Europe/Moscow,3.0,Belgorod
+EJA,EJA,CO,Airport,7.0244,-73.8067,America/Bogota,-5.0,BARRANCABERMEJA YARIGUIES
+ELM,ELM,US,Airport,42.16,-76.8917,America/New_York,-4.0,Elmira/Corning
+ELP,ELP,US,Airport,31.8025,-106.3983,America/Denver,-6.0,"El Paso International, TX"
+ELS,ELS,ZA,Airport,-33.0356,27.8258,Africa/Johannesburg,2.0,East London
+EMA,EMA,GB,Airport,52.8311,-1.3281,Europe/London,1.0,East Midlands
+ENU,ENU,NG,Airport,6.4742,7.5619,Africa/Lagos,1.0,ENUGU AKANU IBIAM INTL
+ERC,ERC,TR,Airport,39.7103,39.5269,Europe/Istanbul,3.0,Erzincan
+ERI,ERI,US,Airport,42.0819,-80.1761,America/New_York,-4.0,Erie International
+ERZ,ERZ,TR,Airport,39.9564,41.1703,Europe/Istanbul,3.0,Erzurum
+ESB,ANK,TR,Airport,40.1281,32.995,Europe/Istanbul,3.0,Ankara - Esenboga
+EUG,EUG,US,Airport,44.1247,-123.2119,America/Los_Angeles,-7.0,"Eugene, OR"
+EVE,EVE,NO,Airport,68.4914,16.6781,Europe/Oslo,2.0,"Harstad-Narvik, Evenes"
+EVN,EVN,AM,Airport,40.1472,44.3958,Asia/Yerevan,4.0,Yerevan - Zvartnots Int´l
+EVV,EVV,US,Airport,38.0369,-87.5325,America/Chicago,-5.0,EVANSVILLE REGIONAL
+EWN,EWN,US,Airport,35.0731,-77.0431,America/New_York,-4.0,New Bern
+EWR,NYC,US,Airport,40.6925,-74.1686,America/New_York,-4.0,"New York - Newark International, NJ"
+EYW,EYW,US,Airport,24.5561,-81.7594,America/New_York,-4.0,Key West International
+EZE,BUE,AR,Airport,-34.8222,-58.5358,America/Argentina/Buenos_Aires,-3.0,Buenos Aires - Ministro Pistarini
+EZS,EZS,TR,Airport,38.6069,39.2914,Europe/Istanbul,3.0,Elazig
+FAE,FAE,FO,Airport,62.0664,-7.2931,Atlantic/Faroe,1.0,Faroe Islands
+FAI,FAI,US,Airport,64.815,-147.8564,America/Anchorage,-8.0,FAIRBANKS INTERNATIONAL APT
+FAO,FAO,PT,Airport,37.0144,-7.9658,Europe/Lisbon,1.0,Faro
+FAR,FAR,US,Airport,46.9206,-96.8158,America/Chicago,-5.0,"Fargo, ND"
+FAT,FAT,US,Airport,36.7761,-119.7181,America/Los_Angeles,-7.0,"Fresno - Air Terminal, CA"
+FAY,FAY,US,Airport,34.99,-78.8831,America/New_York,-4.0,"Fayetteville, North Carolina - Municipal"
+FBM,FBM,CD,Airport,-11.5914,27.5308,Africa/Lubumbashi,2.0,Lubumbashi
+FCA,FCA,US,Airport,48.3106,-114.2561,America/Denver,-6.0,Kalispell
+FCO,ROM,IT,Airport,41.8003,12.2389,Europe/Rome,2.0,Rome - Leonardo Da Vinci
+FDH,FDH,DE,Airport,47.6714,9.5114,Europe/Berlin,2.0,Friedrichshafen
+FEZ,FEZ,MA,Airport,33.9272,-4.9781,Africa/Casablanca,1.0,FES SAISS
+FIH,FIH,CD,Airport,-4.3858,15.4444,Africa/Kinshasa,1.0,Kinshasa N'Djili
+FKB,FKB,DE,Airport,48.7794,8.0806,Europe/Berlin,2.0,Karlsruhe
+FKS,FKS,JP,Airport,37.2275,140.4306,Asia/Tokyo,9.0,Fukushima
+FLG,GCN,US,Airport,35.1383,-111.6711,America/Phoenix,-7.0,GRAND CANYON FLAGSTAFF PULLIAM
+FLL,FLL,US,Airport,26.0725,-80.1528,America/New_York,-4.0,"Fort Lauderdale - International, FL"
+FLN,FLN,BR,Airport,-27.6706,-48.5472,America/Sao_Paulo,-3.0,Florianopolis
+FLO,FLO,US,Airport,34.1875,-79.7247,America/New_York,-4.0,Florence
+FLR,FLR,IT,Airport,43.8086,11.2028,Europe/Rome,2.0,Florence - Amerigo Vespucci
+FMM,FMM,DE,Airport,47.9881,10.2375,Europe/Berlin,2.0,Memmingen
+FMN,FMN,US,Airport,36.7414,-108.2311,America/Denver,-6.0,"Farmington, New Mexico - Municipal"
+FMO,FMO,DE,Airport,52.1347,7.6847,Europe/Berlin,2.0,Munster
+FMY,FMY,US,Airport,26.5833,-81.8667,America/New_York,-4.0,Fort Myers - Page Field
+FNA,FNA,SL,Airport,8.6164,-13.1956,Africa/Freetown,0.0,Freetown - Lungi International
+FNC,FNC,PT,Airport,32.6942,-16.7781,Europe/Lisbon,1.0,Funchal
+FNJ,FNJ,KP,Airport,39.2236,125.67,Asia/Pyongyang,9.0,PYONGYANG SUNAN INTL
+FNT,FNT,US,Airport,42.9656,-83.7436,America/New_York,-4.0,Flint
+FOC,FOC,CN,Airport,25.935,119.6633,Asia/Shanghai,8.0,Fuzhou
+FOE,TOP,US,Airport,38.9508,-95.6636,America/Chicago,-5.0,Topeka - Forbes AFB
+FOR,FOR,BR,Airport,-3.7764,-38.5325,America/Belem,-3.0,Fortaleza
+FRA,FRA,DE,Airport,50.0331,8.5706,Europe/Berlin,2.0,Frankfurt/Main International
+FRS,FRS,GT,Airport,16.9156,-89.8697,America/Guatemala,-6.0,Flores
+FRU,FRU,KG,Airport,43.0614,74.4775,Asia/Bishkek,6.0,BISHKEK MANAS INTERNATIONAL
+FRW,FRW,BW,Airport,-21.1597,27.4744,Africa/Gaborone,2.0,Francistown
+FSC,FSC,FR,Airport,41.5022,9.0967,Europe/Paris,2.0,Figari
+FSD,FSD,US,Airport,43.5819,-96.7419,America/Chicago,-5.0,Sioux Falls
+FSZ,FSZ,JP,Airport,34.7969,138.1808,Asia/Tokyo,9.0,Shizuoka
+FTE,FTE,AR,Airport,-50.28,-72.0533,America/Argentina/Buenos_Aires,-3.0,El Calafate
+FUE,FUE,ES,Airport,28.4528,-13.8639,Atlantic/Canary,1.0,Fuerteventura
+FUJ,FUJ,JP,Airport,32.6664,128.8328,Asia/Tokyo,9.0,GOTO-FUKUE
+FUK,FUK,JP,Airport,33.5858,130.4506,Asia/Tokyo,9.0,Fukuoka
+FWA,FWA,US,Airport,40.9831,-85.1897,America/Indiana/Indianapolis,-4.0,"Fort Wayne Municipal - Baer Field, IN"
+FYV,FYV,US,Airport,36.0,-94.1667,America/Chicago,-5.0,"Fayetteville, Arkansas - Drake Field Municipal"
+GAU,GAU,IN,Airport,26.1061,91.5858,Asia/Kolkata,5.5,Guwahati
+GAY,GAY,IN,Airport,24.7444,84.9511,Asia/Kolkata,5.5,Gaya
+GBE,GBE,BW,Airport,-24.5553,25.9183,Africa/Gaborone,2.0,Gaborone - Sir Seretse Khama International
+GCC,GCC,US,Airport,44.3475,-105.5417,America/Denver,-6.0,Gillette
+GCI,GCI,GB,Airport,49.4347,-2.6019,Europe/London,1.0,Guernsey
+GCK,GCK,US,Airport,37.9275,-100.7244,America/Chicago,-5.0,Garden City Municipal
+GCM,GCM,KY,Airport,19.2928,-81.3578,America/Cayman,-5.0,GRAND CAYMAN OWEN ROBERTS INTL
+GDE,GDE,ET,Airport,5.935,43.5786,Africa/Addis_Ababa,3.0,Gode
+GDL,GDL,MX,Airport,20.5217,-103.3111,America/Mexico_City,-5.0,Guadalajara
+GDN,GDN,PL,Airport,54.3775,18.4661,Europe/Warsaw,2.0,Gdansk
+GDQ,GDQ,ET,Airport,12.52,37.4342,Africa/Addis_Ababa,3.0,Gonder
+GEG,GEG,US,Airport,47.6172,-117.54,America/Los_Angeles,-7.0,"Spokane International, WA"
+GEO,GEO,GY,Airport,6.4986,-58.2542,America/Guyana,-4.0,GEORGETOWN CHEDDI JAGAN INTERNATIONAL
+GIG,RIO,BR,Airport,-22.8125,-43.2483,America/Sao_Paulo,-3.0,Rio de Janeiro - International
+GIS,GIS,NZ,Airport,-38.6639,177.9769,Pacific/Auckland,12.0,GISBORNE
+GJT,GJT,US,Airport,39.1233,-108.5258,America/Denver,-6.0,"Grand Junction, CO"
+GLA,GLA,GB,Airport,55.8719,-4.4333,Europe/London,1.0,Glasgow
+GMB,GMB,ET,Airport,8.1289,34.5631,Africa/Addis_Ababa,3.0,Gambela
+GMP,SEL,KR,Airport,37.5583,126.7906,Asia/Seoul,9.0,Seoul - Gimpo International
+GND,GND,GD,Airport,12.0042,-61.7861,America/Grenada,-4.0,GRENADA MAURICE BISHOP INTL
+GNV,GNV,US,Airport,29.69,-82.2717,America/New_York,-4.0,"Gainesville, Florida - Allison Municipal"
+GNY,SFQ,TR,Airport,37.0944,38.8469,Europe/Istanbul,3.0,Sanliurfa - Guney Anadolu
+GOA,GOA,IT,Airport,44.4133,8.8375,Europe/Rome,2.0,Genoa
+GOB,GOB,ET,Airport,7.1189,40.045,Africa/Addis_Ababa,3.0,Goba
+GOI,GOI,IN,Airport,15.3808,73.8314,Asia/Kolkata,5.5,Goa
+GOJ,GOJ,RU,Airport,56.23,43.7842,Europe/Moscow,3.0,Nizhny Novgorod
+GOM,GOM,CG,Airport,-1.6708,29.2383,Africa/Lubumbashi,2.0,Goma International
+GOT,GOT,SE,Airport,57.6628,12.2797,Europe/Stockholm,2.0,Gothenburg - Landvetter
+GPA,GPA,GR,Airport,38.1511,21.4256,Europe/Athens,3.0,Patrai
+GPS,GPS,EC,Airport,-0.4539,-90.2658,Pacific/Galapagos,-6.0,BALTRA ISLAND SEYMOUR
+GPT,GPT,US,Airport,30.4072,-89.07,America/Chicago,-5.0,Gulfport
+GRB,GRB,US,Airport,44.4856,-88.1339,America/Chicago,-5.0,Green Bay
+GRI,GRI,US,Airport,40.9675,-98.3097,America/Chicago,-5.0,Grand Island
+GRJ,GRJ,ZA,Airport,-34.0056,22.3789,Africa/Johannesburg,2.0,George
+GRO,GRO,ES,Airport,41.9008,2.7606,Europe/Madrid,2.0,GIRONA COSTA BRAVA APT
+GRQ,GRQ,NL,Airport,53.125,6.5833,Europe/Amsterdam,2.0,GRONINGEN EELDE
+GRR,GRR,US,Airport,42.8808,-85.5228,America/New_York,-4.0,"Grand Rapids, Kent County Intl, MI"
+GRU,SAO,BR,Airport,-23.4319,-46.4694,America/Sao_Paulo,-3.0,Sao Paulo - Guarulhos International
+GRZ,GRZ,AT,Airport,46.9936,15.44,Europe/Vienna,2.0,Graz - Thalerhof
+GSO,GSO,US,Airport,36.0978,-79.9372,America/New_York,-4.0,"Greensboro - Piedmont Triad International, NC"
+GSP,GSP,US,Airport,34.8956,-82.2189,America/New_York,-4.0,"Greenville - Spartanbur, SC"
+GTF,GTF,US,Airport,47.4819,-111.3706,America/Denver,-6.0,Great Falls International
+GUA,GUA,GT,Airport,14.5844,-90.5272,America/Guatemala,-6.0,Guatemala City
+GUC,GUC,US,Airport,38.5356,-106.9331,America/Denver,-6.0,Gunnison
+GUM,GUM,GU,Airport,13.4833,144.7961,Pacific/Guam,10.0,Guam - Agana Field
+GUW,AKX,KZ,Airport,47.1219,51.8214,Asia/Oral,5.0,Atyrau
+GVA,GVA,CH,Airport,46.2381,6.1089,Europe/Zurich,2.0,Genève - Geneva-Cointrin Airport
+GWL,GWL,IN,Airport,26.2933,78.2278,Asia/Kolkata,5.5,Gwalior
+GWT,GWT,DE,Airport,54.9133,8.3406,Europe/Berlin,2.0,Westerland/Sylt
+GYD,BAK,AZ,Airport,40.4675,50.0467,Asia/Baku,4.0,Baku - Heydar Aliyev Int´l
+GYE,GYE,EC,Airport,-2.1575,-79.8836,America/Guayaquil,-5.0,Guayaquil
+GYN,GYN,BR,Airport,-16.6319,-49.2206,America/Sao_Paulo,-3.0,Goiania
+GZP,GZP,TR,Airport,36.2981,32.2903,Europe/Istanbul,3.0,Gazipasa
+GZT,GZT,TR,Airport,36.9472,37.4786,Europe/Istanbul,3.0,Gaziantep
+HAC,HAC,JP,Airport,33.115,139.7858,Asia/Tokyo,9.0,Hachijo Jima
+HAH,YVA,KM,Airport,-11.5336,43.2719,Indian/Comoro,3.0,MORONI PRINCE SAID IBRAHIM
+HAJ,HAJ,DE,Airport,52.4606,9.6894,Europe/Berlin,2.0,Hannover
+HAK,HAK,CN,Airport,19.9347,110.4589,Asia/Shanghai,8.0,Haikou
+HAM,HAM,DE,Airport,53.6303,9.9883,Europe/Berlin,2.0,Hamburg
+HAN,HAN,VN,Airport,21.2211,105.8072,Asia/Ho_Chi_Minh,7.0,Hanoi
+HAR,HAR,US,Airport,40.2667,-76.8667,America/New_York,-4.0,"Harrisburg, Pennsylvania - Skyport"
+HAU,HAU,NO,Airport,59.3453,5.2083,Europe/Oslo,2.0,Haugesund
+HAV,HAV,CU,Airport,22.9903,-82.4078,America/Havana,-4.0,Havanna
+HBA,HBA,AU,Airport,-42.8361,147.5103,Australia/Hobart,10.0,Hobart
+HBE,ALY,EG,Airport,30.9178,29.6964,Africa/Cairo,2.0,Alexandria - Borg El Arab
+HDB,HDB,DE,Airport,49.3933,8.6519,Europe/Berlin,2.0,Heidelberg
+HDF,HDF,DE,Airport,53.8786,14.1522,Europe/Berlin,2.0,Heringsdorf/Usedom
+HDN,AXG,US,Airport,40.4833,-107.2236,America/Denver,-6.0,"Hayden - Yampa Valley, Colorado"
+HDS,HDS,ZA,Airport,-24.3486,30.9469,Africa/Johannesburg,2.0,Hoedspruit
+HDY,HDY,TH,Airport,6.9328,100.395,Asia/Bangkok,7.0,Hat Yai
+HEL,HEL,FI,Airport,60.3172,24.9633,Europe/Helsinki,3.0,Helsinki - Vantaa
+HER,HER,GR,Airport,35.3397,25.1803,Europe/Athens,3.0,Heraklion
+HET,HET,CN,Airport,40.8514,111.8242,Asia/Shanghai,8.0,Hohhot
+HFE,HFE,CN,Airport,31.9911,116.9892,Asia/Shanghai,8.0,Hefei
+HGA,HGA,SO,Airport,9.5139,44.0839,Africa/Mogadishu,3.0,HARGEISA EGAL INTL
+HGH,HGH,CN,Airport,30.2294,120.4344,Asia/Shanghai,8.0,Hangzhou
+HHH,HHH,US,Airport,32.2222,-80.6989,America/New_York,-4.0,Hilton Head
+HIJ,HIJ,JP,Airport,34.4361,132.9194,Asia/Tokyo,9.0,Hiroshima International
+HIL,HIL,ET,Airport,6.0833,44.8,Africa/Addis_Ababa,3.0,Shilabo
+HIN,HIN,KR,Airport,35.0886,128.0703,Asia/Seoul,9.0,Jinju
+HKD,HKD,JP,Airport,41.77,140.8219,Asia/Tokyo,9.0,Hakodate
+HKG,HKG,HK,Airport,22.3089,113.9147,Asia/Hong_Kong,8.0,Hong Kong International Airport
+HKT,HKT,TH,Airport,8.1122,98.3053,Asia/Bangkok,7.0,Phuket
+HLD,HLD,CN,Airport,49.2086,119.8167,Asia/Shanghai,8.0,Hailar
+HLH,HLH,CN,Airport,46.1947,122.0083,Asia/Shanghai,8.0,Ulanhot
+HLN,HLN,US,Airport,46.6069,-111.9828,America/Denver,-6.0,"Helena, Montana"
+HMO,HMO,MX,Airport,29.0958,-111.0478,America/Hermosillo,-7.0,Hermosillo
+HND,TYO,JP,Airport,35.5522,139.7797,Asia/Tokyo,9.0,Tokyo - Haneda
+HNL,HNL,US,Airport,21.3278,-157.9222,Pacific/Honolulu,-10.0,Honolulu International
+HOG,HOG,CU,Airport,20.7856,-76.315,America/Havana,-4.0,Holguin
+HOV,HOV,NO,Airport,62.1792,6.0711,Europe/Oslo,2.0,Orsta-Volda
+HPN,HPN,US,Airport,41.0669,-73.7075,America/New_York,-4.0,Westchester County
+HRB,HRB,CN,Airport,45.6233,126.2503,Asia/Shanghai,8.0,Harbin
+HRE,HRE,ZW,Airport,-17.9319,31.0928,Africa/Harare,2.0,Harare
+HRG,HRG,EG,Airport,27.1786,33.8014,Africa/Cairo,2.0,Hurghada
+HRK,HRK,UA,Airport,49.9261,36.2836,Europe/Kiev,3.0,Kharkov
+HRL,HFD,US,Airport,26.2286,-97.6544,America/Chicago,-5.0,"Harlingen, Texas"
+HSG,HSG,JP,Airport,33.1497,130.3022,Asia/Tokyo,9.0,Saga Airport
+HSV,HSV,US,Airport,34.6372,-86.775,America/Chicago,-5.0,"Huntsville, Madison County, AL"
+HTS,HTS,US,Airport,38.3683,-82.5592,America/New_York,-4.0,Huntington
+HTY,HTY,TR,Airport,36.3597,36.2847,Europe/Istanbul,3.0,Hatay
+HUE,HUE,ET,Airport,13.8333,36.8794,Africa/Addis_Ababa,3.0,Humera
+HUX,HUX,MX,Airport,15.7753,-96.2625,America/Mexico_City,-5.0,Huatulco
+HYD,HYD,IN,Airport,17.2311,78.4314,Asia/Kolkata,5.5,Hyderabad
+HYN,HYN,CN,Airport,28.5653,121.4303,Asia/Shanghai,8.0,Taizhou
+HYS,HYS,US,Airport,38.8503,-99.2756,America/Chicago,-5.0,Hays
+IAD,WAS,US,Airport,38.9444,-77.4558,America/New_York,-4.0,"Washington - Dulles International, DC"
+IAH,HOU,US,Airport,29.9844,-95.3414,America/Chicago,-5.0,"Houston - Intercontinental, TX"
+IAS,IAS,RO,Airport,47.1786,27.6206,Europe/Bucharest,3.0,Iasi
+IBZ,IBZ,ES,Airport,38.8728,1.3731,Europe/Madrid,2.0,Ibiza
+ICN,SEL,KR,Airport,37.4692,126.4506,Asia/Seoul,9.0,Seoul - Incheon International Airport
+ICT,ICT,US,Airport,37.6528,-97.4331,America/Chicago,-5.0,"Wichita - Mid-Continent, KS"
+IDA,IDA,US,Airport,43.5144,-112.0708,America/Denver,-6.0,IDAHO FALLS REGIONAL
+IDR,IDR,IN,Airport,22.7217,75.8011,Asia/Kolkata,5.5,Indore
+IEG,IEG,PL,Airport,52.1386,15.7986,Europe/Warsaw,2.0,ZIELONA GORA BABIMOST
+IEV,IEV,UA,Airport,50.4017,30.4497,Europe/Kiev,3.0,KIEV ZHULIANY INTL APT
+IFN,IFN,IR,Airport,32.7517,51.8697,Asia/Tehran,4.5,ESFAHAN SHAHID BEHESHTI INTL
+IGD,IGD,TR,Airport,39.9728,43.8844,Europe/Istanbul,3.0,Igdir
+IGR,IGR,AR,Airport,-25.7372,-54.4733,America/Argentina/Buenos_Aires,-3.0,Iguazu
+IGU,IGU,BR,Airport,-25.5961,-54.4872,America/Sao_Paulo,-3.0,Foz do Iguaçu - Cataratas
+IKA,THR,IR,Airport,35.4161,51.1522,Asia/Tehran,4.5,Tehran - Imam Khomeini Intl
+ILE,ILE,US,Airport,31.085,-97.6867,America/Chicago,-5.0,Killeen Municipal
+ILM,ILM,US,Airport,34.2706,-77.9025,America/New_York,-4.0,Wilmington
+IMF,IMF,IN,Airport,24.76,93.8967,Asia/Kolkata,5.5,Imphal
+INC,INC,CN,Airport,38.4933,106.0119,Asia/Shanghai,8.0,Yinchuan
+IND,IND,US,Airport,39.7172,-86.2944,America/Indiana/Indianapolis,-4.0,"Indianapolis International, IN"
+INI,INI,RS,Airport,43.3372,21.8536,Europe/Belgrade,2.0,Nis
+INN,INN,AT,Airport,47.2603,11.3439,Europe/Vienna,2.0,Innsbruck - Kranebitten
+IOA,IOA,GR,Airport,39.6964,20.8225,Europe/Athens,3.0,Ioannina
+IOS,IOS,BR,Airport,-14.8158,-39.0333,America/Belem,-3.0,Ilheus
+IPL,IPL,US,Airport,32.835,-115.5747,America/Los_Angeles,-7.0,El Centro - Imperial County
+IQQ,IQQ,CL,Airport,-20.5353,-70.1814,America/Santiago,-4.0,Iquique
+ISB,ISB,PK,Airport,33.6167,73.0992,Asia/Karachi,5.0,Islamabad International
+ISE,ISE,TR,Airport,37.8556,30.3683,Europe/Istanbul,3.0,ISPARTA SULEYMAN DEMIREL
+ISG,ISG,JP,Airport,24.3964,124.245,Asia/Tokyo,9.0,Ishigaki
+ISL,IST,TR,Airport,40.9769,28.815,Europe/Istanbul,3.0,Istanbul
+ISN,ISN,US,Airport,48.1792,-103.6433,America/Chicago,-5.0,Williston - Sloulin Field International
+IST,IST,TR,Airport,40.9769,28.8147,Europe/Istanbul,3.0,Istanbul
+ISU,ISU,IQ,Airport,35.5625,45.3158,Asia/Baghdad,3.0,Sulaymaniyah International
+ITH,ITH,US,Airport,42.4911,-76.4608,America/New_York,-4.0,Ithaca
+ITM,OSA,JP,Airport,34.7856,135.4383,Asia/Tokyo,9.0,Osaka - Itami
+ITO,ITO,US,Airport,19.7214,-155.0483,Pacific/Honolulu,-10.0,Hilo International
+IVC,IVC,NZ,Airport,-46.4147,168.3131,Pacific/Auckland,12.0,INVERCARGILL
+IVL,IVL,FI,Airport,68.6072,27.4053,Europe/Helsinki,3.0,Ivalo
+IWJ,IWJ,JP,Airport,34.6764,131.7903,Asia/Tokyo,9.0,Iwami
+IWK,IWK,JP,Airport,34.1353,132.2356,Asia/Tokyo,9.0,Iwakuni
+IXA,IXA,IN,Airport,23.8869,91.2406,Asia/Kolkata,5.5,Agartala
+IXB,IXB,IN,Airport,26.6811,88.3286,Asia/Kolkata,5.5,Bagdogra
+IXC,IXC,IN,Airport,30.6733,76.7886,Asia/Kolkata,5.5,Chandigarh
+IXD,IXD,IN,Airport,25.44,81.7339,Asia/Kolkata,5.5,Allahabad
+IXE,IXE,IN,Airport,12.9614,74.89,Asia/Kolkata,5.5,Mangalore
+IXJ,IXJ,IN,Airport,32.6892,74.8375,Asia/Kolkata,5.5,Jammu
+IXL,IXL,IN,Airport,34.1358,77.5464,Asia/Kolkata,5.5,Leh
+IXM,IXM,IN,Airport,9.8344,78.0933,Asia/Kolkata,5.5,Madurai
+IXR,IXR,IN,Airport,23.3142,85.3217,Asia/Kolkata,5.5,Ranchi
+IXS,IXS,IN,Airport,24.9131,92.9786,Asia/Kolkata,5.5,Silchar
+IXU,IXU,IN,Airport,19.8628,75.3981,Asia/Kolkata,5.5,Aurangabad
+IXZ,IXZ,IN,Airport,11.6411,92.7297,Asia/Kolkata,5.5,Port Blair
+JAC,JAC,US,Airport,43.6072,-110.7378,America/Denver,-6.0,"Jackson, WY"
+JAI,JAI,IN,Airport,26.8242,75.8122,Asia/Kolkata,5.5,Jaipur
+JAN,JAN,US,Airport,32.3111,-90.0758,America/Chicago,-5.0,"Jackson, Mississippi - International"
+JAX,JAX,US,Airport,30.4942,-81.6878,America/New_York,-4.0,"Jacksonville, International, FL"
+JDH,JDH,IN,Airport,26.2511,73.0489,Asia/Kolkata,5.5,Jodhpur
+JDZ,JDZ,CN,Airport,29.3392,117.1764,Asia/Shanghai,8.0,Jingdezhen
+JED,JED,SA,Airport,21.6794,39.1567,Asia/Riyadh,3.0,Jeddah - King Abdul Aziz International
+JER,JER,GB,Airport,49.2078,-2.1953,Europe/London,1.0,Jersey
+JFK,NYC,US,Airport,40.6397,-73.7789,America/New_York,-4.0,"New York - JFK International, NY"
+JGA,JGA,IN,Airport,22.4656,70.0125,Asia/Kolkata,5.5,Jamnagar
+JHB,JHB,MY,Airport,1.6389,103.6703,Asia/Kuala_Lumpur,8.0,Johor Bahru - Sultan Ismail International
+JHM,JHM,US,Airport,20.9631,-156.6731,Pacific/Honolulu,-10.0,Kapalua
+JIB,JIB,DJ,Airport,11.5472,43.1594,Africa/Djibouti,3.0,Djibouti
+JIJ,JIJ,ET,Airport,9.3633,42.7897,Africa/Addis_Ababa,3.0,Jijiga
+JIM,JIM,ET,Airport,7.6628,36.8181,Africa/Addis_Ababa,3.0,Jimma
+JJN,JJN,CN,Airport,24.7956,118.5881,Asia/Shanghai,8.0,Quanzhou
+JKG,JKG,SE,Airport,57.7575,14.0686,Europe/Stockholm,2.0,Jonkoping
+JKH,JKH,GR,Airport,38.3431,26.1406,Europe/Athens,3.0,Chios
+JLR,JLR,IN,Airport,23.1778,80.0519,Asia/Kolkata,5.5,Jabalpur
+JMK,JMK,GR,Airport,37.435,25.3481,Europe/Athens,3.0,Mykonos
+JMS,JMS,US,Airport,46.9297,-98.6783,America/Chicago,-5.0,"Jamestown, North Dakota"
+JMU,JMU,CN,Airport,46.8433,130.4653,Asia/Shanghai,8.0,Jiamusi
+JNB,JNB,ZA,Airport,-26.1392,28.2461,Africa/Johannesburg,2.0,Johannesburg- O.R. Tambo International Airport
+JOI,JOI,BR,Airport,-26.2244,-48.7975,America/Sao_Paulo,-3.0,Joinville
+JOK,JOK,RU,Airport,56.7008,47.8964,Europe/Moscow,3.0,Yoshkar-Ola
+JPA,JPA,BR,Airport,-7.1483,-34.9506,America/Araguaina,-3.0,JOAO PESSOA CASTRO PINTO INTL
+JRH,JRH,IN,Airport,26.7317,94.1756,Asia/Kolkata,5.5,Jorhat
+JRO,JRO,TZ,Airport,-3.4294,37.0744,Africa/Dar_es_Salaam,3.0,Kilimanjaro
+JSH,JSH,GR,Airport,35.2161,26.1014,Europe/Athens,3.0,SITEIA
+JSI,JSI,GR,Airport,39.1772,23.5036,Europe/Athens,3.0,Skiathos
+JTR,JTR,GR,Airport,36.3992,25.4794,Europe/Athens,3.0,Thira
+JUB,JUB,SS,Airport,4.8719,31.6011,Africa/Juba,3.0,Juba
+JUJ,JUJ,AR,Airport,-24.3928,-65.0978,America/Argentina/Buenos_Aires,-3.0,Jujuy
+JUL,JUL,PE,Airport,-15.4672,-70.1581,America/Lima,-5.0,JULIACA INCO MANCO CAPAC INTL
+JUZ,JUZ,CN,Airport,28.9672,118.9,Asia/Urumqi,6.0,QUZHOU
+KAN,KAN,NG,Airport,12.0475,8.5247,Africa/Lagos,1.0,MALLAM AMINU KANO INTL
+KAO,KAO,FI,Airport,65.9875,29.2394,Europe/Helsinki,3.0,Kuusamo
+KBL,KBL,AF,Airport,34.5658,69.2125,Asia/Kabul,4.5,KABUL INTERNATIONAL
+KBP,IEV,UA,Airport,50.345,30.8947,Europe/Kiev,3.0,Kiev - Boryspil Int´l
+KBR,KBR,MY,Airport,6.1675,102.2911,Asia/Kuala_Lumpur,8.0,Kota Bharu
+KBV,KBV,TH,Airport,8.0958,98.9889,Asia/Bangkok,7.0,Krabi
+KCH,KCH,MY,Airport,1.4842,110.3439,Asia/Kuala_Lumpur,8.0,Kuching
+KCM,KCM,TR,Airport,37.5389,36.9533,Europe/Istanbul,3.0,Kahramanmaras
+KCZ,KCZ,JP,Airport,33.5461,133.6694,Asia/Tokyo,9.0,Kochi
+KEF,REK,IS,Airport,63.985,-22.6056,Atlantic/Reykjavik,0.0,Reykjavik - Keflavik International
+KFS,KFS,TR,Airport,41.315,33.7961,Europe/Istanbul,3.0,Kastamonu
+KGD,KGD,RU,Airport,54.89,20.5925,Europe/Kaliningrad,2.0,Kaliningrad
+KGL,KGL,RW,Airport,-1.9686,30.1394,Africa/Kigali,2.0,Kigali
+KGS,KGS,GR,Airport,36.7933,27.0917,Europe/Athens,3.0,Kos
+KHE,KHE,UA,Airport,46.6772,32.5072,Europe/Kiev,3.0,Kherson
+KHG,KHG,CN,Airport,39.5425,76.02,Asia/Urumqi,6.0,Kashi
+KHH,KHH,TW,Airport,22.5772,120.35,Asia/Taipei,8.0,Kaohsiung International
+KHI,KHI,PK,Airport,24.9067,67.1608,Asia/Karachi,5.0,Karachi
+KHN,KHN,CN,Airport,28.8639,115.9022,Asia/Shanghai,8.0,Nanchang
+KHV,KHV,RU,Airport,48.5281,135.1883,Asia/Vladivostok,10.0,Khabarovsk
+KIJ,KIJ,JP,Airport,37.9558,139.1208,Asia/Tokyo,9.0,Niigata
+KIM,KIM,ZA,Airport,-28.8028,24.7653,Africa/Johannesburg,2.0,Kimberley
+KIN,KIN,JM,Airport,17.9356,-76.7875,America/Jamaica,-5.0,Norman Manley Intl
+KIV,KIV,MD,Airport,46.9278,28.9308,Europe/Chisinau,3.0,Chisinau
+KIX,OSA,JP,Airport,34.4272,135.2442,Asia/Tokyo,9.0,Osaka - Kansai International
+KJA,KJA,RU,Airport,56.1731,92.4933,Asia/Krasnoyarsk,7.0,Krasnoyarsk
+KJR,FKB,DE,RailwayStation,0.0,0.0,Europe/Berlin,2.0,Karlsruhe - Hbf Railway Station
+KKC,KKC,TH,Airport,16.4644,102.7822,Asia/Bangkok,7.0,Khon Kaen
+KKE,KKE,NZ,Airport,-35.2578,173.9119,Pacific/Auckland,12.0,Kerikeri
+KKJ,KKJ,JP,Airport,33.8458,131.0347,Asia/Tokyo,9.0,Kita Kyushu
+KKN,KKN,NO,Airport,69.7258,29.8914,Europe/Oslo,2.0,Kirkenes
+KLO,KLO,PH,Airport,11.6844,122.3811,Asia/Manila,8.0,Kalibo
+KLR,KLR,SE,Airport,56.6856,16.2875,Europe/Stockholm,2.0,Kalmar
+KLT,KLT,DE,RailwayStation,49.0,7.0,Europe/Berlin,2.0,Kaiserslautern
+KLU,KLU,AT,Airport,46.6428,14.3378,Europe/Vienna,2.0,Klagenfurt
+KLX,KLX,GR,Airport,37.0683,22.0256,Europe/Athens,3.0,Kalamata
+KMG,KMG,CN,Airport,25.1086,102.935,Asia/Shanghai,8.0,Kunming
+KMI,KMI,JP,Airport,31.8772,131.4486,Asia/Tokyo,9.0,Miyazaki
+KMJ,KMJ,JP,Airport,32.8372,130.855,Asia/Tokyo,9.0,Kumamoto
+KMQ,KMQ,JP,Airport,36.3947,136.4067,Asia/Tokyo,9.0,Komatsu
+KNC,KNC,CN,Airport,0.0,0.0,Asia/Shanghai,8.0,Ji'An
+KNO,MES,ID,Airport,3.6378,98.8719,Asia/Jakarta,7.0,Medan Kuala Namu
+KNU,KNU,IN,Airport,26.4406,80.3672,Asia/Kolkata,5.5,Kanpur
+KOA,KOA,US,Airport,19.7389,-156.0456,Pacific/Honolulu,-10.0,Kona
+KOJ,KOJ,JP,Airport,31.8033,130.7194,Asia/Tokyo,9.0,Kagoshima
+KOW,KOW,CN,Airport,25.8514,114.7753,Asia/Urumqi,6.0,Ganzhou Huangjin
+KPO,KPO,KR,Airport,35.9878,129.4206,Asia/Seoul,9.0,P'Ohang
+KRK,KRK,PL,Airport,50.0778,19.7847,Europe/Warsaw,2.0,Krakow
+KRL,KRL,CN,Airport,41.6992,86.1303,Asia/Urumqi,6.0,Korla
+KRN,KRN,SE,Airport,67.8219,20.3367,Europe/Stockholm,2.0,Kiruna
+KRR,KRR,RU,Airport,45.0325,39.1664,Europe/Moscow,3.0,Krasnodar
+KRS,KRS,NO,Airport,58.2042,8.0853,Europe/Oslo,2.0,Kristiansand - Kjevik
+KRT,KRT,SD,Airport,15.5894,32.5531,Africa/Khartoum,2.0,Khartoum
+KRY,KRY,CN,Airport,45.4661,84.9539,Asia/Urumqi,6.0,Karamay
+KSA,KSA,FM,Airport,5.3569,162.9583,Pacific/Kosrae,11.0,Kosrae International
+KSC,KSC,SK,Airport,48.6631,21.2411,Europe/Bratislava,2.0,Kosice
+KSD,KSD,SE,Airport,59.4447,13.3375,Europe/Stockholm,2.0,Karlstad
+KSU,KSU,NO,Airport,63.1117,7.8244,Europe/Oslo,2.0,Kristiansund - Kvernberget
+KSY,KSY,TR,Airport,40.5622,43.115,Europe/Istanbul,3.0,Kars
+KTM,KTM,NP,Airport,27.6967,85.3592,Asia/Kathmandu,5.75,Kathmandu - Tribhuvan
+KTN,KTN,US,Airport,55.3556,-131.7139,America/Anchorage,-8.0,Ketchikan International
+KTT,KTT,FI,Airport,67.7011,24.8469,Europe/Helsinki,3.0,Kittila
+KTW,KTW,PL,Airport,50.4742,19.08,Europe/Warsaw,2.0,Katowice
+KUA,KUA,MY,Airport,3.7808,103.2094,Asia/Kuala_Lumpur,8.0,Kuantan
+KUF,KUF,RU,Airport,53.5039,50.1517,Europe/Samara,4.0,Samara Int'l Apt. Kuromoch
+KUH,KUH,JP,Airport,43.0408,144.1931,Asia/Tokyo,9.0,Kushiro
+KUL,KUL,MY,Airport,3.129722222,101.5519444,Asia/Kuala_Lumpur,8.0,Kuala Lumpur Int'l (Sepang)
+KUN,KUN,LT,Airport,54.9639,24.0847,Europe/Vilnius,3.0,Kaunas
+KUO,KUO,FI,Airport,63.0072,27.7978,Europe/Helsinki,3.0,Kuopio
+KVA,KVA,GR,Airport,40.9133,24.6192,Europe/Athens,3.0,Kavala
+KVX,KVX,RU,Airport,58.5008,49.3422,Europe/Moscow,3.0,Kirov
+KWA,KWA,MH,Airport,8.72,167.7317,Pacific/Majuro,12.0,Kwajalein Island Bucholz Aaf
+KWE,KWE,CN,Airport,26.5386,106.8008,Asia/Shanghai,8.0,Guiyang
+KWI,KWI,KW,Airport,29.2267,47.9689,Asia/Kuwait,3.0,Kuwait International
+KWJ,KWJ,KR,Airport,35.1264,126.8089,Asia/Seoul,9.0,Gwangju
+KWL,KWL,CN,Airport,25.2181,110.0392,Asia/Shanghai,8.0,Guilin
+KWQ,KSF,DE,RailwayStation,0.0,0.0,Europe/Berlin,2.0,Kassel - Railway Station Wilhelmshoehe
+KYA,KYA,TR,Airport,37.9789,32.5619,Europe/Istanbul,3.0,Konya
+KZN,KZN,RU,Airport,55.6061,49.2786,Europe/Moscow,3.0,Kazan
+LAD,LAD,AO,Airport,-8.8583,13.2311,Africa/Luanda,1.0,Luanda
+LAN,LAN,US,Airport,42.7786,-84.5872,America/New_York,-4.0,Lansing
+LAP,LAP,MX,Airport,24.0728,-110.3625,America/Mazatlan,-6.0,La Paz
+LAR,LAR,US,Airport,41.3119,-105.675,America/Denver,-6.0,Laramie
+LAS,LAS,US,Airport,36.08,-115.1522,America/Los_Angeles,-7.0,"Las Vegas - McCarran International, NV"
+LAX,LAX,US,Airport,33.9425,-118.4081,America/Los_Angeles,-7.0,"Los Angeles International, CA"
+LBB,LBB,US,Airport,33.6636,-101.8228,America/Chicago,-5.0,"Lubbock International, TX"
+LBF,LBF,US,Airport,41.1311,-100.6931,America/Chicago,-5.0,North Platte
+LBL,LBL,US,Airport,37.0442,-100.96,America/Chicago,-5.0,Liberal
+LBU,LBU,MY,Airport,5.2972,115.2525,Asia/Kuala_Lumpur,8.0,Labuan
+LBV,LBV,GA,Airport,0.4586,9.4122,Africa/Libreville,1.0,Libreville
+LCA,LCA,CY,Airport,34.875,33.6247,Asia/Nicosia,3.0,Larnaca
+LCH,LCH,US,Airport,30.1261,-93.2233,America/Chicago,-5.0,Lake Charles
+LCJ,LCJ,PL,Airport,51.7219,19.3981,Europe/Warsaw,2.0,Lodz Lublinek Airport
+LCY,LON,GB,Airport,51.505,0.0542,Europe/London,1.0,London City Airport
+LDB,LDB,BR,Airport,-23.3336,-51.13,America/Sao_Paulo,-3.0,Londrina
+LDE,LDE,FR,Airport,43.1856,-0.0028,Europe/Paris,2.0,Lourdes/Tarbes
+LED,LED,RU,Airport,59.8003,30.2625,Europe/Moscow,3.0,St. Petersburg - Pulkovo International
+LEI,LEI,ES,Airport,36.8439,-2.37,Europe/Madrid,2.0,Almeria
+LEJ,LEJ,DE,Airport,51.4325,12.2417,Europe/Berlin,2.0,Leipzig/Halle
+LET,LET,CO,Airport,-4.1936,-69.9431,America/Bogota,-5.0,Leticia Alfredo V. Cobo International
+LEX,LEX,US,Airport,38.0364,-84.6058,America/New_York,-4.0,"Lexington, KY"
+LFQ,LFQ,CN,Airport,36.0397,111.4917,Asia/Urumqi,6.0,Linfen Qiaoli
+LFT,LFT,US,Airport,30.2053,-91.9875,America/Chicago,-5.0,"Lafayette, Louisiana - Regional"
+LFW,LFW,TG,Airport,6.1656,1.2544,Africa/Lome,0.0,Lome
+LGA,NYC,US,Airport,40.7772,-73.8725,America/New_York,-4.0,New York - La Guardia
+LGB,LGB,US,Airport,33.8178,-118.1517,America/Los_Angeles,-7.0,Long Beach
+LGG,LGG,BE,Airport,50.6375,5.4433,Europe/Brussels,2.0,Liege - Bierset
+LGK,LGK,MY,Airport,6.3386,99.7322,Asia/Kuala_Lumpur,8.0,Langkawi
+LGW,LON,GB,Airport,51.1481,-0.1903,Europe/London,1.0,London
+LHE,LHE,PK,Airport,31.5217,74.4036,Asia/Karachi,5.0,Lahore
+LHR,LON,GB,Airport,51.4775,-0.4614,Europe/London,1.0,London Heathrow
+LHW,LHW,CN,Airport,36.5167,103.6167,Asia/Shanghai,8.0,Lanzhou - Lanzhou Airport
+LIH,LIH,US,Airport,21.9764,-159.3361,Pacific/Honolulu,-10.0,Kauai Island - Lihue
+LIM,LIM,PE,Airport,-12.0219,-77.1144,America/Lima,-5.0,Lima
+LIN,MIL,IT,Airport,45.4494,9.2783,Europe/Rome,2.0,Milan Linate
+LIR,LIR,CR,Airport,10.5933,-85.5444,America/Costa_Rica,-6.0,Liberia
+LIS,LIS,PT,Airport,38.7742,-9.1342,Europe/Lisbon,1.0,Lisbon – Aeroporto de Lisboa
+LIT,LIT,US,Airport,34.7294,-92.2244,America/Chicago,-5.0,Little Rock
+LJG,LJG,CN,Airport,26.6742,100.2436,Asia/Urumqi,6.0,Lijiang Sanyi
+LJU,LJU,SI,Airport,46.22361111,14.4575,Europe/Ljubljana,2.0,Ljubljana
+LKO,LKO,IN,Airport,26.7606,80.8894,Asia/Kolkata,5.5,Lucknow
+LLA,LLA,SE,Airport,65.5439,22.1219,Europe/Stockholm,2.0,Lulea
+LLI,LLI,ET,Airport,11.975,38.98,Africa/Addis_Ababa,3.0,Lalibela
+LLW,LLW,MW,Airport,-13.7894,33.7811,Africa/Blantyre,2.0,Lilongwe - Kamuzu International
+LMP,LMP,IT,Airport,35.4981,12.6183,Europe/Rome,2.0,Lampedusa
+LNK,LNK,US,Airport,40.8511,-96.7592,America/Chicago,-5.0,"Lincoln, NE"
+LNY,LNY,US,Airport,20.7856,-156.9514,Pacific/Honolulu,-10.0,Lanai City
+LNZ,LNZ,AT,Airport,48.2333,14.1875,Europe/Vienna,2.0,Linz - Blue Danube
+LOS,LOS,NG,Airport,6.5775,3.3211,Africa/Lagos,1.0,Lagos
+LPA,LPA,ES,Airport,27.9319,-15.3867,Atlantic/Canary,1.0,Las Palmas - Aeropuerto de Gran Canaria
+LPB,LPB,BO,Airport,-16.5133,-68.1922,America/La_Paz,-4.0,La Paz
+LPI,LPI,SE,Airport,58.4022,15.5256,Europe/Stockholm,2.0,Linkoping
+LPQ,LPQ,LA,Airport,19.8978,102.1608,Asia/Vientiane,7.0,Luang Prabang
+LPT,LPT,TH,Airport,18.2722,99.5042,Asia/Bangkok,7.0,Lampang
+LRD,LRD,US,Airport,27.5439,-99.4617,America/Chicago,-5.0,Laredo International
+LRM,LRM,DO,Airport,18.4508,-68.9119,America/Santo_Domingo,-4.0,La Romana
+LSC,LSC,CL,Airport,-29.9164,-71.1994,America/Santiago,-4.0,La Serena
+LSP,LSP,VE,Airport,11.7808,-70.1514,America/Caracas,-4.0,Las Piedras
+LST,LST,AU,Airport,-41.5453,147.2111,Australia/Hobart,10.0,Launceston
+LTN,LON,GB,Airport,51.8747,-0.3683,Europe/London,1.0,London Luton Apt
+LUG,LUG,CH,Airport,46.0042,8.9106,Europe/Zurich,2.0,Lugano
+LUN,LUN,ZM,Airport,-15.3308,28.4525,Africa/Lusaka,2.0,Lusaka
+LUX,LUX,LU,Airport,49.6233,6.2044,Europe/Luxembourg,2.0,Luxemburg
+LUZ,LUZ,PL,Airport,51.2314,22.6906,Europe/Warsaw,2.0,Lublin
+LVI,LVI,ZM,Airport,-17.8217,25.8228,Africa/Lusaka,2.0,Livingstone
+LWB,LWB,US,Airport,37.8561,-80.4019,America/New_York,-4.0,Lewisburg
+LWO,LWO,UA,Airport,49.8125,23.9561,Europe/Kiev,3.0,Lviv
+LWS,LWS,US,Airport,46.3756,-117.0136,America/Los_Angeles,-7.0,Lewiston
+LXA,LXA,CN,Airport,29.2981,90.9122,Asia/Urumqi,6.0,Lhasa/Lasa Gonggar
+LXR,LXR,EG,Airport,25.6711,32.7067,Africa/Cairo,2.0,Luxor
+LXS,LXS,GR,Airport,39.9169,25.2364,Europe/Athens,3.0,Lemnos
+LYH,LYH,US,Airport,37.3267,-79.2006,America/New_York,-4.0,Lynchburg
+LYI,LYI,CN,Airport,35.0494,118.4119,Asia/Shanghai,8.0,Linyi
+LYR,LYR,NO,Airport,78.2461,15.4656,Arctic/Longyearbyen,2.0,Longyearbyen - Svalbard
+LYS,LYS,FR,Airport,45.7256,5.0811,Europe/Paris,2.0,Lyon Saint Exupéry
+LZH,LZH,CN,Airport,24.2078,109.3914,Asia/Shanghai,8.0,Liuzhou
+LZS,LNZ,AT,RailwayStation,48.2906,14.2911,Europe/Vienna,2.0,Linz Rail Station
+LZY,LZY,CN,Airport,29.3058,94.3386,Asia/Urumqi,6.0,Nyingchi/Linzhi Mainling/Milin
+MAA,MAA,IN,Airport,12.9944,80.1806,Asia/Kolkata,5.5,Chennai/Madras
+MAD,MAD,ES,Airport,40.4936,-3.5667,Europe/Madrid,2.0,Madrid Barajas
+MAF,MAF,US,Airport,31.9425,-102.2019,America/Chicago,-5.0,Midland Odessa
+MAH,MAH,ES,Airport,39.8625,4.2186,Europe/Madrid,2.0,Menorca - Mahon
+MAJ,MAJ,MH,Airport,7.0647,171.2719,Pacific/Majuro,12.0,Majuro Amata Kabua International
+MAN,MAN,GB,Airport,53.3536,-2.275,Europe/London,1.0,Manchester
+MAO,MAO,BR,Airport,-3.0386,-60.0497,America/Porto_Velho,-4.0,Manaus - Eduardo Gomez International
+MAR,MAR,VE,Airport,10.5583,-71.7278,America/Caracas,-4.0,Maracaibo
+MBA,MBA,KE,Airport,-4.0281,39.5997,Africa/Nairobi,3.0,Mombasa - Moi International
+MBE,MBE,JP,Airport,44.3039,143.4042,Asia/Tokyo,9.0,Monbetsu
+MBJ,MBJ,JM,Airport,18.5036,-77.9133,America/Jamaica,-5.0,Montego Bay - Sangster International
+MBS,MBS,US,Airport,43.5319,-84.0825,America/New_York,-4.0,Saginaw
+MCI,MKC,US,Airport,39.2975,-94.7139,America/Chicago,-5.0,"Kansas City, International, MO"
+MCK,MCK,US,Airport,40.2078,-100.5928,America/Chicago,-5.0,Mccook
+MCO,ORL,US,Airport,28.4294,-81.3089,America/New_York,-4.0,"Orlando International, FL"
+MCT,MCT,OM,Airport,23.5928,58.2817,Asia/Muscat,4.0,Muscat International
+MCZ,MCZ,BR,Airport,-9.5108,-35.7917,America/Belem,-3.0,Maceio
+MDC,MDC,ID,Airport,1.5492,124.9264,Asia/Makassar,8.0,Manado
+MDE,MDE,CO,Airport,6.1644,-75.4231,America/Bogota,-5.0,Medellin - Jose Maria Cordova
+MDL,MDL,MM,Airport,21.7022,95.9781,Asia/Rangoon,6.5,Mandalay
+MDT,HAR,US,Airport,40.1936,-76.7633,America/New_York,-4.0,"Harrisburg, International, PA"
+MDZ,MDZ,AR,Airport,-32.8317,-68.7928,America/Argentina/Buenos_Aires,-3.0,Mendoza
+MED,MED,SA,Airport,24.5533,39.705,Asia/Riyadh,3.0,Madinah Prince Mohammad Bin Abdulaziz
+MEL,MEL,AU,Airport,-37.6733,144.8433,Australia/Sydney,10.0,Melbourne - Tullamarine International
+MEM,MEM,US,Airport,35.0425,-89.9767,America/Chicago,-5.0,"Memphis International, TN"
+MES,MES,ID,Airport,3.5581,98.6717,Asia/Jakarta,7.0,Medan
+MEX,MEX,MX,Airport,19.4364,-99.0722,America/Mexico_City,-5.0,Mexico City - Aeropuerto Internacional
+MFE,MFE,US,Airport,26.1758,-98.2386,America/Chicago,-5.0,McAllen - Miller International
+MFM,MFM,MO,Airport,22.1494,113.5917,Asia/Urumqi,6.0,Macau International
+MFR,MFR,US,Airport,42.3742,-122.8736,America/Los_Angeles,-7.0,"Medford, OR"
+MGA,MGA,NI,Airport,12.1414,-86.1681,America/Managua,-6.0,Managua
+MGF,MGF,BR,Airport,-23.4761,-52.0158,America/Sao_Paulo,-3.0,Maringa
+MGM,MGM,US,Airport,32.3006,-86.3939,America/Chicago,-5.0,Montgomery - Dannelly Field
+MGQ,MGQ,SO,Airport,2.0147,45.305,Africa/Mogadishu,3.0,Mogadishu Aden Adde Intl
+MGW,MGW,US,Airport,39.6411,-79.9175,America/New_York,-4.0,Morgantown
+MHD,MHD,IR,Airport,36.2342,59.645,Asia/Tehran,4.5,Mashhad Shahid Hashemi Nejad
+MHJ,MHG,DE,RailwayStation,49.4794,8.4692,Europe/Berlin,2.0,Mannheim
+MHT,MHT,US,Airport,42.9325,-71.4356,America/New_York,-4.0,"Manchester - Boston Regional, NH"
+MIA,MIA,US,Airport,25.7933,-80.2906,America/New_York,-4.0,"Miami International, FL"
+MID,MID,MX,Airport,20.9369,-89.6578,America/Mexico_City,-5.0,Merida
+MIG,MIG,CN,Airport,31.4289,104.7408,Asia/Shanghai,8.0,Mianyang - Nanjiao
+MIR,MIR,TN,Airport,35.7581,10.7547,Africa/Tunis,1.0,Monastir Habib Bourguiba International
+MJM,MJM,CG,Airport,-6.1211,23.5689,Africa/Lubumbashi,2.0,Mbuji-Mayi
+MJT,MJT,GR,Airport,39.0533,26.6022,Europe/Athens,3.0,Mytilene
+MKC,MKC,US,Airport,39.1228,-94.5933,America/Chicago,-5.0,"Kansas City, Missouri - Johnson Executive"
+MKE,MKE,US,Airport,42.9472,-87.8967,America/Chicago,-5.0,"Milwaukee - General Mitchell, WI"
+MKG,MKG,US,Airport,43.1694,-86.2383,America/New_York,-4.0,Muskegon
+MKK,MKK,US,Airport,21.1517,-157.0978,Pacific/Honolulu,-10.0,Hoolehua
+MLA,MLA,MT,Airport,35.8575,14.4775,Europe/Malta,2.0,Malta
+MLB,MLB,US,Airport,28.1028,-80.6453,America/New_York,-4.0,Melbourne
+MLE,MLE,MV,Airport,5.25,73.51944444,Indian/Maldives,5.0,Male International
+MLH,MLH,FR,Airport,47.6008,7.5292,Europe/Zurich,2.0,Mulhouse Euroairport
+MLI,MLI,US,Airport,41.4486,-90.5075,America/Chicago,-5.0,"Moline, IL"
+MLM,MLM,MX,Airport,19.85,-101.0256,America/Mexico_City,-5.0,Morelia
+MLU,MLU,US,Airport,32.5108,-92.0378,America/Chicago,-5.0,Monroe
+MLX,MLX,TR,Airport,38.4353,38.0911,Europe/Istanbul,3.0,Malatya
+MMB,MMB,JP,Airport,43.8806,144.1642,Asia/Tokyo,9.0,Memanbetsu
+MMH,MMH,US,Airport,37.6244,-118.8406,America/Los_Angeles,-7.0,Mammoth Lakes Mammoth Yosemite
+MMK,MMK,RU,Airport,68.7817,32.7508,Europe/Moscow,3.0,Murmansk
+MMX,MMA,SE,Airport,55.5425,13.375,Europe/Stockholm,2.0,Malmo - Sturup
+MMY,MMY,JP,Airport,24.7828,125.295,Asia/Tokyo,9.0,Miyako
+MNL,MNL,PH,Airport,14.5086,121.0194,Asia/Manila,8.0,Manila - Ninoy Aquino International
+MOB,MOB,US,Airport,30.6911,-88.2428,America/Chicago,-5.0,Mobile Municipal
+MOD,MOD,US,Airport,37.6258,-120.9544,America/Los_Angeles,-7.0,Modesto
+MOL,MOL,NO,Airport,62.7447,7.2625,Europe/Oslo,2.0,Molde
+MOT,MOT,US,Airport,48.2594,-101.2803,America/Chicago,-5.0,Minot International Apt
+MPL,MPL,FR,Airport,43.5833,3.9614,Europe/Paris,2.0,Montpellier
+MPM,MPM,MZ,Airport,-25.9208,32.5725,Africa/Maputo,2.0,Maputo International
+MQM,MQM,TR,Airport,37.2233,40.6317,Europe/Istanbul,3.0,Mardin
+MQP,NLP,ZA,Airport,-25.3831,31.1056,Africa/Johannesburg,2.0,Nelspruit Kruger Mpumalanga Intl
+MQX,MQX,ET,Airport,13.4675,39.5333,Africa/Addis_Ababa,3.0,Mekele
+MRD,MRD,VE,Airport,8.5822,-71.1611,America/Caracas,-4.0,Merida
+MRS,MRS,FR,Airport,43.4367,5.215,Europe/Paris,2.0,Marseille-Provence
+MRU,MRU,MU,Airport,-20.4275,57.67638889,Indian/Mauritius,4.0,Mauritius - Seewoosagur International
+MRV,MRV,RU,Airport,44.225,43.0819,Europe/Moscow,3.0,Mineralnye Vody
+MRY,MRY,US,Airport,36.5869,-121.8431,America/Los_Angeles,-7.0,"Monterey Peninsula, CA"
+MSN,MSN,US,Airport,43.1397,-89.3375,America/Chicago,-5.0,"Madison, WI"
+MSO,MSO,US,Airport,46.9164,-114.0906,America/Denver,-6.0,"Missoula International, MT"
+MSP,MSP,US,Airport,44.8819,-93.2217,America/Chicago,-5.0,"Minneapolis - St Paul International, MN"
+MSQ,MSQ,BY,Airport,53.8825,28.0308,Europe/Minsk,3.0,Minsk
+MSU,MSU,LS,Airport,-29.4622,27.5525,Africa/Maseru,2.0,Maseru - Moshoeshoe International
+MSY,MSY,US,Airport,29.9933,-90.2581,America/Chicago,-5.0,"New Orleans International, LA"
+MTJ,MTJ,US,Airport,38.5053,-107.8942,America/Denver,-6.0,Montrose County
+MTR,MTR,CO,Airport,8.8236,-75.8258,America/Bogota,-5.0,Monteria Los Garzones
+MTS,MTS,SZ,Airport,-26.5289,31.3075,Africa/Mbabane,2.0,Manzini - Matsapha International
+MTY,MTY,MX,Airport,25.7786,-100.1069,America/Mexico_City,-5.0,Monterrey - Gen. Mariano Escobedo
+MUB,MUB,BW,Airport,-19.9725,23.4311,Africa/Gaborone,2.0,Maun
+MUC,MUC,DE,Airport,48.3539,11.7861,Europe/Berlin,2.0,Munich
+MUN,MUN,VE,Airport,9.7492,-63.1533,America/Caracas,-4.0,Maturin Quiriquire
+MVD,MVD,UY,Airport,-34.8383,-56.0308,America/Montevideo,-3.0,Montevideo
+MWH,MWH,US,Airport,47.2047,-119.3167,America/Los_Angeles,-7.0,Moses Lake - Grant County
+MWX,MWX,KR,Airport,34.0,126.0,Asia/Seoul,9.0,Muan
+MXP,MIL,IT,Airport,45.63,8.7231,Europe/Rome,2.0,Milan Malpensa
+MYE,MYE,JP,Airport,34.0736,139.5603,Asia/Tokyo,9.0,Miyake Jima
+MYJ,MYJ,JP,Airport,33.8272,132.6997,Asia/Tokyo,9.0,Matsuyama
+MYR,MYR,US,Airport,33.6797,-78.9283,America/New_York,-4.0,Myrtle Beach - International
+MYY,MYY,MY,Airport,4.3253,113.9883,Asia/Kuala_Lumpur,8.0,Miri
+MZH,MZH,TR,Airport,40.8286,35.5203,Europe/Istanbul,3.0,Amasya Merzifon
+MZL,MZL,CO,Airport,5.0297,-75.4647,America/Bogota,-5.0,Manizales
+MZR,MZR,AF,Airport,36.7069,67.2094,Asia/Kabul,4.5,Mazar-E Sharif
+MZT,MZT,MX,Airport,23.1614,-106.2661,America/Mazatlan,-6.0,Mazatlan
+NAG,NAG,IN,Airport,21.0922,79.0472,Asia/Kolkata,5.5,Nagpur
+NAN,NAN,FJ,Airport,-17.755,177.4436,Pacific/Fiji,12.0,Nadi International
+NAP,NAP,IT,Airport,40.8844,14.2908,Europe/Rome,2.0,Naples - Capodichino
+NAS,NAS,BS,Airport,25.0389,-77.4661,America/Nassau,-4.0,Nassau - International
+NAT,NAT,BR,Airport,-5.7681,-35.3761,America/Belem,-3.0,Natal
+NAV,NAV,TR,Airport,38.7719,34.5344,Europe/Istanbul,3.0,Nevsehir
+NBC,NBC,RU,Airport,55.5667,52.1,Europe/Moscow,3.0,Nishnekamsk
+NBE,NBE,TN,Airport,36.0756,10.4383,Africa/Tunis,1.0,Enfidha - Hammamet
+NBO,NBO,KE,Airport,-1.319166667,36.92777778,Africa/Nairobi,3.0,Nairobi - Jomo Kenyatta International
+NCE,NCE,FR,Airport,43.6653,7.215,Europe/Paris,2.0,Nice
+NCL,NCL,GB,Airport,55.0375,-1.6917,Europe/London,1.0,Newcastle International
+NDG,NDG,CN,Airport,47.2397,123.9181,Asia/Shanghai,8.0,Qiqihar
+NDJ,NDJ,TD,Airport,12.1336,15.0339,Africa/Ndjamena,1.0,Ndjamena
+NDR,NDR,MA,Airport,34.9889,-3.0283,Africa/Casablanca,1.0,Nador
+NGB,NGB,CN,Airport,29.8267,121.4619,Asia/Shanghai,8.0,Ningbo
+NGO,NGO,JP,Airport,35.25166667,136.9275,Asia/Tokyo,9.0,Nagoya
+NGS,NGS,JP,Airport,32.9169,129.9136,Asia/Tokyo,9.0,Nagasaki
+NIM,NIM,NE,Airport,13.4811,2.1767,Africa/Niamey,1.0,Niamey
+NKC,NKC,MR,Airport,18.0978,-15.9481,Africa/Nouakchott,0.0,Nouakchott
+NKG,NKG,CN,Airport,31.7419,118.8619,Asia/Shanghai,8.0,Nanjing
+NLA,NLA,ZM,Airport,-12.9978,28.6661,Africa/Lusaka,2.0,Ndola
+NLK,NLK,NF,Airport,-29.0417,167.9386,Pacific/Norfolk,11.0,Norfolk Island
+NLP,NLP,ZA,Airport,-25.5,30.9167,Africa/Johannesburg,2.0,Nelspruit
+NNG,NNG,CN,Airport,22.6083,108.1725,Asia/Shanghai,8.0,Nanning
+NNM,NNM,RU,Airport,67.6403,53.1225,Europe/Moscow,3.0,Naryan-Mar
+NOC,NOC,IE,Airport,53.9103,-8.8186,Europe/Dublin,1.0,Knock - Ireland West
+NOS,NOS,MG,Airport,-13.3119,48.3147,Indian/Antananarivo,3.0,Nosy-Be Fascene
+NOU,NOU,NC,Airport,-22.0144,166.2131,Pacific/Noumea,11.0,Noumea - La Tontouta
+NPE,NPE,NZ,Airport,-39.4644,176.8678,Pacific/Auckland,12.0,Napier/Hastings
+NQN,NQN,AR,Airport,-38.9489,-68.1558,America/Argentina/Buenos_Aires,-3.0,Neuquen
+NQY,NQY,GB,Airport,50.4433,-5.0017,Europe/London,1.0,Newquay
+NRK,NRK,SE,Airport,58.5861,16.2486,Europe/Stockholm,2.0,Norrkoping
+NRN,DUS,DE,Airport,51.6025,6.1422,Europe/Berlin,2.0,Duesseldorf Weeze Airport
+NRT,TYO,JP,Airport,35.7647,140.3864,Asia/Tokyo,9.0,Tokyo - Narita
+NSI,YAO,CM,Airport,3.7225,11.5533,Africa/Douala,1.0,Yaounde - Nsimalen Airport
+NSN,NSN,NZ,Airport,-41.2967,173.2242,Pacific/Auckland,12.0,Nelson
+NST,NST,TH,Airport,8.5397,99.9447,Asia/Bangkok,7.0,Nakhon Si Thammarat
+NTE,NTE,FR,Airport,47.1569,-1.6078,Europe/Paris,2.0,Nantes
+NTG,NTG,CN,Airport,32.0722,120.9803,Asia/Shanghai,8.0,Nantong
+NTQ,NTQ,JP,Airport,37.2925,136.9589,Asia/Tokyo,9.0,Noto Airport
+NUE,NUE,DE,Airport,49.4986,11.0669,Europe/Berlin,2.0,Nuremberg
+NVA,NVA,CO,Airport,2.9503,-75.2939,America/Bogota,-5.0,Neiva Benito Salas
+NVT,NVT,BR,Airport,-26.88,-48.6514,America/Sao_Paulo,-3.0,Navegantes
+OAJ,OAJ,US,Airport,34.7083,-77.4397,America/New_York,-4.0,"Jacksonville, North Carolina"
+OAK,OAK,US,Airport,37.7214,-122.2208,America/Los_Angeles,-7.0,"Oakland International, CA"
+OAX,OAX,MX,Airport,17.0028,-96.725,America/Mexico_City,-5.0,Oaxaca
+OBO,OBO,JP,Airport,42.7333,143.2167,Asia/Tokyo,9.0,Obihiro
+ODS,ODS,UA,Airport,46.4267,30.6764,Europe/Kiev,3.0,Odessa
+OER,OER,SE,Airport,63.4083,18.99,Europe/Stockholm,2.0,Ornskoldsvik
+OGG,OGG,US,Airport,20.8986,-156.4306,Pacific/Honolulu,-10.0,"Kahului, HI"
+OGU,OGU,TR,Airport,40.9669,38.0858,Europe/Istanbul,3.0,Ordu Giresun
+OGZ,OGZ,RU,Airport,43.205,44.6067,Europe/Moscow,3.0,Vladikavkaz
+OIM,OIM,JP,Airport,34.7819,139.3603,Asia/Tokyo,9.0,Oshima
+OIT,OIT,JP,Airport,33.4794,131.7372,Asia/Tokyo,9.0,Oita
+OKA,OKA,JP,Airport,26.1958,127.6458,Asia/Tokyo,9.0,Okinawa - Naha
+OKC,OKC,US,Airport,35.3931,-97.6008,America/Chicago,-5.0,"Oklahoma City - Will Rodgers World, OK"
+OKJ,OKJ,JP,Airport,34.7569,133.8553,Asia/Tokyo,9.0,Okayama
+OLB,OLB,IT,Airport,40.8986,9.5178,Europe/Rome,2.0,Olbia
+OMA,OMA,US,Airport,41.3031,-95.8942,America/Chicago,-5.0,"Omaha - Eppley Airfield, NE"
+OME,OME,US,Airport,64.5122,-165.4453,America/Anchorage,-8.0,Nome
+OMO,OMO,BA,Airport,43.2828,17.8458,Europe/Sarajevo,2.0,Mostar
+ONJ,ONJ,JP,Airport,40.1919,140.3714,Asia/Tokyo,9.0,Odate Noshiro
+ONT,ONT,US,Airport,34.0561,-117.6011,America/Los_Angeles,-7.0,"Ontario International, CA"
+OOL,OOL,AU,Airport,-28.1644,153.5047,Australia/Brisbane,10.0,"Gold Coast, Queensland"
+OPO,OPO,PT,Airport,41.2356,-8.6781,Europe/Lisbon,1.0,Porto
+ORB,ORB,SE,Airport,59.2236,15.0381,Europe/Stockholm,2.0,Orebro
+ORD,CHI,US,Airport,41.9786,-87.9047,America/Chicago,-5.0,"Chicago - O'Hare International, IL"
+ORF,ORF,US,Airport,36.8947,-76.2011,America/New_York,-4.0,"Norfolk International, VA"
+ORK,ORK,IE,Airport,51.8414,-8.4911,Europe/Dublin,1.0,Cork
+ORY,PAR,FR,Airport,48.7233,2.3794,Europe/Paris,2.0,Paris
+OSD,OSD,SE,Airport,63.1944,14.5003,Europe/Stockholm,2.0,Ostersund
+OSI,OSI,HR,Airport,45.4628,18.8103,Europe/Zagreb,2.0,Osijek
+OSL,OSL,NO,Airport,60.1939,11.1003,Europe/Oslo,2.0,Oslo
+OTH,OTH,US,Airport,43.4172,-124.2461,America/Los_Angeles,-7.0,North Bend Southwest Oregon Rgnl
+OTP,BUH,RO,Airport,44.5722,26.1022,Europe/Bucharest,3.0,Bucharest – Henri Coanda
+OTZ,OTZ,US,Airport,66.8886,-162.5942,America/Anchorage,-8.0,Kotzebue
+OUA,OUA,BF,Airport,12.3533,-1.5125,Africa/Ouagadougou,0.0,Ouagadougou
+OUL,OUL,FI,Airport,64.93,25.3544,Europe/Helsinki,3.0,Oulu
+OXB,OXB,GW,Airport,11.8947,-15.6536,Africa/Bissau,0.0,Bissau
+OXR,OXR,US,Airport,34.2,-119.2,America/Los_Angeles,-7.0,Oxnard/Ventura
+OZH,OZH,UA,Airport,47.8669,35.3156,Europe/Kiev,3.0,Zaporizhia Mokraya Intl
+PAD,PAD,DE,Airport,51.61166667,8.615277778,Europe/Berlin,2.0,Paderborn
+PAH,PAH,US,Airport,37.0603,-88.7731,America/Chicago,-5.0,Paducah
+PAP,PAP,HT,Airport,18.58,-72.2925,America/Port-au-Prince,-4.0,Port Au Prince Toussaint Louverture
+PAS,PAS,GR,Airport,37.0103,25.1286,Europe/Athens,3.0,Paros
+PAT,PAT,IN,Airport,25.5914,85.0881,Asia/Kolkata,5.5,Patna
+PBC,PBC,MX,Airport,19.1581,-98.3714,America/Mexico_City,-5.0,Puebla
+PBG,PBG,US,Airport,44.6525,-73.4689,America/New_York,-4.0,Plattsburgh International
+PBI,PBI,US,Airport,26.6831,-80.0956,America/New_York,-4.0,"West Palm Beach International, FL"
+PDL,PDL,PT,Airport,37.7411,-25.6978,Atlantic/Azores,0.0,Ponta Delgada Joao Paulo Ii
+PDP,PDP,UY,Airport,-34.8569,-55.1008,America/Montevideo,-3.0,Punta Del Este
+PDX,PDX,US,Airport,45.5886,-122.5975,America/Los_Angeles,-7.0,"Portland International, OR"
+PEE,PEE,RU,Airport,57.9144,56.0211,Asia/Yekaterinburg,5.0,Perm
+PEG,PEG,IT,Airport,43.0972,12.5103,Europe/Rome,2.0,Perugia
+PEI,PEI,CO,Airport,4.8128,-75.7394,America/Bogota,-5.0,Pereira
+PEK,BJS,CN,Airport,40.08,116.5844,Asia/Shanghai,8.0,Beijing (BJS) - Capital
+PEM,PEM,PE,Airport,-12.6164,-69.2292,America/Lima,-5.0,Puerto Maldonado Padre Aldamiz Intl
+PEN,PEN,MY,Airport,5.2972,100.2767,Asia/Kuala_Lumpur,8.0,Penang - International
+PER,PER,AU,Airport,-31.9403,115.9669,Australia/Perth,8.0,Perth
+PEW,PEW,PK,Airport,33.9939,71.5144,Asia/Karachi,5.0,Peshawar
+PFN,PFN,US,Airport,30.2289,-85.6828,America/Panama,-5.0,Panama City - Bay County
+PFO,PFO,CY,Airport,34.7181,32.4858,Asia/Nicosia,3.0,Paphos
+PGA,PGA,US,Airport,36.9242,-111.4478,America/Phoenix,-7.0,Page
+PGV,PGV,US,Airport,35.6358,-77.3842,America/New_York,-4.0,"Greenville, North Carolina - Pitt/Greenville"
+PHC,PHC,NG,Airport,5.0156,6.9497,Africa/Lagos,1.0,Port Harcourt International
+PHF,PHF,US,Airport,37.1319,-76.4931,America/New_York,-4.0,"Newport News - Hampton, Virginia"
+PHL,PHL,US,Airport,39.8719,-75.2411,America/New_York,-4.0,"Philadelphia International, PA"
+PHW,PHW,ZA,Airport,-23.9369,31.1561,Africa/Johannesburg,2.0,Phalaborwa
+PHX,PHX,US,Airport,33.4342,-112.0117,America/Phoenix,-7.0,"Phoenix - Sky Harbor International, AZ"
+PIA,PIA,US,Airport,40.6642,-89.6933,America/Chicago,-5.0,"Peoria, IL"
+PIR,PIR,US,Airport,44.3828,-100.2858,America/Chicago,-5.0,Pierre
+PIT,PIT,US,Airport,40.4914,-80.2328,America/New_York,-4.0,"Pittsburgh International, PA"
+PKB,PKB,US,Airport,39.345,-81.4392,America/New_York,-4.0,Parkersburg/Marietta
+PKU,PKU,ID,Airport,0.4608,101.4444,Asia/Jakarta,7.0,Pekanbaru
+PLM,PLM,ID,Airport,-2.8983,104.7,Asia/Jakarta,7.0,Palembang
+PLQ,PLQ,LT,Airport,55.9733,21.0939,Europe/Vilnius,3.0,Klaipeda/Palanga Palanga International
+PLS,PLS,TC,Airport,21.7736,-72.2658,America/Grand_Turk,-4.0,Providenciales International
+PLZ,PLZ,ZA,Airport,-33.985,25.6172,Africa/Johannesburg,2.0,Port Elizabeth
+PMC,PMC,CL,Airport,-41.4389,-73.0939,America/Santiago,-4.0,Puerto Montt
+PMI,PMI,ES,Airport,39.5517,2.7389,Europe/Madrid,2.0,Palma de Mallorca
+PMO,PMO,IT,Airport,38.1819,13.0994,Europe/Rome,2.0,Palermo
+PMR,PMR,NZ,Airport,-40.32,175.6136,Pacific/Auckland,12.0,Palmerston North
+PMV,PMV,VE,Airport,10.9131,-63.9675,America/Caracas,-4.0,Porlamar
+PNA,PNA,ES,Airport,42.77055556,-1.647222222,Europe/Madrid,2.0,Pamplona
+PNH,PNH,KH,Airport,11.5467,104.8442,Asia/Phnom_Penh,7.0,Phnom-Penh
+PNI,PNI,FM,Airport,6.9853,158.2089,Pacific/Kosrae,11.0,Pohnpei International
+PNL,PNL,IT,Airport,36.815,11.9681,Europe/Rome,2.0,Pantelleria
+PNQ,PNQ,IN,Airport,18.5822,73.9197,Asia/Kolkata,5.5,Pune
+PNR,PNR,CG,Airport,-4.8161,11.8867,Africa/Brazzaville,1.0,Pointe Noire
+PNS,PNS,US,Airport,30.4733,-87.1867,America/Chicago,-5.0,Pensacola Municipal
+PNZ,PNZ,BR,Airport,-9.3625,-40.5692,America/Araguaina,-3.0,Petrolina Senador Nilo Coelho
+POA,POA,BR,Airport,-29.9944,-51.1714,America/Sao_Paulo,-3.0,Porto Alegre
+POL,POL,MZ,Airport,-12.9867,40.5225,Africa/Maputo,2.0,Pemba
+POP,POP,DO,Airport,19.7578,-70.57,America/Santo_Domingo,-4.0,Puerto Plata
+POS,POS,TT,Airport,10.5953,-61.3372,America/Port_of_Spain,-4.0,Port Of Spain Piarco International
+POZ,POZ,PL,Airport,52.4211,16.8264,Europe/Warsaw,2.0,Poznan
+PPT,PPT,PF,Airport,-17.5539,-149.6072,Pacific/Tahiti,-10.0,Papeete
+PRC,PRC,US,Airport,34.6544,-112.4197,America/Phoenix,-7.0,Prescott Ernest A. Love Field
+PRG,PRG,CZ,Airport,50.1008,14.26,Europe/Prague,2.0,"Prague, Václav Havel Airport"
+PRN,PRN,RS,Airport,42.57527778,21.03638889,Europe/Belgrade,2.0,"Pristina, Kosovo"
+PSA,PSA,IT,Airport,43.6828,10.3956,Europe/Rome,2.0,Pisa
+PSC,PSC,US,Airport,46.2667,-119.1167,America/Los_Angeles,-7.0,"Pasco, WA"
+PSG,PSG,US,Airport,56.8022,-132.9436,America/Anchorage,-8.0,Petersburg
+PSO,PSO,CO,Airport,1.3961,-77.2911,America/Bogota,-5.0,Pasto Antonio Narino
+PSP,PSP,US,Airport,33.8297,-116.5067,America/Los_Angeles,-7.0,"Palm Springs Municipal, CA"
+PSS,PSS,AR,Airport,-27.3858,-55.9706,America/Argentina/Buenos_Aires,-3.0,Posadas
+PTG,UTT,ZA,Airport,-23.8453,29.4586,Africa/Johannesburg,2.0,Polokwane
+PTP,PTP,GP,Airport,16.2653,-61.5319,America/Guadeloupe,-4.0,Pointe-A-Pitre
+PTY,PTY,PA,Airport,9.07,-79.38361111,America/Panama,-5.0,Panama City - Tocumen International
+PUB,PUB,US,Airport,38.2892,-104.4967,America/Denver,-6.0,Pueblo
+PUJ,PUJ,DO,Airport,18.5675,-68.3633,America/Santo_Domingo,-4.0,Punta Cana
+PUQ,PUQ,CL,Airport,-53.0028,-70.8547,America/Santiago,-4.0,Punta Arenas
+PUS,PUS,KR,Airport,35.1767,128.9425,Asia/Seoul,9.0,Busan Gimhae Int' l Airport
+PUW,PUW,US,Airport,46.7436,-117.1111,America/Los_Angeles,-7.0,Pullman/Moscow
+PUY,PUY,HR,Airport,44.8936,13.9222,Europe/Zagreb,2.0,Pula
+PVD,PVD,US,Airport,41.725,-71.4258,America/New_York,-4.0,Providence
+PVG,SHA,CN,Airport,31.1433,121.8053,Asia/Shanghai,8.0,Shanghai - Pu Dong
+PVH,PVH,BR,Airport,-8.7092,-63.9022,America/Porto_Velho,-4.0,Porto Velho
+PVK,PVK,GR,Airport,38.9256,20.7653,Europe/Athens,3.0,Preveza/Lefkada
+PVR,PVR,MX,Airport,20.68,-105.2542,America/Mexico_City,-5.0,Puerto Vallarta
+PWM,PWM,US,Airport,43.6461,-70.3092,America/New_York,-4.0,"Portland Intl, ME"
+PXO,PXO,PT,Airport,33.0708,-16.3497,Europe/Lisbon,1.0,Porto Santo
+PZB,PZB,ZA,Airport,-29.6489,30.3986,Africa/Johannesburg,2.0,Pietermaritzburg
+PZO,PZO,VE,Airport,8.2886,-62.7603,America/Caracas,-4.0,Puerto Ordaz
+QDU,DUS,DE,Airport,51.2203,6.7931,Europe/Berlin,2.0,Dusseldorf - Train Station
+QKL,CGN,DE,RailwayStation,50.9433,6.9583,Europe/Berlin,2.0,Cologne - Railway Station
+QKU,CGN,DE,RailwayStation,50.9406,6.9744,Europe/Berlin,2.0,"Cologne, Messe Deutz Railway Station"
+QRO,QRO,MX,Airport,20.6172,-100.1856,America/Mexico_City,-5.0,Queretaro
+QUL,QUL,DE,RailwayStation,48.3997,9.9833,Europe/Berlin,2.0,Ulm Rail Station
+QWU,QWU,DE,RailwayStation,49.7886,9.9364,Europe/Berlin,2.0,Wuerzburg Rail Station
+RAI,RAI,CV,Airport,14.9414,-23.4847,Atlantic/Cape_Verde,-1.0,Praia
+RAJ,RAJ,IN,Airport,22.3092,70.7794,Asia/Kolkata,5.5,Rajkot
+RAK,RAK,MA,Airport,31.6069,-8.0364,Africa/Casablanca,1.0,Marrakech
+RAO,RAO,BR,Airport,-21.1342,-47.7742,America/Sao_Paulo,-3.0,Ribeirao Preto
+RAP,RAP,US,Airport,44.0431,-103.0569,America/Denver,-6.0,Rapid City Regional
+RAR,RAR,CK,Airport,-21.2028,-159.7983,Pacific/Rarotonga,-10.0,Rarotonga
+RCB,RCB,ZA,Airport,-28.7411,32.0922,Africa/Johannesburg,2.0,Richards Bay
+RCH,RCH,CO,Airport,11.5261,-72.9258,America/Bogota,-5.0,Riohacha Aimirante Padilla
+RDD,RDD,US,Airport,40.5089,-122.2933,America/Los_Angeles,-7.0,Redding
+RDM,RDM,US,Airport,44.2542,-121.15,America/Los_Angeles,-7.0,Redmond
+RDU,RDU,US,Airport,35.8778,-78.7875,America/New_York,-4.0,"Raleigh/Durham, NC"
+REC,REC,BR,Airport,-8.125833333,-34.92388889,America/Belem,-3.0,Recife - Guararapes International
+REG,REG,IT,Airport,38.0719,15.6536,Europe/Rome,2.0,Reggio Calabria - Tito Menniti
+REL,REL,AR,Airport,-43.2106,-65.2703,America/Argentina/Buenos_Aires,-3.0,Trelew
+REP,REP,KH,Airport,13.4106,103.8128,Asia/Phnom_Penh,7.0,Siem Reap
+RES,RES,AR,Airport,-27.45,-59.0561,America/Argentina/Buenos_Aires,-3.0,Resistencia
+RGL,RGL,AR,Airport,-51.6089,-69.3128,America/Argentina/Buenos_Aires,-3.0,Rio Gallegos International
+RGN,RGN,MM,Airport,16.9072,96.1333,Asia/Rangoon,6.5,Yangon
+RHO,RHO,GR,Airport,36.4056,28.0861,Europe/Athens,3.0,Rhodes Diagoras Airport
+RIC,RIC,US,Airport,37.5053,-77.3197,America/New_York,-4.0,"Richmond - Byrd Field International, VA"
+RIS,RIS,JP,Airport,45.2419,141.1864,Asia/Tokyo,9.0,Rishiri
+RIW,RIW,US,Airport,43.0656,-108.46,America/Denver,-6.0,Riverton
+RIX,RIX,LV,Airport,56.9236,23.9711,Europe/Riga,3.0,Riga
+RJK,RJK,HR,Airport,45.2169,14.5703,Europe/Zagreb,2.0,Rijeka
+RKS,RKS,US,Airport,41.5947,-109.0656,America/Denver,-6.0,Rock Springs
+RLG,RLG,DE,Airport,53.91805556,12.27833333,Europe/Berlin,2.0,Rostock-Laage
+RMF,RMF,EG,Airport,25.5572,34.5836,Africa/Cairo,2.0,Marsa Alam
+RMI,RMI,IT,Airport,44.0194,12.6094,Europe/Rome,2.0,Rimini
+RNB,RNB,SE,Airport,56.2667,15.265,Europe/Stockholm,2.0,Ronneby
+RNO,RNO,US,Airport,39.4992,-119.7681,America/Los_Angeles,-7.0,"Reno - Cannon International, NV"
+ROA,ROA,US,Airport,37.3256,-79.9756,America/New_York,-4.0,"Roanoke, VA"
+ROB,MLW,LR,Airport,6.2339,-10.3622,Africa/Monrovia,0.0,Monrovia - Robertsville International
+ROC,ROC,US,Airport,43.1189,-77.6725,America/New_York,-4.0,"Rochester, NY"
+ROR,ROR,PW,Airport,7.3672,134.5442,Pacific/Palau,9.0,Koror Palau International
+ROS,ROS,AR,Airport,-32.9036,-60.7844,America/Argentina/Buenos_Aires,-3.0,Rosario
+ROT,ROT,NZ,Airport,-38.1069,176.3164,Pacific/Auckland,12.0,Rotorua
+ROV,ROV,RU,Airport,47.2583,39.8181,Europe/Moscow,3.0,Rostov-on-Don
+RPR,RPR,IN,Airport,21.1803,81.7389,Asia/Kolkata,5.5,Raipur
+RST,RST,US,Airport,43.9103,-92.4967,America/Chicago,-5.0,Rochester Municipal
+RSU,RSU,KR,Airport,34.8422,127.6169,Asia/Seoul,9.0,Yeosu
+RSW,FMY,US,Airport,26.5361,-81.7553,America/New_York,-4.0,"Fort Myers - SW Florida Region, FL"
+RTB,RTB,HN,Airport,16.3169,-86.5231,America/Tegucigalpa,-6.0,Roatan
+RTM,RTM,NL,Airport,51.9531,4.4308,Europe/Amsterdam,2.0,Rotterdam
+RUH,RUH,SA,Airport,24.9578,46.6989,Asia/Riyadh,3.0,Riyadh - King Khaled International
+RZE,RZE,PL,Airport,50.11,22.0189,Europe/Warsaw,2.0,Rzeszow
+SAC,SAC,US,Airport,38.5167,-121.5,America/Los_Angeles,-7.0,Sacramento Executive
+SAF,SAF,US,Airport,35.6167,-106.0833,America/Denver,-6.0,Santa Fe Municipal
+SAH,SAH,YE,Airport,15.4764,44.2197,Asia/Aden,3.0,Sana'a International
+SAL,SAL,SV,Airport,13.4408,-89.0558,America/El_Salvador,-6.0,San Salvador - El Salvador International
+SAN,SAN,US,Airport,32.73361111,-117.1866667,America/Los_Angeles,-7.0,"San Diego Lindberg Field, CA"
+SAP,SAP,HN,Airport,15.4528,-87.9236,America/Tegucigalpa,-6.0,San Pedro Sula
+SAT,SAT,US,Airport,29.5336,-98.4697,America/Chicago,-5.0,"San Antonio International, TX"
+SAV,SAV,US,Airport,32.1275,-81.2022,America/New_York,-4.0,"Savannah International, GA"
+SAW,IST,TR,Airport,40.8986,29.3092,Europe/Istanbul,3.0,Istanbul Sabiha Gokcen Airport
+SBA,SBA,US,Airport,34.4261,-119.8403,America/Los_Angeles,-7.0,"Santa Barbara Municipal, CA"
+SBN,SBN,US,Airport,41.7047,-86.3131,America/Indiana/Indianapolis,-4.0,South Bend
+SBP,CSL,US,Airport,35.2369,-120.6419,America/Los_Angeles,-7.0,"San Luis Obispo County, CA"
+SBW,SBW,MY,Airport,2.2642,111.9825,Asia/Kuala_Lumpur,8.0,Sibu
+SBY,SBY,US,Airport,38.3406,-75.5103,America/New_York,-4.0,Salisbury
+SBZ,SBZ,RO,Airport,45.7856,24.0914,Europe/Bucharest,3.0,Sibiu International
+SCC,SCC,US,Airport,70.1947,-148.4653,America/Anchorage,-8.0,Prudhoe Bay/Deadhorse
+SCE,SCE,US,Airport,40.8506,-77.8472,America/New_York,-4.0,State College
+SCL,SCL,CL,Airport,-33.3931,-70.7858,America/Santiago,-4.0,Santiago - Arturo Merino Benitez
+SCN,SCN,DE,Airport,49.2147,7.1106,Europe/Berlin,2.0,Saarbruecken - Ensheim
+SCO,AKX,KZ,Airport,43.86,51.0919,Asia/Oral,5.0,Aktau
+SCQ,SCQ,ES,Airport,42.895,-8.415,Europe/Madrid,2.0,Santiago de Compostela
+SCW,SCW,RU,Airport,61.6469,50.845,Europe/Moscow,3.0,Syktyvkar
+SCY,SCY,EC,Airport,-0.9103,-89.6175,Pacific/Galapagos,-6.0,San Cristobal Island San Cristobal
+SDA,SCN,DE,BusStation,49.2775,7.0272,Asia/Baghdad,3.0,Saarbruecken - Dudweiler Bus Station
+SDF,SDF,US,Airport,38.1744,-85.7361,America/New_York,-4.0,"Louisville International, KY"
+SDJ,SDJ,JP,Airport,38.1397,140.9169,Asia/Tokyo,9.0,Sendai
+SDK,SDK,MY,Airport,5.9014,118.0611,Asia/Kuala_Lumpur,8.0,Sandakan
+SDL,SDL,SE,Airport,62.5281,17.4439,Europe/Stockholm,2.0,Sundsvall
+SDQ,SDQ,DO,Airport,18.4297,-69.6689,America/Santo_Domingo,-4.0,Santo Domingo - Las Americas
+SDU,RIO,BR,Airport,-22.9106,-43.1631,America/Sao_Paulo,-3.0,Rio de Janeiro - Santos Dumont
+SEA,SEA,US,Airport,47.4489,-122.3094,America/Los_Angeles,-7.0,"Seattle - Seattle/Tacoma International, WA"
+SEN,LON,GB,Airport,51.5714,0.6956,Europe/London,1.0,London Southend Apt
+SEZ,SEZ,SC,Airport,-4.6744,55.5219,Indian/Mahe,4.0,Mahe Island - Seychelles International
+SFN,SFN,AR,Airport,-31.7108,-60.8114,America/Argentina/Buenos_Aires,-3.0,Santa Fe
+SFO,SFO,US,Airport,37.6189,-122.3917,America/Los_Angeles,-7.0,"San Francisco International, CA"
+SFT,SFT,SE,Airport,64.6247,21.0769,Europe/Stockholm,2.0,Skelleftea
+SGF,SGF,US,Airport,37.2456,-93.3886,America/Chicago,-5.0,Springfield Branson
+SGN,SGN,VN,Airport,10.8189,106.6519,Asia/Ho_Chi_Minh,7.0,Ho Chi Minh City
+SGU,SGU,US,Airport,37.0906,-113.5931,America/Denver,-6.0,Saint George
+SHA,SHA,CN,Airport,31.1978,121.3364,Asia/Urumqi,6.0,Shanghai Hongqiao International Apt
+SHB,SHB,JP,Airport,43.5775,144.96,Asia/Tokyo,9.0,Nakashibetsu
+SHC,SHC,ET,Airport,14.0794,38.2714,Africa/Addis_Ababa,3.0,Inda Selassie
+SHE,SHE,CN,Airport,41.6397,123.4833,Asia/Shanghai,8.0,Shenyang Taoxian International Airport
+SHJ,SHJ,AE,Airport,25.3286,55.5172,Asia/Dubai,4.0,Sharjah
+SHL,SHL,IN,Airport,25.7036,91.9775,Asia/Kolkata,5.5,Shillong
+SHR,SHR,US,Airport,44.7692,-106.9803,America/Denver,-6.0,Sheridan
+SHV,SHV,US,Airport,32.4472,-93.8289,America/Chicago,-5.0,Shreveport Regional
+SIA,SIA,CN,Airport,34.3761,109.1239,Asia/Shanghai,8.0,Xi'An - Xiguan
+SID,SID,CV,Airport,16.7414,-22.9494,Atlantic/Cape_Verde,-1.0,Sal Island Amilcar Cabral International
+SIN,SIN,SG,Airport,1.3592,103.9894,Asia/Singapore,8.0,Singapore - Changi International
+SIR,SIR,CH,Airport,46.2225,7.34,Europe/Zurich,2.0,Sion
+SIS,SIS,ZA,Airport,-27.65,23.0,Africa/Johannesburg,2.0,Sishen
+SIT,SIT,US,Airport,57.0472,-135.3617,America/Anchorage,-8.0,Sitka
+SJC,SJC,US,Airport,37.3625,-121.9289,America/Los_Angeles,-7.0,"San Jose, California"
+SJD,SJD,MX,Airport,23.1519,-109.7211,America/Mazatlan,-6.0,San Jose del Cabo - Los Cabos
+SJJ,SJJ,BA,Airport,43.8247,18.3314,Europe/Sarajevo,2.0,Sarajevo
+SJO,SJO,CR,Airport,9.9939,-84.2089,America/Costa_Rica,-6.0,San Jose - Juan Santamaria International
+SJP,SJP,BR,Airport,-20.8167,-49.4064,America/Sao_Paulo,-3.0,Sao Jose Do Rio Preto
+SJU,SJU,PR,Airport,18.4394,-66.0019,America/Puerto_Rico,-4.0,San Juan - Luis Munoz Marin International
+SJW,SJW,CN,Airport,38.2806,114.6972,Asia/Urumqi,6.0,Shijiazhuang Zhengding International
+SKB,SKB,KN,Airport,17.3111,-62.7186,America/St_Kitts,-4.0,St Kitts Robert L Bradshaw Intl
+SKG,SKG,GR,Airport,40.52083333,22.97222222,Europe/Athens,3.0,Thessaloniki
+SKP,SKP,MK,Airport,41.9617,21.6214,Europe/Skopje,2.0,Skopje
+SLA,SLA,AR,Airport,-24.8597,-65.4869,America/Argentina/Buenos_Aires,-3.0,Salta
+SLC,SLC,US,Airport,40.7883,-111.9778,America/Denver,-6.0,"Salt Lake City International, UT"
+SLP,SLP,MX,Airport,22.2542,-100.9308,America/Mexico_City,-5.0,San Luis Potosi
+SLW,SLW,MX,Airport,25.5439,-100.9283,America/Mexico_City,-5.0,Saltillo
+SLZ,SLZ,BR,Airport,-2.5853,-44.2342,America/Belem,-3.0,Sao Luiz
+SMF,SAC,US,Airport,38.6956,-121.5908,America/Los_Angeles,-7.0,"Sacramento Metropolitan, CA"
+SMI,SMI,GR,Airport,37.69,26.9117,Europe/Athens,3.0,Samos
+SMR,SMR,CO,Airport,11.1197,-74.2306,America/Bogota,-5.0,Santa Marta
+SMX,SMX,US,Airport,34.8989,-120.4575,America/Los_Angeles,-7.0,Santa Maria
+SNA,SNA,US,Airport,33.6756,-117.8683,America/Los_Angeles,-7.0,"Santa Ana (Orange County) - John Wayne
+International, CA"
+SNN,SNN,IE,Airport,52.7019,-8.9247,Europe/Dublin,1.0,Shannon
+SNU,SNU,CU,Airport,22.4922,-79.9436,America/Havana,-4.0,Santa Clara
+SOC,SOC,ID,Airport,-7.5161,110.7569,Asia/Jakarta,7.0,Surakarta
+SOF,SOF,BG,Airport,42.6953,23.4061,Europe/Sofia,3.0,Sofia
+SPC,SPC,ES,Airport,28.6264,-17.7556,Atlantic/Canary,1.0,Santa Cruz de la Palma - La Palma
+SPI,SPI,US,Airport,39.8442,-89.6778,America/Chicago,-5.0,"Springfield, Illinois"
+SPN,SPN,,Airport,15.1189,145.7294,Pacific/Saipan,10.0,Saipan International
+SPU,SPU,HR,Airport,43.5389,16.2981,Europe/Zagreb,2.0,Split
+SRG,SRG,ID,Airport,-6.9714,110.3742,Asia/Jakarta,7.0,Semarang
+SRQ,SRQ,US,Airport,27.3956,-82.5544,America/New_York,-4.0,Sarasota/Bradenton
+SSA,SSA,BR,Airport,-12.9111,-38.3311,America/Belem,-3.0,Salvador
+SSG,SSG,GQ,Airport,3.7553,8.7086,Africa/Malabo,1.0,Malabo
+SSH,SSH,EG,Airport,27.9772,34.395,Africa/Cairo,2.0,Sharm El Sheikh
+STI,STI,DO,Airport,19.4061,-70.6047,America/Santo_Domingo,-4.0,Santiago Cibao Intl
+STL,STL,US,Airport,38.7486,-90.37,America/Chicago,-5.0,"Saint Louis - Lambert-St Louis Intl, MO"
+STN,LON,GB,Airport,51.88277778,0.233888889,Europe/London,1.0,London-Stansted
+STR,STR,DE,Airport,48.69,9.2219,Europe/Berlin,2.0,Stuttgart - Echterdingen
+STS,STS,US,Airport,38.5106,-122.8103,America/Los_Angeles,-7.0,Santa Rosa
+STT,SNP,US,Airport,18.3372,-64.9733,America/St_Thomas,-4.0,Saint Thomas Island
+STV,STV,IN,Airport,21.1142,72.7417,Asia/Kolkata,5.5,Surat
+STW,STW,RU,Airport,45.1092,42.1128,Europe/Moscow,3.0,Stavropol
+SUB,SUB,ID,Airport,-7.3797,112.7869,Asia/Jakarta,7.0,Surabaya
+SUF,SUF,IT,Airport,38.9083,16.2417,Europe/Rome,2.0,Lamezia Terme
+SUN,SUN,US,Airport,43.5056,-114.2972,America/Denver,-6.0,Hailey
+SVG,SVG,NO,Airport,58.8767,5.6378,Europe/Oslo,2.0,Stavanger
+SVO,MOW,RU,Airport,55.9728,37.4147,Europe/Moscow,3.0,Moscow
+SVQ,SVQ,ES,Airport,37.4181,-5.8931,Europe/Madrid,2.0,Seville
+SVX,SVX,RU,Airport,56.7431,60.8028,Asia/Yekaterinburg,5.0,Ekaterinburg - Koltsovo Int'l
+SVZ,SVZ,VE,Airport,7.8408,-72.4397,America/Caracas,-4.0,San Antonio
+SWA,SWA,CN,Airport,23.4275,116.7625,Asia/Shanghai,8.0,Shantou
+SXB,SXB,FR,Airport,48.5419,7.6344,Europe/Paris,2.0,Strasbourg
+SXF,BER,DE,Airport,52.3786,13.5206,Europe/Berlin,2.0,Berlin - Schoenefeld
+SXM,SXM,SX,Airport,18.0408,-63.1089,America/Lower_Princes,-4.0,St Maarten Princess Juliana Internation
+SXR,SXR,IN,Airport,33.9872,74.7742,Asia/Kolkata,5.5,Srinagar
+SYD,SYD,AU,Airport,-33.9461,151.1772,Australia/Sydney,10.0,Sydney - Kingsford Smith International
+SYO,SYO,JP,Airport,38.8122,139.7872,Asia/Tokyo,9.0,Shonai
+SYR,SYR,US,Airport,43.1111,-76.1064,America/New_York,-4.0,"Syracuse - Hancock International, NY"
+SYX,SYX,CN,Airport,18.3028,109.4122,Asia/Shanghai,8.0,Sanya
+SYZ,SYZ,IR,Airport,29.5403,52.5886,Asia/Tehran,4.5,Shiraz
+SZF,SZF,TR,Airport,41.2544,36.5672,Europe/Istanbul,3.0,Samsun
+SZG,SZG,AT,Airport,47.7933,13.0044,Europe/Vienna,2.0,Salzburg - W.A. Mozart
+SZK,SZK,ZA,Airport,-24.9644,31.5906,Africa/Johannesburg,2.0,Skukuza
+SZX,SZX,CN,Airport,22.63916667,113.8105556,Asia/Shanghai,8.0,Shenzhen
+SZZ,SZZ,PL,Airport,53.5847,14.9022,Europe/Warsaw,2.0,Szczecin
+TAB,TAB,TT,Airport,11.1497,-60.8322,America/Port_of_Spain,-4.0,Tobago
+TAE,TAE,KR,Airport,35.8942,128.6589,Asia/Seoul,9.0,Daegu
+TAK,TAK,JP,Airport,34.2142,134.0156,Asia/Tokyo,9.0,Takamatsu
+TAM,TAM,MX,Airport,22.2964,-97.8658,America/Mexico_City,-5.0,Tampico
+TAO,TAO,CN,Airport,36.2661,120.3744,Asia/Shanghai,8.0,Qingdao
+TAS,TAS,UZ,Airport,41.2578,69.2811,Asia/Tashkent,5.0,Tashkent
+TBS,TBS,GE,Airport,41.6692,44.9547,Asia/Tbilisi,4.0,Tbilisi
+TBU,TBU,TO,Airport,-21.2444,-175.1436,Pacific/Tongatapu,13.0,Nuku'Alofa Fua'Amotu International
+TBZ,TBZ,IR,Airport,38.1339,46.235,Asia/Tehran,4.5,Tabriz
+TCZ,TCZ,CN,Airport,24.9378,98.4856,Asia/Urumqi,6.0,Tengchong Tuofeng
+TDX,PHS,TH,Airport,12.2744,102.3189,Asia/Bangkok,7.0,Trat
+TER,TER,PT,Airport,38.7619,-27.0908,Atlantic/Azores,0.0,Terceira Lajes
+TET,TET,MZ,Airport,-16.1047,33.6403,Africa/Maputo,2.0,Tete Matunda
+TEZ,TEZ,IN,Airport,26.7067,92.7783,Asia/Kolkata,5.5,Tezpur
+TFS,TCI,ES,Airport,28.0444,-16.5725,Atlantic/Canary,1.0,Tenerife Sur
+TGD,TGD,ME,Airport,42.3594,19.2519,Europe/Podgorica,2.0,Podgorica
+TGG,TGG,MY,Airport,5.3814,103.1047,Asia/Kuala_Lumpur,8.0,Kuala Terengganu - Sultan Mahmood
+TGO,TGO,CN,Airport,43.5575,122.2,Asia/Shanghai,8.0,Tongliao
+TGU,TGU,HN,Airport,14.0608,-87.2172,America/Tegucigalpa,-6.0,Tegucigalpa
+TGZ,TGZ,MX,Airport,16.5619,-93.0261,America/Mexico_City,-5.0,Tuxtla Gutierrez - Llano San Juan
+THE,THE,BR,Airport,-5.06,-42.8236,America/Belem,-3.0,Teresina
+THS,THS,TH,Airport,17.2378,99.8183,Asia/Bangkok,7.0,Sukhothai
+TIA,TIA,AL,Airport,41.415,19.7208,Europe/Tirane,2.0,Tirana - Mother Teresa Apt. Rinas
+TIJ,TIJ,MX,Airport,32.5411,-116.9703,America/Tijuana,-7.0,Tijuana
+TIR,TIR,IN,Airport,13.6325,79.5433,Asia/Kolkata,5.5,Tirupati
+TIV,TIV,ME,Airport,42.4047,18.7233,Europe/Podgorica,2.0,Tivat
+TKK,TKK,FM,Airport,7.4619,151.8431,Pacific/Chuuk,10.0,Chuuk International
+TKS,TKS,JP,Airport,34.1328,134.6067,Asia/Tokyo,9.0,Tokushima
+TKU,TKU,FI,Airport,60.5142,22.2628,Europe/Helsinki,3.0,Turku
+TLH,TLH,US,Airport,30.3917,-84.3497,America/New_York,-4.0,Tallahassee
+TLL,TLL,EE,Airport,59.4133,24.8325,Europe/Tallinn,3.0,Tallinn
+TLN,TLN,FR,Airport,43.0972,6.1461,Europe/Paris,2.0,Toulon/Hyeres Le Palyvestr
+TLS,TLS,FR,Airport,43.635,1.3678,Europe/Paris,2.0,Toulouse - Blagnac
+TLV,TLV,IL,Airport,32.0072,34.8806,Asia/Jerusalem,3.0,Tel Aviv - Ben Gurion
+TMP,TMP,FI,Airport,61.46388889,23.73888889,Europe/Helsinki,3.0,Tampere
+TMS,TMS,ST,Airport,0.3781,6.7122,Africa/Sao_Tome,0.0,Sao Tome
+TNA,TNA,CN,Airport,36.8572,117.2161,Asia/Urumqi,6.0,Jinan Yaoqiang Intl
+TNG,TNG,MA,Airport,35.7269,-5.9169,Africa/Casablanca,1.0,Tangier
+TNH,TNH,CN,Airport,42.2531,125.7044,Asia/Urumqi,6.0,Tonghua Sanyuanpu
+TNR,TNR,MG,Airport,-18.7969,47.4789,Indian/Antananarivo,3.0,Antananarivo
+TOF,TOF,RU,Airport,56.3858,85.2133,Asia/Novosibirsk,7.0,Tomsk
+TOP,TOP,US,Airport,39.0667,-95.6167,America/Chicago,-5.0,Topeka - Phillip
+TOS,TOS,NO,Airport,69.68138889,18.92166667,Europe/Oslo,2.0,Tromso
+TOY,TOY,JP,Airport,36.6483,137.1875,Asia/Tokyo,9.0,Toyama
+TPA,TPA,US,Airport,27.9756,-82.5333,America/New_York,-4.0,"Tampa International, FL"
+TPE,TPE,TW,Airport,25.0778,121.2328,Asia/Taipei,8.0,Taipei - Taoyuan Intl
+TRC,TRC,MX,Airport,25.5683,-103.4106,America/Mexico_City,-5.0,Torreon
+TRD,TRD,NO,Airport,63.4575,10.9242,Europe/Oslo,2.0,Trondheim
+TRG,TRG,NZ,Airport,-37.6733,176.1986,Pacific/Auckland,12.0,Tauranga
+TRI,TTO,US,Airport,36.4753,-82.4075,America/New_York,-4.0,Bristol
+TRN,TRN,IT,Airport,45.2025,7.6494,Europe/Rome,2.0,Turin
+TRS,TRS,IT,Airport,45.8275,13.4722,Europe/Rome,2.0,Triest
+TRU,TRU,PE,Airport,-8.0847,-79.1094,America/Lima,-5.0,Trujillo C. Martinez De Pinillos
+TRV,TRV,IN,Airport,8.4822,76.92,Asia/Kolkata,5.5,Thiruvananthapuram
+TRZ,TRZ,IN,Airport,10.7653,78.7097,Asia/Kolkata,5.5,TIRUCHCHIRAPPALLI
+TSA,TPE,TW,Airport,25.0697,121.5525,Asia/Taipei,8.0,Taipei Songshan
+TSE,TSE,KZ,Airport,51.0231,71.4669,Asia/Qyzylorda,5.0,Astana
+TSJ,TSJ,JP,Airport,34.285,129.3306,Asia/Tokyo,9.0,Tsushima
+TSN,TSN,CN,Airport,39.1244,117.3461,Asia/Shanghai,8.0,Tianjin
+TSR,TSR,RO,Airport,45.81,21.3378,Europe/Bucharest,3.0,Timisoara – Traian Vuia International Airport
+TTJ,TTJ,JP,Airport,35.53,134.1667,Asia/Tokyo,9.0,Tottori
+TUC,TUC,AR,Airport,-26.8408,-65.1047,America/Argentina/Buenos_Aires,-3.0,Tucuman
+TUL,TUL,US,Airport,36.1983,-95.8881,America/Chicago,-5.0,"Tulsa International, OK"
+TUN,TUN,TN,Airport,36.8511,10.2272,Africa/Tunis,1.0,Tunis - Carthage International
+TUO,TUO,NZ,Airport,-38.7408,176.085,Pacific/Auckland,12.0,Taupo
+TUS,TUS,US,Airport,32.1161,-110.9411,America/Phoenix,-7.0,"Tucson International, AZ"
+TVC,TVC,US,Airport,44.7414,-85.5822,America/New_York,-4.0,Traverse City
+TWU,TWU,MY,Airport,4.3133,118.1219,Asia/Kuala_Lumpur,8.0,Tawau
+TXG,TXG,TW,Airport,24.15,120.6461,Asia/Taipei,8.0,Taichung
+TXL,BER,DE,Airport,52.56027778,13.29555556,Europe/Berlin,2.0,Berlin - Tegel
+TXN,TXN,CN,Airport,29.7328,118.2572,Asia/Shanghai,8.0,Huangshan
+TYN,TYN,CN,Airport,37.7469,112.6283,Asia/Shanghai,8.0,Taiyuan
+TYR,TYR,US,Airport,32.3542,-95.4025,America/Chicago,-5.0,Tyler
+TYS,TYS,US,Airport,35.8111,-83.9942,America/New_York,-4.0,"Knoxville, TN"
+TZX,TZX,TR,Airport,40.995,39.7897,Europe/Istanbul,3.0,Trabzon
+UBJ,UBJ,JP,Airport,33.93,131.2786,Asia/Tokyo,9.0,Ube
+UBP,UBP,TH,Airport,15.2514,104.8703,Asia/Bangkok,7.0,Ubon Ratchathani - Muang Ubon
+UDI,UDI,BR,Airport,-18.8828,-48.2256,America/Sao_Paulo,-3.0,Uberlandia
+UDR,UDR,IN,Airport,24.6178,73.8961,Asia/Kolkata,5.5,Udaipur
+UFA,UFA,RU,Airport,54.5575,55.8839,Asia/Yekaterinburg,5.0,Ufa
+UIO,UIO,EC,Airport,-0.1239,-78.3561,America/Guayaquil,-5.0,Quito Mariscal Sucre Airport
+UKB,OSA,JP,Airport,34.6328,135.2239,Asia/Tokyo,9.0,Osaka - Kobe
+ULN,ULN,MN,Airport,47.8431,106.7667,Asia/Ulaanbaatar,8.0,Ulaan Baatar
+ULY,ULY,RU,Airport,54.4011,48.8028,Europe/Moscow,3.0,Ulyanovsk
+UME,UME,SE,Airport,63.7919,20.2828,Europe/Stockholm,2.0,Umea
+UPG,UPG,ID,Airport,-5.0617,119.5542,Asia/Makassar,8.0,Ujung Pandang
+URC,URC,CN,Airport,43.9072,87.4742,Asia/Shanghai,8.0,Urumqi
+URT,URT,TH,Airport,9.1361,99.1392,Asia/Bangkok,7.0,Surat Thani
+USH,USH,AR,Airport,-54.8433,-68.2956,America/Argentina/Buenos_Aires,-3.0,Ushuaia
+USK,USK,RU,Airport,66.0044,57.3672,Europe/Moscow,3.0,Usinsk
+USM,USM,TH,Airport,9.5503,100.0625,Asia/Bangkok,7.0,Ko Samui
+USN,USN,KR,Airport,35.5936,129.3517,Asia/Seoul,9.0,Ulsan
+UTH,UTH,TH,Airport,17.3864,102.7883,Asia/Bangkok,7.0,Udon Thani
+UTN,UTN,ZA,Airport,-28.3992,21.2603,Africa/Johannesburg,2.0,Upington
+UTT,UTT,ZA,Airport,-31.5478,28.6742,Africa/Johannesburg,2.0,Umtata
+UUS,UUS,RU,Airport,46.8886,142.7175,Asia/Sakhalin,11.0,Yuzhno Sakhalinsk
+UVF,SLU,LC,Airport,13.7333,-60.9525,America/St_Lucia,-4.0,Saint Lucia - Hewanorra
+VAA,VAA,FI,Airport,63.0506,21.7622,Europe/Helsinki,3.0,Vaasa
+VAN,VAN,TR,Airport,38.4683,43.3322,Europe/Istanbul,3.0,Van
+VAR,VAR,BG,Airport,43.2319,27.825,Europe/Sofia,3.0,Varna
+VAS,VAS,TR,Airport,39.8139,36.9036,Europe/Istanbul,3.0,Sivas
+VBY,VBY,SE,Airport,57.6628,18.3461,Europe/Stockholm,2.0,Visby
+VCE,VCE,IT,Airport,45.5053,12.3519,Europe/Rome,2.0,Venice - Marco Polo
+VCP,SAO,BR,Airport,-23.0081,-47.1347,America/Sao_Paulo,-3.0,Sao Paulo
+VCT,VCT,US,Airport,28.8525,-96.9186,America/Chicago,-5.0,Victoria
+VDA,VDA,IL,Airport,29.9403,34.9358,Asia/Jerusalem,3.0,Ovda
+VEL,VEL,US,Airport,40.4433,-109.5108,America/Denver,-6.0,Vernal
+VER,VER,MX,Airport,19.1458,-96.1872,America/Mexico_City,-5.0,Vera Cruz
+VFA,VFA,ZW,Airport,-18.0958,25.8389,Africa/Harare,2.0,Victoria Falls
+VGA,VGA,IN,Airport,16.5306,80.7969,Asia/Kolkata,5.5,Vijayawada
+VGO,VGO,ES,Airport,42.2317,-8.6267,Europe/Madrid,2.0,Vigo
+VIE,VIE,AT,Airport,48.1103,16.5781,Europe/Vienna,2.0,Vienna International
+VIX,VIX,BR,Airport,-20.2581,-40.2864,America/Sao_Paulo,-3.0,Vitoria
+VKO,MOW,RU,Airport,55.5917,37.2614,Europe/Moscow,3.0,Moscow - Vnukovo
+VLC,VLC,ES,Airport,39.4894,-0.4817,Europe/Madrid,2.0,Valencia
+VLN,VLN,VE,Airport,10.1497,-67.9283,America/Caracas,-4.0,Valencia
+VNO,VNO,LT,Airport,54.6342,25.2858,Europe/Vilnius,3.0,Vilnius
+VNS,VNS,IN,Airport,25.4522,82.8594,Asia/Kolkata,5.5,Varanasi
+VNX,VNX,MZ,Airport,-22.0183,35.3133,Africa/Maputo,2.0,Vilankulos
+VOG,VOG,RU,Airport,48.7825,44.3456,Europe/Moscow,3.0,Volgograd
+VOL,VOL,GR,Airport,39.2197,22.7944,Europe/Athens,3.0,Volos
+VOZ,VOZ,RU,Airport,51.8142,39.2297,Europe/Moscow,3.0,Voronezh
+VPS,VPS,US,Airport,30.4867,-86.52,America/Chicago,-5.0,Valparaiso - Fort Walton Beach
+VRA,VRA,CU,Airport,23.0344,-81.4353,America/Havana,-4.0,Varadero
+VRN,VRN,IT,Airport,45.3964,10.8881,Europe/Rome,2.0,Verona
+VSA,VSA,MX,Airport,17.9969,-92.8175,America/Mexico_City,-5.0,Villahermosa
+VTE,VTE,LA,Airport,17.9883,102.5633,Asia/Vientiane,7.0,Vientiane
+VTZ,VTZ,IN,Airport,17.7211,83.2244,Asia/Kolkata,5.5,Vishakhapatnam
+VVI,SRZ,BO,Airport,-17.6447,-63.1353,America/La_Paz,-4.0,Santa Cruz - Viru Viru International
+VVO,VVO,RU,Airport,43.3989,132.1481,Asia/Vladivostok,10.0,Vladivostok
+VXE,VXE,CV,Airport,16.8336,-25.0547,Atlantic/Cape_Verde,-1.0,Sao Vicente
+WAG,WAG,NZ,Airport,-39.9625,175.0231,Pacific/Auckland,12.0,Wanganui
+WAW,WAW,PL,Airport,52.1658,20.9672,Europe/Warsaw,2.0,Warsaw
+WDH,WDH,NA,Airport,-22.48333333,17.46666667,Africa/Windhoek,2.0,Windhoek - International
+WDS,EJQ,CN,Airport,32.5933,110.9061,Asia/Urumqi,6.0,Shiyan Wudangshan
+WEH,WEH,CN,Airport,37.1872,122.2289,Asia/Shanghai,8.0,Weihai
+WKJ,WKJ,JP,Airport,45.4042,141.8008,Asia/Tokyo,9.0,Wakkanai
+WLG,WLG,NZ,Airport,-41.3269,174.8069,Pacific/Auckland,12.0,Wellington International
+WNZ,WNZ,CN,Airport,27.9131,120.8522,Asia/Shanghai,8.0,Wenzhou
+WRE,WRE,NZ,Airport,-35.7689,174.3639,Pacific/Auckland,12.0,Whangarei
+WRG,WRG,US,Airport,56.4844,-132.3697,America/Anchorage,-8.0,Wrangell
+WRL,WRL,US,Airport,43.9644,-107.9531,America/Denver,-6.0,Worland
+WRO,WRO,PL,Airport,51.1028,16.8858,Europe/Warsaw,2.0,Wroclaw
+WUH,WUH,CN,Airport,30.7839,114.2081,Asia/Shanghai,8.0,Wuhan
+WUX,WUX,CN,Airport,31.4947,120.4294,Asia/Shanghai,8.0,Wuxi
+WVB,WVB,NA,Airport,-22.98,14.6453,Africa/Windhoek,2.0,Walvis Bay
+WXN,WXN,CN,Airport,30.8039,108.4272,Asia/Shanghai,8.0,Wanzhou
+XAP,XAP,BR,Airport,-27.1342,-52.6567,America/Sao_Paulo,-3.0,Chapeco Serafin Enoss Bertaso
+XER,SXB,FR,Airport,48.5853,7.7356,Europe/Paris,2.0,Strasbourg Bus Station
+XFN,XFN,CN,Airport,32.1506,112.2908,Asia/Shanghai,8.0,Xiangyang
+XIC,XIC,CN,Airport,27.9892,102.1844,Asia/Urumqi,6.0,Xichang Qingshan
+XIL,XIL,CN,Airport,43.9156,115.9633,Asia/Shanghai,8.0,Xilnhot
+XIY,SIA,CN,Airport,34.4478,108.7539,Asia/Shanghai,8.0,Xi'An - Xianyang
+XMN,XMN,CN,Airport,24.5442,118.1278,Asia/Shanghai,8.0,Xiamen
+XNA,FYV,US,Airport,36.0047,-94.17,America/Chicago,-5.0,"Fayetteville, AR"
+XNN,XNN,CN,Airport,36.5286,102.0403,Asia/Shanghai,8.0,Xining
+XRY,XRY,ES,Airport,36.7447,-6.06,Europe/Madrid,2.0,Jerez De La Frontera - La Parra
+XUZ,XUZ,CN,Airport,34.2294,117.2458,Asia/Shanghai,8.0,Xuzhou
+YAK,YAK,US,Airport,59.5092,-139.66,America/Anchorage,-8.0,Yakutat
+YAM,YAM,CA,Airport,46.485,-84.5094,America/Toronto,-4.0,Sault Sainte Marie
+YAO,YAO,CM,Airport,3.8336,11.5236,Africa/Douala,1.0,Yaounde Downtown
+YAP,YAP,FM,Airport,9.4989,138.0825,Pacific/Chuuk,10.0,Yap International
+YBC,YBC,CA,Airport,49.1325,-68.2044,America/Toronto,-4.0,Baie Comeau
+YBG,YBG,CA,Airport,48.3322,-70.9925,America/Toronto,-4.0,Bagotville
+YBL,YBL,CA,Airport,49.9508,-125.2706,America/Vancouver,-7.0,Campbell River
+YCD,YCD,CA,Airport,49.0522,-123.8703,America/Vancouver,-7.0,Nanaimo - Cassidy
+YCG,YCG,CA,Airport,49.2964,-117.6325,America/Vancouver,-7.0,Castlegar
+YCU,YCU,CN,Airport,35.1164,111.0336,Asia/Shanghai,8.0,Yuncheng - Guangong
+YDF,YDF,CA,Airport,49.2108,-57.3914,America/St_Johns,-2.5,Deer Lake
+YEG,YEA,CA,Airport,53.30416667,-113.5916667,America/Edmonton,-6.0,Edmonton - International
+YFB,YFB,CA,Airport,63.7564,-68.5558,America/Toronto,-4.0,Iqaluit
+YFC,YFC,CA,Airport,45.8689,-66.53,America/Halifax,-3.0,Fredericton
+YGJ,YGJ,JP,Airport,35.4922,133.2364,Asia/Tokyo,9.0,Yonago
+YGK,YGK,CA,Airport,44.2253,-76.5969,America/Toronto,-4.0,Kingston
+YGP,YGP,CA,Airport,48.7753,-64.4786,America/Toronto,-4.0,Gaspe
+YGR,YGR,CA,Airport,47.4247,-61.7803,America/Halifax,-3.0,Iles De La Madeleine
+YHM,YTO,CA,Airport,43.1619,-79.9281,America/Iqaluit,-4.0,Toronto John C Munro Hamilton
+YHZ,YHZ,CA,Airport,44.8869,-63.5128,America/Halifax,-3.0,Halifax - International
+YIH,YIH,CN,Airport,30.5569,111.4797,Asia/Shanghai,8.0,Yichang
+YIN,YIN,CN,Airport,43.9553,81.3289,Asia/Jakarta,7.0,Yining
+YIW,YIW,CN,Airport,29.345,120.0325,Asia/Urumqi,6.0,Yiwu
+YKA,YKA,CA,Airport,50.7022,-120.4444,America/Vancouver,-7.0,Kamloops
+YKM,YKM,US,Airport,46.5681,-120.5408,America/Los_Angeles,-7.0,Yakima Air Terminal
+YLW,YLW,CA,Airport,49.9561,-119.3778,America/Vancouver,-7.0,Kelowna
+YMM,YMM,CA,Airport,56.6533,-111.2219,America/Edmonton,-6.0,Fort McMurray
+YNB,YNB,SA,Airport,24.1442,38.0633,Asia/Riyadh,3.0,Yanbu Al Bahr
+YNJ,YNJ,CN,Airport,42.8828,129.4514,Asia/Shanghai,8.0,Yanji
+YNT,YNT,CN,Airport,37.6572,120.9872,Asia/Shanghai,8.0,Yantai
+YNZ,YNZ,CN,Airport,33.4261,120.2031,Asia/Shanghai,8.0,Yancheng
+YOW,YOW,CA,Airport,45.3225,-75.6692,America/Toronto,-4.0,Ottawa - International
+YPR,YPR,CA,Airport,54.2861,-130.4447,America/Vancouver,-7.0,Prince Rupert - Digby Island
+YQB,YQB,CA,Airport,46.7911,-71.3933,America/Toronto,-4.0,Quebec
+YQG,YQG,CA,Airport,42.2706,-82.9619,America/Toronto,-4.0,Windsor
+YQL,YQL,CA,Airport,49.6297,-112.7903,America/Edmonton,-6.0,Lethbridge
+YQM,YQM,CA,Airport,46.1069,-64.6925,America/Halifax,-3.0,Moncton
+YQQ,YQQ,CA,Airport,49.7108,-124.8867,America/Vancouver,-7.0,Comox
+YQR,YQR,CA,Airport,50.4294,-104.6572,America/Regina,-6.0,Regina
+YQT,YQT,CA,Airport,48.3719,-89.3239,America/Toronto,-4.0,Thunder Bay
+YQU,YQU,CA,Airport,55.1797,-118.885,America/Edmonton,-6.0,Grande Prairie
+YQX,YQX,CA,Airport,48.9478,-54.56,America/St_Johns,-2.5,Gander
+YQY,YQY,CA,Airport,46.1614,-60.0478,America/Halifax,-3.0,Sydney
+YQZ,YQZ,CA,Airport,53.0261,-122.5103,America/Vancouver,-7.0,Quesnel
+YSB,YSB,CA,Airport,46.625,-80.7989,America/Toronto,-4.0,Sudbury
+YSJ,YSJ,CA,Airport,45.3206,-65.8822,America/Halifax,-3.0,Saint John
+YTS,YTS,CA,Airport,48.5697,-81.3767,America/Toronto,-4.0,Timmins
+YTY,YTY,CN,Airport,32.5631,119.7189,Asia/Urumqi,6.0,Yangzhou Taizhoui
+YTZ,YTO,CA,Airport,43.6275,-79.3961,America/Iqaluit,-4.0,Toronto Bishop Billy City A/P
+YUL,YMQ,CA,Airport,45.4706,-73.7408,America/Toronto,-4.0,Montreal - Pierre Elliott Trudeau
+YUY,YUY,CA,Airport,48.2061,-78.8356,America/Toronto,-4.0,Rouyn
+YVO,YVO,CA,Airport,48.0533,-77.7828,America/Toronto,-4.0,Val D'Or
+YVR,YVR,CA,Airport,49.1939,-123.1844,America/Vancouver,-7.0,Vancouver - International
+YWG,YWG,CA,Airport,49.9,-97.23333333,America/Winnipeg,-5.0,Winnipeg
+YWK,YWK,CA,Airport,52.9219,-66.8644,America/Halifax,-3.0,Wabush
+YWL,YWL,CA,Airport,52.1831,-122.0542,America/Vancouver,-7.0,Williams Lake
+YXC,YXC,CA,Airport,49.6108,-115.7822,America/Edmonton,-6.0,Cranbrook
+YXE,YXE,CA,Airport,52.1708,-106.6997,America/Regina,-6.0,Saskatoon
+YXH,YXH,CA,Airport,50.0172,-110.7231,America/Edmonton,-6.0,Medicine Hat
+YXJ,YXJ,CA,Airport,56.2381,-120.7403,America/Dawson_Creek,-7.0,Fort Saint John
+YXS,YXS,CA,Airport,53.8819,-122.6758,America/Vancouver,-7.0,Prince George
+YXT,YXT,CA,Airport,54.4686,-128.5761,America/Vancouver,-7.0,Terrace
+YXU,YXU,CA,Airport,43.0356,-81.1539,America/Toronto,-4.0,London (CA)
+YXX,YXX,CA,Airport,49.0253,-122.3606,America/Vancouver,-7.0,Abbotsford
+YXY,YXY,CA,Airport,60.7094,-135.0672,America/Vancouver,-7.0,Whitehorse
+YYB,YYB,CA,Airport,46.3636,-79.4228,America/Toronto,-4.0,North Bay
+YYC,YYC,CA,Airport,51.11388889,-114.0202778,America/Edmonton,-6.0,Calgary
+YYD,YYD,CA,Airport,54.8247,-127.1828,America/Vancouver,-7.0,Smithers
+YYF,YYF,CA,Airport,49.4631,-119.6022,America/Vancouver,-7.0,Penticton
+YYG,YYG,CA,Airport,46.2892,-63.1256,America/Halifax,-3.0,Charlottetown
+YYJ,YYJ,CA,Airport,48.6469,-123.4258,America/Vancouver,-7.0,Victoria - International
+YYR,YYR,CA,Airport,53.3194,-60.4106,America/Halifax,-3.0,Goose Bay
+YYT,YYT,CA,Airport,47.61861111,-52.75194444,America/St_Johns,-2.5,Saint John's
+YYY,YYY,CA,Airport,48.6086,-68.2081,America/Toronto,-4.0,Mont Joli
+YYZ,YTO,CA,Airport,43.6772,-79.6306,America/Toronto,-4.0,Toronto - Pearson Int'l (Lester)
+YZF,YZF,CA,Airport,62.4686,-114.4431,America/Edmonton,-6.0,Yellowknife
+YZP,YZP,CA,Airport,53.2544,-131.8139,America/Vancouver,-7.0,Sandspit
+YZR,YZR,CA,Airport,42.9994,-82.3089,America/Toronto,-4.0,Sarnia
+YZV,YZV,CA,Airport,50.2233,-66.2656,America/Toronto,-4.0,Sept-Iles
+ZAD,ZAD,HR,Airport,44.1083,15.3467,Europe/Zagreb,2.0,Zadar
+ZAG,ZAG,HR,Airport,45.7431,16.0689,Europe/Zagreb,2.0,Zagreb
+ZAL,ZAL,CL,Airport,-39.6494,-73.0864,America/Santiago,-4.0,Valdivia
+ZAQ,NUE,DE,RailwayStation,49.445,11.0825,Europe/Berlin,2.0,Nuremberg Rail Station
+ZBF,ZBF,CA,Airport,47.6297,-65.7389,America/Halifax,-3.0,Bathurst
+ZCL,ZCL,MX,Airport,22.8972,-102.6869,America/Mexico_City,-5.0,Zacatecas
+ZCO,ZCO,CL,Airport,-38.9269,-72.6469,America/Santiago,-4.0,Temuco
+ZDH,ZDH,CH,RailwayStation,47.5478,7.5897,Europe/Zurich,2.0,Basel SBB Railway Station
+ZFV,PHL,US,RailwayStation,39.9558,-75.1822,America/New_York,-4.0,Philadelphia 30th Street Rail Station
+ZHA,ZHA,CN,Airport,21.2153,110.3583,Asia/Urumqi,6.0,Zhanjiang
+ZIH,ZIH,MX,Airport,17.6017,-101.4606,America/Mexico_City,-5.0,Ixtapa/Zihuatanejo International
+ZLO,ZLO,MX,Airport,19.1447,-104.5586,America/Mexico_City,-5.0,Manzanillo
+ZNZ,ZNZ,TZ,Airport,-6.2219,39.225,Africa/Dar_es_Salaam,3.0,Zanzibar
+ZOS,ZOS,CL,Airport,-40.6114,-73.0606,America/Santiago,-4.0,Osorno
+ZQN,ZQN,NZ,Airport,-45.0183,168.7467,Pacific/Auckland,12.0,Queenstown
+ZRH,ZRH,CH,Airport,47.4647,8.5492,Europe/Zurich,2.0,Zurich
+ZSB,ZSB,,RailwayStation,47.8131,13.0458,Europe/Vienna,2.0,Salzburg Hbf Rail Station
+ZTH,ZTH,GR,Airport,37.7508,20.8842,Europe/Athens,3.0,Zakynthos
+ZUH,ZUH,CN,Airport,22.0067,113.3761,Asia/Shanghai,8.0,Zhuhai
+ZWS,STR,DE,RailwayStation,48.7836,9.1814,Europe/Berlin,2.0,Stuttgart - Railway Station
+ZYI,ZYI,CN,Airport,27.8111,107.2461,Asia/Urumqi,6.0,Zunyi Xinzhou
+kzo,AKX,KZ,Airport,0.0,0.0,Asia/Qyzylorda,5.0,Kyzylorda

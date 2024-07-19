@@ -1,1368 +1,954 @@
-{
-    "CountryResource": {
-        "Countries": {
-            "Country": [
-                {
-                    "CountryCode": "AD",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03bd\u03b4\u03cc\u03c1\u03c1\u03b1"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Andora"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "\uc548\ub3c4\ub77c"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Andorra"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Andorra"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AE",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Verein. Arab. Emirate"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0397\u03bd\u03c9\u03bc\u03ad\u03bd\u03b1 \u0391\u03c1\u03b1\u03b2\u03b9\u03ba\u03ac \u0395\u03bc\u03b9\u03c1\u03ac\u03c4\u03b1"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "United Arab Emirates"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Emiratos Arabes Unidos"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "United Arab Emirates"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Emirat Arabes Unis"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Ujedinjeni Arapski Emirati"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "United Arab Emirates"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Emirati Arabi Uniti"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "United Arab Emirates"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "United Arab Emirates"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "\uc544\ub78d \uc5d0\ubbf8\ub9ac\ud2b8 \uc5f0\ubc29"
-                            },
-                            {
-                                "@LanguageCode": "NL",
-                                "$": "Verenigde Arabische Emiraten"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Zjednoczone Emiraty Arabskie"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Emirados \u00c1rabes Unidos"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "United Arab Emirates"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "United Arab Emirates (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Birle\u015fik Arap Emirlikleri"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AF",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03c6\u03b3\u03b1\u03bd\u03b9\u03c3\u03c4\u03ac\u03bd"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Afganist\u00e1n"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Afganistan"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Afganistan"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Afeganist\u00e3o"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Afghanistan"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Afganistan"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AG",
-                    "Names": {
-                        "Name": {
-                            "@LanguageCode": "EN",
-                            "$": "Antigua And Barbuda, Leeward Islands"
-                        }
-                    }
-                },
-                {
-                    "CountryCode": "AI",
-                    "Names": {
-                        "Name": {
-                            "@LanguageCode": "EN",
-                            "$": "Anguilla, Leeward Islands"
-                        }
-                    }
-                },
-                {
-                    "CountryCode": "AL",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Albanien"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03bb\u03b2\u03b1\u03bd\u03af\u03b1"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Albania"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Albania"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Albania"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Albanie"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Albanija"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Albania"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Albania"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Albania"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Albania"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "Albania"
-                            },
-                            {
-                                "@LanguageCode": "NL",
-                                "$": "Albani\u00eb"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Albania"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Alb\u00e2nia"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Albania"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Albania (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Arnavutluk"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AM",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Armenien"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03c1\u03bc\u03b5\u03bd\u03af\u03b1"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Armenia"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Armenia"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Armenia"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Arm\u00e9nie"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Armenija"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Armenia"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Armenia"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Armenia"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Armenia"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "Armenia (ko)"
-                            },
-                            {
-                                "@LanguageCode": "NL",
-                                "$": "Armeni\u00eb"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Armenia"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Armenia"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Armenia"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Armenia (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Armenia"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AO",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03bd\u03b3\u03ba\u03cc\u03bb\u03b1"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "Angola (ko)"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Angola"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Angola (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Angola"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AQ",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Antarctica"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03bd\u03c4\u03b1\u03c1\u03ba\u03c4\u03b9\u03ba\u03ae"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Antarctica"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Ant\u00e1rtida"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Antarctica"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Antarctica"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Antarktika"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Antarctica"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Antartide"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Antarctica"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Antarctica"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "Antarctica (ko)"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Antarktyda"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Ant\u00e1rtica"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Antarctica"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Antarctica (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Antarktika"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AR",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Argentinien"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03c1\u03b3\u03b5\u03bd\u03c4\u03b9\u03bd\u03ae"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Argentina"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Argentina"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Argentina"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Argentine"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Argentina"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Argentina"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Argentina"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Argentina"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Argentina"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "\uc544\ub974\ud5e8\ud2f0\ub098"
-                            },
-                            {
-                                "@LanguageCode": "NL",
-                                "$": "Argentini\u00eb"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Argentyna"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Argentina"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Argentina"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Argentina (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Arjantin"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AS",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Amerikanisch-Samoa"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03bc\u03b5\u03c1\u03b9\u03ba\u03b1\u03bd\u03b9\u03ba\u03ae \u03a3\u03b1\u03bc\u03cc\u03b1"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "American Samoa"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Samoa Americana"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "American Samoa"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "American Samoa"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Ameri\u010dka Samoa"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "American Samoa"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Samoa americane"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "American Samoa"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "American Samoa"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "American Samoa (ko)"
-                            },
-                            {
-                                "@LanguageCode": "NL",
-                                "$": "Amerikaans-Samoa"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Samoa Ameryka\u0144skie"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Samoa Americana"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "American Samoa"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "American Samoa (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Amerikan Samoa"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AT",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "\u00d6sterreich"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03c5\u03c3\u03c4\u03c1\u03af\u03b1"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Austria"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Austria"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Austria"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Autriche"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Austrija"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Austria"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Austria"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Austria"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Austria"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "\uc624\uc2a4\ud2b8\ub9ac\uc544"
-                            },
-                            {
-                                "@LanguageCode": "NL",
-                                "$": "Oostenrijk"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Austria"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Austria"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Austria"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Austria (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Avusturya"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AU",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Australien"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03c5\u03c3\u03c4\u03c1\u03b1\u03bb\u03af\u03b1"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Australia"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Australia"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Australia"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Australie"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Australija"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Australia"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Australia"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Australia"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Australia"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "\uc624\uc2a4\ud2b8\ub808\uc77c\ub9ac\uc544"
-                            },
-                            {
-                                "@LanguageCode": "NL",
-                                "$": "Australi\u00eb"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Australia"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Austr\u00e1lia"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Australia"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Australia (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Avustralya"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AW",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03c1\u03bf\u03cd\u03bc\u03c0\u03b1"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "Aruba (ko)"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Aruba"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Aruba (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Aruba"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "AZ",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Aserbaidschan"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0391\u03b6\u03b5\u03c1\u03bc\u03c0\u03b1\u03ca\u03c4\u03b6\u03ac\u03bd"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Azerbaijan"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Azerbaijan"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Azerbaijan"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Azerba\u00efdjan"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Azerbejd\u017ean"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Azerbaijan"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Azerbaijan"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Azerbaijan"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Azerbaijan"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "\uc544\uc81c\ub974\ubc14\uc774\uc794"
-                            },
-                            {
-                                "@LanguageCode": "NL",
-                                "$": "Azerbeidzjan"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Azerbejd\u017can"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Azerbaij\u00e3o"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Azerbaijan"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Azerbaijan (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Azerbaycan"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "BA",
-                    "Names": {
-                        "Name": {
-                            "@LanguageCode": "EN",
-                            "$": "Bosnia And Herzegovina"
-                        }
-                    }
-                },
-                {
-                    "CountryCode": "BB",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u039c\u03c0\u03b1\u03c1\u03bc\u03c0\u03ad\u03b9\u03bd\u03c4\u03bf\u03c2"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "Barbados (ko)"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Barbados"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Barbados (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Barbados"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "BD",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Bangladesch"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u039c\u03c0\u03b1\u03bd\u03b3\u03ba\u03bb\u03b1\u03bd\u03c4\u03ad\u03c2"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Bangladesh"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Bangladesh"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Bangladesh"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Bangladesh"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Banglade\u0161"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Bangladesh"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Bangladesh"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Bangladesh"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Bangladesh"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "Bangladesh (ko)"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Bangladesz"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Bangladesh"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Bangladesh"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Bangladesh (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Banglade\u015f"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "BE",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Belgien"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u0392\u03ad\u03bb\u03b3\u03b9\u03bf"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Belgium"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "B\u00e9lgica"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Belgium"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Belgique"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Belgija"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Belgium"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Belgio"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Belgium"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Belgium"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "\ubca8\uae30\uc5d0"
-                            },
-                            {
-                                "@LanguageCode": "NL",
-                                "$": "Belgi\u00eb"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Belgia"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "B\u00e9lgica"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Belgium"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Belgium (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Bel\u00e7ika"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "CountryCode": "BF",
-                    "Names": {
-                        "Name": [
-                            {
-                                "@LanguageCode": "DE",
-                                "$": "Burkina-Faso"
-                            },
-                            {
-                                "@LanguageCode": "EL",
-                                "$": "\u039c\u03c0\u03bf\u03c5\u03c1\u03ba\u03af\u03bd\u03b1 \u03a6\u03ac\u03c3\u03bf"
-                            },
-                            {
-                                "@LanguageCode": "EN",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "ES",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "FI",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "FR",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "HR",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "HU",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "IT",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "JA",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "KA",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "KO",
-                                "$": "Burkina Faso (ko)"
-                            },
-                            {
-                                "@LanguageCode": "PL",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "PT",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "RU",
-                                "$": "Burkina Faso"
-                            },
-                            {
-                                "@LanguageCode": "SL",
-                                "$": "Burkina Faso (sl)"
-                            },
-                            {
-                                "@LanguageCode": "TR",
-                                "$": "Burkina Faso"
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        "Meta": {
-            "@Version": "1.0.0",
-            "Link": [
-                {
-                    "@Href": "https://api.lufthansa.com/v1/mds-references/countries",
-                    "@Rel": "self"
-                },
-                {
-                    "@Href": "https://api.lufthansa.com/v1/mds-references/countries?offset=20&limit=20",
-                    "@Rel": "next"
-                },
-                {
-                    "@Href": "https://api.lufthansa.com/v1/mds-references/countries?offset=220&limit=20",
-                    "@Rel": "last"
-                },
-                {
-                    "@Href": "https://api.lufthansa.com/v1/mds-references/countries/{countryCode}",
-                    "@Rel": "related"
-                }
-            ],
-            "TotalCount": 238
-        }
+[
+    {
+        "CountryCode": "AD",
+        "Names": "Andorra"
+    },
+    {
+        "CountryCode": "AE",
+        "Names": "United Arab Emirates"
+    },
+    {
+        "CountryCode": "AF",
+        "Names": "Afghanistan"
+    },
+    {
+        "CountryCode": "AG",
+        "Names": "Antigua And Barbuda, Leeward Islands"
+    },
+    {
+        "CountryCode": "AI",
+        "Names": "Anguilla, Leeward Islands"
+    },
+    {
+        "CountryCode": "AL",
+        "Names": "Albania"
+    },
+    {
+        "CountryCode": "AM",
+        "Names": "Armenia"
+    },
+    {
+        "CountryCode": "AO",
+        "Names": "Angola"
+    },
+    {
+        "CountryCode": "AQ",
+        "Names": "Antarctica"
+    },
+    {
+        "CountryCode": "AR",
+        "Names": "Argentina"
+    },
+    {
+        "CountryCode": "AS",
+        "Names": "American Samoa"
+    },
+    {
+        "CountryCode": "AT",
+        "Names": "Austria"
+    },
+    {
+        "CountryCode": "AU",
+        "Names": "Australia"
+    },
+    {
+        "CountryCode": "AW",
+        "Names": "Aruba"
+    },
+    {
+        "CountryCode": "AZ",
+        "Names": "Azerbaijan"
+    },
+    {
+        "CountryCode": "BA",
+        "Names": "Bosnia And Herzegovina"
+    },
+    {
+        "CountryCode": "BB",
+        "Names": "Barbados"
+    },
+    {
+        "CountryCode": "BD",
+        "Names": "Bangladesh"
+    },
+    {
+        "CountryCode": "BE",
+        "Names": "Belgium"
+    },
+    {
+        "CountryCode": "BF",
+        "Names": "Burkina Faso"
+    },
+    {
+        "CountryCode": "BG",
+        "Names": "Bulgaria"
+    },
+    {
+        "CountryCode": "BH",
+        "Names": "Bahrain"
+    },
+    {
+        "CountryCode": "BI",
+        "Names": "Burundi"
+    },
+    {
+        "CountryCode": "BJ",
+        "Names": "Benin"
+    },
+    {
+        "CountryCode": "BL",
+        "Names": "Saint Barthelemy"
+    },
+    {
+        "CountryCode": "BM",
+        "Names": "Bermuda"
+    },
+    {
+        "CountryCode": "BN",
+        "Names": "Brunei Darussalam"
+    },
+    {
+        "CountryCode": "BO",
+        "Names": "Bolivia"
+    },
+    {
+        "CountryCode": "BQ",
+        "Names": "Bonaire, Saint Eustatius And Saba"
+    },
+    {
+        "CountryCode": "BR",
+        "Names": "Brazil"
+    },
+    {
+        "CountryCode": "BS",
+        "Names": "Bahamas"
+    },
+    {
+        "CountryCode": "BT",
+        "Names": "Bhutan"
+    },
+    {
+        "CountryCode": "BW",
+        "Names": "Botswana"
+    },
+    {
+        "CountryCode": "BY",
+        "Names": "Belarus"
+    },
+    {
+        "CountryCode": "BZ",
+        "Names": "Belize"
+    },
+    {
+        "CountryCode": "CA",
+        "Names": "Canada"
+    },
+    {
+        "CountryCode": "CC",
+        "Names": "Cocos (Keeling) Islands"
+    },
+    {
+        "CountryCode": "CD",
+        "Names": "Congo Democratic Republic Of"
+    },
+    {
+        "CountryCode": "CF",
+        "Names": "Central African Republic"
+    },
+    {
+        "CountryCode": "CG",
+        "Names": "Congo"
+    },
+    {
+        "CountryCode": "CH",
+        "Names": "Switzerland"
+    },
+    {
+        "CountryCode": "CI",
+        "Names": "Cote D'ivoire"
+    },
+    {
+        "CountryCode": "CK",
+        "Names": "Cook Islands"
+    },
+    {
+        "CountryCode": "CL",
+        "Names": "Chile"
+    },
+    {
+        "CountryCode": "CM",
+        "Names": "Cameroon"
+    },
+    {
+        "CountryCode": "CN",
+        "Names": "China"
+    },
+    {
+        "CountryCode": "CO",
+        "Names": "Colombia"
+    },
+    {
+        "CountryCode": "CR",
+        "Names": "Costa Rica"
+    },
+    {
+        "CountryCode": "CU",
+        "Names": "Cuba"
+    },
+    {
+        "CountryCode": "CV",
+        "Names": "Cape Verde"
+    },
+    {
+        "CountryCode": "CW",
+        "Names": "Curacao"
+    },
+    {
+        "CountryCode": "CX",
+        "Names": "Christmas Island, Indian Ocean"
+    },
+    {
+        "CountryCode": "CY",
+        "Names": "Cyprus"
+    },
+    {
+        "CountryCode": "CZ",
+        "Names": "Czech Republic"
+    },
+    {
+        "CountryCode": "DE",
+        "Names": "Germany"
+    },
+    {
+        "CountryCode": "DJ",
+        "Names": "Djibouti"
+    },
+    {
+        "CountryCode": "DK",
+        "Names": "Denmark"
+    },
+    {
+        "CountryCode": "DM",
+        "Names": "Dominica"
+    },
+    {
+        "CountryCode": "DO",
+        "Names": "Dominican Republic"
+    },
+    {
+        "CountryCode": "DZ",
+        "Names": "Algeria"
+    },
+    {
+        "CountryCode": "EC",
+        "Names": "Ecuador"
+    },
+    {
+        "CountryCode": "EE",
+        "Names": "Estonia"
+    },
+    {
+        "CountryCode": "EG",
+        "Names": "Egypt"
+    },
+    {
+        "CountryCode": "ER",
+        "Names": "Eritrea"
+    },
+    {
+        "CountryCode": "ES",
+        "Names": "Spain"
+    },
+    {
+        "CountryCode": "ET",
+        "Names": "Ethiopia"
+    },
+    {
+        "CountryCode": "FI",
+        "Names": "Finland"
+    },
+    {
+        "CountryCode": "FJ",
+        "Names": "Fiji"
+    },
+    {
+        "CountryCode": "FK",
+        "Names": "Falkland Islands"
+    },
+    {
+        "CountryCode": "FM",
+        "Names": "Micronesia Federated States Of"
+    },
+    {
+        "CountryCode": "FO",
+        "Names": "Faroe Islands"
+    },
+    {
+        "CountryCode": "FR",
+        "Names": "France"
+    },
+    {
+        "CountryCode": "GA",
+        "Names": "Gabon"
+    },
+    {
+        "CountryCode": "GB",
+        "Names": "United Kingdom"
+    },
+    {
+        "CountryCode": "GD",
+        "Names": "Grenada, Windward Islands"
+    },
+    {
+        "CountryCode": "GE",
+        "Names": "Georgia"
+    },
+    {
+        "CountryCode": "GF",
+        "Names": "French Guiana"
+    },
+    {
+        "CountryCode": "GH",
+        "Names": "Ghana"
+    },
+    {
+        "CountryCode": "GI",
+        "Names": "Gibraltar"
+    },
+    {
+        "CountryCode": "GL",
+        "Names": "Greenland"
+    },
+    {
+        "CountryCode": "GM",
+        "Names": "Gambia"
+    },
+    {
+        "CountryCode": "GN",
+        "Names": "Guinea"
+    },
+    {
+        "CountryCode": "GP",
+        "Names": "Guadeloupe"
+    },
+    {
+        "CountryCode": "GQ",
+        "Names": "Equatorial Guinea"
+    },
+    {
+        "CountryCode": "GR",
+        "Names": "Greece"
+    },
+    {
+        "CountryCode": "GT",
+        "Names": "Guatemala"
+    },
+    {
+        "CountryCode": "GU",
+        "Names": "Guam"
+    },
+    {
+        "CountryCode": "GW",
+        "Names": "Guinea-Bissau"
+    },
+    {
+        "CountryCode": "GY",
+        "Names": "Guyana"
+    },
+    {
+        "CountryCode": "HK",
+        "Names": "Hong Kong"
+    },
+    {
+        "CountryCode": "HN",
+        "Names": "Honduras"
+    },
+    {
+        "CountryCode": "HR",
+        "Names": "Croatia"
+    },
+    {
+        "CountryCode": "HT",
+        "Names": "Haiti"
+    },
+    {
+        "CountryCode": "HU",
+        "Names": "Hungary"
+    },
+    {
+        "CountryCode": "ID",
+        "Names": "Indonesia"
+    },
+    {
+        "CountryCode": "IE",
+        "Names": "Ireland Republic Of"
+    },
+    {
+        "CountryCode": "IL",
+        "Names": "Israel"
+    },
+    {
+        "CountryCode": "IN",
+        "Names": "India"
+    },
+    {
+        "CountryCode": "IQ",
+        "Names": "Iraq"
+    },
+    {
+        "CountryCode": "IR",
+        "Names": "Iran Islamic Republic Of"
+    },
+    {
+        "CountryCode": "IS",
+        "Names": "Iceland"
+    },
+    {
+        "CountryCode": "IT",
+        "Names": "Italy"
+    },
+    {
+        "CountryCode": "JM",
+        "Names": "Jamaica"
+    },
+    {
+        "CountryCode": "JO",
+        "Names": "Jordan"
+    },
+    {
+        "CountryCode": "JP",
+        "Names": "Japan"
+    },
+    {
+        "CountryCode": "KE",
+        "Names": "Kenya"
+    },
+    {
+        "CountryCode": "KG",
+        "Names": "Kyrgyzstan"
+    },
+    {
+        "CountryCode": "KH",
+        "Names": "Cambodia"
+    },
+    {
+        "CountryCode": "KI",
+        "Names": "Kiribati"
+    },
+    {
+        "CountryCode": "KM",
+        "Names": "Comoros"
+    },
+    {
+        "CountryCode": "KN",
+        "Names": "Saint Kitts And Nevis, Leeward Island"
+    },
+    {
+        "CountryCode": "KP",
+        "Names": "Korea Democratic People's Republic Of"
+    },
+    {
+        "CountryCode": "KR",
+        "Names": "Korea Republic Of"
+    },
+    {
+        "CountryCode": "KW",
+        "Names": "Kuwait"
+    },
+    {
+        "CountryCode": "KY",
+        "Names": "Cayman Islands"
+    },
+    {
+        "CountryCode": "KZ",
+        "Names": "Kazakhstan"
+    },
+    {
+        "CountryCode": "LA",
+        "Names": "Lao People's Democratic Republic"
+    },
+    {
+        "CountryCode": "LB",
+        "Names": "Lebanon"
+    },
+    {
+        "CountryCode": "LC",
+        "Names": "Saint Lucia"
+    },
+    {
+        "CountryCode": "LI",
+        "Names": "Liechtenstein"
+    },
+    {
+        "CountryCode": "LK",
+        "Names": "Sri Lanka"
+    },
+    {
+        "CountryCode": "LR",
+        "Names": "Liberia"
+    },
+    {
+        "CountryCode": "LS",
+        "Names": "Lesotho"
+    },
+    {
+        "CountryCode": "LT",
+        "Names": "Lithuania"
+    },
+    {
+        "CountryCode": "LU",
+        "Names": "Luxembourg"
+    },
+    {
+        "CountryCode": "LV",
+        "Names": "Latvia"
+    },
+    {
+        "CountryCode": "LY",
+        "Names": "Libya"
+    },
+    {
+        "CountryCode": "MA",
+        "Names": "Morocco"
+    },
+    {
+        "CountryCode": "MC",
+        "Names": "Monaco"
+    },
+    {
+        "CountryCode": "MD",
+        "Names": "Moldova Republic Of"
+    },
+    {
+        "CountryCode": "ME",
+        "Names": "Montenegro"
+    },
+    {
+        "CountryCode": "MF",
+        "Names": "Saint Martin"
+    },
+    {
+        "CountryCode": "MG",
+        "Names": "Madagascar"
+    },
+    {
+        "CountryCode": "MH",
+        "Names": "Marshall Islands"
+    },
+    {
+        "CountryCode": "MK",
+        "Names": "North Macedonia "
+    },
+    {
+        "CountryCode": "ML",
+        "Names": "Mali"
+    },
+    {
+        "CountryCode": "MM",
+        "Names": "Myanmar"
+    },
+    {
+        "CountryCode": "MN",
+        "Names": "Mongolia"
+    },
+    {
+        "CountryCode": "MO",
+        "Names": "Macau"
+    },
+    {
+        "CountryCode": "MP",
+        "Names": "Northern Mariana Islands"
+    },
+    {
+        "CountryCode": "MQ",
+        "Names": "Martinique"
+    },
+    {
+        "CountryCode": "MR",
+        "Names": "Mauritania"
+    },
+    {
+        "CountryCode": "MS",
+        "Names": "Montserrat, Leeward Islands"
+    },
+    {
+        "CountryCode": "MT",
+        "Names": "Malta"
+    },
+    {
+        "CountryCode": "MU",
+        "Names": "Mauritius"
+    },
+    {
+        "CountryCode": "MV",
+        "Names": "Maldives"
+    },
+    {
+        "CountryCode": "MW",
+        "Names": "Malawi"
+    },
+    {
+        "CountryCode": "MX",
+        "Names": "Mexico"
+    },
+    {
+        "CountryCode": "MY",
+        "Names": "Malaysia"
+    },
+    {
+        "CountryCode": "MZ",
+        "Names": "Mozambique"
+    },
+    {
+        "CountryCode": "NA",
+        "Names": "Namibia"
+    },
+    {
+        "CountryCode": "NC",
+        "Names": "New Caledonia"
+    },
+    {
+        "CountryCode": "NE",
+        "Names": "Niger"
+    },
+    {
+        "CountryCode": "NF",
+        "Names": "Norfolk Island"
+    },
+    {
+        "CountryCode": "NG",
+        "Names": "Nigeria"
+    },
+    {
+        "CountryCode": "NI",
+        "Names": "Nicaragua"
+    },
+    {
+        "CountryCode": "NL",
+        "Names": "Netherlands"
+    },
+    {
+        "CountryCode": "NO",
+        "Names": "Norway"
+    },
+    {
+        "CountryCode": "NP",
+        "Names": "Nepal"
+    },
+    {
+        "CountryCode": "NR",
+        "Names": "Nauru"
+    },
+    {
+        "CountryCode": "NU",
+        "Names": "Niue"
+    },
+    {
+        "CountryCode": "NZ",
+        "Names": "New Zealand"
+    },
+    {
+        "CountryCode": "OM",
+        "Names": "Oman"
+    },
+    {
+        "CountryCode": "PA",
+        "Names": "Panama"
+    },
+    {
+        "CountryCode": "PE",
+        "Names": "Peru"
+    },
+    {
+        "CountryCode": "PF",
+        "Names": "French Polynesia"
+    },
+    {
+        "CountryCode": "PG",
+        "Names": "Papua New Guinea"
+    },
+    {
+        "CountryCode": "PH",
+        "Names": "Philippines"
+    },
+    {
+        "CountryCode": "PK",
+        "Names": "Pakistan"
+    },
+    {
+        "CountryCode": "PL",
+        "Names": "Poland"
+    },
+    {
+        "CountryCode": "PM",
+        "Names": "Saint Pierre And Miquelon"
+    },
+    {
+        "CountryCode": "PN",
+        "Names": "Pitcairn Islands"
+    },
+    {
+        "CountryCode": "PR",
+        "Names": "Puerto Rico"
+    },
+    {
+        "CountryCode": "PS",
+        "Names": "Palestine"
+    },
+    {
+        "CountryCode": "PT",
+        "Names": "Portugal"
+    },
+    {
+        "CountryCode": "PW",
+        "Names": "Palau"
+    },
+    {
+        "CountryCode": "PY",
+        "Names": "Paraguay"
+    },
+    {
+        "CountryCode": "QA",
+        "Names": "Qatar"
+    },
+    {
+        "CountryCode": "RE",
+        "Names": "Reunion"
+    },
+    {
+        "CountryCode": "RO",
+        "Names": "Romania"
+    },
+    {
+        "CountryCode": "RS",
+        "Names": "Serbia"
+    },
+    {
+        "CountryCode": "RU",
+        "Names": "Russian Federation"
+    },
+    {
+        "CountryCode": "RW",
+        "Names": "Rwanda"
+    },
+    {
+        "CountryCode": "SA",
+        "Names": "Saudi Arabia"
+    },
+    {
+        "CountryCode": "SB",
+        "Names": "Solomon Islands"
+    },
+    {
+        "CountryCode": "SC",
+        "Names": "Seychelles"
+    },
+    {
+        "CountryCode": "SD",
+        "Names": "Sudan"
+    },
+    {
+        "CountryCode": "SE",
+        "Names": "Sweden"
+    },
+    {
+        "CountryCode": "SG",
+        "Names": "Singapore"
+    },
+    {
+        "CountryCode": "SH",
+        "Names": "Saint Helena"
+    },
+    {
+        "CountryCode": "SI",
+        "Names": "Slovenia"
+    },
+    {
+        "CountryCode": "SK",
+        "Names": "Slovakia"
+    },
+    {
+        "CountryCode": "SL",
+        "Names": "Sierra Leone"
+    },
+    {
+        "CountryCode": "SM",
+        "Names": "San Marino"
+    },
+    {
+        "CountryCode": "SN",
+        "Names": "Senegal"
+    },
+    {
+        "CountryCode": "SO",
+        "Names": "Somalia"
+    },
+    {
+        "CountryCode": "SR",
+        "Names": "Suriname"
+    },
+    {
+        "CountryCode": "SS",
+        "Names": "South Sudan"
+    },
+    {
+        "CountryCode": "ST",
+        "Names": "Sao Tome And Principe"
+    },
+    {
+        "CountryCode": "SV",
+        "Names": "El Salvador"
+    },
+    {
+        "CountryCode": "SX",
+        "Names": "St Maarten (Dutch Part)"
+    },
+    {
+        "CountryCode": "SY",
+        "Names": "Syrian Arab Republic"
+    },
+    {
+        "CountryCode": "SZ",
+        "Names": "Eswatini"
+    },
+    {
+        "CountryCode": "TC",
+        "Names": "Turks And Caicos Islands"
+    },
+    {
+        "CountryCode": "TD",
+        "Names": "Chad"
+    },
+    {
+        "CountryCode": "TG",
+        "Names": "Togo"
+    },
+    {
+        "CountryCode": "TH",
+        "Names": "Thailand"
+    },
+    {
+        "CountryCode": "TJ",
+        "Names": "Tajikistan"
+    },
+    {
+        "CountryCode": "TL",
+        "Names": "Timor-Leste"
+    },
+    {
+        "CountryCode": "TM",
+        "Names": "Turkmenistan"
+    },
+    {
+        "CountryCode": "TN",
+        "Names": "Tunisia"
+    },
+    {
+        "CountryCode": "TO",
+        "Names": "Tonga"
+    },
+    {
+        "CountryCode": "TR",
+        "Names": "Turkiye"
+    },
+    {
+        "CountryCode": "TT",
+        "Names": "Trinidad And Tobago"
+    },
+    {
+        "CountryCode": "TV",
+        "Names": "Tuvalu"
+    },
+    {
+        "CountryCode": "TW",
+        "Names": "Chinese Taipei"
+    },
+    {
+        "CountryCode": "TZ",
+        "Names": "Tanzania United Republic Of"
+    },
+    {
+        "CountryCode": "UA",
+        "Names": "Ukraine"
+    },
+    {
+        "CountryCode": "UG",
+        "Names": "Uganda"
+    },
+    {
+        "CountryCode": "UM",
+        "Names": "United States Minor Outlying Islands"
+    },
+    {
+        "CountryCode": "US",
+        "Names": "United States Of America"
+    },
+    {
+        "CountryCode": "UY",
+        "Names": "Uruguay"
+    },
+    {
+        "CountryCode": "UZ",
+        "Names": "Uzbekistan"
+    },
+    {
+        "CountryCode": "VC",
+        "Names": "St Vincent And The Grenadines"
+    },
+    {
+        "CountryCode": "VE",
+        "Names": "Venezuela"
+    },
+    {
+        "CountryCode": "VG",
+        "Names": "Virgin Islands, British"
+    },
+    {
+        "CountryCode": "VI",
+        "Names": "Virgin Islands, Us"
+    },
+    {
+        "CountryCode": "VN",
+        "Names": "Viet Nam"
+    },
+    {
+        "CountryCode": "VU",
+        "Names": "Vanuatu"
+    },
+    {
+        "CountryCode": "WF",
+        "Names": "Wallis And Futuna Islands"
+    },
+    {
+        "CountryCode": "WS",
+        "Names": "Samoa"
+    },
+    {
+        "CountryCode": "XK",
+        "Names": "Kosovo Republic Of"
+    },
+    {
+        "CountryCode": "XX",
+        "Names": "Dummy Country"
+    },
+    {
+        "CountryCode": "YE",
+        "Names": "Yemen"
+    },
+    {
+        "CountryCode": "YT",
+        "Names": "Mayotte"
+    },
+    {
+        "CountryCode": "ZA",
+        "Names": "South Africa"
+    },
+    {
+        "CountryCode": "ZM",
+        "Names": "Zambia"
+    },
+    {
+        "CountryCode": "ZW",
+        "Names": "Zimbabwe"
     }
-}
+]
