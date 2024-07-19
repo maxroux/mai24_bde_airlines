@@ -57,11 +57,6 @@ if __name__ == "__main__":
     # date_time = datetime.now().strftime("%Y-%m-%dT%H:%M")
     date_time = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%dT%H:%M")
 
-
-
-
-
-
     for code in airport_codes:
         data, error = fetch_departures(access_token, code, date_time)
         if data:

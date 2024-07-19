@@ -17,30 +17,57 @@ services:
     environment:
       - ME_CONFIG_MONGODB_SERVER=mongodb
       - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
-      - ME_CONFIG_BASICAUTH_USERNAME=user
-      - ME_CONFIG_BASICAUTH_PASSWORD=pass
+      - ME_CONFIG_BASICAUTH_USERNAME=airline
+      - ME_CONFIG_BASICAUTH_PASSWORD=airline
     ports:
       - "8084:8081"
     restart: always
 
-  # api:
-  #   build: .
-  #   container_name: api
-  #   depends_on:
-  #     - mongodb
-  #   volumes:
-  #     - .:/app
-  #   command: python api_payload.py
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_DB: airline_project
+      POSTGRES_USER: airline
+      POSTGRES_PASSWORD: airline
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data2:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d
+    networks:
+      - adminer-network
 
-  # departures:
-  #   build: .
-  #   container_name: departures
-  #   depends_on:
-  #     - mongodb
-  #     - api
-  #   volumes:
-  #     - .:/app
-  #   command: python departures.py
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin4_container
+    restart: always
+    ports:
+      - "8887:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: sixfoursuited@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: airline
+      PGADMIN_CONFIG_SERVER_MODE: 'True'
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+    networks:
+      - adminer-network
+
+  fastapi:
+    build: ../fast_apis/
+    container_name: fastapi
+    depends_on:
+      - postgres
+    ports:
+      - "8002:8000"
+    environment:
+      DATABASE_URL: postgres://airline:airline@postgres:5432/airline_project
+    networks:
+      - adminer-network
 
 volumes:
   mongo-data:
+  postgres_data2:
+  pgadmin-data:
+networks:
+  adminer-network:
