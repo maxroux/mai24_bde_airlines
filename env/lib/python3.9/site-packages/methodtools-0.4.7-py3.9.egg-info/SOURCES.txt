@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+methodtools.py
+setup.cfg
+setup.py
+methodtools.egg-info/PKG-INFO
+methodtools.egg-info/SOURCES.txt
+methodtools.egg-info/dependency_links.txt
+methodtools.egg-info/requires.txt
+methodtools.egg-info/top_level.txt

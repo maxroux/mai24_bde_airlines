@@ -1,0 +1,11 @@
+wirerope>=0.4.7
+
+[doc]
+sphinx
+
+[test]
+pytest>=4.6.7
+pytest-cov>=2.6.1
+
+[test:python_version < "3"]
+functools32>=3.2.3-2

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="robots" content="noindex">
+<title>Export: airline_project - postgres - Adminer</title>
+<link rel="stylesheet" type="text/css" href="?file=default.css&amp;version=4.8.1">
+<script src='?file=functions.js&amp;version=4.8.1' nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI="></script>
+<link rel="shortcut icon" type="image/x-icon" href="?file=favicon.ico&amp;version=4.8.1">
+<link rel="apple-touch-icon" href="?file=favicon.ico&amp;version=4.8.1">
+
+<body class="ltr nojs">
+<script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">
+mixin(document.body, {onkeydown: bodyKeydown, onclick: bodyClick});
+document.body.className = document.body.className.replace(/ nojs/, ' js');
+var offlineMessage = 'You are offline.';
+var thousandsSeparator = ',';
+</script>
+
+<div id="help" class="jush-pgsql jsonly hidden"></div>
+<script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">mixin(qs('#help'), {onmouseover: function () { helpOpen = 1; }, onmouseout: helpMouseout});</script>
+
+<div id="content">
+<p id="breadcrumb"><a href="?pgsql=postgres">PostgreSQL</a> &raquo; <a href='?pgsql=postgres&amp;username=airline' accesskey='1' title='Alt+Shift+1'>postgres</a> &raquo; <a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=">airline_project</a> &raquo; <a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public">public</a> &raquo; Export
+<h2>Export: airline_project</h2>
+<div id='ajaxstatus' class='jsonly hidden'></div>
+
+<form action="" method="post">
+<table cellspacing="0" class="layout">
+<tr><th>Output<td><label><input type='radio' name='output' value='text' checked>open</label><label><input type='radio' name='output' value='file'>save</label><label><input type='radio' name='output' value='gz'>gzip</label>
+<tr><th>Format<td><label><input type='radio' name='format' value='sql' checked>SQL</label><label><input type='radio' name='format' value='csv'>CSV,</label><label><input type='radio' name='format' value='csv;'>CSV;</label><label><input type='radio' name='format' value='tsv'>TSV</label>
+<tr><th>Database<td><select name='db_style'><option><option>USE<option>DROP+CREATE<option selected>CREATE</select><label><input type='checkbox' name='routines' value='1' checked>Routines</label><tr><th>Tables<td><select name='table_style'><option><option selected>DROP+CREATE<option>CREATE</select><label><input type='checkbox' name='auto_increment' value='1'>Auto Increment</label><label><input type='checkbox' name='triggers' value='1' checked>Triggers</label><tr><th>Data<td><select name='data_style'><option><option>TRUNCATE+INSERT<option selected>INSERT</select></table>
+<p><input type="submit" value="Export">
+<input type="hidden" name="token" value="151953:920549">
+
+<table cellspacing="0">
+<script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">qsl('table').onclick = dumpClick;</script>
+<thead><tr><th style='text-align: left;'><label class='block'><input type='checkbox' id='check-tables' checked>Tables</label><script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">qs('#check-tables').onclick = partial(formCheck, /^tables\[/);</script><th style='text-align: right;'><label class='block'>Data<input type='checkbox' id='check-data' checked></label><script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">qs('#check-data').onclick = partial(formCheck, /^data\[/);</script></thead>
+<tr><td><label class='block'><input type='checkbox' name='tables[]' value='aircrafts' checked>aircrafts</label><td align='right'><label class='block'><span id='Rows-aircrafts'></span><input type='checkbox' name='data[]' value='aircrafts' checked></label>
+<tr><td><label class='block'><input type='checkbox' name='tables[]' value='airlines' checked>airlines</label><td align='right'><label class='block'><span id='Rows-airlines'></span><input type='checkbox' name='data[]' value='airlines' checked></label>
+<tr><td><label class='block'><input type='checkbox' name='tables[]' value='airports' checked>airports</label><td align='right'><label class='block'><span id='Rows-airports'></span><input type='checkbox' name='data[]' value='airports' checked></label>
+<tr><td><label class='block'><input type='checkbox' name='tables[]' value='cities' checked>cities</label><td align='right'><label class='block'><span id='Rows-cities'></span><input type='checkbox' name='data[]' value='cities' checked></label>
+<tr><td><label class='block'><input type='checkbox' name='tables[]' value='countries' checked>countries</label><td align='right'><label class='block'><span id='Rows-countries'></span><input type='checkbox' name='data[]' value='countries' checked></label>
+<script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">ajaxSetHtml('?pgsql=postgres&username=airline&db=airline_project&ns=public&script=db');</script>
+</table>
+</form>
+</div>
+
+<form action='' method='post'>
+<div id='lang'>Language: <select name='lang'><option value="en" selected>English<option value="ar">العربية<option value="bg">Български<option value="bn">বাংলা<option value="bs">Bosanski<option value="ca">Català<option value="cs">Čeština<option value="da">Dansk<option value="de">Deutsch<option value="el">Ελληνικά<option value="es">Español<option value="et">Eesti<option value="fa">فارسی<option value="fi">Suomi<option value="fr">Français<option value="gl">Galego<option value="he">עברית<option value="hu">Magyar<option value="id">Bahasa Indonesia<option value="it">Italiano<option value="ja">日本語<option value="ka">ქართული<option value="ko">한국어<option value="lt">Lietuvių<option value="ms">Bahasa Melayu<option value="nl">Nederlands<option value="no">Norsk<option value="pl">Polski<option value="pt">Português<option value="pt-br">Português (Brazil)<option value="ro">Limba Română<option value="ru">Русский<option value="sk">Slovenčina<option value="sl">Slovenski<option value="sr">Српски<option value="sv">Svenska<option value="ta">த‌மிழ்<option value="th">ภาษาไทย<option value="tr">Türkçe<option value="uk">Українська<option value="vi">Tiếng Việt<option value="zh">简体中文<option value="zh-tw">繁體中文</select><script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">qsl('select').onchange = function () { this.form.submit(); };</script> <input type='submit' value='Use' class='hidden'>
+<input type='hidden' name='token' value='692844:444440'>
+</div>
+</form>
+<form action="" method="post">
+<p class="logout">
+<input type="submit" name="logout" value="Logout" id="logout">
+<input type="hidden" name="token" value="151953:920549">
+</p>
+</form>
+<div id="menu">
+<h1>
+<a href='https://www.adminer.org/' target="_blank" rel="noreferrer noopener" id='h1'>Adminer</a> <span class="version">4.8.1</span>
+<a href="https://www.adminer.org/#download" target="_blank" rel="noreferrer noopener" id="version"></a>
+</h1>
+<script src='?file=jush.js&amp;version=4.8.1' nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI="></script>
+<script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">
+var jushLinks = { pgsql: [ '?pgsql=postgres&username=airline&db=airline_project&ns=public&table=$&', /\b(aircrafts|airlines|airports|cities|countries)\b/g ] };
+jushLinks.bac = jushLinks.pgsql;
+jushLinks.bra = jushLinks.pgsql;
+jushLinks.sqlite_quo = jushLinks.pgsql;
+jushLinks.mssql_bra = jushLinks.pgsql;
+bodyLoad('16');
+</script>
+<form action="">
+<p id="dbs">
+<input type="hidden" name="pgsql" value="postgres"><input type="hidden" name="username" value="airline"><span title='database'>DB</span>: <select name='db'><option value=""><option selected>airline_project<option>postgres<option>template0<option>template1</select><script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">mixin(qsl('select'), {onmousedown: dbMouseDown, onchange: dbChange});</script>
+<input type='submit' value='Use' class='hidden'>
+<br>Schema: <select name='ns'><option value=""><option>information_schema<option>pg_catalog<option>pg_toast<option selected>public</select><script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">mixin(qsl('select'), {onmousedown: dbMouseDown, onchange: dbChange});</script>
+<input type='hidden' name='dump' value=''></p></form>
+<p class='links'><a href='?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;sql='>SQL command</a>
+<a href='?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;import='>Import</a>
+<a href='?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;dump=' id='dump' class='active '>Export</a>
+<a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;create=">Create table</a>
+<ul id='tables'><script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">mixin(qs('#tables'), {onmouseover: menuOver, onmouseout: menuOut});</script>
+<li><a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;select=aircrafts" class='select' title='Select data'>select</a> <a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;table=aircrafts" class='structure' title='Show structure'>aircrafts</a>
+<li><a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;select=airlines" class='select' title='Select data'>select</a> <a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;table=airlines" class='structure' title='Show structure'>airlines</a>
+<li><a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;select=airports" class='select' title='Select data'>select</a> <a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;table=airports" class='structure' title='Show structure'>airports</a>
+<li><a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;select=cities" class='select' title='Select data'>select</a> <a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;table=cities" class='structure' title='Show structure'>cities</a>
+<li><a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;select=countries" class='select' title='Select data'>select</a> <a href="?pgsql=postgres&amp;username=airline&amp;db=airline_project&amp;ns=public&amp;table=countries" class='structure' title='Show structure'>countries</a>
+</ul>
+</div>
+<script nonce="N2M4YTVjMTBkYTE5N2JmNGM1ZDYxNmJhOGJkYjVkOTI=">setupSubmitHighlight(document);</script>

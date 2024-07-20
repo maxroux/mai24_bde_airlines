@@ -1,0 +1,77 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=airline
+      - MONGO_INITDB_ROOT_PASSWORD=airline
+    volumes:
+      - mongo-data:/data/db
+      - ./init-mongo/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js
+    networks:
+      - app-network
+
+  mongo-express:
+    image: mongo-express:latest
+    container_name: mongo-express
+    depends_on:
+      - mongodb
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+      - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
+      - ME_CONFIG_MONGODB_AUTH_DATABASE=admin
+      - ME_CONFIG_BASICAUTH_USERNAME=airline
+      - ME_CONFIG_BASICAUTH_PASSWORD=airline
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=airline
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=airline
+    ports:
+      - "8084:8081"
+    restart: always
+    networks:
+      - app-network
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      - POSTGRES_DB=airline_project
+      - POSTGRES_USER=airline
+      - POSTGRES_PASSWORD=airline
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d
+    networks:
+      - app-network
+
+  adminer:
+    image: adminer:latest
+    container_name: adminer
+    restart: always
+    ports:
+      - "8886:8080"
+    networks:
+      - app-network
+
+  fastapi:
+    build: ../data/fast_apis/
+    container_name: fastapi
+    depends_on:
+      - postgres
+    ports:
+      - "8002:8000"
+    environment:
+      - DATABASE_URL=postgres://airline:airline@postgres:5432/airline_project
+    networks:
+      - app-network
+
+volumes:
+  mongo-data:
+  postgres-data:
+networks:
+  app-network:
