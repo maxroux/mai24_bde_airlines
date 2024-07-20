@@ -114,8 +114,8 @@ if __name__ == "__main__":
     offset = 0
     calls_per_hour = 0
 
-    json_filename = '../json/countries.json'
-    csv_filename = '../csv/countries.csv'
+    json_filename = '../data/json/countries.json'
+    csv_filename = '../data/csv/countries.csv'
 
     while calls_per_hour < 1000:
         try:

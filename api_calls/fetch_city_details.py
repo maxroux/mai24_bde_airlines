@@ -171,10 +171,10 @@ if __name__ == "__main__":
     offset = 0
     calls_per_hour = 0
 
-    json_filename = '../json/cities.json'
-    csv_filename = '../csv/cities.csv'
-    airport_json_filename = '../json/airport_codes.json'
-    airport_csv_filename = '../csv/airport_codes.csv'
+    json_filename = '../data/json/cities.json'
+    csv_filename = '../data/csv/cities.csv'
+    airport_json_filename = '../data/json/airport_codes.json'
+    airport_csv_filename = '../data/csv/airport_codes.csv'
 
     while calls_per_hour < 1000:
         try:

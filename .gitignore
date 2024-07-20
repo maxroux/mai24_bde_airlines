@@ -2,3 +2,4 @@
 .DS_Store
 ai24_bde_airlines.wiki
 airflow/logs
+airflow/plugins

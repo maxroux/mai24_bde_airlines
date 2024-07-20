@@ -144,8 +144,8 @@ if __name__ == "__main__":
 
     all_aircraft_data = list(aircraft_data_dict.values())
 
-    json_filename = '../json/aircrafts.json'
-    csv_filename = '../csv/aircrafts.csv'
+    json_filename = '../data/json/aircrafts.json'
+    csv_filename = '../data/csv/aircrafts.csv'
 
     export_to_json(all_aircraft_data, json_filename)
     export_to_csv_from_json(json_filename, csv_filename)
