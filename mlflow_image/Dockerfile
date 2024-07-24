@@ -1,0 +1,3 @@
+FROM ghcr.io/mlflow/mlflow:v2.0.1
+RUN apt-get update && apt-get install -y curl
+CMD ["mlflow", "server", "--host", "0.0.0.0", "--port", "5000"]
