@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+mlflow
+pandas
+scikit-learn
+joblib 
+ 
