@@ -16,7 +16,7 @@ x-airflow-common: &airflow-common
     AIRFLOW__SMTP__SMTP_USER: "de.airflow@gmail.com"
     AIRFLOW__SMTP__SMTP_PASSWORD: "cfsrvkongsobheta"
     AIRFLOW__SMTP__SMTP_MAIL_FROM: "de.airflow@gmail.com"
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pymongo scikit-learn lightgbm mlflow}
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pymongo scikit-learn lightgbm mlflow apache-airflow-providers-mongo}
   volumes:
     - ./dags:/opt/airflow/dags
     - ./models:/opt/airflow/models
@@ -127,19 +127,20 @@ services:
     restart: always
 
   mlflow:
-    image: ghcr.io/mlflow/mlflow:v2.14.3
+    build:
+      context: .
+      dockerfile: Dockerfile_mlflow
     container_name: mlflow
     environment:
       - MLFLOW_TRACKING_URI=http://mlflow:5000
     volumes:
       - mlflow_data:/mlflow
-      - ./mlruns:/mlruns
     ports:
-      - "5001:5000"  # Changer 5000:5000 en 5001:5000
-    command: mlflow server --backend-store-uri /mlflow --default-artifact-root /mlruns --host 0.0.0.0
+      - "5001:5000"
+    command: mlflow server --backend-store-uri postgresql://airline:airline@api_calls_postgres:5432/airline_project_airflow --host 0.0.0.0
     networks:
       - app-network
-      
+
 volumes:
   logs:
   plugins:
@@ -147,5 +148,5 @@ volumes:
   mlflow_data:
 networks:
   app-network:
-    external:
-      name: app-network
+    driver: bridge
+    name: app-network

@@ -22,6 +22,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG pour récupérer les départs des vols quotidiennement',
     schedule_interval=timedelta(days=1),
+    catchup=False
 )
 
 def fetch_departures():
@@ -137,7 +138,7 @@ def fetch_departures():
 
     def connect_to_mongodb():
         try:
-            client = MongoClient('mongodb://airline:airline@mongodb:27017/', serverSelectionTimeoutMS=5000)
+            client = MongoClient('mongodb://airline:airline@api_calls_mongodb:27017/', serverSelectionTimeoutMS=5000)
             db = client['airline_project']
             collection = db['departures']
             return collection

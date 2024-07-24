@@ -3,7 +3,7 @@ version: '3.8'
 services:
   mongodb:
     image: mongo:latest
-    container_name: mongodb
+    container_name: api_calls_mongodb
     ports:
       - "27017:27017"
     environment:
@@ -36,7 +36,7 @@ services:
 
   postgres:
     image: postgres:latest
-    container_name: postgres
+    container_name: api_calls_postgres
     hostname: api_calls_postgres
     environment:
       - POSTGRES_DB=airline_project

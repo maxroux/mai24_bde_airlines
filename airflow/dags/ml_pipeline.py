@@ -29,11 +29,12 @@ dag = DAG(
     default_args=default_args,
     description='Pipeline pour le traitement des données de départs de vols et le ML',
     schedule_interval=timedelta(days=1),
+    catchup=False
 )
 
 # Fonction pour charger les données depuis MongoDB et les enregistrer dans un CSV
 def load_data_from_mongodb():
-    client = MongoClient('mongodb://airline:airline@mongodb:27017/')
+    client = MongoClient('mongodb://airline:airline@api_calls_mongodb:27017/')
     db = client['airline_project']
     collection = db['departures']
     data = list(collection.find({}))
