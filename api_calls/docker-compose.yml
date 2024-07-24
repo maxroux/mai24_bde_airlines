@@ -37,6 +37,7 @@ services:
   postgres:
     image: postgres:latest
     container_name: postgres
+    hostname: api_calls_postgres
     environment:
       - POSTGRES_DB=airline_project
       - POSTGRES_USER=airline
@@ -75,3 +76,5 @@ volumes:
   postgres-data:
 networks:
   app-network:
+    name: app-network
+    driver: bridge

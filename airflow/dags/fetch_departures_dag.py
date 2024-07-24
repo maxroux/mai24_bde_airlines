@@ -1,153 +1,18 @@
-import os
-import sys
-import json
-import csv
-import requests
-from datetime import datetime, timedelta
-from pymongo import MongoClient, UpdateOne
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from airflow.operators.dummy_operator import DummyOperator
-
-# Ajouter le chemin pour l'importation de get_access_token
-sys.path.append('/opt/airflow/data/api_calls')
+from datetime import datetime, timedelta
+import os
+import requests
+import json
+import csv
+from pymongo import MongoClient, UpdateOne
+from pymongo.errors import ServerSelectionTimeoutError, BulkWriteError
 from api_payload import get_access_token
-
-# Paramètres de Telegram
-TELEGRAM_TOKEN = '6825963580:AAHjofVzBFtyZtqOVbd0Fk0zvG2EjgQFcyM'
-TELEGRAM_CHAT_ID = '327601094'
-
-def fetch_airport_codes(csv_filename):
-    print(f"Vérification de l'existence du fichier: {csv_filename}")
-    if not os.path.exists(csv_filename):
-        raise FileNotFoundError(f"Le fichier {csv_filename} n'existe pas.")
-    
-    with open(csv_filename, 'r') as csv_file:
-        reader = csv.reader(csv_file)
-        next(reader)  # Sauter l'en-tête si elle existe
-        airport_codes = [row[0] for row in reader if row]
-    return airport_codes
-
-def fetch_flight_status(airport_code, from_date_time, access_token):
-    url_template = "https://api.lufthansa.com/v1/operations/flightstatus/departures/{airportCode}/{fromDateTime}"
-    url = url_template.format(airportCode=airport_code, fromDateTime=from_date_time)
-    headers = {
-        'Authorization': f'Bearer {access_token}',
-        'Accept': 'application/json'
-    }
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
-    return response.json()
-
-def load_existing_data(json_filename):
-    print(f"Vérification de l'existence du fichier: {json_filename}")
-    if os.path.exists(json_filename):
-        with open(json_filename, 'r') as json_file:
-            return json.load(json_file)
-    return []
-
-def save_data_to_json(data, json_filename):
-    if os.path.dirname(json_filename):
-        os.makedirs(os.path.dirname(json_filename), exist_ok=True)
-    with open(json_filename, 'w') as json_file:
-        json.dump(data, json_file, indent=4)
-
-def save_data_to_csv(data, csv_filename):
-    if os.path.dirname(csv_filename):
-        os.makedirs(os.path.dirname(csv_filename), exist_ok=True)
-    with open(csv_filename, 'w', newline='') as csv_file:
-        fieldnames = ["airport_code", "ScheduledTimeUTC", "data"]
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        writer.writeheader()
-        for item in data:
-            writer.writerow({
-                "airport_code": item["airport_code"],
-                "ScheduledTimeUTC": item["ScheduledTimeUTC"],
-                "data": json.dumps(item["data"])  # Convertir les données en chaîne JSON pour le stockage CSV
-            })
-
-def fetch_departures():
-    csv_filename = '/opt/airflow/data/csv/airport_codes.csv'
-    json_filename = '/opt/airflow/data/json/departures.json'
-    error_json_filename = '/opt/airflow/data/json/api_errors.json'
-    departures_csv_filename = '/opt/airflow/data/csv/departures.csv'
-    from_date_time = "2024-07-20T00:00"
-
-    airport_codes = fetch_airport_codes(csv_filename)
-    results = load_existing_data(json_filename)
-    errors = load_existing_data(error_json_filename)
-
-    for record in results:
-        if 'ScheduledTimeUTC' not in record:
-            record['ScheduledTimeUTC'] = record['data']['FlightStatusResource']['Flights']['Flight'][0]['Departure']['ScheduledTimeUTC']['DateTime']
-
-    access_token = get_access_token()
-
-    client = MongoClient('mongodb://localhost:27017/')
-    db = client['airline_project']
-    collection = db['departures']
-
-    existing_records = {(record['airport_code'], record['ScheduledTimeUTC']) for record in results}
-
-    operations = []
-    for record in results:
-        record_copy = record.copy()
-        if '_id' in record_copy:
-            del record_copy['_id']
-        operations.append(
-            UpdateOne(
-                {'airport_code': record['airport_code'], 'ScheduledTimeUTC': record['ScheduledTimeUTC']},
-                {'$set': record_copy},
-                upsert=True
-            )
-        )
-    if operations:
-        collection.bulk_write(operations)
-
-    save_data_to_csv(results, departures_csv_filename)
-
-    for code in airport_codes:
-        try:
-            data = fetch_flight_status(code, from_date_time, access_token)
-            for flight in data['FlightStatusResource']['Flights']['Flight']:
-                scheduled_time_utc = flight['Departure']['ScheduledTimeUTC']['DateTime']
-                record = {
-                    "airport_code": code,
-                    "ScheduledTimeUTC": scheduled_time_utc,
-                    "data": flight
-                }
-                if not any(r['airport_code'] == code and r['ScheduledTimeUTC'] == scheduled_time_utc for r in results):
-                    results.append(record)
-                collection.update_one(
-                    {'airport_code': code, 'ScheduledTimeUTC': scheduled_time_utc},
-                    {'$set': record},
-                    upsert=True
-                )
-        except requests.exceptions.RequestException as e:
-            errors.append({
-                "airport_code": code,
-                "ScheduledTimeUTC": from_date_time,
-                "error": str(e)
-            })
-        except requests.exceptions.HTTPError as http_err:
-            errors.append({
-                "airport_code": code,
-                "ScheduledTimeUTC": from_date_time,
-                "status_code": http_err.response.status_code,
-                "reason": http_err.response.reason
-            })
-
-        save_data_to_json(results, json_filename)
-        save_data_to_json(errors, error_json_filename)
-        save_data_to_csv(results, departures_csv_filename)
-
-
 
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'email_on_failure': False,
-    'email_on_retry': False,
+    'start_date': datetime(2024, 7, 22),
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
 }
@@ -155,22 +20,204 @@ default_args = {
 dag = DAG(
     'fetch_departures_dag',
     default_args=default_args,
-    description='DAG pour récupérer et mettre à jour les données des départs chaque jour',
+    description='DAG pour récupérer les départs des vols quotidiennement',
     schedule_interval=timedelta(days=1),
-    start_date=datetime(2024, 1, 1),
-    catchup=False,
 )
 
-start = DummyOperator(task_id='start', dag=dag)
+def fetch_departures():
+    # Constants
+    csv_filename = '/opt/airflow/data/csv/airport_codes.csv'
+    json_filename = '/opt/airflow/data/json/departures.json'
+    error_json_filename = '/opt/airflow/data/json/api_errors.json'
+    departures_csv_filename = '/opt/airflow/data/csv/departures.csv'
+    from_date_time = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%dT00:00')
 
-fetch_task = PythonOperator(
-    task_id='fetch_departures',
+    def fetch_airport_codes(csv_filename):
+        with open(csv_filename, 'r') as csv_file:
+            reader = csv.reader(csv_file)
+            next(reader)
+            return [row[0] for row in reader if row]
+
+    def fetch_flight_status(airport_code, from_date_time, access_token, offset=0, limit=100):
+        url = f"https://api.lufthansa.com/v1/operations/flightstatus/departures/{airport_code}/{from_date_time}?offset={offset}&limit={limit}"
+        headers = {
+            'Authorization': f'Bearer {access_token}',
+            'Accept': 'application/json'
+        }
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        return response.json()
+
+    def load_existing_data(json_filename):
+        if os.path.exists(json_filename):
+            try:
+                with open(json_filename, 'r') as json_file:
+                    return json.load(json_file)
+            except json.JSONDecodeError as e:
+                print(f"Erreur de décodage JSON dans {json_filename}: {e}")
+                return []
+        return []
+
+    def save_data_to_json(data, json_filename):
+        try:
+            existing_data = load_existing_data(json_filename)
+            existing_data.extend(data)
+            os.makedirs(os.path.dirname(json_filename), exist_ok=True)
+            with open(json_filename, 'w') as json_file:
+                json.dump(existing_data, json_file, indent=4)
+        except json.JSONDecodeError as e:
+            print(f"Erreur de décodage JSON lors de la sauvegarde dans {json_filename}: {e}")
+
+
+    def save_data_to_csv(data, csv_filename):
+        file_exists = os.path.exists(csv_filename)
+        os.makedirs(os.path.dirname(csv_filename), exist_ok=True)
+        with open(csv_filename, 'a', newline='') as csv_file:  # Mode 'a' pour ajouter
+            fieldnames = ["airport_code", "ScheduledTimeUTC", "FlightNumber", "AirlineID", "DepartureTimeUTC", "ArrivalTimeUTC"]
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+            if not file_exists:
+                writer.writeheader()  # Écrire l'en-tête seulement si le fichier n'existe pas
+            for item in data:
+                if 'ScheduledTimeUTC' not in item:
+                    continue
+                flights = item['data']['FlightStatusResource']['Flights']['Flight']
+                if not isinstance(flights, list):
+                    flights = [flights]
+                for flight in flights:
+                    departure_scheduled_time_utc = flight.get('Departure', {}).get('ScheduledTimeUTC', {})
+                    arrival_scheduled_time_utc = flight.get('Arrival', {}).get('ScheduledTimeUTC', {})
+
+                    writer.writerow({
+                        "airport_code": item["airport_code"],
+                        "ScheduledTimeUTC": item.get("ScheduledTimeUTC", ""),
+                        "FlightNumber": flight['MarketingCarrier']['FlightNumber'],
+                        "AirlineID": flight['MarketingCarrier']['AirlineID'],
+                        "DepartureTimeUTC": departure_scheduled_time_utc.get('DateTime', "") if isinstance(departure_scheduled_time_utc, dict) else "",
+                        "ArrivalTimeUTC": arrival_scheduled_time_utc.get('DateTime', "") if isinstance(arrival_scheduled_time_utc, dict) else ""
+                    })
+
+
+
+    def insert_data_to_mongodb(collection, records):
+        operations = []
+        for record in records:
+            if 'FlightStatusResource' not in record['data'] or 'Flights' not in record['data']['FlightStatusResource'] or 'Flight' not in record['data']['FlightStatusResource']['Flights']:
+                continue
+
+            flights = record['data']['FlightStatusResource']['Flights']['Flight']
+            if not isinstance(flights, list):
+                flights = [flights]
+
+            for flight in flights:
+                flight_number = flight['MarketingCarrier']['FlightNumber']
+                airline_id = flight['MarketingCarrier']['AirlineID']
+                if 'ScheduledTimeUTC' not in record:
+                    print(f"Record without ScheduledTimeUTC: {record}")
+                    continue
+
+                operations.append(
+                    UpdateOne(
+                        {
+                            'airport_code': record['airport_code'],
+                            'ScheduledTimeUTC': record['ScheduledTimeUTC'],
+                            'data.FlightStatusResource.Flights.Flight.MarketingCarrier.FlightNumber': flight_number
+                        },
+                        {'$set': {k: v for k, v in record.items() if k != '_id'}},
+                        upsert=True
+                    )
+                )
+
+        if operations:
+            try:
+                print("Connexion à MongoDB réussie, insertion en cours...")
+                result = collection.bulk_write(operations)
+                print(f"Mis à jour : {result.upserted_count}, Modifié : {result.modified_count}")
+            except BulkWriteError as bwe:
+                print(f"Erreur d'écriture bulk : {bwe.details}")
+
+    def connect_to_mongodb():
+        try:
+            client = MongoClient('mongodb://airline:airline@mongodb:27017/', serverSelectionTimeoutMS=5000)
+            db = client['airline_project']
+            collection = db['departures']
+            return collection
+        except ServerSelectionTimeoutError as err:
+            print(f"Erreur de connexion à MongoDB : {err}")
+            return None
+
+    # Main logic
+    print("Démarrage de la fonction principale")
+    airport_codes = fetch_airport_codes(csv_filename)
+    results = load_existing_data(json_filename)
+    errors = load_existing_data(error_json_filename)
+    access_token = get_access_token()
+
+    collection = connect_to_mongodb()
+    if collection is None:
+        return
+
+    insert_data_to_mongodb(collection, results)
+    save_data_to_csv(results, departures_csv_filename)
+
+    for code in airport_codes:
+        offset = 0
+        while True:
+            try:
+                data = fetch_flight_status(code, from_date_time, access_token, offset=offset)
+                flights = data.get('FlightStatusResource', {}).get('Flights', {}).get('Flight', [])
+
+                if not flights:
+                    break
+
+                if not isinstance(flights, list):
+                    flights = [flights]
+
+                for flight in flights:
+                    record = {
+                        "airport_code": code,
+                        "ScheduledTimeUTC": flight['Departure']['ScheduledTimeUTC']['DateTime'],
+                        "data": data
+                    }
+                    results.append(record)
+                    collection.update_one(
+                        {
+                            'airport_code': code,
+                            'ScheduledTimeUTC': record['ScheduledTimeUTC'],
+                            'data.FlightStatusResource.Flights.Flight.MarketingCarrier.FlightNumber': flight['MarketingCarrier']['FlightNumber']
+                        },
+                        {'$set': record},
+                        upsert=True
+                    )
+
+                if len(flights) < 100:
+                    break
+
+                offset += 100
+
+            except requests.exceptions.RequestException as e:
+                errors.append({
+                    "airport_code": code,
+                    "ScheduledTimeUTC": from_date_time,
+                    "error": str(e)
+                })
+                break
+            except requests.exceptions.HTTPError as http_err:
+                errors.append({
+                    "airport_code": code,
+                    "ScheduledTimeUTC": from_date_time,
+                    "status_code": http_err.response.status_code,
+                    "reason": http_err.response.reason
+                })
+                break
+
+        save_data_to_json(results, json_filename)
+        save_data_to_json(errors, error_json_filename)
+        save_data_to_csv(results, departures_csv_filename)
+
+fetch_departures_task = PythonOperator(
+    task_id='fetch_departures_task',
     python_callable=fetch_departures,
     dag=dag,
 )
 
-
-end = DummyOperator(task_id='end', dag=dag)
-
-start >> fetch_task >> end
-#notify_task >> end
+fetch_departures_task

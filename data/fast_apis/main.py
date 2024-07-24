@@ -3,6 +3,10 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from bson import ObjectId
 import os
 import logging
+import pickle
+import pandas as pd
+from pydantic import BaseModel
+from typing import List, Dict
 
 # Environment variables setup
 MONGO_URI = os.getenv('MONGO_URI', 'mongodb://airline:airline@mongodb:27017/')
@@ -17,6 +21,16 @@ app = FastAPI()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
+
+# On charge le modèle picklé
+with open('best_model.pkl', 'rb') as model_file:
+    model = pickle.load(model_file)
+
+# Définir un modèle Pydantic pour la prédiction
+class PredictionRequest(BaseModel):
+    airport_code: str
+    DepartureScheduledTimeUTC: str
+    ArrivalAirportCode: str
 
 def convert_object_ids(records):
     """Convert ObjectId to string in multiple records."""
@@ -70,7 +84,13 @@ async def get_all_routes():
         {"method": "GET", "endpoint": "/flights/airport/{airport_code}/{limit}/{offset}"},
         {"method": "GET", "endpoint": "/flights/airport/{airport_code}/schedule/{scheduled_time_utc}/{limit}/{offset}"},
         {"method": "GET", "endpoint": "/flights/route/{departure_airport_code}/{arrival_airport_code}"},
-        {"method": "GET", "endpoint": "/flights/route/{departure_airport_code}/{arrival_airport_code}/{limit}/{offset}"}
+        {"method": "GET", "endpoint": "/flights/route/{departure_airport_code}/{arrival_airport_code}/{limit}/{offset}"},
+        {"method": "GET", "endpoint": "/schema/flights"},
+        {"method": "GET", "endpoint": "/schema/countries"},
+        {"method": "GET", "endpoint": "/schema/airports"},
+        {"method": "GET", "endpoint": "/schema/cities"},
+        {"method": "GET", "endpoint": "/schema/airlines"},
+        {"method": "GET", "endpoint": "/schema/aircrafts"}
     ]
     return {"available_routes": routes}
 
@@ -176,3 +196,90 @@ async def get_flights_by_route(departure_airport_code: str, arrival_airport_code
         "data.FlightStatusResource.Flights.Flight.Arrival.AirportCode": arrival_airport_code
     }
     return await fetch_records('departures', query, limit, offset)
+
+@app.get("/schema/flights")
+async def get_flights_schema():
+    schema = {
+        "departure_airport": "Code de l'aéroport de départ",
+        "scheduled_departure_local": "Heure de départ prévue (heure locale)",
+        "actual_departure_local": "Heure de départ réelle (heure locale)",
+        "departure_terminal": "Terminal de départ",
+        "flight_status_departure": "Statut du vol au départ",
+        "arrival_airport": "Code de l'aéroport d'arrivée",
+        "scheduled_arrival_local": "Heure d'arrivée prévue (heure locale)",
+        "actual_arrival_local": "Heure d'arrivée réelle (heure locale)",
+        "arrival_terminal": "Terminal d'arrivée",
+        "flight_status_arrival": "Statut du vol à l'arrivée",
+        "airline_id": "ID de la compagnie aérienne"
+    }
+    return schema
+
+@app.get("/schema/countries")
+async def get_countries_schema():
+    schema = {
+        "country_code": "Code du pays",
+        "country_name": "Nom du pays"
+    }
+    return schema
+
+@app.get("/schema/airports")
+async def get_airports_schema():
+    schema = {
+        "airport_code": "Code de l'aéroport",
+        "city_name": "Nom de la ville",
+        "country_name": "Nom du pays"
+    }
+    return schema
+
+@app.get("/schema/cities")
+async def get_cities_schema():
+    schema = {
+        "city_code": "Code de la ville",
+        "city_name": "Nom de la ville",
+        "country_name": "Nom du pays"
+    }
+    return schema
+
+@app.get("/schema/airlines")
+async def get_airlines_schema():
+    schema = {
+        "airline_id": "ID de la compagnie aérienne",
+        "airline_name": "Nom de la compagnie aérienne"
+    }
+    return schema
+
+@app.get("/schema/aircrafts")
+async def get_aircrafts_schema():
+    schema = {
+        "aircraft_code": "Code de l'aéronef",
+        "aircraft_name": "Nom de l'aéronef"
+    }
+    return schema
+
+@app.post("/predict")
+async def predict(request: PredictionRequest):
+    data = request.dict()
+
+    # On prépare les données pour la prédiction
+    df = pd.DataFrame([data])
+    df = pd.get_dummies(df, columns=['airport_code', 'ArrivalAirportCode'])
+
+    # On s'assure que toutes les colonnes nécessaires sont présentes
+    model_columns = set(model.feature_names_in_)
+    missing_cols = model_columns - set(df.columns)
+    
+    # Ajouter les colonnes manquantes en une seule opération
+    for col in missing_cols:
+        df[col] = 0
+
+    # Re-organiser les colonnes pour correspondre à l'entraînement du modèle
+    df = df[list(model_columns)]
+
+    # On convertit la colonne datetime en timestamp
+    df['DepartureScheduledTimeUTC'] = pd.to_datetime(df['DepartureScheduledTimeUTC']).astype(int) / 10**9
+
+    # On fait la prédiction
+    prediction = model.predict(df)
+
+    # On renvoie la réponse JSON
+    return {"departure_delay": prediction[0]}

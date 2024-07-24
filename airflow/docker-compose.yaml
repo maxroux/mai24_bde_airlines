@@ -1,10 +1,11 @@
 version: "3"
 x-airflow-common: &airflow-common
-  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.8.1}
+  # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.8.1}
+  build: .
   environment: &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
-    AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
-    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow_postgres/airflow
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@airflow_postgres/airflow
     AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
     AIRFLOW__CORE__FERNET_KEY: ""
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
@@ -15,22 +16,27 @@ x-airflow-common: &airflow-common
     AIRFLOW__SMTP__SMTP_USER: "de.airflow@gmail.com"
     AIRFLOW__SMTP__SMTP_PASSWORD: "cfsrvkongsobheta"
     AIRFLOW__SMTP__SMTP_MAIL_FROM: "de.airflow@gmail.com"
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pymongo}
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pymongo scikit-learn lightgbm}
   volumes:
     - ./dags:/opt/airflow/dags
+    - ./models:/opt/airflow/models
     - logs:/opt/airflow/logs
     - plugins:/opt/airflow/plugins
     - ../data:/opt/airflow/data
+    - ../api_calls:/opt/airflow/api_calls
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
   depends_on:
     redis:
       condition: service_healthy
     postgres:
       condition: service_healthy
+  networks:
+    - app-network
 
 services:
   postgres:
     image: postgres:13
+    container_name: airflow_postgres
     environment:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
@@ -42,9 +48,12 @@ services:
       interval: 5s
       retries: 5
     restart: always
+    networks:
+      - app-network
 
   redis:
     image: redis:latest
+    container_name: airflow_redis
     ports:
       - 6379:6379
     healthcheck:
@@ -53,6 +62,8 @@ services:
       timeout: 30s
       retries: 50
     restart: always
+    networks:
+      - app-network
 
   airflow-webserver:
     <<: *airflow-common
@@ -119,3 +130,7 @@ volumes:
   logs:
   plugins:
   postgres-db-volume:
+networks:
+  app-network:
+    external:
+      name: app-network
