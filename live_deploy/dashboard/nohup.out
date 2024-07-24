@@ -52,3 +52,11 @@ Dash is running on http://127.0.0.1:8050/
 
  * Serving Flask app 'app'
  * Debug mode: on
+Traceback (most recent call last):
+  File "/home/medo/1datascientest/mai24_bde_airlines/live_deploy/dashboard/app.py", line 1, in <module>
+    import dash
+ModuleNotFoundError: No module named 'dash'
+Dash is running on http://127.0.0.1:8050/
+
+ * Serving Flask app 'app'
+ * Debug mode: on

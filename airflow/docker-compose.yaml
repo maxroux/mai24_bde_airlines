@@ -16,7 +16,7 @@ x-airflow-common: &airflow-common
     AIRFLOW__SMTP__SMTP_USER: "de.airflow@gmail.com"
     AIRFLOW__SMTP__SMTP_PASSWORD: "cfsrvkongsobheta"
     AIRFLOW__SMTP__SMTP_MAIL_FROM: "de.airflow@gmail.com"
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pymongo scikit-learn lightgbm}
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pymongo scikit-learn lightgbm mlflow}
   volumes:
     - ./dags:/opt/airflow/dags
     - ./models:/opt/airflow/models
@@ -126,10 +126,25 @@ services:
       retries: 5
     restart: always
 
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.14.3
+    container_name: mlflow
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    volumes:
+      - mlflow_data:/mlflow
+      - ./mlruns:/mlruns
+    ports:
+      - "5001:5000"  # Changer 5000:5000 en 5001:5000
+    command: mlflow server --backend-store-uri /mlflow --default-artifact-root /mlruns --host 0.0.0.0
+    networks:
+      - app-network
+      
 volumes:
   logs:
   plugins:
   postgres-db-volume:
+  mlflow_data:
 networks:
   app-network:
     external:

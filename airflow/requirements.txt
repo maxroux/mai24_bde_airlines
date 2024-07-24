@@ -1,2 +1,4 @@
 pymongo
 scikit-learn
+json
+mlflow
