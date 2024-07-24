@@ -1,0 +1,81 @@
+version: '3'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    networks:
+      - default
+    volumes:
+      - mongodb_data:/data/db
+
+  postgres:
+    image: postgres:13
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: sirine
+      POSTGRES_PASSWORD: sirine
+      POSTGRES_DB: reference
+    networks:
+      - default
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  mlflow:
+    build:
+      context: ./mlflow_image
+      dockerfile: Dockerfile
+    container_name: mlflow
+    environment:
+      - MLFLOW_TRACKING_URI=http://0.0.0.0:5000
+    ports:
+      - "5000:5000"
+    networks:
+      - default
+    volumes:
+      - mlflow-artifacts:/mlflow/artifacts
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5000 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+  model:
+    build:
+      context: ./mlflow_part
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+      - mongodb
+      - mlflow
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    networks:
+      - default
+    volumes:
+      - ./mlflow_part:/app
+    command: ["python", "main.py"]
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prediction_api
+    ports:
+      - "8000:8000"
+    networks:
+      - default
+    depends_on:
+      - mlflow
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    volumes:
+      - ./mlflow_part:/app
+networks:
+  default:
+
+volumes:
+  mongodb_data:
+  postgres_data:
+  mlflow-artifacts:
