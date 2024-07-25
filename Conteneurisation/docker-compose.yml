@@ -1,0 +1,120 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgres-container
+    environment:
+      POSTGRES_DB: airport_management_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  data-loader:
+    build:
+      context: .
+      dockerfile: DockerFileReferenceData
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - DB_HOST=postgres
+      - DB_NAME=airport_management_db
+      - DB_USER=postgres
+      - DB_PASSWORD=mysecretpassword
+    volumes:
+      - .:/app
+      - shared:/shared
+    command: ["python", "reference_data.py"]
+    restart: on-failure
+
+  wait-for-data-loader:
+    image: busybox
+    depends_on:
+      data-loader:
+        condition: service_started
+    volumes:
+      - shared:/shared
+    command: ['sh', '-c', 'while [ ! -f /shared/data_loader_done ]; do sleep 1; done']
+
+  mlflow:
+    build:
+      context: .
+      dockerfile: DockerFileMlflow
+    container_name: mlflow
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    ports:
+      - "5000:5000"
+    volumes:
+      - mlflow-artifacts:/mlflow/artifacts
+      - shared:/shared
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5000 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+    depends_on:
+      wait-for-data-loader:
+        condition: service_started
+
+  wait-for-mlflow:
+    image: busybox
+    depends_on:
+      mlflow:
+        condition: service_healthy
+    volumes:
+      - shared:/shared
+    command: ['sh', '-c', 'while [ ! -f /shared/mlflow_ready ]; do sleep 1; done']
+
+  train-model:
+    build:
+      context: .
+      dockerfile: DockerFileTrainModel
+    depends_on:
+      wait-for-mlflow:
+        condition: service_started
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    volumes:
+      - .:/app
+      - shared:/shared
+    command: ["python", "train_model.py"]
+
+  wait-for-train-model:
+    image: busybox
+    depends_on:
+      train-model:
+        condition: service_started
+    volumes:
+      - shared:/shared
+    command: ['sh', '-c', 'while [ ! -f /shared/run_id.txt ] || [ ! -f /shared/feature_names.json ] || [ ! -f /shared/freq_encodings.json ]; do sleep 1; done']
+
+  api:
+    build:
+      context: .
+      dockerfile: DockerfileAPI
+    depends_on:
+      wait-for-train-model:
+        condition: service_started
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    ports:
+      - "8000:8000"
+    volumes:
+      - shared:/shared
+
+volumes:
+  postgres-data:
+  mlflow-artifacts:
+  shared:
+

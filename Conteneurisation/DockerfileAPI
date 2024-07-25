@@ -1,0 +1,13 @@
+FROM python:3.8-slim
+
+WORKDIR /app
+
+COPY main.py /app/main.py
+COPY requirements_api.txt /app/requirements_api.txt
+COPY wait-for-file.sh /app/wait-for-file.sh
+
+RUN pip install --no-cache-dir -r requirements_api.txt
+RUN chmod +x /app/wait-for-file.sh
+
+CMD ["/app/wait-for-file.sh", "/shared/feature_names.json /shared/freq_encodings.json", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+

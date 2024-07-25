@@ -1,0 +1,17 @@
+# Utiliser une image de base officielle Python
+FROM python:3.9-slim
+
+# Définir le répertoire de travail dans le conteneur
+WORKDIR /app
+RUN apt-get update && apt-get install python3-pip -y
+
+# Copier le fichier requirements_train_model.txt et installer les dépendances Python
+COPY requirements_train_model.txt .
+RUN pip install --no-cache-dir -r requirements_train_model.txt
+
+# Copier le script Python dans le conteneur
+COPY train_model.py .
+
+# Définir la commande par défaut pour exécuter le script
+CMD ["python", "train_model.py"]
+

@@ -1,0 +1,22 @@
+# Utiliser une image de base officielle Python
+FROM python:3.9-slim
+
+# Définir le répertoire de travail dans le conteneur
+WORKDIR /app
+RUN apt-get update && apt-get install python3-pip -y
+
+# Copier le fichier requirements_reference_data.txt et installer les dépendances Python
+COPY requirements_reference_data.txt .
+RUN pip install --no-cache-dir -r requirements_reference_data.txt
+
+# Copier le script Python et les fichiers CSV dans le conteneur
+COPY reference_data.py .
+COPY countries.csv .
+COPY cities.csv .
+COPY aircraft.csv .
+COPY airports.csv .
+COPY airlines.csv .
+
+# Définir la commande par défaut pour exécuter le script
+CMD ["python", "reference_data.py"]
+RUN echo "touch /shared/data_loader_done"
