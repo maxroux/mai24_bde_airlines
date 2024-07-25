@@ -14,6 +14,7 @@ services:
       - ./init-mongo/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js
     networks:
       - app-network
+    restart: always
 
   mongo-express:
     image: mongo-express:latest
@@ -49,15 +50,16 @@ services:
       - ./initdb:/docker-entrypoint-initdb.d
     networks:
       - app-network
+    restart: always
 
   adminer:
     image: adminer:latest
     container_name: adminer
-    restart: always
     ports:
       - "8886:8080"
     networks:
       - app-network
+    restart: always
 
   fastapi:
     build: ../data/fast_apis/
@@ -70,7 +72,21 @@ services:
       - DATABASE_URL=postgres://airline:airline@postgres:5432/airline_project
     networks:
       - app-network
-
+    restart: always
+  
+  # fastapi:
+  #   container_name: dashboard
+  #   depends_on:
+  #     - postgres
+  #     - api_calls_mongodb
+  #   ports:
+  #     - "8002:8000"
+  #   environment:
+  #     - DATABASE_URL=postgres://airline:airline@postgres:5432/airline_project
+  #   networks:
+  #     - app-network
+  #   restart: always
+    
 volumes:
   mongo-data:
   postgres-data:
