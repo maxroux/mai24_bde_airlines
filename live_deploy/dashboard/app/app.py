@@ -1,6 +1,6 @@
 import dash
 from dash.dependencies import Input, Output
-from layout import layout
+from live_deploy.dashboard.app.layout import layout
 from callbacks import register_callbacks
 
 # Initialize the Dash app

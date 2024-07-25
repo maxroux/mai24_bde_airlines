@@ -47,9 +47,9 @@ services:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       interval: 5s
       retries: 5
-    restart: always
     networks:
       - app-network
+    restart: always
 
   redis:
     image: redis:latest
@@ -140,6 +140,7 @@ services:
     command: mlflow server --backend-store-uri postgresql://airline:airline@api_calls_postgres:5432/airline_project_airflow --host 0.0.0.0
     networks:
       - app-network
+    restart: always
   prometheus:
     image: prom/prometheus:latest
     volumes:
@@ -148,6 +149,7 @@ services:
       - "9090:9090"
     networks:
       - app-network
+    restart: always
 
   grafana:
     image: grafana/grafana:latest
@@ -180,6 +182,7 @@ services:
       - /var/lib/docker/:/var/lib/docker:ro
     networks:
       - app-network
+    restart: always
 volumes:
   logs:
   plugins:
