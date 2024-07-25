@@ -1,4 +1,7 @@
 # API Routes
+API disponible à l'adresse : suivante : https://api.domainelibre.com/
+
+DASHBOARD disponible à l'adress suivant : https://airlines.domainelibre.com/
 
 Cette documentation décrit les différentes routes disponibles dans l'API. 
 
