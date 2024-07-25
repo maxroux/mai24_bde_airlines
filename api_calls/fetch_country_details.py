@@ -163,7 +163,7 @@ if __name__ == "__main__":
         calls_per_hour += 1
 
     if errors:
-        with open("api_errors.json", "w") as json_file:
+        with open("../data/json/api_errorsjson", "w") as json_file:
             json.dump(errors, json_file, indent=4)
 
     print("Process completed. Data exported to countries.json and countries.csv.")

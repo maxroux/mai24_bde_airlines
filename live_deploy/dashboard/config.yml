@@ -1,7 +1,0 @@
-tunnel: c04f981e-b3eb-4f28-ab7c-073ec4a8072a
-credentials-file: /home/medo/.cloudflared/c04f981e-b3eb-4f28-ab7c-073ec4a8072a.json
-
-ingress:
-  - hostname: airlines.domainelibre.com
-    service: http://localhost:8050
-  - service: http_status:404

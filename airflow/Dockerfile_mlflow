@@ -1,27 +1,7 @@
-# # Utilise l'image de base mlflow
-# FROM ghcr.io/mlflow/mlflow:v2.14.3
-
-# # Passe en mode root pour installer des packages supplémentaires
-# USER root
-
-# # Installation de psycopg2 pour la connexion à PostgreSQL
-# RUN pip install psycopg2
-
-# # Rétablit l'utilisateur par défaut pour des raisons de sécurité
-# USER mlflow
-
-
-
 FROM ghcr.io/mlflow/mlflow:v2.14.3
 
-# Install necessary dependencies
 RUN pip install mlflow psycopg2-binary
 
-# Create a directory for MLflow
 RUN mkdir /mlflow
 
-# Expose port 5000 for the MLflow server
 EXPOSE 5000
-
-# Command to run the MLflow server
-#CMD ["mlflow", "server", "--host", "0.0.0.0", "--backend-store-uri", "postgresql://airline:airline@api_calls_postgres:5432/airline_project_airflow", "--default-artifact-root", "/mlflow"]

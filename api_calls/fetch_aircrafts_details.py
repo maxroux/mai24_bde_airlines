@@ -151,7 +151,7 @@ if __name__ == "__main__":
     export_to_csv_from_json(json_filename, csv_filename)
 
     if errors:
-        with open("api_errors.json", "w") as json_file:
+        with open("../data/json/api_errors.json", "w") as json_file:
             json.dump(errors, json_file, indent=4)
 
     print("Process completed. Data exported to aircrafts.json and aircrafts.csv.")

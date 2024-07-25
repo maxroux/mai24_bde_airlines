@@ -105,7 +105,6 @@ def preprocess_data():
     print("Data preprocessed and saved.")
 
 # Fonction pour entraîner les modèles de machine learning
-# Fonction pour entraîner les modèles de machine learning
 def train_models():
     # Dossier pour stocker les modèles si nécessaire
     model_dir = '/opt/airflow/models/'

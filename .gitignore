@@ -3,3 +3,7 @@
 ai24_bde_airlines.wiki
 airflow/logs
 airflow/plugins
+env
+env/
+data/json/api_errors.json
+data/json/departures.json

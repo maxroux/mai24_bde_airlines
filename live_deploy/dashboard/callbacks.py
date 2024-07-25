@@ -92,7 +92,7 @@ def register_callbacks(app):
         map_fig = px.scatter_geo(filtered_data,
                                  lon='Longitude',
                                  lat='Latitude',
-                                 hover_name='Name',
+                                 #hover_name='Name',
                                  projection="natural earth")
         map_fig.update_geos(fitbounds="locations")
         return map_fig
@@ -106,7 +106,7 @@ def register_callbacks(app):
         full_map_fig = px.scatter_geo(filtered_airports_data.head(num_airports),
                                       lon='Longitude',
                                       lat='Latitude',
-                                      hover_name='Name',
+                                  #    hover_name='Name',
                                       projection="natural earth")
         return full_map_fig
 
