@@ -774,6 +774,10 @@
         "Names": {}
     },
     {
+        "AircraftCode": "748",
+        "Names": {}
+    },
+    {
         "AircraftCode": "74B",
         "Names": {
             "Name": {
@@ -972,6 +976,16 @@
             }
         },
         "AirlineEquipCode": "B752"
+    },
+    {
+        "AircraftCode": "762",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "EN",
+                "$": "Boeing 767-200 Passenger"
+            }
+        },
+        "AirlineEquipCode": "B762"
     },
     {
         "AircraftCode": "762",

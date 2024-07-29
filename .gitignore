@@ -12,3 +12,4 @@ airflow
 api_calls
 env
 live_deploy
+airflow/dags/variables.py
