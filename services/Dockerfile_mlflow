@@ -1,0 +1,26 @@
+# Utilisation de l'image de base Python
+FROM ghcr.io/mlflow/mlflow:v2.14.3
+
+# Définition du répertoire de travail
+WORKDIR /mlflow
+
+# Installation des dépendances système
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    default-libmysqlclient-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copie des fichiers requirements.txt dans le conteneur
+COPY requirements_mlflow.txt .
+
+# Installation des dépendances Python
+RUN pip install --no-cache-dir -r requirements_mlflow.txt
+
+# Copie des fichiers de l'application
+COPY . .
+
+# Exposition du port pour le serveur MLflow
+EXPOSE 5000
+
+# Commande pour démarrer le serveur MLflow
+CMD ["mlflow", "server", "--backend-store-uri", "postgresql://airline:airline@api_calls_postgres:5432/airline_project_airflow", "--host", "0.0.0.0", "--port", "5000"]

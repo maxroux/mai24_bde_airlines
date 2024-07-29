@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-psycopg2-binary
-pymongo
-motor
-pandas
-scikit-learn
