@@ -1,8 +1,8 @@
 # URL utiles
-- DASHBOARD disponible à l'adress suivant : http://airlineproject.duckdns.org:8050
-- API disponible à l'adresse : suivante : http://airlineproject.duckdns.org:8002/ 
-- AIRFLOW : http://airlineproject.duckdns.org:8085/ (user et mdp : airline)
-- GRAFANA : http://airlineproject.duckdns.org:3001/ (user: admin, mdp: airline) => aller dans la rubrique Dashboards, il y a en 5 pour l'instant.
+- DASHBOARD disponible à l'adress suivant : http://airlineproject.duckdns.org:8050 TODO implémenter la prédiction avec un formulaire 
+- API disponible à l'adresse : suivante : http://airlineproject.duckdns.org:8002/  TODO implémenter la prédiction dans la même api et non pas dans une API séparée comme actuellement
+- AIRFLOW : http://airlineproject.duckdns.org:8085/ (user et mdp : airline) 
+- GRAFANA : http://airlineproject.duckdns.org:3001/ (user: admin, mdp: airline) => aller dans la rubrique Dashboards, il y a en 5 pour l'instant. TODO métriques des api_calls et des erreurs 404.
 - PROMETHEUS: http://airlineproject.duckdns.org:9090/ 
 
 ## Routes Disponibles
