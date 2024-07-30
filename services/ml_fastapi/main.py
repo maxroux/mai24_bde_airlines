@@ -21,76 +21,72 @@ MLFLOW_ARTIFACT_URI = "../mlflow_data/mlartifacts/"
 # Définir le tracking URI de MLflow
 mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 
-# Connexion à MongoDB pour récupérer le model_uri
-client = MongoClient(MONGO_URI)
-db = client[DB_NAME]
-collection = db[COLLECTION_NAME]
+# Chemins des fichiers de modèle et des artefacts
+MODEL_PATH = "../mlflow_data/mlartifacts/2/f36215e46a344c2b9110e564dd450fdf/artifacts/models/model.pkl"
+FEATURE_NAMES_PATH = "../../data/ml/f36215e46a344c2b9110e564dd450fdf/feature_names.pkl"
+FREQ_ENCODINGS_PATH = "../../data/ml/f36215e46a344c2b9110e564dd450fdf/freq_encodings.pkl"
+PREPROCESSOR_PATH = "../../data/ml/f36215e46a344c2b9110e564dd450fdf/preprocessor.pkl"
 
 # Variables globales pour stocker le modèle et les préprocesseurs
 model = None
-preprocessor = None
 freq_encodings = {}
 feature_names = []
 
-def load_initial_data(run_id):
+def load_model():
+    global model
+    try:
+        logger.info(f"Chargement du modèle depuis : {MODEL_PATH}")
+        with open(MODEL_PATH, 'rb') as f:
+            model = pickle.load(f)
+        logger.info("Modèle chargé avec succès.")
+    except FileNotFoundError as e:
+        logger.error(f"Fichier non trouvé : {MODEL_PATH}")
+        raise HTTPException(status_code=500, detail=f"Échec du chargement du modèle : {str(e)}")
+    except Exception as e:
+        logger.error(f"Erreur lors du chargement du modèle : {e}")
+        raise HTTPException(status_code=500, detail=f"Échec du chargement du modèle : {str(e)}")
+
+def load_artifacts():
     global freq_encodings, feature_names
     try:
-        artifact_path = os.path.join(MLFLOW_ARTIFACT_URI, run_id, "artifacts")
-
-        freq_encodings_path = os.path.join(artifact_path, "freq_encodings.pkl")
-        with open(freq_encodings_path, 'rb') as f:
+        logger.info(f"Chargement des encodages de fréquence depuis : {FREQ_ENCODINGS_PATH}")
+        with open(FREQ_ENCODINGS_PATH, 'rb') as f:
             freq_encodings = pickle.load(f)
         
-        feature_names_path = os.path.join(artifact_path, "feature_names.pkl")
-        with open(feature_names_path, 'rb') as f:
+        logger.info(f"Chargement des noms des features depuis : {FEATURE_NAMES_PATH}")
+        with open(FEATURE_NAMES_PATH, 'rb') as f:
             feature_names = pickle.load(f)
-    except Exception as e:
-        logger.error(f"Error loading initial data: {e}")
-        raise HTTPException(status_code=500, detail=f"Failed to load initial data: {str(e)}")
-
-def find_latest_run_id(artifact_root):
-    """
-    Trouve le plus récent dossier de run_id dans le répertoire des artefacts.
-    """
-    try:
-        run_ids = [d for d in os.listdir(artifact_root) if os.path.isdir(os.path.join(artifact_root, d))]
-        run_ids = sorted(run_ids, key=int, reverse=True)  # Trier par ordre décroissant pour obtenir le plus récent
-        if not run_ids:
-            raise HTTPException(status_code=500, detail="No run IDs found in artifact directory")
-        return run_ids[0]
-    except Exception as e:
-        logger.error(f"Error finding latest run_id: {e}")
-        raise HTTPException(status_code=500, detail="Failed to find latest run ID")
-
-def load_latest_model():
-    global model, preprocessor
-    model_doc = collection.find_one({"model": "best_model"})
-    if not model_doc or "uri" not in model_doc:
-        raise HTTPException(status_code=500, detail="Model information not found in the database")
-    
-    try:
-        # Déterminer le sous-dossier le plus récent dans mlartifacts
-        run_id = find_latest_run_id(MLFLOW_ARTIFACT_URI)
-        logger.info(f"Using run ID: {run_id}")
-
-        # Construire le chemin local complet pour le modèle et le préprocesseur
-        local_model_path = os.path.join(MLFLOW_ARTIFACT_URI, run_id, "artifacts", "models")
-        local_preprocessor_path = os.path.join(MLFLOW_ARTIFACT_URI, run_id, "artifacts", "preprocessor")
-
-        # Charger le modèle et le préprocesseur depuis le système de fichiers local
-        model = mlflow.pyfunc.load_model(local_model_path)
-        preprocessor = mlflow.pyfunc.load_model(local_preprocessor_path)
         
-        load_initial_data(run_id)
-        logger.info(f"Loaded new model from {local_model_path}")
+        logger.info("Artefacts chargés avec succès.")
+    except FileNotFoundError as e:
+        logger.error(f"Fichier non trouvé : {e}")
+        raise HTTPException(status_code=500, detail=f"Échec du chargement des artefacts : {str(e)}")
     except Exception as e:
-        logger.error(f"Error loading model: {e}")
-        raise HTTPException(status_code=500, detail=f"Failed to load model: {str(e)}")
+        logger.error(f"Erreur lors du chargement des artefacts : {e}")
+        raise HTTPException(status_code=500, detail=f"Échec du chargement des artefacts : {str(e)}")
 
-# Charger le modèle au démarrage de l'application
+
+# Chargement des préprocesseurs et des artefacts nécessaires
+def load_preprocessor():
+    global preprocessor
+    try:
+        logger.info(f"Chargement du préprocesseur depuis : {PREPROCESSOR_PATH}")
+        with open(PREPROCESSOR_PATH, 'rb') as f:
+            preprocessor = pickle.load(f)
+        logger.info("Préprocesseur chargé avec succès.")
+    except FileNotFoundError as e:
+        logger.error(f"Fichier non trouvé : {PREPROCESSOR_PATH}")
+        raise HTTPException(status_code=500, detail=f"Échec du chargement du préprocesseur : {str(e)}")
+    except Exception as e:
+        logger.error(f"Erreur lors du chargement du préprocesseur : {e}")
+        raise HTTPException(status_code=500, detail=f"Échec du chargement du préprocesseur : {str(e)}")
+
+
 @app.on_event("startup")
 async def startup_event():
-    load_latest_model()
+    load_model()
+    load_artifacts()
+    load_preprocessor()  
     
 # Schéma de validation pour les données de vol
 class FlightData(BaseModel):
@@ -106,6 +102,9 @@ class FlightData(BaseModel):
 def prepare_input_data(flight_data: FlightData):
     df = pd.DataFrame([flight_data.dict()])
     
+    # Vérification des colonnes disponibles dans le DataFrame
+    logger.info(f"Colonnes du DataFrame : {df.columns.tolist()}")
+
     # Conversion des dates
     df['departure_scheduled_time_utc'] = pd.to_datetime(df['departure_scheduled_time_utc'])
     df['arrival_scheduled_time_utc'] = pd.to_datetime(df['arrival_scheduled_time_utc'])
@@ -133,12 +132,13 @@ def prepare_input_data(flight_data: FlightData):
 @app.post("/predict_delay")
 async def predict_delay(flight_data: FlightData):
     try:
+        # Préparation des données d'entrée
         input_data = prepare_input_data(flight_data)
         processed_data = preprocessor.transform(input_data)
         prediction = model.predict(processed_data)
         return {"predicted_delay": float(prediction[0])}
     except Exception as e:
-        logger.error(f"Error in prediction: {e}")
+        logger.error(f"Erreur lors de la prédiction : {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/redeploy")
@@ -151,5 +151,6 @@ async def redeploy_model():
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
+    # load_latest_model()
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=9544)
