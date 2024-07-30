@@ -31,7 +31,7 @@ data/ml
 data/processed_data
 services/alertmanager
 services/logs
-services/mlflow_data/mlartifacts
+services/mlflow_data
 services/mlruns
 services/plugins
 wrangling_functions
