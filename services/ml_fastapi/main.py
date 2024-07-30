@@ -81,7 +81,7 @@ def load_latest_model():
         model = mlflow.pyfunc.load_model(local_model_path)
         preprocessor = mlflow.pyfunc.load_model(local_preprocessor_path)
         
-        # load_initial_data(run_id)
+        load_initial_data(run_id)
         logger.info(f"Loaded new model from {local_model_path}")
     except Exception as e:
         logger.error(f"Error loading model: {e}")
