@@ -22,16 +22,6 @@ app = FastAPI()
 # Configuration des logs
 logging.basicConfig(level=logging.INFO)
 
-# Chargement du modèle picklé
-with open('best_model.pkl', 'rb') as model_file:
-    model = pickle.load(model_file)
-
-# Définition d'un modèle Pydantic pour la prédiction
-class DemandeDePrediction(BaseModel):
-    code_aeroport: str
-    heure_depart_programmee_utc: str
-    code_aeroport_arrivee: str
-
 def convertir_object_ids(records):
     """Convertir ObjectId en chaîne de caractères dans plusieurs enregistrements."""
     return [{**record, "_id": str(record["_id"])} if "_id" in record and isinstance(record["_id"], ObjectId) else record for record in records]
@@ -255,31 +245,3 @@ async def get_aircrafts_schema():
         "aircraft_name": "Nom de l'aéronef"
     }
     return schema
-
-@app.post("/predict")
-async def predict(request: DemandeDePrediction):
-    data = request.dict()
-
-    # Préparer les données pour la prédiction
-    df = pd.DataFrame([data])
-    df = pd.get_dummies(df, columns=['code_aeroport', 'code_aeroport_arrivee'])
-
-    # S'assurer que toutes les colonnes nécessaires sont présentes
-    model_columns = set(model.feature_names_in_)
-    missing_cols = model_columns - set(df.columns)
-    
-    # Ajouter les colonnes manquantes en une seule opération
-    for col in missing_cols:
-        df[col] = 0
-
-    # Re-organiser les colonnes pour correspondre à l'entraînement du modèle
-    df = df[list(model_columns)]
-
-    # Convertir la colonne datetime en timestamp
-    df['heure_depart_programmee_utc'] = pd.to_datetime(df['heure_depart_programmee_utc']).astype(int) / 10**9
-
-    # Faire la prédiction
-    prediction = model.predict(df)
-
-    # Renvoi de la réponse JSON
-    return {"retard_depart": prediction[0]}
