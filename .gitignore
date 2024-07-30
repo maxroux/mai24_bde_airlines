@@ -35,3 +35,4 @@ services/mlflow_data/mlartifacts
 services/mlruns
 services/plugins
 wrangling_functions
+services/models
