@@ -139,15 +139,43 @@ def insert_to_postgres(**context):
     conn.close()
     return len(data)
 
-# Fonction pour extraire le nom en anglais de la ville
+# Fonction pour mettre à jour les champs vides dans "cities" avec les données de "airports"
+def update_city_data_with_airport_data(city, airport):
+    fields_to_update = ['Name', 'UtcOffset', 'TimeZoneId', 'Airports']
+    for field in fields_to_update:
+        if not city.get(field) and airport.get(field):
+            city[field] = airport[field]
+    return city
+
+# Fonction mise à jour pour extraire le nom en anglais, ou n'importe quel nom disponible
 def extract_english_name(city):
     if 'Names' in city and 'Name' in city['Names']:
         names = city['Names']['Name']
         if isinstance(names, list):
-            return next((name['$'] for name in names if name['@LanguageCode'] == 'EN'), '')
-        elif isinstance(names, dict) and names.get('@LanguageCode') == 'EN':
-            return names['$']
+            return next((name['$'] for name in names if name.get('@LanguageCode') == 'EN'), names[0]['$'] if names else '')
+        elif isinstance(names, dict):
+            return names.get('$', '')
     return ''
+
+# Fonction pour synchroniser les données des villes avec celles des aéroports
+def synchronize_city_with_airport_data(city_data, airport_data):
+    airport_lookup = {airport['AirportCode']: airport for airport in airport_data['AirportResource']['Airports']['Airport']}
+    for city in city_data['CityResource']['Cities']['City']:
+        if 'Airports' in city and 'AirportCode' in city['Airports']:
+            airport_code = city['Airports']['AirportCode']
+            if isinstance(airport_code, list):
+                airport_code = airport_code[0]
+            airport = airport_lookup.get(airport_code)
+            if airport:
+                city = update_city_data_with_airport_data(city, airport)
+    return city_data
+
+# Mise à jour des tâches existantes pour inclure la synchronisation des données
+def fetch_and_update_city_data(**kwargs):
+    city_data = fetch_city_details(**kwargs)
+    airport_data = fetch_all_airport_details(**kwargs)
+    updated_city_data = synchronize_city_with_airport_data(city_data, airport_data)
+    return updated_city_data
 
 # Fonction pour formater les aéroports en une chaîne
 def format_airports(city):
@@ -174,10 +202,18 @@ def extract_airport_codes(data):
 # Fonction pour exporter les données en JSON
 def export_to_json(**context):
     data = context['ti'].xcom_pull(task_ids='fetch_city_data')
+    unique_cities = []
+    seen = set()
+    for city in data['CityResource']['Cities']['City']:
+        if city['CityCode'] not in seen:
+            seen.add(city['CityCode'])
+            unique_cities.append(city)
+    
     json_filename = '/opt/airflow/data/json/cities.json'
     os.makedirs(os.path.dirname(json_filename), exist_ok=True)
     with open(json_filename, 'w') as json_file:
-        json.dump(data, json_file, indent=4)
+        json.dump({"CityResource": {"Cities": {"City": unique_cities}}}, json_file, indent=4)
+
 
 # Fonction pour exporter les données de JSON vers CSV
 def export_to_csv(**context):
@@ -187,11 +223,18 @@ def export_to_csv(**context):
     with open(json_filename, 'r') as json_file:
         data = json.load(json_file)
     
+    unique_cities = []
+    seen = set()
+    for item in data['CityResource']['Cities']['City']:
+        if item['CityCode'] not in seen:
+            seen.add(item['CityCode'])
+            unique_cities.append(item)
+
     with open(csv_filename, 'w', newline='') as csv_file:
         fieldnames = ["CityCode", "CountryCode", "Name", "UtcOffset", "TimeZoneId", "Airports"]
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
-        for item in data['CityResource']['Cities']['City']:
+        for item in unique_cities:
             writer.writerow({
                 "CityCode": item['CityCode'],
                 "CountryCode": item.get('CountryCode', ''),
@@ -216,7 +259,7 @@ def export_airport_codes_to_csv(**context):
 # Définition des tâches Airflow
 fetch_city_data_task = PythonOperator(
     task_id='fetch_city_data',
-    python_callable=fetch_city_details,
+    python_callable=fetch_and_update_city_data,
     op_kwargs={'limit': 100, 'offset': 0},
     provide_context=True,
     dag=dag,

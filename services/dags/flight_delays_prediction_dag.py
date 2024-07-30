@@ -19,9 +19,27 @@ import mlflow
 import mlflow.sklearn
 import json
 import logging
+import requests
 from prometheus_client import CollectorRegistry, Gauge, push_to_gateway
+import os
+import pickle
 
+# Définir l'URI de tracking de MLflow
 MLFLOW_TRACKING_URI = "http://mlflow:5000"
+mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+
+# Définir ou créer l'expérience
+experiment_name = "experimentation_ml_basique"
+mlflow.set_experiment(experiment_name)
+
+# Vérifier l'expérience et son ID
+experiment = mlflow.get_experiment_by_name(experiment_name)
+if experiment:
+    print(f"L'expérience '{experiment_name}' existe avec ID : {experiment.experiment_id}")
+else:
+    print(f"L'expérience '{experiment_name}' n'existe pas et sera créée.")
+
+API_REDEPLOY_URL = "http://your-fastapi-server/redeploy"
 
 # Déclaration du DAG avec des paramètres de base
 default_args = {
@@ -36,7 +54,6 @@ dag = DAG(
     'flight_delays_prediction',
     default_args=default_args,
     description='Machine Learning',
-    # schedule_interval=timedelta(days=1),
     schedule_interval=timedelta(days=1),
     catchup=False,
     tags=['machine_learning']
@@ -170,9 +187,10 @@ def train_and_evaluate_model(**kwargs):
     mlflow.set_experiment("experimentation_ml_basique")
 
     df = extract_and_preprocess_data()
-    X, y, preprocessor, freq_encodings = prepare_features(df)
+    X_preprocessed, y, preprocessor, freq_encodings = prepare_features(df)
+    feature_names = X_preprocessed.columns.tolist()
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X_preprocessed, y, test_size=0.2, random_state=42)
 
     models = [
         {
@@ -243,7 +261,7 @@ def train_and_evaluate_model(**kwargs):
 
         logger.info(f"Training model: {model.__class__.__name__}")
         logger.info(f"Params: {params}")
-        try: 
+        try:
             if params:
                 search = RandomizedSearchCV(model, params, n_iter=10, cv=3, scoring='neg_mean_absolute_error', random_state=42)
                 search.fit(X_train, y_train)
@@ -262,31 +280,63 @@ def train_and_evaluate_model(**kwargs):
                 best_mae = mae
                 best_model = best_estimator
                 best_result = {'mae': mae, 'mse': mse, 'rmse': rmse}
-    
+
             if best_result:
                 update_metrics(model.__class__.__name__, best_mae, rmse)
 
-            with mlflow.start_run(run_name=f"Best_Model_{best_model.__class__.__name__}") as run:
+            with mlflow.start_run(run_name=f"{best_model.__class__.__name__}") as run:
                 mlflow.log_params(best_model.get_params())
                 mlflow.log_metrics(best_result)
-                mlflow.sklearn.log_model(best_model, artifact_path="models")
-                mlflow.sklearn.log_model(preprocessor, artifact_path="preprocessor")
+
+                # Enregistrer le modèle avec la saveur python_function
+                mlflow.sklearn.log_model(
+                    sk_model=best_model,
+                    artifact_path="models",
+                    registered_model_name=f"{best_model.__class__.__name__}_model",
+                    signature=None,
+                    input_example=None,
+                    serialization_format=mlflow.sklearn.SERIALIZATION_FORMAT_PICKLE,
+                    conda_env=None
+                )
+
+                run_id = run.info.run_id
+                model_dir = f"/opt/airflow/data/ml/{run_id}"
+                os.makedirs(model_dir, exist_ok=True)
+                with open(os.path.join(model_dir, "freq_encodings.pkl"), "wb") as f:
+                    pickle.dump(freq_encodings, f)
+
+                with open(os.path.join(model_dir, "feature_names.pkl"), "wb") as f:
+                    pickle.dump(feature_names, f)
 
                 model_uri = f"runs:/{run.info.run_id}/models"
                 logger.info(f"Model URI: {model_uri}")
 
                 save_model_uri_to_db(model_uri)
+
+                # Déclencher le redéploiement de l'API si un nouveau meilleur modèle est trouvé
+                trigger_api_redeploy()
         
         except Exception as e:
             logger.error(f"Error training model {model.__class__.__name__}: {str(e)}")
-            
+
     # Enregistrement des features et freq
     if best_result:
         s3_hook = S3Hook(aws_conn_id='aws_conn_id')
         s3_client = s3_hook.get_conn()
-        s3_client.put_object(Bucket='datascientest-airline-project-bucket', Key='feature_names.json', Body=json.dumps(list(X.columns)))
+        s3_client.put_object(Bucket='datascientest-airline-project-bucket', Key='feature_names.json', Body=json.dumps(list(X_preprocessed.columns)))
         s3_client.put_object(Bucket='datascientest-airline-project-bucket', Key='freq_encodings.json', Body=json.dumps(freq_encodings))
     return model_uri
+
+# Fonction pour déclencher le redéploiement de l'API
+def trigger_api_redeploy():
+    try:
+        response = requests.post(API_REDEPLOY_URL)
+        if response.status_code == 200:
+            logger.info("API successfully notified for redeployment")
+        else:
+            logger.error(f"Failed to notify API for redeployment: {response.status_code}")
+    except Exception as e:
+        logger.error(f"Error in notifying API for redeployment: {str(e)}")
 
 # Fonction pour mettre à jour les métriques avec le nom du modèle
 def update_metrics(model_name, mae_value, rmse_value):
@@ -299,7 +349,6 @@ def save_model_uri_to_db(model_uri):
     mongo_conn_id = 'api_calls_mongodb'
     mongo_hook = MongoHook(conn_id=mongo_conn_id)
     collection = mongo_hook.get_collection('model_registry', 'airline_project')
-    # Sauvegarder ou mettre à jour le document avec l'URI du modèle
     collection.update_one(
         {"model": "best_model"},
         {"$set": {"uri": model_uri}},
@@ -317,31 +366,28 @@ def extract_and_preprocess_data():
 def push_metrics_to_gateway():
     registry = CollectorRegistry()
     g = Gauge('example_metric', 'Description of metric', registry=registry)
-    g.set(42)  # Remplacez cette valeur par votre métrique réelle
+    g.set(42)
 
-    # Poussez les métriques vers Pushgateway
     push_to_gateway('pushgateway:9091', job='airflow_dag', registry=registry)
 
 # Définition des tâches Airflow
 extract_and_preprocess_data_task = PythonOperator(
     task_id='extract_and_preprocess_data',
     python_callable=extract_and_preprocess_data,
-    provide_context=True,
     dag=dag,
 )
 
 train_and_evaluate_model_task = PythonOperator(
     task_id='train_and_evaluate_model',
     python_callable=train_and_evaluate_model,
-    provide_context=True,
     dag=dag,
 )
 
 push_metrics_to_gateway_task = PythonOperator(
     task_id='push_metrics_to_gateway',
     python_callable=push_metrics_to_gateway,
-    provide_context=True,
     dag=dag,
 )
+
 # Définition de la dépendance entre les tâches
 extract_and_preprocess_data_task >> train_and_evaluate_model_task >> push_metrics_to_gateway_task

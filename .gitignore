@@ -21,3 +21,17 @@ services/local-mongo-data
 services/local-postgres-data
 services/local-postgres-db
 services/local-grafana-conf
+services/dags/declaration_variables.py
+services/dags/__pycache__
+services/fastapi/__pycache__
+CHOIX DE LA METRIQUE.md
+STRATEGY.MD
+data/dumps
+data/ml
+data/processed_data
+services/alertmanager
+services/logs
+services/mlflow_data/mlartifacts
+services/mlruns
+services/plugins
+wrangling_functions

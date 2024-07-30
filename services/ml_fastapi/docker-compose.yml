@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  fastapi:
+    build: .
+    environment:
+      MONGO_URI: "mongodb://airline:airline@api_calls_mongodb:27017/"
+      MLFLOW_TRACKING_URI: "postgresql://airline:airline@localhost:5432/airline_project_airflow"
+    ports:
+      - "9544:9544"
+    networks:
+      - app-network
+    volumes:
+      - ../../data/ml:/app/data/ml
+networks:
+  app-network:
+    driver: bridge
+    name: app-network

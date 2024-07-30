@@ -85,6 +85,7 @@ def insert_to_postgres(**context):
         AirlineEquipCode = EXCLUDED.AirlineEquipCode,
         Names = EXCLUDED.Names;
     """
+
     data_to_insert = [
         (
             aircraft['AircraftCode'],
@@ -102,19 +103,39 @@ def insert_to_postgres(**context):
 def export_to_json(**context):
     data = context['ti'].xcom_pull(task_ids='fetch_aircraft_data')
     os.makedirs('/opt/airflow/data/json', exist_ok=True)
+
+    # Déduplication des données
+    seen = set()
+    unique_aircrafts = []
+    for aircraft in data:
+        aircraft_code = aircraft['AircraftCode']
+        if aircraft_code not in seen:
+            seen.add(aircraft_code)
+            unique_aircrafts.append(aircraft)
+    
+    # Sauvegarde des données uniques
     with open('/opt/airflow/data/json/aircrafts.json', 'w') as json_file:
-        json.dump(data, json_file, indent=4)
+        json.dump(unique_aircrafts, json_file, indent=4)
+
 
 def export_to_csv_from_json(**context):
     os.makedirs('/opt/airflow/data/csv', exist_ok=True)
     with open('/opt/airflow/data/json/aircrafts.json', 'r') as json_file:
         data = json.load(json_file)
     
+    seen = set()
+    unique_aircrafts = []
+    for item in data:
+        aircraft_code = item['AircraftCode']
+        if aircraft_code not in seen:
+            seen.add(aircraft_code)
+            unique_aircrafts.append(item)
+
     with open('/opt/airflow/data/csv/aircrafts.csv', 'w', newline='') as csv_file:
         fieldnames = ["AircraftCode", "AirlineEquipCode", "Names"]
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
-        for item in data:
+        for item in unique_aircrafts:
             writer.writerow({
                 "AircraftCode": item['AircraftCode'],
                 "AirlineEquipCode": item.get('AirlineEquipCode', ''),

@@ -77,7 +77,6 @@ AircraftCode,AirlineEquipCode,Names
 743,B743,Boeing 747-300 / 747-100/200 SUD Passenger
 744,B744,Boeing 747-400 Passenger
 748,,
-748,,
 74B,B744,Boeing 747-400 Swingtail Freighter
 74C,B742,Boeing 747-200 Mixed Configuration
 74D,B743,Boeing 747-300 / 747-200 SUD Mixed Configuration
@@ -98,7 +97,6 @@ AircraftCode,AirlineEquipCode,Names
 75M,B752,Boeing 757-200 Mixed Configuration
 75T,B753,Boeing 757-300 (winglets) Passenger
 75W,B752,Boeing 757-200 (winglets) Passenger
-762,B762,Boeing 767-200 Passenger
 762,B762,Boeing 767-200 Passenger
 763,B763,Boeing 767-300 Passenger
 764,B764,Boeing 767-400 Passenger

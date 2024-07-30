@@ -135,11 +135,17 @@ def insert_to_postgres(**context):
 # Fonction pour exporter les données en JSON
 def export_to_json(**context):
     data = context['ti'].xcom_pull(task_ids='fetch_country_data')
+    unique_countries = []
+    seen = set()
+    for country in data['CountryResource']['Countries']['Country']:
+        if country['CountryCode'] not in seen:
+            seen.add(country['CountryCode'])
+            unique_countries.append(country)
+    
     json_filename = '/opt/airflow/data/json/countries.json'
     os.makedirs(os.path.dirname(json_filename), exist_ok=True)
     with open(json_filename, 'w') as json_file:
-        json.dump(data, json_file, indent=4)
-
+        json.dump({"CountryResource": {"Countries": {"Country": unique_countries}}}, json_file, indent=4)
 # Fonction pour exporter les données de JSON vers CSV
 def export_to_csv(**context):
     json_filename = '/opt/airflow/data/json/countries.json'
@@ -148,11 +154,18 @@ def export_to_csv(**context):
     with open(json_filename, 'r') as json_file:
         data = json.load(json_file)
     
+    unique_countries = []
+    seen = set()
+    for item in data['CountryResource']['Countries']['Country']:
+        if item['CountryCode'] not in seen:
+            seen.add(item['CountryCode'])
+            unique_countries.append(item)
+
     with open(csv_filename, 'w', newline='') as csv_file:
         fieldnames = ["CountryCode", "Names"]
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
-        for item in data['CountryResource']['Countries']['Country']:
+        for item in unique_countries:
             writer.writerow({
                 "CountryCode": item['CountryCode'],
                 "Names": ', '.join([name['$'] for name in item['Names']['Name']]) if isinstance(item['Names']['Name'], list) else item['Names']['Name']['$']

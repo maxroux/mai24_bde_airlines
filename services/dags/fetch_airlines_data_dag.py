@@ -104,9 +104,11 @@ def insert_to_postgres(**context):
     create_table_query = """
     CREATE TABLE IF NOT EXISTS airlines (
         AirlineID VARCHAR(10) PRIMARY KEY,
-        Name TEXT
+        Name TEXT,
+        UNIQUE(AirlineID)
     );
     """
+
     insert_query = """
     INSERT INTO airlines (AirlineID, Name)
     VALUES (%s, %s)
@@ -131,8 +133,19 @@ def export_to_json(**context):
     data = context['ti'].xcom_pull(task_ids='fetch_airline_data')
     json_filename = '/opt/airflow/data/json/airlines.json'
     os.makedirs(os.path.dirname(json_filename), exist_ok=True)
+
+    # Déduplication des données
+    seen = set()
+    unique_airlines = []
+    for airline in data['AirlineResource']['Airlines']['Airline']:
+        airline_id = airline['AirlineID']
+        if airline_id not in seen:
+            seen.add(airline_id)
+            unique_airlines.append(airline)
+    
+    # Sauvegarde des données uniques
     with open(json_filename, 'w') as json_file:
-        json.dump(data, json_file, indent=4)
+        json.dump({"AirlineResource": {"Airlines": {"Airline": unique_airlines}}}, json_file, indent=4)
 
 def export_to_csv(**context):
     json_filename = '/opt/airflow/data/json/airlines.json'

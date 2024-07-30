@@ -24,7 +24,7 @@ api_connections = [
     }
 ]
 
-# URL de l'API (sans https://)
+# URL de l'API 
 api_host = "api.lufthansa.com/v1/oauth/token"
 
 # Script pour ajouter les connexions via le CLI Airflow

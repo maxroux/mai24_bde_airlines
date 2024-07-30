@@ -1,7 +1,7 @@
+scikit-learn==1.3.2
 mlflow 
 psycopg2-binary
 prometheus_client
 pandas
-scikit-learn
 xgboost
 lightgbm

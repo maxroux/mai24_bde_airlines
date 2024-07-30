@@ -1,5 +1,5 @@
 # Utilisation de l'image de base Python
-FROM ghcr.io/mlflow/mlflow:v2.14.3
+FROM ghcr.io/mlflow/mlflow:latest
 
 # Définition du répertoire de travail
 WORKDIR /mlflow
@@ -9,6 +9,8 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     default-libmysqlclient-dev \
     && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --upgrade pip
 
 # Copie des fichiers requirements.txt dans le conteneur
 COPY requirements_mlflow.txt .

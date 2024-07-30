@@ -147,10 +147,18 @@ def insert_to_postgres(**context):
 # Fonction pour exporter les données en JSON
 def export_to_json(**context):
     data = context['ti'].xcom_pull(task_ids='fetch_all_airport_data')
+    unique_airports = []
+    seen = set()
+    for airport in data['AirportResource']['Airports']['Airport']:
+        if airport['AirportCode'] not in seen:
+            seen.add(airport['AirportCode'])
+            unique_airports.append(airport)
+    
     json_filename = '/opt/airflow/data/json/airports.json'
     os.makedirs(os.path.dirname(json_filename), exist_ok=True)
     with open(json_filename, 'w') as json_file:
-        json.dump(data, json_file, indent=4)
+        json.dump({"AirportResource": {"Airports": {"Airport": unique_airports}}}, json_file, indent=4)
+
 
 # Fonction pour exporter les données de JSON vers CSV
 def export_to_csv(**context):
@@ -160,11 +168,18 @@ def export_to_csv(**context):
     with open(json_filename, 'r') as json_file:
         data = json.load(json_file)
     
+    unique_airports = []
+    seen = set()
+    for item in data['AirportResource']['Airports']['Airport']:
+        if item['AirportCode'] not in seen:
+            seen.add(item['AirportCode'])
+            unique_airports.append(item)
+
     with open(csv_filename, 'w', newline='') as csv_file:
         fieldnames = ["AirportCode", "CityCode", "CountryCode", "LocationType", "Latitude", "Longitude", "TimeZoneId", "UtcOffset", "Names"]
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
-        for item in data['AirportResource']['Airports']['Airport']:
+        for item in unique_airports:
             writer.writerow({
                 "AirportCode": item['AirportCode'],
                 "CityCode": item.get('CityCode', ''),

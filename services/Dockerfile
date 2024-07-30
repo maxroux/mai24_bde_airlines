@@ -1,5 +1,7 @@
 FROM apache/airflow:2.8.1
 
+RUN pip install --upgrade pip
+
 # On passe à l'utilisateur airflow pour installer les dépendances
 USER airflow
 COPY requirements.txt /requirements.txt
@@ -16,12 +18,7 @@ RUN mkdir -p /mlflow \
     && chmod -R 777 /mlflow
 
 # On expose les ports
-EXPOSE 5000 9112
-
-# airflow exporter
-CMD ["airflow-exporter", "--port", "9112"]
+EXPOSE 5000
 
 # On repasse à l'utilisateur airflow pour des raisons de sécurité
 USER airflow
-
-
