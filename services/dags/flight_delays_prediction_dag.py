@@ -24,15 +24,15 @@ from prometheus_client import CollectorRegistry, Gauge, push_to_gateway
 import os
 import pickle
 
-# Définir l'URI de tracking de MLflow
+# on définit l'URI de tracking de MLflow
 MLFLOW_TRACKING_URI = "http://mlflow:5000"
 mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 
-# Définir ou créer l'expérience
+# on définit ou créer l'expérience
 experiment_name = "experimentation_ml_basique"
 mlflow.set_experiment(experiment_name)
 
-# Vérifier l'expérience et son ID
+# On vérifie l'expérience et son ID
 experiment = mlflow.get_experiment_by_name(experiment_name)
 if experiment:
     print(f"L'expérience '{experiment_name}' existe avec ID : {experiment.experiment_id}")
@@ -103,7 +103,7 @@ def preprocess_data(df):
     for col in time_columns:
         df[col] = pd.to_datetime(df[col], errors='coerce')
 
-    # Remplir les valeurs manquantes pour les vols "On Time"
+    # On remplit les valeurs manquantes pour les vols "On Time"
     df.loc[(df['departure_time_status_code'] == 'OT') & df['departure_actual_time_utc'].isna(), 'departure_actual_time_utc'] = df['departure_scheduled_time_utc']
     df.loc[(df['arrival_time_status_code'] == 'OT') & df['arrival_actual_time_utc'].isna(), 'arrival_actual_time_utc'] = df['arrival_scheduled_time_utc']
 
@@ -111,16 +111,16 @@ def preprocess_data(df):
     df['departure_delay'] = (df['departure_actual_time_utc'] - df['departure_scheduled_time_utc']).dt.total_seconds() / 60
     df['arrival_delay'] = (df['arrival_actual_time_utc'] - df['arrival_scheduled_time_utc']).dt.total_seconds() / 60
 
-    # Extraction des heures et des jours de la semaine
+    # On extrait des heures et des jours de la semaine
     df['departure_hour'] = df['departure_scheduled_time_utc'].dt.hour
     df['arrival_hour'] = df['arrival_scheduled_time_utc'].dt.hour
     df['departure_day_of_week'] = df['departure_scheduled_time_utc'].dt.dayofweek
     df['arrival_day_of_week'] = df['arrival_scheduled_time_utc'].dt.dayofweek
 
-    # Création d'une feature route
+    # on crée d'une feature route
     df['route'] = df['departure_airport_code'] + '-' + df['arrival_airport_code']
 
-    # Sélectionner les colonnes pertinentes
+    # On selectionne les colonnes pertinentes
     columns_to_keep = ['departure_airport_code', 'departure_time_status_code', 
                        'arrival_airport_code', 'arrival_time_status_code',
                        'departure_hour', 'arrival_hour', 'departure_day_of_week', 
@@ -129,7 +129,7 @@ def preprocess_data(df):
 
     df = df[columns_to_keep]
 
-    # Supprimer les lignes avec des valeurs NaN dans les retards
+    # On supprime les lignes avec des valeurs NaN dans les retards
     df = df.dropna(subset=['departure_delay', 'arrival_delay'])
 
     return df
@@ -178,8 +178,8 @@ logger = logging.getLogger(__name__)
 
 # Configuration de la registry de Prometheus
 registry = CollectorRegistry()
-mae_gauge = Gauge('model_mae', 'Mean Absolute Error of the model', ['model_name'], registry=registry)
-rmse_gauge = Gauge('model_rmse', 'Root Mean Square Error of the model', ['model_name'], registry=registry)
+mae_gauge = Gauge('model_mae', 'MAE du modèle', ['model_name'], registry=registry)
+rmse_gauge = Gauge('model_rmse', 'RMSE du modèle', ['model_name'], registry=registry)
 
 # Fonction d'entraînement et d'évaluation du modèle
 def train_and_evaluate_model(**kwargs):
@@ -288,7 +288,7 @@ def train_and_evaluate_model(**kwargs):
                 mlflow.log_params(best_model.get_params())
                 mlflow.log_metrics(best_result)
 
-                # Enregistrer le modèle avec la saveur python_function
+                # On enregistre le modèle
                 mlflow.sklearn.log_model(
                     sk_model=best_model,
                     artifact_path="models",

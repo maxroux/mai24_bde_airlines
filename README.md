@@ -1,9 +1,9 @@
 # URL utiles
 - DASHBOARD disponible à l'adress suivant : http://airlineproject.duckdns.org:8050
-- API disponible à l'adresse : suivante : http://airlineproject.duckdns.org:8002/
-- AIRFLOW : http://airlineproject.duckdns.org:8085/
-- GRAFANA : http://airlineproject.duckdns.org:3001/
-- PROMETHEUS: http://airlineproject.duckdns.org:9090/
+- API disponible à l'adresse : suivante : http://airlineproject.duckdns.org:8002/ 
+- AIRFLOW : http://airlineproject.duckdns.org:8085/ (user et mdp : airline)
+- GRAFANA : http://airlineproject.duckdns.org:3001/ (user: admin, mdp: airline)
+- PROMETHEUS: http://airlineproject.duckdns.org:9090/ 
 
 ## Routes Disponibles
 
