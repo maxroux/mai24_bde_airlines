@@ -1,4 +1,5 @@
 version: "3"
+# stack de base du déploiement officiel d'airflow
 x-airflow-common:
   &airflow-common # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.8.1}
   build: .
@@ -38,6 +39,7 @@ x-airflow-common:
     - app-network
 
 services:
+# services nécéssaires au bon fonctionnement d'airflow
   postgres:
     image: postgres:13
     container_name: airflow_postgres
@@ -119,16 +121,6 @@ services:
       _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
 
-  statsd-exporter:
-    container_name: statsd-exporter
-    image: prom/statsd-exporter
-    command: "--statsd.listen-udp=:8126 --web.listen-address=:9102"
-    ports:
-        - 9102:9102
-        - 8126:8126/udp
-    networks:
-      - app-network
-
   flower:
     <<: *airflow-common
     command: celery flower
@@ -143,26 +135,20 @@ services:
     networks:
       - app-network
   
+# services liés aux métriques
+  statsd-exporter:
+    container_name: statsd-exporter
+    image: prom/statsd-exporter
+    command: "--statsd.listen-udp=:8126 --web.listen-address=:9102"
+    ports:
+        - 9102:9102
+        - 8126:8126/udp
+    networks:
+      - app-network
   pushgateway:
     image: prom/pushgateway:latest
     ports:
       - "9091:9091"
-    networks:
-      - app-network
-    restart: always
-
-  mlflow:
-    build:
-      context: .
-      dockerfile: Dockerfile_mlflow
-    container_name: mlflow
-    environment:
-      - MLFLOW_TRACKING_URI=http://mlflow:5000
-    volumes:
-      - ./mlflow_data:/mlflow:rw
-    ports:
-      - "5001:5000"
-    command: mlflow server --backend-store-uri postgresql://airline:airline@api_calls_postgres:5432/airline_project_airflow --host 0.0.0.0
     networks:
       - app-network
     restart: always
@@ -200,6 +186,24 @@ services:
       - /dev/kmsg
     restart: always
 
+# monitoring ML
+  mlflow:
+    build:
+      context: .
+      dockerfile: Dockerfile_mlflow
+    container_name: mlflow
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    volumes:
+      - ./mlflow_data:/mlflow:rw
+    ports:
+      - "5001:5000"
+    command: mlflow server --backend-store-uri postgresql://airline:airline@api_calls_postgres:5432/airline_project_airflow --host 0.0.0.0
+    networks:
+      - app-network
+    restart: always
+
+# stack de monitoring généraliste
   alertmanager:
     image: prom/alertmanager
     ports:
@@ -239,7 +243,7 @@ services:
       - app-network
     restart: always
 
-# api_calls
+# ETL
   mongodb:
     image: mongo:latest
     container_name: api_calls_mongodb
