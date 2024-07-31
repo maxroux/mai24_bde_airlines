@@ -1,9 +1,9 @@
 # URL utiles
 - DASHBOARD disponible à l'adress suivant : http://airlineproject.duckdns.org:8050 TODO implémenter la prédiction avec un formulaire 
-- API disponible à l'adresse : suivante : http://airlineproject.duckdns.org:8002/  TODO implémenter la prédiction dans la même api et non pas dans une API séparée comme actuellement
+- API disponible à l'adresse : suivante : http://airlineproject.duckdns.org:8002/  DONE implémenter la prédiction dans la même api et non pas dans une API séparée comme actuellement
 - MLFLOW: http://airlineproject.duckdns.org:5001/
 - AIRFLOW : http://airlineproject.duckdns.org:8085/ (user et mdp : airline) 
-- GRAFANA : http://airlineproject.duckdns.org:3001/ (user: admin, mdp: airline) => aller dans la rubrique Dashboards, il y a en 5 pour l'instant. TODO métriques des api_calls et des erreurs 404.
+- GRAFANA : http://airlineproject.duckdns.org:3001/ (user: admin, mdp: airline) => aller dans la rubrique Dashboards
 - PROMETHEUS: http://airlineproject.duckdns.org:9090/ 
 
 ## Routes Disponibles
@@ -129,6 +129,18 @@
   - `arrival_airport_code` : Le code de l'aéroport d'arrivée.
   - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
   - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
+
+### POST `/predict_delay`
+
+- **Description**: Prédit le retard de vol entre deux aéroports spécifiques.
+- **Paramètres**:
+  - `departure_airport_code`: Code de l'aéroport de départ (ex: "JFK").
+  - `arrival_airport_code`: Code de l'aéroport d'arrivée (ex: "LAX").
+  - `departure_scheduled_time_utc`: Heure de départ prévue en UTC (ex: "2023-07-30T14:00:00Z").
+  - `arrival_scheduled_time_utc`: Heure d'arrivée prévue en UTC (ex: "2023-07-30T17:00:00Z").
+  - `marketing_airline_id`: ID de la compagnie aérienne commerciale (ex: "AA").
+  - `operating_airline_id`: ID de la compagnie aérienne opérant le vol (ex: "AA").
+  - `aircraft_code`: Code de l'aéronef (ex: "32B").
 
 ## Routes de Schéma
 
