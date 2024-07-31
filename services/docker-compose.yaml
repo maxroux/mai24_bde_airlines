@@ -318,6 +318,17 @@ services:
       - app-network
     restart: always
 
+  dashboard:
+    build: dashboard/
+    container_name: dashboard
+    ports:
+      - "8050:8050"
+    networks:
+      - app-network
+    volumes:
+       - ../data/csv:/app/data
+    restart: always
+    
 volumes:
   logs:
   plugins:

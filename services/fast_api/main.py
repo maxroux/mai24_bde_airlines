@@ -349,6 +349,20 @@ async def get_aircrafts_schema():
     }
     return schema
 
+@app.get("/schema/predict_delay")
+async def get_predict_delay_schema():
+    schema = {
+        "departure_airport_code": "Code de l'aéroport de départ",
+        "arrival_airport_code": "Code de l'aéroport d'arrivée",
+        "departure_scheduled_time_utc": "Heure de départ prévue en UTC",
+        "arrival_scheduled_time_utc": "Heure d'arrivée prévue en UTC",
+        "marketing_airline_id": "ID de la compagnie aérienne commerciale",
+        "operating_airline_id": "ID de la compagnie aérienne opérant le vol",
+        "aircraft_code": "Code de l'aéronef"
+    }
+    return schema
+
+
 @app.post("/predict_delay")
 async def predict_delay(flight_data: FlightData):
     try:
