@@ -263,6 +263,72 @@ def register_callbacks(app):
             showlegend=False
         )
         return fig
+    
+    flights_data = load_flight_data()
+
+    @app.callback(
+    [Output('flight-status-pie-chart', 'figure'),
+     Output('top-flights-on-time', 'figure'),
+     Output('top-flights-delayed', 'figure'),
+     Output('top-airports', 'figure')],
+    [Input('tabs', 'value')]
+    )
+    def update_statistics_visualizations(tab):
+        if tab == 'tab-4':
+            # Exemple de traitement des données et création des graphiques
+            if flights_data.empty:
+                return {}, {}, {}, {}
+
+            # Graphique en camembert pour les statuts des vols
+            status_counts = flights_data['DepartureTimeStatus'].value_counts()
+            pie_chart = px.pie(
+                values=status_counts.values,
+                names=status_counts.index,
+                title='Part des vols par statut'
+            )
+
+            # Top 10 des vols à l'heure
+            
+            on_time_flights = flights_data[flights_data['DepartureTimeStatus'] == 'Flight On Time']
+            top_on_time_routes = on_time_flights.groupby(['DepartureAirportCode', 'ArrivalAirportCode']).size().reset_index(name='count').sort_values(by='count', ascending=False).head(10)
+            top_on_time_routes['route'] = top_on_time_routes.apply(lambda row: f"{row['DepartureAirportCode']} -> {row['ArrivalAirportCode']}", axis=1)
+            top_on_time_chart = px.bar(
+                top_on_time_routes,
+                x='count',
+                y='route',
+                orientation='h',
+                title='Top 10 vols à l\'heure'
+            )
+
+            # Top 10 des vols en retard
+            delayed_flights = flights_data[flights_data['DepartureTimeStatus'] == 'Flight Delayed']
+            top_delayed_routes = delayed_flights.groupby(['DepartureAirportCode', 'ArrivalAirportCode']).size().reset_index(name='count').sort_values(by='count', ascending=False).head(10)
+            top_delayed_routes['route'] = top_delayed_routes.apply(lambda row: f"{row['DepartureAirportCode']} -> {row['ArrivalAirportCode']}", axis=1)
+            top_delayed_chart = px.bar(
+                top_delayed_routes,
+                x='count',
+                y='route',
+                orientation='h',
+                title='Top 10 vols en retard'
+            )
+
+            # Top 10 des aéroports
+            top_airports_series = pd.concat([flights_data['DepartureAirportCode'], flights_data['ArrivalAirportCode']])
+            top_airports = top_airports_series.value_counts().reset_index(name='count').head(10)
+            top_airports.columns = ['AirportCode', 'count']
+            top_airports_chart = px.bar(
+                top_airports,
+                x='count',
+                y='AirportCode',
+                orientation='h',
+                title='Top 10 aéroports'
+            )
+
+            return pie_chart, top_on_time_chart, top_delayed_chart, top_airports_chart
+
+        return {}, {}, {}, {}
+
+
     @app.callback(
     [Output('delay-output', 'children'),
      Output('delay-output', 'style')],

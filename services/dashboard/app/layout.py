@@ -9,12 +9,12 @@ departure_city_options = load_departure_city_options(real_flights_data)
 
 layout = html.Div([
     html.H1("Projet Airline", style={'text-align':'center'}),
-    dcc.Tabs(id='tabs', value='tab-1', children=[
-        dcc.Tab(label='Aéroports par pays', value='tab-1'),
+    dcc.Tabs(id='tabs', value='tab-5', children=[
+        dcc.Tab(label='Estimateur de retard des vols', value='tab-5'),
+        dcc.Tab(label='Statistiques', value='tab-4'),
         dcc.Tab(label='Aéroports du monde', value='tab-2'),
         dcc.Tab(label='Vols terminés', value='tab-3'),
-        dcc.Tab(label='Statistiques', value='tab-4'),
-        dcc.Tab(label='Estimateur de retard des vols', value='tab-5')
+        dcc.Tab(label='Aéroports par pays', value='tab-1'),
     ]),
     html.Div(id='tabs-content')
 ], style={
