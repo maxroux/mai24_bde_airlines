@@ -1,3 +1,4 @@
+import mlflow
 from fastapi import FastAPI, HTTPException
 from motor.motor_asyncio import AsyncIOMotorClient
 from bson import ObjectId
@@ -7,10 +8,22 @@ import pickle
 import pandas as pd
 from pydantic import BaseModel
 from typing import List, Dict
+from pymongo import MongoClient
+from starlette.middleware import Middleware
+from starlette_exporter import PrometheusMiddleware, handle_metrics
 
 # Configuration des variables d'environnement
 MONGO_URI = os.getenv('MONGO_URI', 'mongodb://airline:airline@mongodb:27017/')
 DATABASE_NAME = os.getenv('DATABASE_NAME', 'airline_project')
+COLLECTION_NAME_ML = "model_registry"
+
+# Configuration de MLflow
+MLFLOW_TRACKING_URI = "http://mlflow:5000"
+mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+
+# Configuration du logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Configuration de la connexion MongoDB
 client = AsyncIOMotorClient(MONGO_URI)
@@ -19,8 +32,97 @@ db = client[DATABASE_NAME]
 # Initialisation de l'application FastAPI
 app = FastAPI()
 
-# Configuration des logs
-logging.basicConfig(level=logging.INFO)
+# Définir l'application FastAPI
+app = FastAPI(
+    middleware=[
+        Middleware(PrometheusMiddleware, app_name="my_fastapi_app"),
+    ]
+)
+
+class FlightData(BaseModel):
+    departure_airport_code: str
+    arrival_airport_code: str
+    departure_scheduled_time_utc: str
+    arrival_scheduled_time_utc: str
+    marketing_airline_id: str
+    operating_airline_id: str
+    aircraft_code: str
+
+# Fonction pour obtenir les informations sur le dernier modèle
+def get_latest_model_info():
+    try:
+        client = MongoClient(MONGO_URI)
+        db = client[DATABASE_NAME]
+        collection = db[COLLECTION_NAME_ML]
+        model_info = collection.find_one({"identifier": "best_model_overall"})
+        if not model_info:
+            raise ValueError("Aucune information sur le modèle n'a été trouvée dans la base de données.")
+        return model_info
+    except Exception as e:
+        logger.error(f"Erreur lors de la récupération des informations du modèle : {str(e)}")
+        raise
+    finally:
+        client.close()
+
+# Fonction pour charger le modèle et les artefacts
+def load_model_and_artifacts(run_id):
+    try:
+        model_uri = f"runs:/{run_id}/models"
+        model = mlflow.pyfunc.load_model(model_uri)
+        
+        local_path = "./temp_artifacts"
+        mlflow_client = mlflow.tracking.MlflowClient()  # Renommé pour éviter la confusion
+        mlflow_client.download_artifacts(run_id, "artifacts", local_path)
+        
+        with open(os.path.join(local_path, "artifacts", "preprocessor.pkl"), "rb") as f:
+            preprocessor = pickle.load(f)
+        with open(os.path.join(local_path, "artifacts", "freq_encodings.pkl"), "rb") as f:
+            freq_encodings = pickle.load(f)
+        with open(os.path.join(local_path, "artifacts", "feature_names.pkl"), "rb") as f:
+            feature_names = pickle.load(f)
+        
+        return model, preprocessor, freq_encodings, feature_names
+    except Exception as e:
+        logger.error(f"Erreur lors du chargement du modèle et des artefacts : {str(e)}")
+        raise
+
+def preprocess_input(input_data, preprocessor, freq_encodings, feature_names):
+    try:
+        # Si les colonnes ne sont pas présentes, les ajouter avec des valeurs par défaut
+        if 'departure_time_status_code' not in input_data.columns:
+            input_data['departure_time_status_code'] = 'NO'
+        if 'arrival_time_status_code' not in input_data.columns:
+            input_data['arrival_time_status_code'] = 'NO'
+        if 'departure_delay' not in input_data.columns:
+            input_data['departure_delay'] = 0
+        if 'marketing_airline_id' not in input_data.columns:
+            input_data['marketing_airline_id'] = "4Y"
+        if 'operating_airline_id' not in input_data.columns:
+            input_data['operating_airline_id'] = "4Y"
+        if 'aircraft_code' not in input_data.columns:
+            input_data['aircraft_code'] = "333"
+            
+        # Gestion des dates et heures
+        input_data['departure_scheduled_time_utc'] = pd.to_datetime(input_data['departure_scheduled_time_utc'])
+        input_data['arrival_scheduled_time_utc'] = pd.to_datetime(input_data['arrival_scheduled_time_utc'])
+        input_data['departure_hour'] = input_data['departure_scheduled_time_utc'].dt.hour
+        input_data['arrival_hour'] = input_data['arrival_scheduled_time_utc'].dt.hour
+        input_data['departure_day_of_week'] = input_data['departure_scheduled_time_utc'].dt.dayofweek
+
+        # Création de la route
+        input_data['route'] = input_data['departure_airport_code'] + '-' + input_data['arrival_airport_code']
+
+        # Appliquer les encodages de fréquence
+        for col, encoding in freq_encodings.items():
+            if col in input_data.columns:
+                input_data[col] = input_data[col].map(encoding).fillna(0)
+
+        processed_data = preprocessor.transform(input_data)
+        return pd.DataFrame(processed_data, columns=feature_names)
+    except Exception as e:
+        logger.error(f"Erreur lors du prétraitement des données : {str(e)}")
+        raise
+
 
 def convertir_object_ids(records):
     """Convertir ObjectId en chaîne de caractères dans plusieurs enregistrements."""
@@ -80,7 +182,8 @@ async def get_all_routes():
         {"method": "GET", "endpoint": "/schema/airports"},
         {"method": "GET", "endpoint": "/schema/cities"},
         {"method": "GET", "endpoint": "/schema/airlines"},
-        {"method": "GET", "endpoint": "/schema/aircrafts"}
+        {"method": "GET", "endpoint": "/schema/aircrafts"},
+        {"method": "POST", "endpoint": "/predict_delay"}
     ]
     return {"available_routes": routes}
 
@@ -245,3 +348,35 @@ async def get_aircrafts_schema():
         "aircraft_name": "Nom de l'aéronef"
     }
     return schema
+
+@app.post("/predict_delay")
+async def predict_delay(flight_data: FlightData):
+    try:
+        # Conversion des données de l'entrée en DataFrame
+        input_data = pd.DataFrame([flight_data.dict()])
+        
+        # Récupération des informations du modèle
+        model_info = get_latest_model_info()
+        run_id = model_info['run_id']
+        model, preprocessor, freq_encodings, feature_names = load_model_and_artifacts(run_id)
+        
+        # Prétraitement des données d'entrée
+        processed_input = preprocess_input(input_data, preprocessor, freq_encodings, feature_names)
+        
+        # Faire la prédiction
+        predictions = model.predict(processed_input)
+        
+        return {"predicted_delay": predictions.tolist()}
+    
+    except Exception as e:
+        logger.error(f"Erreur lors de la prédiction : {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Erreur lors de la prédiction : {str(e)}")
+
+
+# Point de terminaison pour les métriques Prometheus
+app.add_route("/metrics", handle_metrics)
+
+# Point de départ de l'application
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=9544)

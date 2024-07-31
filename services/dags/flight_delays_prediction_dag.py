@@ -96,6 +96,11 @@ def extract_flights_data(data):
                 flights_data.append(flight_info)
     return pd.DataFrame(flights_data)
 
+def frequency_encoding(df, column):
+    freq_encoding = df[column].value_counts() / len(df)
+    df[column] = df[column].map(freq_encoding)
+    return df, freq_encoding.to_dict()
+
 def preprocess_data(df):
     # Conversion des dates en datetime
     time_columns = ['departure_scheduled_time_utc', 'departure_actual_time_utc',
@@ -120,8 +125,10 @@ def preprocess_data(df):
     df['route'] = df['departure_airport_code'] + '-' + df['arrival_airport_code']
 
     # Sélection des colonnes pertinentes
-    columns_to_keep = ['departure_airport_code', 'departure_time_status_code', 
-                       'arrival_airport_code', 'arrival_time_status_code',
+    columns_to_keep = ['departure_airport_code',
+                       'departure_time_status_code', 
+                       'arrival_airport_code', 
+                       'arrival_time_status_code',
                        'departure_hour', 'arrival_hour', 'departure_day_of_week', 
                        'arrival_day_of_week', 'departure_delay', 'arrival_delay', 
                        'route', 'marketing_airline_id', 'operating_airline_id', 'aircraft_code']
@@ -130,28 +137,19 @@ def preprocess_data(df):
 
     return df
 
-def frequency_encoding(df, column):
-    freq_encoding = df[column].value_counts() / len(df)
-    df[column] = df[column].map(freq_encoding)
-    return df, freq_encoding.to_dict()
-
 def prepare_features(df):
-    # Colonnes à encoder par fréquence
     freq_cols = ['departure_airport_code', 'arrival_airport_code', 'route', 'marketing_airline_id', 'operating_airline_id', 'aircraft_code']
     freq_encodings = {}
     for col in freq_cols:
         df, encoding = frequency_encoding(df, col)
         freq_encodings[col] = encoding
 
-    # Séparation des features et de la cible
     X = df.drop(columns=['arrival_delay'])
     y = df['arrival_delay']
 
-    # Colonnes à encoder en one-hot
     one_hot_cols = ['departure_time_status_code', 'arrival_time_status_code']
     numeric_cols = ['departure_hour', 'arrival_hour', 'departure_day_of_week', 'departure_delay']
 
-    # Préprocesseur pour les transformations
     preprocessor = ColumnTransformer(
         transformers=[
             ('cat', OneHotEncoder(drop='first', sparse_output=False), one_hot_cols),
@@ -165,11 +163,6 @@ def prepare_features(df):
     X_preprocessed = pd.DataFrame(X_preprocessed, columns=all_feature_names)
 
     return X_preprocessed, y, preprocessor, freq_encodings
-
-# Configuration de la registry de Prometheus
-registry = CollectorRegistry()
-mae_gauge = Gauge('model_mae', 'MAE du modèle', ['model_name'], registry=registry)
-rmse_gauge = Gauge('model_rmse', 'RMSE du modèle', ['model_name'], registry=registry)
 
 def train_and_evaluate_model():
     mlflow.set_experiment("experimentation_ml_basique")
@@ -191,6 +184,8 @@ def train_and_evaluate_model():
 
     best_model = None
     best_mae = float('inf')
+    best_run_id = None
+    best_model_class_name = None
     best_result = None
 
     for model_dict in models:
@@ -207,59 +202,77 @@ def train_and_evaluate_model():
                 best_estimator = model.fit(X_train, y_train)
 
             y_pred = best_estimator.predict(X_test)
+            
             mae = mean_absolute_error(y_test, y_pred)
             mse = mean_squared_error(y_test, y_pred)
             rmse = np.sqrt(mse)
             
             logger.info(f"Modèle: {model.__class__.__name__}, MAE: {mae}, RMSE: {rmse}")
 
-            if mae < best_mae:
-                best_mae = mae
-                best_model = best_estimator
-                best_result = {'mae': mae, 'mse': mse, 'rmse': rmse}
-
-            update_metrics(model.__class__.__name__, mae, rmse)
-
-            with mlflow.start_run(run_name=f"{best_model.__class__.__name__}") as run:
-                mlflow.log_params(best_model.get_params())
-                mlflow.log_metrics(best_result)
+            with mlflow.start_run(run_name=f"{model.__class__.__name__}") as run:
+                mlflow.log_params(best_estimator.get_params())
+                mlflow.log_metrics({'mae': mae, 'mse': mse, 'rmse': rmse})
 
                 # Enregistrement du modèle
-                mlflow.sklearn.log_model(best_model, artifact_path="models", registered_model_name=f"{best_model.__class__.__name__}_model")
+                mlflow.sklearn.log_model(best_estimator, artifact_path="models", registered_model_name=f"{model.__class__.__name__}_model")
 
-                run_id = run.info.run_id
-                model_dir = f"/opt/airflow/data/ml/{run_id}"
+                model_dir = f"/opt/airflow/data/ml/{run.info.run_id}"
                 os.makedirs(model_dir, exist_ok=True)
-                # Sauvegarder le préprocesseur
-                preprocessor_path = os.path.join(model_dir, "preprocessor.pkl")
-                with open(preprocessor_path, "wb") as f:
-                    pickle.dump(preprocessor, f)
-                
-                # Sauvegarder les encodages de fréquence
-                freq_encodings_path = os.path.join(model_dir, "freq_encodings.pkl")
-                with open(freq_encodings_path, "wb") as f:
-                    pickle.dump(freq_encodings, f)
 
-                # Sauvegarder les noms de features
-                feature_names_path = os.path.join(model_dir, "feature_names.pkl")
-                with open(feature_names_path, "wb") as f:
+                # Sauvegarde des artefacts localement
+                with open(os.path.join(model_dir, "preprocessor.pkl"), "wb") as f:
+                    pickle.dump(preprocessor, f)
+                with open(os.path.join(model_dir, "freq_encodings.pkl"), "wb") as f:
+                    pickle.dump(freq_encodings, f)
+                with open(os.path.join(model_dir, "feature_names.pkl"), "wb") as f:
                     pickle.dump(X_preprocessed.columns.tolist(), f)
 
-                model_uri = f"runs:/{run_id}/models"
-                logger.info(f"Model URI: {model_uri}")
+                # Enregistrement des artefacts dans MLflow
+                mlflow.log_artifacts(model_dir, artifact_path="artifacts")
 
-                save_model_uri_to_db(model_uri)
-                # trigger_api_redeploy()
-                
+                # Vérifier si ce modèle est le meilleur
+                if mae < best_mae:
+                    best_mae = mae
+                    best_model = best_estimator
+                    best_run_id = run.info.run_id
+                    best_model_class_name = model.__class__.__name__
+                    best_result = {'mae': mae, 'mse': mse, 'rmse': rmse}
+
         except Exception as e:
             logger.error(f"Erreur lors de l'entraînement du modèle {model.__class__.__name__}: {str(e)}")
 
-    # Enregistrement des features et encodages de fréquence
-    if best_result:
-        s3_hook = S3Hook(aws_conn_id='aws_conn_id')
-        s3_client = s3_hook.get_conn()
-        s3_client.put_object(Bucket='datascientest-airline-project-bucket', Key='feature_names.json', Body=json.dumps(X_preprocessed.columns.tolist()))
-        s3_client.put_object(Bucket='datascientest-airline-project-bucket', Key='freq_encodings.json', Body=json.dumps(freq_encodings))
+    if best_model is not None:
+        logger.info(f"Enregistrement du meilleur modèle global: {best_model_class_name}")
+        save_model_uri_to_db(
+            model_name=best_model_class_name,
+            run_id=best_run_id,
+            model_uri=f"runs:/{best_run_id}/models",
+            metrics=best_result
+        )
+        # trigger_api_redeploy()
+
+def save_model_uri_to_db(model_name, run_id, model_uri, metrics):
+    try:
+        mongo_hook = MongoHook(conn_id='api_calls_mongodb')
+        collection = mongo_hook.get_collection('model_registry', 'airline_project')
+        
+        model_info = {
+            "model_name": model_name,
+            "run_id": run_id,
+            "uri": model_uri,
+            "metrics": metrics,
+            "timestamp": datetime.utcnow(),
+            "identifier": "best_model_overall"
+        }
+        
+        collection.update_one(
+            {"identifier": "best_model_overall"},
+            {"$set": model_info},
+            upsert=True
+        )
+        logger.info(f"Modèle {model_name} sauvegardé dans la base de données avec succès.")
+    except Exception as e:
+        logger.error(f"Erreur lors de la sauvegarde du modèle {model_name} dans la base de données : {str(e)}")
 
 def trigger_api_redeploy():
     try:
@@ -276,15 +289,6 @@ def update_metrics(model_name, mae_value, rmse_value):
     rmse_gauge.labels(model_name).set(rmse_value)
     push_to_gateway('pushgateway:9091', job='flight_delays', registry=registry)
 
-def save_model_uri_to_db(model_uri):
-    mongo_hook = MongoHook(conn_id='api_calls_mongodb')
-    collection = mongo_hook.get_collection('model_registry', 'airline_project')
-    collection.update_one(
-        {"model": "best_model"},
-        {"$set": {"uri": model_uri}},
-        upsert=True
-    )
-
 def extract_and_preprocess_data():
     data = load_data_from_mongodb()
     df = extract_flights_data(data)
@@ -293,8 +297,6 @@ def extract_and_preprocess_data():
 
 def push_metrics_to_gateway():
     registry = CollectorRegistry()
-    g = Gauge('example_metric', 'Description of metric', registry=registry)
-    g.set(42)
     push_to_gateway('pushgateway:9091', job='airflow_dag', registry=registry)
 
 # Définition des tâches Airflow

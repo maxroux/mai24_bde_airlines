@@ -5,3 +5,5 @@ pymongo
 motor
 pandas
 scikit-learn==1.3.2
+mlflow
+starlette_exporter

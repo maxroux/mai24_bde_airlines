@@ -37,3 +37,8 @@ scrape_configs:
   - job_name: 'airflow_statsd'
     static_configs:
       - targets: ['statsd-exporter:9102']
+
+  - job_name: 'fastapi_app'
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['192.168.10.49:8002']
