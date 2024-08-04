@@ -219,6 +219,11 @@ def train_and_evaluate_model():
             with mlflow.start_run(run_name=f"{model.__class__.__name__}") as run:
                 mlflow.log_params(best_estimator.get_params())
                 mlflow.log_metrics({'mae': mae, 'mse': mse, 'rmse': rmse})
+                
+                # On pousse les métriques vers Grafana via Pushgateway
+                mae_gauge.labels(model_name=model.__class__.__name__).set(mae)
+                rmse_gauge.labels(model_name=model.__class__.__name__).set(rmse)
+                push_to_gateway('pushgateway:9091', job='airflow_dag', registry=registry)
 
                 # Enregistrement du modèle
                 mlflow.sklearn.log_model(best_estimator, artifact_path="models", registered_model_name=f"{model.__class__.__name__}_model")
@@ -303,11 +308,5 @@ train_and_evaluate_model_task = PythonOperator(
     dag=dag,
 )
 
-push_metrics_to_gateway_task = PythonOperator(
-    task_id='push_metrics_to_gateway',
-    python_callable=push_metrics_to_gateway,
-    dag=dag,
-)
-
 # Définition de la dépendance entre les tâches
-extract_and_preprocess_data_task >> train_and_evaluate_model_task >> push_metrics_to_gateway_task
+extract_and_preprocess_data_task >> train_and_evaluate_model_task
