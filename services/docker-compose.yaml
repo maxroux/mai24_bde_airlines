@@ -1,0 +1,349 @@
+version: "3"
+# stack de base du déploiement officiel d'airflow
+x-airflow-common:
+  &airflow-common # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.8.1}
+  build: .
+  environment: &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+    AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow_postgres/airflow
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@airflow_postgres/airflow
+    AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
+    AIRFLOW__CORE__FERNET_KEY: ""
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__API__AUTH_BACKEND: "airflow.api.auth.backend.basic_auth"
+    AIRFLOW__SMTP__SMTP_HOST: "smtp.gmail.com"
+    AIRFLOW__SMTP__SMTP_PORT: 587
+    AIRFLOW__SMTP__SMTP_USER: "de.airflow@gmail.com"
+    AIRFLOW__SMTP__SMTP_PASSWORD: "cfsrvkongsobheta"
+    AIRFLOW__SMTP__SMTP_MAIL_FROM: "de.airflow@gmail.com"
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pymongo matplotlib lightgbm mlflow apache-airflow-providers-mongo xgboost scikit-optimize scikit-learn==1.3.2 shap}
+    AIRFLOW__METRICS__STATSD_ON: "true"
+    AIRFLOW__METRICS__STATSD_HOST: "statsd-exporter"
+    AIRFLOW__METRICS__STATSD_PORT: 8126
+    AIRFLOW__METRICS__STATSD_PREFIX: "airflow"
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./models:/opt/airflow/models
+    - logs:/opt/airflow/logs
+    - plugins:/opt/airflow/plugins
+    - ../data:/opt/airflow/data
+    - ../api_calls:/opt/airflow/api_calls
+  user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
+  depends_on:
+    redis:
+      condition: service_healthy
+    postgres:
+      condition: service_healthy   
+  networks:
+    - app-network
+
+services:
+# services nécéssaires au bon fonctionnement d'airflow
+  postgres:
+    image: postgres:13
+    container_name: airflow_postgres
+    environment:
+      POSTGRES_USER: ${AIR_POSTGRES_USER}
+      POSTGRES_PASSWORD: ${AIR_POSTGRES_PASSWORD}
+      POSTGRES_DB: ${AIR_POSTGRES_DB}
+    volumes:
+      # - postgres-db-volume:/var/lib/postgresql/data
+      - ./local-postgres-db:/var/lib/postgresql/data:rw
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+    networks:
+      - app-network
+    restart: always
+
+  redis:
+    image: redis:latest
+    container_name: airflow_redis
+    ports:
+      - 6379:6379
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 30s
+      retries: 50
+    restart: always
+    networks:
+      - app-network
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - 8085:8080
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"',
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+
+  airflow-worker:
+    <<: *airflow-common
+    command: celery worker
+    healthcheck:
+      test:
+        - "CMD-SHELL"
+        - 'celery --app airflow.executors.celery_executor.app inspect ping -d "celery@$${HOSTNAME}"'
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+
+  airflow-init:
+    <<: *airflow-common
+    command: version
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_UPGRADE: "true"
+      _AIRFLOW_WWW_USER_CREATE: "true"
+      _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
+      _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+
+  flower:
+    <<: *airflow-common
+    command: celery flower
+    ports:
+      - 5555:5555
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:5555/"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+    networks:
+      - app-network
+  
+# services liés aux métriques
+  statsd-exporter:
+    container_name: statsd-exporter
+    image: prom/statsd-exporter
+    command: "--statsd.listen-udp=:8126 --web.listen-address=:9102"
+    ports:
+        - 9102:9102
+        - 8126:8126/udp
+    networks:
+      - app-network
+  
+  pushgateway:
+    image: prom/pushgateway:latest
+    ports:
+      - "9091:9091"
+    networks:
+      - app-network
+    restart: always
+
+  node-exporter:
+    image: prom/node-exporter:latest
+    ports:
+      - "9100:9100"
+    command:
+      - "--path.procfs=/host/proc"
+      - "--path.sysfs=/host/sys"
+      - '--collector.filesystem.ignored-mount-points="^/(sys|proc|dev|host|etc)($|/)"'
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    networks:
+      - app-network
+
+  cadvisor:
+    container_name: cadvisor
+    image: gcr.io/cadvisor/cadvisor:latest
+    ports:
+      - "8082:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+    privileged: true
+    networks:
+      - app-network
+    devices:
+      - /dev/kmsg
+    restart: always
+
+# monitoring ML
+  mlflow:
+    build:
+      context: .
+      dockerfile: Dockerfile_mlflow
+    container_name: mlflow
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_HOST=${POSTGRES_HOST}
+      - POSTGRES_PORT=${POSTGRES_PORT}
+    volumes:
+      - ./mlflow_data:/mlflow:rw
+    ports:
+      - "5001:5000"
+    command: >
+      mlflow server --backend-store-uri postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}_airflow --host 0.0.0.0
+    networks:
+      - app-network
+    restart: always
+
+# stack de monitoring généraliste
+  alertmanager:
+    image: prom/alertmanager
+    ports:
+      - 9093:9093
+    volumes:
+      - ./alertmanager/:/etc/alertmanager/:rw
+    networks:
+      - app-network
+    restart: always
+    command:
+      - "--config.file=/etc/alertmanager/config.yml"
+      - "--storage.path=/alertmanager"
+  
+  prometheus:
+    container_name: airflow_prometheus
+    image: prom/prometheus:latest
+    volumes:
+      - ./prometheus:/etc/prometheus/:rw
+    ports:
+      - "9090:9090"
+    networks:
+      - app-network
+    restart: always
+
+  grafana:
+    # user: root
+    container_name: airflow_grafana
+    image: grafana/grafana:latest
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=airline
+    volumes:
+      - ./local-grafana-data:/var/lib/grafana:rw
+      # - grafana_vol:/var/lib/grafana
+    ports:
+      - "3001:3000"
+    networks:
+      - app-network
+    restart: always
+
+# ETL
+  mongodb:
+    image: mongo:latest
+    container_name: api_calls_mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+    volumes:
+      - ./local-mongo-data:/data/db:rw
+      - ./local-mongo-data/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:rw
+    networks:
+      - app-network
+    restart: always
+
+  mongo-express:
+    image: mongo-express:latest
+    container_name: mongo-express
+    depends_on:
+      - mongodb
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=api_calls_mongodb
+      - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
+      - ME_CONFIG_MONGODB_AUTH_DATABASE=admin
+      - ME_CONFIG_BASICAUTH_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - ME_CONFIG_BASICAUTH_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+    ports:
+      - "8084:8081"
+    restart: always
+    networks:
+      - app-network
+
+  api_calls_postgres:
+    image: postgres:latest
+    container_name: api_calls_postgres
+    hostname: api_calls_postgres
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./local-postgres-data:/var/lib/postgresql/data:rw
+      - ./initdb:/docker-entrypoint-initdb.d:rw
+    networks:
+      - app-network
+    restart: always
+
+  adminer:
+    image: adminer:latest
+    container_name: adminer
+    ports:
+      - "8886:8080"
+    networks:
+      - app-network
+    restart: always
+
+  fastapi:
+    build: fast_api/
+    container_name: fastapi
+    depends_on:
+      - api_calls_postgres
+    ports:
+      - "8002:8000"
+    environment:
+      - DATABASE_URL=postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@api_calls_postgres:5432/${POSTGRES_DB}
+      - MONGO_URI=mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@api_calls_mongodb:27017/
+      - DATABASE_NAME=airline_project
+    networks:
+      - app-network
+    restart: always
+
+  dashboard:
+    build: dashboard/
+    container_name: dashboard
+    ports:
+      - "8050:8050"
+    networks:
+      - app-network
+    volumes:
+       - ../data/csv:/app/data
+    restart: always
+    
+volumes:
+  logs:
+  plugins:
+  postgres-db-volume:
+  mlflow_data:
+  grafana_vol:
+networks:
+  app-network:
+    driver: bridge
+    name: app-network

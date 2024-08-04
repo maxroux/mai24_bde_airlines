@@ -1,99 +1,215 @@
-# mai24_bde_airlines
+# URL utiles
+- DASHBOARD disponible à l'adress suivant : http://airlineproject.duckdns.org:8050 TODO implémenter la prédiction avec un formulaire 
+- API disponible à l'adresse : suivante : http://airlineproject.duckdns.org:8002/  DONE implémenter la prédiction dans la même api et non pas dans une API séparée comme actuellement
+- MLFLOW: http://airlineproject.duckdns.org:5001/
+- AIRFLOW : http://airlineproject.duckdns.org:8085/ (user et mdp : airline) 
+- GRAFANA : http://airlineproject.duckdns.org:3001/ (user: admin, mdp: airline) => aller dans la rubrique Dashboards
+- PROMETHEUS: http://airlineproject.duckdns.org:9090/ 
 
-# Cursus concerné : Data Engineer
+# Utilisation du code :
 
-## Difficulté : 8.5/10
+Il faut créer un fichier .env à la racine de services sur ce modèle:
+`
+AIRFLOW_UID=1000
+AIRFLOW_GID=0
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+POSTGRES_HOST=api_calls_postgres
+MONGO_INITDB_ROOT_USERNAME=
+MONGO_INITDB_ROOT_PASSWORD=
+AIR_POSTGRES_USER: 
+AIR_POSTGRES_PASSWORD: 
+AIR_POSTGRES_DB: 
+POSTGRES_PORT=5432
+`
+## Routes Disponibles
 
-![image](https://github.com/maxroux/mai24_bde_airlines/assets/118417/494f2570-e3ee-41d7-96ad-5d33d8e0186f)
+### GET `/countries`
 
+- **Description**: Récupère tous les pays.
+- **Paramètres**:
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
 
-### Description détaillée :
-De nos jours, il est possible d’avoir des informations sur les vols dans le monde entier et de traquer en temps réel un avion. Nous pouvons observer ce site en guise d’exemple. Le but ici est de s’y approcher le plus possible en passant par des API de différentes compagnies aériennes.
+### GET `/countries/{country_code}`
 
-### Étapes
+- **Description**: Récupère les informations sur un pays spécifique basé sur le code du pays.
+- **Paramètres**:
+  - `country_code` : Le code du pays.
 
-#### 1. Récolte des données
-**Description :**
-Passer par l’API de Lufthansa pour récupérer des données sur les vols. Vous pouvez tester les différentes routes de l’API de Lufthansa à l’aide de ce lien. Vous pourrez être amené à aller puiser différentes informations comme les codes IATA.
+### GET `/aircrafts`
 
-**Objectif :**
-Comprendre les données que vous pouvez récupérer et faire un choix des routes à utiliser. Il y a aussi l’API de International Airlines, mais il se peut que vous ayez des soucis pour y accéder.
+- **Description**: Récupère tous les aéronefs.
+- **Paramètres**:
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
 
-**Modules / Masterclass / Templates :**
-- Utilisation de la librairie requests ou de l’outil Postman (pour tester)
-- Techniques de webscraping
+### GET `/aircrafts/{aircraft_code}`
 
-**Conditions de validation du projet :**
-- Fichier explicatif du traitement et des différentes données accessibles (doc / pdf)
-- Un exemple de données collectées
+- **Description**: Récupère les informations sur un aéronef spécifique basé sur le code de l'aéronef.
+- **Paramètres**:
+  - `aircraft_code` : Le code de l'aéronef.
 
-#### 2. Architecture des données
-**Description :**
-Lors de la précédente étape, nous avons observé qu’il y a plusieurs “types” de données. Nous allons qualifier des données de fixe comme les informations sur les aéroports et de variables, les informations sur les vols.
+### GET `/airlines`
 
-**Objectif :**
-Cette diversification de données va conduire à une utilisation de différentes bases de données.
+- **Description**: Récupère toutes les compagnies aériennes.
+- **Paramètres**:
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
 
-**Modules / Masterclass / Templates :**
-- SQL
-- Architecture des données
-- Elasticsearch
-- MongoDB
-- Neo4j
+### GET `/airlines/{airline_id}`
 
-**Conditions de validation du projet :**
-- Une base de données relationnelle
-- Diagramme UML
-- Un fichier de requête SQL pour montrer que c’est bien fonctionnel
-- Exemples de requêtes Elastic/Mongo
+- **Description**: Récupère les informations sur une compagnie aérienne spécifique basée sur l'ID de la compagnie.
+- **Paramètres**:
+  - `airline_id` : L'ID de la compagnie aérienne.
 
-#### 3. Consommation de la donnée
-**Description :**
-Faire un algorithme de prédiction de retard des avions grâce aux données que vous avez précédemment stockées dans vos Bases de données. Mettre en place ML Flow pour pouvoir faire du versioning de Modèles.
+### GET `/airports`
 
-**Modules / Masterclass / Templates :**
-- DE120
-- ML Flow
+- **Description**: Récupère tous les aéroports.
+- **Paramètres**:
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
 
-**Conditions de validation du projet :**
-- Algorithme de Machine Learning
-- ML Flow Fonctionnel
+### GET `/airports/{airport_code}`
 
-#### 4. Déploiement
-**Description :**
-Créer une API pour requêter ces différentes bases de données. Faire un conteneur Docker de chaque composant du projet (BDD, API) et faire un docker-compose fonctionnel. Mesurer la dérive des données.
+- **Description**: Récupère les informations sur un aéroport spécifique basé sur le code de l'aéroport.
+- **Paramètres**:
+  - `airport_code` : Le code de l'aéroport.
 
-**Modules / Masterclass / Templates :**
-- FastAPI / Flask
-- Docker
-- Data Drift
+### GET `/cities`
 
-**Conditions de validation du projet :**
-- API FastAPI
-- Conteneur, Fichier yaml du docker-compose
+- **Description**: Récupère toutes les villes.
+- **Paramètres**:
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
 
-#### 5. Automatisation et Monitoring
-**Description :**
-Récupérer les données de l’API Lufthansa selon un rythme bien défini pour l’envoyer aux différents consommateurs de la donnée. Créer un pipeline simple de CI pour déployer des nouveautés. Monitorer l’application en production ainsi que les logs API.
+### GET `/cities/{city_code}`
 
-**Modules / Masterclass / Templates :**
-- Cronjob
-- Airflow
-- Prometheus Grafana
+- **Description**: Récupère les informations sur une ville spécifique basée sur le code de la ville.
+- **Paramètres**:
+  - `city_code` : Le code de la ville.
 
-**Conditions de validation du projet :**
-- Fichier python du DAG
+### GET `/flights/airport/{airport_code}`
 
-#### 6. Soutenance
-**Description :**
-Démonstration de leur appli et explication du raisonnement effectué lors de leur projet.
+- **Description**: Récupère les vols depuis un aéroport spécifique.
+- **Paramètres**:
+  - `airport_code` : Le code de l'aéroport.
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
 
-**Objectif :**
-X
+### GET `/flights`
 
-**Modules / Masterclass / Templates :**
-X
+- **Description**: Récupère tous les vols.
+- **Paramètres**:
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
 
-**Conditions de validation du projet :**
-- Soutenance
-- Rapport
+### GET `/flights/{limit}/{offset}`
+
+- **Description**: Récupère tous les vols avec pagination.
+- **Paramètres**:
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
+
+### GET `/flights/airport/{airport_code}/{limit}/{offset}`
+
+- **Description**: Récupère les vols depuis un aéroport spécifique avec pagination.
+- **Paramètres**:
+  - `airport_code` : Le code de l'aéroport.
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
+
+### GET `/flights/airport/{airport_code}/schedule/{scheduled_time_utc}/{limit}/{offset}`
+
+- **Description**: Récupère les vols depuis un aéroport spécifique à une heure programmée avec pagination.
+- **Paramètres**:
+  - `airport_code` : Le code de l'aéroport.
+  - `scheduled_time_utc` : L'heure programmée en UTC.
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
+
+### GET `/flights/route/{departure_airport_code}/{arrival_airport_code}`
+
+- **Description**: Récupère les vols entre deux aéroports spécifiques.
+- **Paramètres**:
+  - `departure_airport_code` : Le code de l'aéroport de départ.
+  - `arrival_airport_code` : Le code de l'aéroport d'arrivée.
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
+
+### GET `/flights/route/{departure_airport_code}/{arrival_airport_code}/{limit}/{offset}`
+
+- **Description**: Récupère les vols entre deux aéroports spécifiques avec pagination.
+- **Paramètres**:
+  - `departure_airport_code` : Le code de l'aéroport de départ.
+  - `arrival_airport_code` : Le code de l'aéroport d'arrivée.
+  - `limit` (optionnel, par défaut: 100) : Limite le nombre de résultats.
+  - `offset` (optionnel, par défaut: 0) : Décale les résultats de la limite spécifiée.
+
+### POST `/predict_delay`
+
+- **Description**: Prédit le retard de vol entre deux aéroports spécifiques.
+- **Paramètres**:
+  - `departure_airport_code`: Code de l'aéroport de départ (ex: "JFK").
+  - `arrival_airport_code`: Code de l'aéroport d'arrivée (ex: "LAX").
+  - `departure_scheduled_time_utc`: Heure de départ prévue en UTC (ex: "2023-07-30T14:00:00Z").
+  - `arrival_scheduled_time_utc`: Heure d'arrivée prévue en UTC (ex: "2023-07-30T17:00:00Z").
+  - `marketing_airline_id`: ID de la compagnie aérienne commerciale (ex: "AA").
+  - `operating_airline_id`: ID de la compagnie aérienne opérant le vol (ex: "AA").
+  - `aircraft_code`: Code de l'aéronef (ex: "32B").
+
+## Routes de Schéma
+
+### GET `/schema/flights`
+
+- **Description**: Récupère la structure des données des vols.
+- **Réponse**:
+  - `departure_airport` : Code de l'aéroport de départ
+  - `scheduled_departure_local` : Heure de départ prévue (heure locale)
+  - `actual_departure_local` : Heure de départ réelle (heure locale)
+  - `departure_terminal` : Terminal de départ
+  - `flight_status_departure` : Statut du vol au départ
+  - `arrival_airport` : Code de l'aéroport d'arrivée
+  - `scheduled_arrival_local` : Heure d'arrivée prévue (heure locale)
+  - `actual_arrival_local` : Heure d'arrivée réelle (heure locale)
+  - `arrival_terminal` : Terminal d'arrivée
+  - `flight_status_arrival` : Statut du vol à l'arrivée
+  - `airline_id` : ID de la compagnie aérienne
+
+### GET `/schema/countries`
+
+- **Description**: Récupère la structure des données des pays.
+- **Réponse**:
+  - `country_code` : Code du pays
+  - `country_name` : Nom du pays
+
+### GET `/schema/airports`
+
+- **Description**: Récupère la structure des données des aéroports.
+- **Réponse**:
+  - `airport_code` : Code de l'aéroport
+  - `city_name` : Nom de la ville
+  - `country_name` : Nom du pays
+
+### GET `/schema/cities`
+
+- **Description**: Récupère la structure des données des villes.
+- **Réponse**:
+  - `city_code` : Code de la ville
+  - `city_name` : Nom de la ville
+  - `country_name` : Nom du pays
+
+### GET `/schema/airlines`
+
+- **Description**: Récupère la structure des données des compagnies aériennes.
+- **Réponse**:
+  - `airline_id` : ID de la compagnie aérienne
+  - `airline_name` : Nom de la compagnie aérienne
+
+### GET `/schema/aircrafts`
+
+- **Description**: Récupère la structure des données des aéronefs.
+- **Réponse**:
+  - `aircraft_code` : Code de l'aéronef
+  - `aircraft_name` : Nom de l'aéronef

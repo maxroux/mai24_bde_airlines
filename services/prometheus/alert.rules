@@ -1,0 +1,21 @@
+groups:
+- name: example
+  rules:
+
+  - alert: service_down
+    expr: up == 0
+    for: 2m
+    labels:
+      severity: page
+    annotations:
+      summary: "L'instance {{ $labels.instance }} est down"
+      description: "{{ $labels.instance }} du job {{ $labels.job }} est down depuis plus de 2 minutes."
+
+  - alert: high_load
+    expr: node_load1 > 0.5
+    for: 2m
+    labels:
+      severity: page
+    annotations:
+      summary: "Instance {{ $labels.instance }} : charge lourde"
+      description: "{{ $labels.instance }} du job {{ $labels.job }} subit une charge lourde."

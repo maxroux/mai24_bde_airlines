@@ -1,0 +1,36 @@
+Dash is running on http://0.0.0.0:8050/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/home/medo/1datascientest/mai24_bde_airlines/live_deploy/dashboard/app/app.py", line 4, in <module>
+    from callbacks import register_callbacks
+  File "/home/medo/1datascientest/mai24_bde_airlines/live_deploy/dashboard/app/callbacks.py", line 83
+    html.Div(id='delay-output', style={'marginTop': '20px', 'fontSize': '20px', 'fontWeight': 'bold','width': '200px',border':'1px solid'}),
+                                                                                                                            ^
+SyntaxError: invalid syntax
+Dash is running on http://0.0.0.0:8050/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+172.105.246.139 - - [30/Jul/2024 23:11:37] code 400, message Bad request syntax ('JRMI\x00\x02K')
+172.105.246.139 - - [30/Jul/2024 23:11:37] code 400, message Bad request version ('RTSP/1.0')
+172.105.246.139 - - [30/Jul/2024 23:11:42] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+172.105.246.139 - - [30/Jul/2024 23:11:47] code 400, message Bad HTTP/0.9 request type ('\x00')
+172.105.246.139 - - [30/Jul/2024 23:11:47] code 400, message Bad request syntax ('HELP')
+172.105.246.139 - - [30/Jul/2024 23:11:47] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+172.105.246.139 - - [30/Jul/2024 23:11:47] code 400, message Bad request version ('\x00/\x00')
+172.105.246.139 - - [30/Jul/2024 23:11:47] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+172.105.246.139 - - [30/Jul/2024 23:11:52] code 400, message Bad request version ('0.12\x00')
+172.105.246.139 - - [30/Jul/2024 23:11:58] code 400, message Bad HTTP/0.9 request type ('l\x00')
+172.105.246.139 - - [30/Jul/2024 23:11:58] code 400, message Bad request version ('SIP/2.0')
+172.105.246.139 - - [30/Jul/2024 23:12:03] code 400, message Bad HTTP/0.9 request type ('AMQP\x00\x00')
+172.105.246.139 - - [30/Jul/2024 23:12:12] code 400, message Bad request version ('\x00/\x00')
+172.105.246.139 - - [30/Jul/2024 23:12:23] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¬ñ¯')
+172.105.246.139 - - [30/Jul/2024 23:12:32] code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
+Traceback (most recent call last):
+  File "/home/medo/1datascientest/mai24_bde_airlines/live_deploy/dashboard/app/app.py", line 4, in <module>
+    from callbacks import register_callbacks
+  File "/home/medo/1datascientest/mai24_bde_airlines/live_deploy/dashboard/app/callbacks.py", line 251
+    def estimate_flight_delay(departure_city, arrival_city):
+IndentationError: unexpected unindent
