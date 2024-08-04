@@ -1,15 +1,10 @@
 from dash.dependencies import Input, Output, State
 from datetime import datetime, timedelta
-from dash.dependencies import Input, Output
 import plotly.express as px
 import plotly.graph_objs as go
-import random
-from data_loader import load_airports_data, load_flight_data, load_country_options, load_flight_status_options, load_departure_city_options
+from data_loader import load_airports_data, load_flight_data, load_country_options, load_flight_status_options, load_departure_city_options, load_airlines_data, load_marketing_airline_ids_options
 from dash import html, dcc
 import pandas as pd
-import plotly.figure_factory as ff
-from sklearn.metrics import confusion_matrix
-import numpy as np
 import logging
 import requests
 
@@ -22,11 +17,13 @@ today = datetime.today().date()
 # Date d'hier
 yesterday = today - timedelta(days=1)
 
+airlines_data = load_airlines_data()
 airports_data = load_airports_data()
 real_flights_data = load_flight_data()
 country_options = load_country_options(airports_data)
 flight_status_options = load_flight_status_options(real_flights_data)
-departure_city_options = load_departure_city_options(real_flights_data)
+departure_city_options = load_departure_city_options(airports_data)
+marketing_airline_ids_options = load_marketing_airline_ids_options(airlines_data)
 
 def register_callbacks(app):
     @app.callback(Output('tabs-content', 'children'),
@@ -82,6 +79,7 @@ def register_callbacks(app):
                 # Conteneur pour la sélection des villes
                 html.Div([
                     html.Div([
+                        html.Label('Aéroport de départ'),
                         dcc.Dropdown(
                             id='departure-city-dropdown',
                             options=departure_city_options,
@@ -92,6 +90,7 @@ def register_callbacks(app):
                         ),
                     ], style={'padding': '10px'}),
                     html.Div([
+                        html.Label('Aéroport d\'arrivée'),
                         dcc.Dropdown(
                             id='arrival-city-dropdown',
                             placeholder="Ville d'arrivée",
@@ -102,10 +101,11 @@ def register_callbacks(app):
                         ),
                     ], style={'padding': '10px'}),
                 ], style={'display': 'flex', 'justify-content': 'space-between'}),
-                
+
                 # Conteneur pour la date et l'heure de départ
                 html.Div([
                     html.Div([
+                        html.Label('Date de départ'),
                         dcc.DatePickerSingle(
                             id='departure-date-picker',
                             placeholder="Date de départ",
@@ -114,6 +114,7 @@ def register_callbacks(app):
                         ),
                     ], style={'padding': '10px'}),
                     html.Div([
+                        html.Label('Heure de départ'),
                         dcc.Dropdown(
                             id='departure-hour-dropdown',
                             options=[{'label': str(i).zfill(2), 'value': str(i).zfill(2)} for i in range(24)],
@@ -123,6 +124,7 @@ def register_callbacks(app):
                         ),
                     ], style={'padding': '10px'}),
                     html.Div([
+                        html.Label('Minutes de départ'),
                         dcc.Dropdown(
                             id='departure-minute-dropdown',
                             options=[{'label': str(i).zfill(2), 'value': str(i).zfill(2)} for i in range(60)],
@@ -132,10 +134,31 @@ def register_callbacks(app):
                         ),
                     ], style={'padding': '10px'}),
                 ], style={'display': 'flex', 'justify-content': 'space-between'}),
-                
+
+                # Ligne pour le délai au départ
+                html.Div([
+                    html.Label('délai au départ (min)'),
+                    dcc.Input(
+                        id='departure-delay-input',
+                        type='number',
+                        placeholder="délai au départ (min)",
+                        value=0,
+                        style={'margin-right':'10px'}
+                    ),
+                    html.Label('Marketing id'),
+                    dcc.Dropdown(
+                        id='airline-marketing-id-dropdown',
+                        options=marketing_airline_ids_options,
+                        placeholder="Marketing id",
+                        clearable=False,
+                        value="KE"
+                    ),
+                ], style={'padding': '10px', 'display': 'flex', 'justify-content': 'space-between'}),
+
                 # Conteneur pour la date et l'heure d'arrivée
                 html.Div([
                     html.Div([
+                        html.Label('Date d\'arrivée'),
                         dcc.DatePickerSingle(
                             id='arrival-date-picker',
                             placeholder="Date d'arrivée",
@@ -144,6 +167,7 @@ def register_callbacks(app):
                         ),
                     ], style={'padding': '10px'}),
                     html.Div([
+                        html.Label('Heure d\'arrivée'),
                         dcc.Dropdown(
                             id='arrival-hour-dropdown',
                             options=[{'label': str(i).zfill(2), 'value': str(i).zfill(2)} for i in range(24)],
@@ -153,6 +177,7 @@ def register_callbacks(app):
                         ),
                     ], style={'padding': '10px'}),
                     html.Div([
+                        html.Label('Minutes d\'arrivée'),
                         dcc.Dropdown(
                             id='arrival-minute-dropdown',
                             options=[{'label': str(i).zfill(2), 'value': str(i).zfill(2)} for i in range(60)],
@@ -163,15 +188,24 @@ def register_callbacks(app):
                     ], style={'padding': '10px'}),
                 ], style={'display': 'flex', 'justify-content': 'space-between'}),
                 
-                # Bouton de prédiction
+                # Dans la définition de votre layout, utilisez dcc.Loading pour le output
                 html.Div([
-                    html.Button('Prédire le retard', id='predict-button', style={'marginTop': '20px', 'width': '200px'})
+                    html.Button('Prédire le retard', id='predict-button', style={'marginTop': '20px', 'width': '200px', 'padding': '10px'}),
+                    dcc.Loading(
+                        id="loading-output",
+                        type="default",
+                        children=html.Div(id='delay-output', style={'marginTop': '20px', 'fontSize': '20px', 'fontWeight': 'bold', 'text-align': 'center', 'width': '100%'})
+                    )
                 ], style={'text-align': 'center'}),
                 
-                # Output du retard
-                html.Div(id='delay-output', style={'marginTop': '20px', 'fontSize': '20px', 'fontWeight': 'bold', 'text-align': 'center', 'width': '100%'})
-            ], style={'max-width': '600px', 'margin': 'auto'})
- 
+                # Output du retard avec un loader
+                dcc.Loading(
+                    id="loading-output",
+                    type="default",
+                    children=html.Div(id='delay-output', style={'marginTop': '20px', 'fontSize': '40px', 'fontWeight': 'bold', 'text-align': 'center', 'width': '100%'})
+                )
+                ], style={'max-width': '600px', 'margin': 'auto'})
+
     @app.callback(
         Output('map-graph', 'figure'),
         [Input('country-dropdown', 'value')]
@@ -328,25 +362,27 @@ def register_callbacks(app):
 
         return {}, {}, {}, {}
 
-
+    # La callback pour la prédiction du retard
     @app.callback(
-    [Output('delay-output', 'children'),
-     Output('delay-output', 'style')],
-    [Input('predict-button', 'n_clicks')],
-    [State('departure-city-dropdown', 'value'),
-     State('arrival-city-dropdown', 'value'),
-     State('departure-date-picker', 'date'),
-     State('departure-hour-dropdown', 'value'),
-     State('departure-minute-dropdown', 'value'),
-     State('arrival-date-picker', 'date'),
-     State('arrival-hour-dropdown', 'value'),
-     State('arrival-minute-dropdown', 'value')]
+        [Output('delay-output', 'children'),
+        Output('delay-output', 'style')],
+        [Input('predict-button', 'n_clicks')],
+        [State('departure-city-dropdown', 'value'),
+        State('arrival-city-dropdown', 'value'),
+        State('airline-marketing-id-dropdown', 'value'),
+        State('departure-date-picker', 'date'),
+        State('departure-hour-dropdown', 'value'),
+        State('departure-minute-dropdown', 'value'),
+        State('departure-delay-input', 'value'),
+        State('arrival-date-picker', 'date'),
+        State('arrival-hour-dropdown', 'value'),
+        State('arrival-minute-dropdown', 'value')]
     )
-    def estimate_flight_delay(n_clicks, departure_city, arrival_city, departure_date, departure_hour, departure_minute, arrival_date, arrival_hour, arrival_minute):
+    def estimate_flight_delay(n_clicks, departure_city, arrival_city, marketing_airline_id, departure_date, departure_hour, departure_minute, departure_delay, arrival_date, arrival_hour, arrival_minute):
         if not n_clicks:
-            return "Cliquez sur 'Prédire le retard' pour lancer la prédiction", {'color': 'black'}
+            return "", {}
 
-        if not (departure_city and arrival_city and departure_date and departure_hour and departure_minute and arrival_date and arrival_hour and arrival_minute):
+        if not (departure_city and arrival_city and departure_date and departure_hour and departure_minute and arrival_date and arrival_hour and arrival_minute and departure_delay is not None):
             return "Tous les champs sont obligatoires", {'color': 'black'}
 
         try:
@@ -360,9 +396,16 @@ def register_callbacks(app):
         if arrival_datetime < departure_datetime:
             return "La date et l'heure d'arrivée doivent être postérieures à celles de départ", {'color': 'red'}
 
+        if departure_delay > 0:
+            departure_time_status_code = "DE"
+        elif departure_delay < 0:
+            departure_time_status_code = "FE"
+        else:
+            departure_time_status_code = "NO"
+
         # Construction des horaires au format UTC
-        departure_datetime_utc = f"{departure_date}T{departure_hour}:{departure_minute}:00Z"
-        arrival_datetime_utc = f"{arrival_date}T{arrival_hour}:{arrival_minute}:00Z"
+        departure_datetime_utc = departure_datetime.strftime("%Y-%m-%dT%H:%M:%SZ")
+        arrival_datetime_utc = arrival_datetime.strftime("%Y-%m-%dT%H:%M:%SZ")
 
         # Appel API pour prédire le retard
         url = "http://airlineproject.duckdns.org:8002/predict_delay"
@@ -371,9 +414,11 @@ def register_callbacks(app):
             "arrival_airport_code": arrival_city,
             "departure_scheduled_time_utc": departure_datetime_utc,
             "arrival_scheduled_time_utc": arrival_datetime_utc,
-            "marketing_airline_id": "",
+            "marketing_airline_id": marketing_airline_id,
             "operating_airline_id": "",
-            "aircraft_code": ""
+            "aircraft_code": "",
+            "departure_delay": departure_delay,
+            "departure_time_status_code": departure_time_status_code,
         }
 
         logger.info(f"Payload envoyé : {payload}")

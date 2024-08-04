@@ -8,8 +8,9 @@
 
 # Utilisation du code :
 
-Il faut créer un fichier .env à la racine de services sur ce modèle:
-`
+Il faut créer un fichier .env à la racine du dossier services sur ce modèle:
+
+```bash
 AIRFLOW_UID=1000
 AIRFLOW_GID=0
 POSTGRES_USER=
@@ -18,11 +19,12 @@ POSTGRES_DB=
 POSTGRES_HOST=api_calls_postgres
 MONGO_INITDB_ROOT_USERNAME=
 MONGO_INITDB_ROOT_PASSWORD=
-AIR_POSTGRES_USER: 
-AIR_POSTGRES_PASSWORD: 
-AIR_POSTGRES_DB: 
+AIR_POSTGRES_USER= 
+AIR_POSTGRES_PASSWORD= 
+AIR_POSTGRES_DB=
 POSTGRES_PORT=5432
-`
+```
+
 ## Routes Disponibles
 
 ### GET `/countries`

@@ -13,15 +13,10 @@ from starlette.middleware import Middleware
 from starlette_exporter import PrometheusMiddleware, handle_metrics
 import subprocess
 
-# Configuration des variables d'environnement
-MONGO_INITDB_ROOT_USERNAME = os.getenv('MONGO_INITDB_ROOT_USERNAME', 'default_username')
-MONGO_INITDB_ROOT_PASSWORD = os.getenv('MONGO_INITDB_ROOT_PASSWORD', 'default_password')
-MONGO_HOST = os.getenv('MONGO_HOST', 'mongodb')
-MONGO_PORT = os.getenv('MONGO_PORT', '27017')
-DATABASE_NAME = os.getenv('DATABASE_NAME', 'airline_project')
+# environment variables
+MONGO_URI = os.getenv('MONGO_URI')
 
-# Assemble the MongoDB URI using the environment variables
-MONGO_URI = f"mongodb://{MONGO_INITDB_ROOT_USERNAME}:{MONGO_INITDB_ROOT_PASSWORD}@{MONGO_HOST}:{MONGO_PORT}/"
+print(MONGO_URI)
 
 DATABASE_NAME = os.getenv('DATABASE_NAME', 'airline_project')
 COLLECTION_NAME_ML = "model_registry"

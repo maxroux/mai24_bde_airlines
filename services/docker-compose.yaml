@@ -319,8 +319,8 @@ services:
     ports:
       - "8002:8000"
     environment:
-      - DATABASE_URL=postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@api_calls_postgres:5432/${POSTGRES_DB}
-      - MONGO_URI=mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@api_calls_mongodb:27017/
+      - POSTGRES_URI=postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@api_calls_postgres:5432/${POSTGRES_DB}
+      - MONGO_URI=mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@${MONGO_HOST}:27017/
       - DATABASE_NAME=airline_project
     networks:
       - app-network
