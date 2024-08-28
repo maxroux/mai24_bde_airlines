@@ -9,6 +9,8 @@ import csv
 from pymongo import MongoClient, UpdateOne
 from pymongo.errors import ServerSelectionTimeoutError, BulkWriteError
 from api_payload import get_access_token
+import smtplib
+from airflow.operators.dagrun_operator import TriggerDagRunOperator
 
 # Configuration par défaut du DAG
 default_args = {
@@ -170,13 +172,31 @@ def fetch_departures_data(**context):
                 if len(flights) < 100:
                     break
             except requests.exceptions.RequestException as e:
+                send_email_via_smtp("Échec du DAG fetch_departures", e)
                 context['task_instance'].xcom_push(key='api_errors', value=str(e))
                 break
             except requests.exceptions.HTTPError as http_err:
+                send_email_via_smtp("Échec du DAG fetch_departures", e)
                 context['task_instance'].xcom_push(key='api_errors', value=str(http_err))
                 break
     return results
 
+def send_email_via_smtp(subject, body):
+    from_email = "mehdi.fekih@edhec.com"
+    to_email = "telegram@mailrise.xyz"
+    
+    msg = MIMEText(body)
+    msg["Subject"] = subject
+    msg["From"] = from_email
+    msg["To"] = to_email
+    
+    smtp_server = "192.168.10.168"
+    smtp_port = 8025
+    
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+        server.sendmail(from_email, [to_email], msg.as_string())
+        logging.info("E-mail envoyé via Mailrise.")
+        
 # Définition des tâches Airflow
 fetch_departures_data_task = PythonOperator(
     task_id='fetch_departures_data',
@@ -205,6 +225,18 @@ save_data_to_json_task = PythonOperator(
     provide_context=True,
     dag=dag,
 )
-
+# une tâche pour déclencher le DAG ML flight_delays_prediction après le succès de ce DAG
+trigger_flight_delays_prediction_task = TriggerDagRunOperator(
+    task_id='trigger_flight_delays_prediction',
+    trigger_dag_id='flight_delays_prediction',
+    dag=dag,
+    trigger_rule='all_success'
+)
+trigger_process_airport_flight_data_dag_task = TriggerDagRunOperator(
+    task_id='trigger_process_airport_flight_data_dag',
+    trigger_dag_id='process_airport_flight_data',
+    dag=dag,
+    trigger_rule='all_success'
+)
 # Définition de l'ordre d'exécution des tâches
-fetch_departures_data_task >> [insert_data_to_mongodb_task, save_data_to_csv_task, save_data_to_json_task]
+fetch_departures_data_task >> [insert_data_to_mongodb_task, save_data_to_csv_task, save_data_to_json_task] >> trigger_flight_delays_prediction_task >> trigger_process_airport_flight_data_dag_task

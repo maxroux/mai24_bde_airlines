@@ -11,6 +11,7 @@ from pymongo import MongoClient, UpdateOne
 import psycopg2
 from psycopg2.extras import execute_batch
 from api_payload import get_access_token
+from airflow.operators.dagrun_operator import TriggerDagRunOperator
 
 # Configuration par défaut du DAG
 default_args = {
@@ -227,6 +228,11 @@ export_to_csv_task = PythonOperator(
     provide_context=True,
     dag=dag,
 )
-
+trigger_process_airport_flight_data_dag_task = TriggerDagRunOperator(
+    task_id='trigger_process_airport_flight_data_dag',
+    trigger_dag_id='process_airport_flight_data',
+    dag=dag,
+    trigger_rule='all_success'
+)
 # Définition de l'ordre d'exécution des tâches
-fetch_all_airport_data_task >> [insert_to_mongo_task, insert_to_postgres_task] >> export_to_json_task >> export_to_csv_task
+fetch_all_airport_data_task >> [insert_to_mongo_task, insert_to_postgres_task] >> export_to_json_task >> export_to_csv_task >> trigger_process_airport_flight_data_dag_task

@@ -11,6 +11,7 @@ from pymongo import MongoClient, UpdateOne
 import psycopg2
 from psycopg2.extras import execute_batch
 from api_payload import get_access_token
+import smtplib
 
 default_args = {
     'owner': 'airflow',
@@ -166,10 +167,27 @@ def fetch_aircraft_data(**kwargs):
                 break
         else:
             errors.append(error)
+            send_email_via_smtp("Échec du DAG fetch_aircraft_data", e)
             break
 
     return aircraft_data
 
+def send_email_via_smtp(subject, body):
+    from_email = "mehdi.fekih@edhec.com"
+    to_email = "telegram@mailrise.xyz"
+    
+    msg = MIMEText(body)
+    msg["Subject"] = subject
+    msg["From"] = from_email
+    msg["To"] = to_email
+    
+    smtp_server = "192.168.10.168"
+    smtp_port = 8025
+    
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+        server.sendmail(from_email, [to_email], msg.as_string())
+        logging.info("E-mail envoyé via Mailrise.")
+        
 fetch_aircraft_data_task = PythonOperator(
     task_id='fetch_aircraft_data',
     python_callable=fetch_aircraft_data,

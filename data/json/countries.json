@@ -903,15 +903,6 @@
                     }
                 },
                 {
-                    "CountryCode": "IR",
-                    "Names": {
-                        "Name": {
-                            "@LanguageCode": "EN",
-                            "$": "Iran Islamic Republic Of"
-                        }
-                    }
-                },
-                {
                     "CountryCode": "IS",
                     "Names": {
                         "Name": {

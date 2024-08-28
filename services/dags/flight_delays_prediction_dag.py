@@ -25,6 +25,7 @@ import os
 import pickle
 import shap
 import matplotlib.pyplot as plt
+import smtplib
 
 # Initialisation du logger
 logging.basicConfig(level=logging.INFO)
@@ -284,6 +285,8 @@ def save_model_uri_to_db(model_name, run_id, model_uri, metrics):
         logger.info(f"Modèle {model_name} sauvegardé dans la base de données avec succès.")
     except Exception as e:
         logger.error(f"Erreur lors de la sauvegarde du modèle {model_name} dans la base de données : {str(e)}")
+        send_email_via_smtp("Échec du DAG ML", e)
+
 
 def extract_and_preprocess_data():
     data = load_data_from_mongodb()
@@ -294,7 +297,23 @@ def extract_and_preprocess_data():
 def push_metrics_to_gateway():
     registry = CollectorRegistry()
     push_to_gateway('pushgateway:9091', job='airflow_dag', registry=registry)
-
+    
+def send_email_via_smtp(subject, body):
+    from_email = "mehdi.fekih@edhec.com"
+    to_email = "telegram@mailrise.xyz"
+    
+    msg = MIMEText(body)
+    msg["Subject"] = subject
+    msg["From"] = from_email
+    msg["To"] = to_email
+    
+    smtp_server = "192.168.10.168"
+    smtp_port = 8025
+    
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+        server.sendmail(from_email, [to_email], msg.as_string())
+        logging.info("E-mail envoyé via Mailrise.")
+        
 # Définition des tâches Airflow
 extract_and_preprocess_data_task = PythonOperator(
     task_id='extract_and_preprocess_data',
