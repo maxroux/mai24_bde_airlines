@@ -12,6 +12,23 @@ from pymongo import MongoClient
 from starlette.middleware import Middleware
 from starlette_exporter import PrometheusMiddleware, handle_metrics
 import subprocess
+from fastapi import Depends
+from fastapi.security import HTTPBasic, HTTPBasicCredentials
+import secrets
+
+# Créez un objet de sécurité HTTPBasic
+security = HTTPBasic()
+
+# On ajoute un nom d'utilisateur et un mot de passe dans vos variables d'environnement
+USERNAME = os.getenv("API_USERNAME", "admin")
+PASSWORD = os.getenv("API_PASSWORD", "password")
+
+# Fonction de vérification de l'authentification
+def verify_credentials(credentials: HTTPBasicCredentials = Depends(security)):
+    correct_username = secrets.compare_digest(credentials.username, USERNAME)
+    correct_password = secrets.compare_digest(credentials.password, PASSWORD)
+    if not (correct_username and correct_password):
+        raise HTTPException(status_code=401, detail="username ou password incorrect(s)", headers={"WWW-Authenticate": "Basic"})
 
 # environment variables
 MONGO_URI = os.getenv('MONGO_URI')
@@ -162,7 +179,7 @@ async def recuperer_enregistrement(nom_collection, requete):
         raise HTTPException(status_code=500, detail="Erreur interne du serveur")
 
 @app.get("/")
-async def get_all_routes():
+async def get_all_routes(credentials: HTTPBasicCredentials = Depends(verify_credentials)):
     routes = [
         {"method": "GET", "endpoint": "/countries"},
         {"method": "GET", "endpoint": "/countries/{country_code}"},

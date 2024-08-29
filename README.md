@@ -1,6 +1,9 @@
+# PRESENTATION DU PROJET
+La présentation du projet est accessible [ici](/PROJET.MD)
+
 # URLs utiles
-- DASHBOARD disponible à l'adress suivant : http://airlineproject.duckdns.org:8050/ TODO implémenter la prédiction avec un formulaire 
-- API disponible à l'adresse : suivante : http://airlineproject.duckdns.org:8002/  DONE implémenter la prédiction dans la même api et non pas dans une API séparée comme actuellement
+- DASHBOARD disponible à l'adress suivant : http://airlineproject.duckdns.org:8050/ 
+- API disponible à l'adresse : suivante : http://airlineproject.duckdns.org:8002/  
 - MLFLOW: http://airlineproject.duckdns.org:5001/
 - AIRFLOW : http://airlineproject.duckdns.org:8085/ (user et mdp : airline) 
 - GRAFANA : http://airlineproject.duckdns.org:3001/ (user: admin, mdp: airline) => aller dans la rubrique Dashboards
@@ -216,7 +219,7 @@ POSTGRES_PORT=5432
   - `aircraft_code` : Code de l'aéronef
   - `aircraft_name` : Nom de l'aéronef
 
-### POST `/schema/predict_delay`
+### POST `/predict_delay`
 - **Description**: Récupère la prédiction du modèle de ML.
 - **Paramètres**:
   - "departure_airport_code": "Code de l'aéroport de départ",

@@ -188,7 +188,6 @@ def register_callbacks(app):
                     ], style={'padding': '10px'}),
                 ], style={'display': 'flex', 'justify-content': 'space-between'}),
                 
-                # Dans la définition de votre layout, utilisez dcc.Loading pour le output
                 html.Div([
                     html.Button('Prédire le retard', id='predict-button', style={'marginTop': '20px', 'width': '200px', 'padding': '10px'}),
                     dcc.Loading(
@@ -427,7 +426,7 @@ def register_callbacks(app):
             response = requests.post(url, json=payload)
             response_data = response.json()
             logger.info(f"Réponse de l'API : {response_data}")
-            delay = round(response_data.get("predicted_delay", [0])[0])  # Arrondir le délai
+            delay = round(response_data.get("predicted_delay", [0])[0])
         except Exception as e:
             logger.error(f"Erreur lors de l'appel à l'API: {e}")
             delay = 0
